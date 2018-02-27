@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  27 FEB 2018 21:35
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  27 FEB 2018 23:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2835,17 +2835,64 @@ File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig2.jpg" > [46]
 File: figures/chapter_5/fig3.jpg Graphic file (type QTm)
 
-<use  "figures/chapter_5/fig3.jpg" > [47]) [48] [49]
+<use  "figures/chapter_5/fig3.jpg" >
+File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig4.jpg" >
+[47]
+File: figures/chapter_5/fig5.png Graphic file (type QTm)
+ <use  "figures/chapter_5/fig5.png" >
+Overfull \hbox (8.29861pt too wide) in paragraph at lines 86--87
+ [][] 
+ []
+
+File: figures/chapter_5/fig6.png Graphic file (type QTm)
+<use  "figures/chapter_5/fig6.png" >
+Overfull \hbox (10.10551pt too wide) in paragraph at lines 95--96
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig7.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig8.jpg" > [48]
+File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
+
+<use  "figures/chapter_5/fig9_a.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig10_a.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49]
+File: figures/chapter_5/fig9_b.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig9_b.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig10_b.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig10_b.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[50]) [51]
 \openout2 = `chapters/chapter6.aux'.
 
- (./chapters/chapter6.tex
-[50
+ (./chapters/chapter6.tex [52
 
 
 
 ]
 第六章
-[51]) [52]
+[53]) [54]
 \openout2 = `math_symbol.aux'.
 
  (./math_symbol.tex)
@@ -2859,7 +2906,7 @@ File: figures/chapter_5/fig3.jpg Graphic file (type QTm)
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-[53
+[55
 
 
 
@@ -2867,15 +2914,15 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
 
 
-] [54
+] [56
 
 ])
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex [55
+ (./chapters/thanks.tex [57
 
 
-] [56
+] [58
 
 ])
 
@@ -2911,12 +2958,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 70824 strings out of 493005
- 1519092 string characters out of 6134597
- 1198952 words of memory out of 5000000
- 74015 multiletter control sequences out of 15000+600000
+ 70846 strings out of 493005
+ 1519680 string characters out of 6134597
+ 1198882 words of memory out of 5000000
+ 74028 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (80 pages).
+Output written on JackokiePaper.pdf (82 pages).
