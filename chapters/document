@@ -1,0 +1,6 @@
+\documentclass{article}
+\usepackage{xeCJK}
+\setCJKmainfont{SimSun}
+\begin{document}
+我是中文。
+\end{document}

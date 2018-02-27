@@ -1,0 +1,61 @@
+
+\documentclass[refcompress,eversion,noinfo]{XDUthesis}
+% 正文大约需要60页
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{diagbox}
+\usepackage[subrefformat=parens,labelformat=parens]{subfig}
+\usepackage{caption}
+\usepackage{tikz}
+\usepackage{color}
+\usetikzlibrary{positioning} % L ATEX and plain TEX
+
+\usepackage{amsmath}
+\usepackage[chapter]{algorithm}
+\usepackage{algorithmic}
+
+% 不生成PDF
+%\usepackage{syntonly}
+%\syntaxonly
+
+% 生成目录
+%\usepackage[chapter, nottoc]{tocbibind}
+
+% http://tex.stackexchange.com/questions/198140/glossaries-and-custom-section-headings-broken  \glsentrytext!
+\usepackage[nomain,acronym,xindy,toc,nopostdot]{glossaries}
+\makeglossaries
+
+\graphicspath{{figures/}}
+
+
+% my command
+\newcommand{\firstgls}[1]{\textbf{\,\gls{#1}}（\glsdesc{#1}）}
+\newcommand{\firstacr}[1]{\textbf{\,\gls{#1}}（\glssymbol{#1}）}
+\newcommand{\glsacr}[1]{\gls{#1}（\glssymbol{#1}）}
+\newcommand{\firstall}[1]{\textbf{\,\gls{#1}}（\glsdesc{#1}, \glssymbol{#1}）}
+\newcommand{\ENNAME}[1]{\text{#1}}
+\newcommand{\NUMTEXT}[1]{\text{#1}}
+\newcommand{\figref}[1]{图\,\ref{#1}\,}
+\newcommand{\chapref}[1]{第\ref{#1}章}
+\newcommand{\secref}[1]{第\,\ref{#1}\,节}
+\newcommand{\algref}[1]{算法\,\ref{#1}\,}
+\newcommand{\eqnref}[1]{式\,\eqref{#1}\,}
+
+
+\begin{document}
+\XDUfrontmatter
+\include{chapters/abstract}
+\XDUmainmatter
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
+\include{math_symbol}
+\include{terminology}
+% \include{chapters/guide}
+% \include{chapters/supplementary}
+\XDUbackmatter{\bibliography{bib/tex}}
+\include{chapters/thanks}
+\end{document}
