@@ -41,11 +41,11 @@
 \contentsline {section}{\numberline {3.1}引言}{23}{section.3.1}
 \contentsline {section}{\numberline {3.2}调制信号生成}{23}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}信道建模}{23}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}生成调制信号}{24}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}调制信号获取}{24}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}调制信号的表示}{25}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}数据集可视化}{25}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}调制信号的无监督表示}{25}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{27}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.1}数据集可视化}{26}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}调制信号的无监督表示}{26}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{28}{subsection.3.3.3}
 \contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{29}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}CAE-CNN网络架构}{29}{subsection.3.4.1}
 \contentsline {subsubsection}{\numberline {3.4.1.1}CAE-CNN算法框架}{29}{subsubsection.3.4.1.1}
@@ -53,8 +53,8 @@
 \contentsline {subsection}{\numberline {3.4.2}学习复杂度}{30}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}结果及分析}{31}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}分类准确率与鲁棒性}{31}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}训练效率以及分类效率}{31}{subsection.3.5.2}
-\contentsline {section}{\numberline {3.6}本章小结}{33}{section.3.6}
+\contentsline {subsection}{\numberline {3.5.2}训练效率以及分类效率}{32}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}本章小结}{34}{section.3.6}
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}基于传统特征与深度特征融合的无线调制方式识别技术研究}{35}{chapter.4}
 \contentsline {section}{\numberline {4.1}引言}{35}{section.4.1}
 \contentsline {section}{\numberline {4.2}传统特征}{36}{section.4.2}
