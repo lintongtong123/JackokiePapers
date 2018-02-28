@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  28 FEB 2018 11:09
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  28 FEB 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2570,7 +2570,11 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 68--69
 
 
 
-] [2] [3] [4] [5] [6] [7]) [8]
+] [2] [3]
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [4]
+[5] [6] [7]) [8]
 \openout2 = `chapters/chapter2.aux'.
 
  (./chapters/chapter2.tex
@@ -2587,103 +2591,97 @@ File: figures/chapter_2/Sigmoid_Function.png Graphic file (type QTm)
 <use  "figures/chapter_2/Sigmoid_Function.png" >
 File: figures/chapter_2/Tanh_Function.png Graphic file (type QTm)
 
-<use  "figures/chapter_2/Tanh_Function.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<use  "figures/chapter_2/Tanh_Function.png" > [10]
 File: figures/chapter_2/Network.png Graphic file (type QTm)
-<use  "figures/chapter_2/Network.png" > [10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [11]
-[12]
+<use  "figures/chapter_2/Network.png" > [11] [12]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/it' undefined
-(Font)              using `TU/SimSun(0)/m/n' instead on input line 130.
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 129.
 
 [13] [14] [15]
 
 Package natbib Warning: Citation `Jarrett-ICCV2009-small' on page 16 undefined 
-on input line 214.
+on input line 213.
 
 
 Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 214.
+line 213.
 
 
 Package natbib Warning: Citation `pinto2011scaling' on page 16 undefined on inp
-ut line 214.
+ut line 213.
 
 
 Package natbib Warning: Citation `cox2011beyond' on page 16 undefined on input 
-line 214.
+line 213.
 
 
 Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 215.
+line 214.
 
 File: figures/chapter_3/AE.png Graphic file (type QTm)
 <use  "figures/chapter_3/AE.png" > [16]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glssymbol' on input line 245.
+(hyperref)                removing `\glssymbol' on input line 244.
 
 File: figures/chapter_2/LSTM_cell.png Graphic file (type QTm)
 <use  "figures/chapter_2/LSTM_cell.png" >
 
 Package natbib Warning: Citation `Graves-et-al-ICASSP2013' on page 17 undefined
- on input line 271.
+ on input line 270.
 
 
 Package natbib Warning: Citation `Pascanu-et-al-ICLR2014' on page 17 undefined 
-on input line 271.
+on input line 270.
 
 [17]
 
 Package natbib Warning: Citation `Bengio-trnn94' on page 18 undefined on input 
-line 309.
+line 308.
 
 
 Package natbib Warning: Citation `Hochreiter+Schmidhuber-1997' on page 18 undef
-ined on input line 309.
+ined on input line 308.
 
 
 Package natbib Warning: Citation `chapter-gradient-flow-2001' on page 18 undefi
-ned on input line 309.
+ned on input line 308.
 
 
 Package natbib Warning: Citation `Graves-book2012' on page 18 undefined on inpu
-t line 309.
+t line 308.
 
 
 Package natbib Warning: Citation `Graves-arxiv2013' on page 18 undefined on inp
-ut line 309.
+ut line 308.
 
 
 Package natbib Warning: Citation `Sutskever-et-al-NIPS2014' on page 18 undefine
-d on input line 309.
+d on input line 308.
 
 [18]
 Missing character: There is no θ in font cmmi12!
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 325.
+put line 324.
  [19]
 
 Package natbib Warning: Citation `Hinton-ipam2012' on page 20 undefined on inpu
-t line 368.
+t line 367.
 
 
 LaTeX Warning: Reference `alg:rms_nesterov' on page 20 undefined on input line 
-376.
+375.
 
 
 Package natbib Warning: Citation `kingma2014adam' on page 20 undefined on input
- line 406.
+ line 405.
 
 [20]
 
 Package natbib Warning: Citation `Schaul2014_unittests' on page 21 undefined on
- input line 448.
+ input line 447.
 
 )
 Underfull \vbox (badness 1087) has occurred while \output is active []
@@ -2701,49 +2699,41 @@ Underfull \vbox (badness 1087) has occurred while \output is active []
 ] [24]
 File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
  <use  "figures/chapter_3/signal_view_1.png" >
-File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 <use  "figures/chapter_3/signal_view_2.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 2495) has occurred while \output is active []
-
- [25]
+[25] [26]
 File: figures/chapter_3/CAE.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/CAE.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 1354) has occurred while \output is active []
-
- [26]
+ <use  "figures/chapter_3/CAE.png" >
 File: figures/chapter_3/examples_cae.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/examples_cae.png" >
 File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/cae_fea.png" > [27]
-File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
+<use  "figures/chapter_3/cae_fea.png" >
 
-<use  "figures/chapter_3/surprised_fea.png" > [28]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27]
+File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
+ <use  "figures/chapter_3/surprised_fea.png" > [28]
 File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/cae_cnn_frame.png" > [29]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30]
+<use  "figures/chapter_3/cae_cnn_frame.png" > [29] [30]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/loss.png" >
+<use  "figures/chapter_3/loss.png" > [31]
 File: figures/chapter_3/result.png Graphic file (type QTm)
- <use  "figures/chapter_3/result.png" >
-[31]
+
+<use  "figures/chapter_3/result.png" >
 File: figures/chapter_3/train_time.png Graphic file (type QTm)
- <use  "figures/chapter_3/train_time.png" >
+
+<use  "figures/chapter_3/train_time.png" >
 File: figures/chapter_3/classify_time.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/classify_time.png" >
@@ -2959,10 +2949,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
- 70847 strings out of 493005
- 1519698 string characters out of 6134597
- 1198739 words of memory out of 5000000
- 74029 multiletter control sequences out of 15000+600000
+ 70848 strings out of 493005
+ 1519711 string characters out of 6134597
+ 1198772 words of memory out of 5000000
+ 74030 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
