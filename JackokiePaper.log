@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  28 FEB 2018 23:20
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  1 MAR 2018 11:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2081,22 +2081,13 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux
 
-LaTeX Warning: Label `fig_2_2' multiply defined.
-
-
-LaTeX Warning: Label `fig_2_3' multiply defined.
-
-
 LaTeX Warning: Label `fig_3_2' multiply defined.
 
 
 LaTeX Warning: Label `fig_3_2' multiply defined.
 
 
-LaTeX Warning: Label `fig_3_2' multiply defined.
-
-
-LaTeX Warning: Label `fig_3_2' multiply defined.
+LaTeX Warning: Label `fig_3_6' multiply defined.
 
 
 LaTeX Warning: Label `fig_3_2' multiply defined.
@@ -2701,53 +2692,79 @@ File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
  <use  "figures/chapter_3/signal_view_1.png" >
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/signal_view_2.png" > [26]
+<use  "figures/chapter_3/signal_view_2.png" >
+Underfull \vbox (badness 1490) has occurred while \output is active []
+
+ [26]
 File: figures/chapter_3/CAE.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/CAE.png" >
+<use  "figures/chapter_3/CAE.png" > [27]
 File: figures/chapter_3/examples_cae.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/examples_cae.png" >
+File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/cae_fea.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27]
-File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
- <use  "figures/chapter_3/cae_fea.png" >
+
+Underfull \vbox (badness 5161) has occurred while \output is active []
+
+ [28]
+File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/surprised_fea.png" >
 File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/surprised_fea.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[28] [29]
+[29]
 File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
- <use  "figures/chapter_3/cae_cnn_frame.png" > [30]
+ <use  "figures/chapter_3/cae_cnn_frame.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [30]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/loss.png" >
-Underfull \vbox (badness 1178) has occurred while \output is active []
 
- [31]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31] [32]
 File: figures/chapter_3/result.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/result.png" > [32]
+ <use  "figures/chapter_3/result.png" >
 File: figures/chapter_3/train_time.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/train_time.png" >
-File: figures/chapter_3/classify_time.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/classify_time.png" > [33]) [34]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_3/classify_time.png Graphic file (type QTm)
+<use  "figures/chapter_3/classify_time.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [34])
+[35]
 \openout2 = `chapters/chapter4.aux'.
 
+ (./chapters/chapter4.tex [36
 
-(./chapters/chapter4.tex
+
+
+]
 第四章
-[35
-
-
-
-] [36]
+[37] [38]
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2771,7 +2788,7 @@ e=DFLT;mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [39]
 Missing character: There is no  in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2783,7 +2800,7 @@ e=DFLT;mapping=tex-text;!
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
+ [40]
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/signal_view_2.png" >
@@ -2797,20 +2814,20 @@ File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/chapter_3/result.png Graphic file (type QTm)
-<use  "figures/chapter_3/result.png" > [39] [40]
+<use  "figures/chapter_3/result.png" > [41] [42]
 Underfull \vbox (badness 1360) has occurred while \output is active []
 
- [41])
-[42]
+ [43])
+[44]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
 第五章
-[43
+[45
 
 
 
-] [44] [45]
+] [46] [47]
 File: figures/chapter_5/fig1.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig1.jpg" >
 File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
@@ -2827,14 +2844,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1199) has occurred while \output is active []
 
- [46]
+ [48]
 File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig4.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47]
+[49]
 File: figures/chapter_5/fig5.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig5.png" >
 Overfull \hbox (8.29861pt too wide) in paragraph at lines 88--89
@@ -2847,12 +2864,12 @@ Overfull \hbox (10.10551pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-[48]
+[50]
 File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig7.jpg" >
 File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig8.jpg" >
-[49]
+[51]
 File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig9_a.jpg" >
 File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
@@ -2871,17 +2888,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50])
-[51]
+ [52])
+[53]
 \openout2 = `chapters/chapter6.aux'.
 
- (./chapters/chapter6.tex [52
+ (./chapters/chapter6.tex [54
 
 
 
 ]
 第六章
-[53]) [54]
+[55]) [56]
 \openout2 = `math_symbol.aux'.
 
  (./math_symbol.tex)
@@ -2895,7 +2912,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-[55
+[57
 
 
 
@@ -2903,15 +2920,15 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
 
 
-] [56
+] [58
 
 ])
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex [57
+ (./chapters/thanks.tex [59
 
 
-] [58
+] [60
 
 ])
 
@@ -2949,10 +2966,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
 Here is how much of TeX's memory you used:
  70853 strings out of 493005
  1519759 string characters out of 6134597
- 1198822 words of memory out of 5000000
+ 1198980 words of memory out of 5000000
  74035 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (82 pages).
+Output written on JackokiePaper.pdf (84 pages).
