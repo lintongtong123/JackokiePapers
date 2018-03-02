@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  1 MAR 2018 12:16
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  1 MAR 2018 18:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2740,18 +2740,11 @@ File: figures/chapter_3/train_time.png Graphic file (type QTm)
 
 ]
 第四章
-[37]
-Underfull \vbox (badness 6927) has occurred while \output is active []
-
- [38]
+[37] [38] [39]
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
-
-Underfull \vbox (badness 2922) has occurred while \output is active []
-
- [39]
 Missing character: There is no ∶ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2768,6 +2761,10 @@ Missing character: There is no ∈ in font Times New Roman/OT:script=latn;langua
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
+
+Underfull \vbox (badness 1360) has occurred while \output is active []
+
+ [40]
 Missing character: There is no  in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2776,23 +2773,27 @@ Missing character: There is no ∈ in font Times New Roman/OT:script=latn;langua
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
-
-[40]
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
- <use  "figures/chapter_3/signal_view_2.png" >
+
+<use  "figures/chapter_3/signal_view_2.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/signal_view_2.png" >
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/signal_view_2.png" > [41]
+<use  "figures/chapter_3/signal_view_2.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/chapter_3/result.png Graphic file (type QTm)
+<use  "figures/chapter_3/result.png" >
 
-<use  "figures/chapter_3/result.png" > [42]
-Underfull \vbox (badness 1360) has occurred while \output is active []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- [43])
-[44]
+[42] [43]) [44]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
@@ -2940,7 +2941,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
 Here is how much of TeX's memory you used:
  70850 strings out of 493005
  1519689 string characters out of 6134597
- 1194058 words of memory out of 5000000
+ 1196058 words of memory out of 5000000
  74033 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
