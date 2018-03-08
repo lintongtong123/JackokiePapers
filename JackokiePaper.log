@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 18:43
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2755,49 +2755,10 @@ Underfull \vbox (badness 3209) has occurred while \output is active []
 
 
 ] [38] [39] [40]
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41]
-Missing character: There is no ∶ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no  in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-
-Underfull \vbox (badness 2644) has occurred while \output is active []
-
- [42]
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
+File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
+ <use  "figures/chapter_3/signal_view_2.png" >
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/signal_view_2.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 <use  "figures/chapter_3/signal_view_2.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2812,23 +2773,20 @@ File: figures/chapter_3/result.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[41] [42]
+Underfull \vbox (badness 1360) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-[45]) [46]
+ [43])
+[44]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
 第五章
-[47
+[45
 
 
 
-] [48] [49]
+] [46] [47]
 File: figures/chapter_5/fig1.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig1.jpg" >
 File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
@@ -2845,14 +2803,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1199) has occurred while \output is active []
 
- [50]
+ [48]
 File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig4.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[51]
+[49]
 File: figures/chapter_5/fig5.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig5.png" >
 Overfull \hbox (8.29861pt too wide) in paragraph at lines 88--89
@@ -2865,12 +2823,12 @@ Overfull \hbox (10.10551pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-[52]
+[50]
 File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig7.jpg" >
 File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig8.jpg" >
-[53]
+[51]
 File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig9_a.jpg" >
 File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
@@ -2889,17 +2847,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54])
-[55]
+ [52])
+[53]
 \openout2 = `chapters/chapter6.aux'.
 
- (./chapters/chapter6.tex [56
+ (./chapters/chapter6.tex [54
 
 
 
 ]
 第六章
-[57]) [58]
+[55]) [56]
 \openout2 = `math_symbol.aux'.
 
  (./math_symbol.tex)
@@ -2913,7 +2871,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-[59
+[57
 
 
 
@@ -2921,15 +2879,15 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
 
 
-] [60
+] [58
 
 ])
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex [61
+ (./chapters/thanks.tex [59
 
 
-] [62
+] [60
 
 ])
 
@@ -2965,12 +2923,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 70902 strings out of 493005
- 1521235 string characters out of 6134597
+ 70872 strings out of 493005
+ 1519318 string characters out of 6134597
  1195314 words of memory out of 5000000
- 74082 multiletter control sequences out of 15000+600000
+ 74052 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10475b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (86 pages).
+Output written on JackokiePaper.pdf (84 pages).
