@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 11:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 12:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2717,21 +2717,32 @@ Underfull \vbox (badness 1748) has occurred while \output is active []
  [32]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/loss.png" > [33]
+<use  "figures/chapter_3/loss.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
  <use  "figures/chapter_3/loss.png" >
 File: figures/chapter_3/loss.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/loss.png" >
+ <use  "figures/chapter_3/loss.png" >
+[34]
 File: figures/chapter_3/result.png Graphic file (type QTm)
  <use  "figures/chapter_3/result.png" >
-[34]
 File: figures/chapter_3/train_time.png Graphic file (type QTm)
- <use  "figures/chapter_3/train_time.png" > [35]) [36]
+
+<use  "figures/chapter_3/train_time.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [35])
+[36]
 \openout2 = `chapters/chapter4.aux'.
 
-
-(./chapters/chapter4.tex
+ (./chapters/chapter4.tex
 第四章
 [37
 
