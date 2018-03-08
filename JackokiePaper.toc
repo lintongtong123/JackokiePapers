@@ -59,34 +59,34 @@
 \contentsline {section}{\numberline {4.1}引言}{37}{section.4.1}
 \contentsline {section}{\numberline {4.2}传统特征}{37}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}基本时频特征}{37}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}高阶累积量}{38}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}专家循环矩特征}{38}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}特征融合理论}{38}{section.4.3}
-\contentsline {section}{\numberline {4.4}基于深度学习的特征融合算法}{40}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}空间特征融合算法}{40}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}时间特征融合算法}{41}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}传统特征与深度特征融合框架}{42}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}基于LR的融合框架}{42}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}基于DNN的融合框架}{42}{subsection.4.5.2}
-\contentsline {subsection}{\numberline {4.5.3}基于集成树的融合框架}{42}{subsection.4.5.3}
-\contentsline {section}{\numberline {4.6}结果及分析}{42}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}学习概论}{42}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}未来应用-聚类}{43}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7}本章小结}{44}{section.4.7}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度学习框架探索}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}引言}{45}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}卷积神经网络}{45}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}GoogLenet}{46}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}CLDNN}{46}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}不同框架的识别性能}{47}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}神经网络训练}{47}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}基准卷积网络}{47}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}残留网络}{49}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}CLDNN}{50}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}结果及分析}{53}{section.5.3}
-\contentsline {section}{\numberline {5.4}本章小结}{53}{section.5.4}
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{55}{chapter.6}
-\contentsline {section}{\numberline {6.1}研究结论}{55}{section.6.1}
-\contentsline {section}{\numberline {6.2}未来展望}{56}{section.6.2}
-\contentsline {chapter}{参考文献}{57}{section*.53}
-\contentsline {chapter}{致谢}{59}{section*.55}
+\contentsline {subsection}{\numberline {4.2.2}高阶累积量}{39}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}专家循环矩特征}{40}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}特征融合理论}{40}{section.4.3}
+\contentsline {section}{\numberline {4.4}基于深度学习的特征融合算法}{42}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}空间特征融合算法}{42}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}时间特征融合算法}{43}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}传统特征与深度特征融合框架}{43}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}基于LR的融合框架}{45}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}基于DNN的融合框架}{45}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}基于集成树的融合框架}{45}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}结果及分析}{45}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}学习概论}{45}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}未来应用-聚类}{45}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7}本章小结}{46}{section.4.7}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度学习框架探索}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{47}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}卷积神经网络}{47}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}GoogLenet}{48}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}CLDNN}{48}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}不同框架的识别性能}{49}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}神经网络训练}{49}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}基准卷积网络}{49}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}残留网络}{51}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}CLDNN}{52}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}结果及分析}{55}{section.5.3}
+\contentsline {section}{\numberline {5.4}本章小结}{55}{section.5.4}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{57}{chapter.6}
+\contentsline {section}{\numberline {6.1}研究结论}{57}{section.6.1}
+\contentsline {section}{\numberline {6.2}未来展望}{58}{section.6.2}
+\contentsline {chapter}{参考文献}{59}{section*.53}
+\contentsline {chapter}{致谢}{61}{section*.55}

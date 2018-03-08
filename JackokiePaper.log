@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 12:15
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1824,6 +1824,12 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks35
+\verbatim@line=\toks36
+\verbatim@in@stream=\read3
+)
 (/usr/local/texlive/2017/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
@@ -1838,7 +1844,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
+\@emptytoks=\toks37
 \ex@=\dimen311
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -1868,21 +1874,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \dotsspace@=\muskip18
 \c@parentequation=\count283
 \dspbrk@lvl=\count284
-\tag@help=\toks36
+\tag@help=\toks38
 \row@=\count285
 \column@=\count286
 \maxfields@=\count287
-\andhelp@=\toks37
+\andhelp@=\toks39
 \eqnshift@=\dimen314
 \alignsep@=\dimen315
 \tagshift@=\dimen316
 \tagwidth@=\dimen317
 \totwidth@=\dimen318
 \lineht@=\dimen319
-\@envbody=\toks38
+\@envbody=\toks40
 \multlinegap=\skip120
 \multlinetaggap=\skip121
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks41
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1894,12 +1900,12 @@ nment
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count288
-\float@exts=\toks40
+\float@exts=\toks42
 \float@box=\box71
-\@float@everytoks=\toks41
+\@float@everytoks=\toks43
 \@floatcapt=\box72
 )
-\@float@every@algorithm=\toks42
+\@float@every@algorithm=\toks44
 \c@algorithm=\count289
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/algorithms/algorithmic.sty
@@ -1920,8 +1926,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks43
-\XKV@tempa@toks=\toks44
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
 \XKV@depth=\count294
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1933,8 +1939,8 @@ Package: mfirstuc 2016/07/31 v2.04 (NLCT)
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count295
 )
-\@glsmfirst=\toks45
-\@glsmrest=\toks46
+\@glsmfirst=\toks47
+\@glsmrest=\toks48
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1952,7 +1958,7 @@ Package: substr 2009/10/20 v1.2 Handle substrings
 (/usr/local/texlive/2017/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
 )
-\@dtl@toks=\toks47
+\@dtl@toks=\toks49
 \@dtl@tmpcount=\count297
 \dtl@tmplength=\skip124
 \dtl@sortresult=\count298
@@ -1967,12 +1973,12 @@ ible-307.sty
 Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
 )
 \gls@level=\count304
-\@gls@tmpb=\toks48
+\@gls@tmpb=\toks50
 \gls@tmplen=\skip125
-\glskeylisttok=\toks49
-\glslabeltok=\toks50
-\glsshorttok=\toks51
-\glslongtok=\toks52
+\glskeylisttok=\toks51
+\glslabeltok=\toks52
+\glsshorttok=\toks53
+\glslongtok=\toks54
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -2002,7 +2008,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@rows=\count307
 \c@LT@tables=\count308
 \c@LT@chunks=\count309
-\LT@p@ftn=\toks53
+\LT@p@ftn=\toks55
 )
 \glsdescwidth=\skip131
 \glspagelistwidth=\skip132
@@ -2039,7 +2045,7 @@ Package: glossary-tree 2017/01/19 v4.29 (NLCT)
 \openout5 = `JackokiePaper.acn'.
 
 Package glossaries Info: Writing glossary file JackokiePaper.acn on input line 
-26.
+27.
 
 *************************************************
 * xeCJK warning: "CJKfamilydefault-undefined"
@@ -2103,36 +2109,36 @@ LaTeX Warning: Label `fig_2_2' multiply defined.
 (./terminology.aux) (./chapters/thanks.aux))
 \openout1 = `JackokiePaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 45.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 46.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 46.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 45.
+LaTeX Info: Redefining \selectfont on input line 46.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -2140,63 +2146,63 @@ LaTeX Info: Redefining \selectfont on input line 45.
 .................................................
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 45.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 45.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 45.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 45.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 45.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 45.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 45.
-LaTeX Font Info:    Redeclaring math accent \check on input line 45.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 45.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 45.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 45.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 45.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 45.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
+LaTeX Font Info:    Redeclaring math accent \check on input line 46.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 45.
+(Font)              `operators' in the math version `normal' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 4
-5.
+6.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 45.
+(Font)              `operators' in the math version `bold' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-45.
+46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 45.
+input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 45.
+ 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 45.
+ 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 45.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 45.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 45.
+ input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 45.
+ne 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 45.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 45.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 46.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2243,7 +2249,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 45.
+Package hyperref Info: Link coloring ON on input line 46.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2253,9 +2259,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 45.
-LaTeX Info: Redefining \pageref on input line 45.
-LaTeX Info: Redefining \nameref on input line 45.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./JackokiePaper.out) (./JackokiePaper.out)
 \@outlinefile=\write6
@@ -2307,30 +2313,30 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 46.
+LaTeX Font Info:    Try loading font information for U+msa on input line 47.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 46.
+LaTeX Font Info:    Try loading font information for U+msb on input line 47.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 46.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 47.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 46.
+(Font)              size <10.95> substituted on input line 47.
 
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 47.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/calrsfs/OMSrsfs.fd)
 
 LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 46.
+(Font)              size <10.95> substituted on input line 47.
 
 [3
 
@@ -2748,11 +2754,15 @@ Underfull \vbox (badness 3209) has occurred while \output is active []
 
 
 
-] [38] [39]
+] [38] [39] [40]
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41]
 Missing character: There is no ∶ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2769,14 +2779,14 @@ Missing character: There is no ∈ in font Times New Roman/OT:script=latn;langua
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
-
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
- [40]
 Missing character: There is no  in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
+
+Underfull \vbox (badness 2644) has occurred while \output is active []
+
+ [42]
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2784,14 +2794,15 @@ e=DFLT;mapping=tex-text;!
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/signal_view_2.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
-
 <use  "figures/chapter_3/signal_view_2.png" >
-File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 <use  "figures/chapter_3/signal_view_2.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2801,16 +2812,23 @@ File: figures/chapter_3/result.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42] [43]) [44]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [44]
+[45]) [46]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
 第五章
-[45
+[47
 
 
 
-] [46] [47]
+] [48] [49]
 File: figures/chapter_5/fig1.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig1.jpg" >
 File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
@@ -2827,14 +2845,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 1199) has occurred while \output is active []
 
- [48]
+ [50]
 File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig4.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[49]
+[51]
 File: figures/chapter_5/fig5.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig5.png" >
 Overfull \hbox (8.29861pt too wide) in paragraph at lines 88--89
@@ -2847,12 +2865,12 @@ Overfull \hbox (10.10551pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-[50]
+[52]
 File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig7.jpg" >
 File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig8.jpg" >
-[51]
+[53]
 File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig9_a.jpg" >
 File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
@@ -2871,17 +2889,17 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52])
-[53]
+ [54])
+[55]
 \openout2 = `chapters/chapter6.aux'.
 
- (./chapters/chapter6.tex [54
+ (./chapters/chapter6.tex [56
 
 
 
 ]
 第六章
-[55]) [56]
+[57]) [58]
 \openout2 = `math_symbol.aux'.
 
  (./math_symbol.tex)
@@ -2895,7 +2913,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
-[57
+[59
 
 
 
@@ -2903,15 +2921,15 @@ LaTeX Warning: Empty `thebibliography' environment on input line 27.
 
 
 
-] [58
+] [60
 
 ])
 \openout2 = `chapters/thanks.aux'.
 
- (./chapters/thanks.tex [59
+ (./chapters/thanks.tex [61
 
 
-] [60
+] [62
 
 ])
 
@@ -2922,14 +2940,14 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
 (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
 (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./math_symbol.aux)
 (./terminology.aux) (./chapters/thanks.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 61.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 62.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2944,15 +2962,15 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 70865 strings out of 493005
- 1519900 string characters out of 6134597
- 1196669 words of memory out of 5000000
- 74047 multiletter control sequences out of 15000+600000
+ 70902 strings out of 493005
+ 1521235 string characters out of 6134597
+ 1195311 words of memory out of 5000000
+ 74082 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10475b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (84 pages).
+Output written on JackokiePaper.pdf (86 pages).
