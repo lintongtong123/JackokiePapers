@@ -63,14 +63,14 @@
 \contentsline {subsection}{\numberline {4.2.3}专家循环矩特征}{40}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}特征融合理论}{40}{section.4.3}
 \contentsline {section}{\numberline {4.4}传统特征与深度特征融合框架}{41}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}基于集成树的融合框架}{41}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}基于LR的融合框架}{41}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}基于DNN的融合框架}{41}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}基于集成树的融合框架}{41}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}结果及分析}{41}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}学习概论}{41}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.4.1}基于LR的融合框架}{41}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}基于集成树的融合框架}{41}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}基于DNN的融合框架}{42}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}基于集成树的融合框架}{42}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}结果及分析}{43}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}学习概论}{43}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}未来应用-聚类}{43}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}本章小结}{43}{section.4.6}
+\contentsline {section}{\numberline {4.6}本章小结}{44}{section.4.6}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度学习框架探索}{45}{chapter.5}
 \contentsline {section}{\numberline {5.1}引言}{45}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}卷积神经网络}{45}{subsection.5.1.1}
@@ -86,5 +86,5 @@
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{55}{chapter.6}
 \contentsline {section}{\numberline {6.1}研究结论}{55}{section.6.1}
 \contentsline {section}{\numberline {6.2}未来展望}{56}{section.6.2}
-\contentsline {chapter}{参考文献}{57}{section*.53}
-\contentsline {chapter}{致谢}{59}{section*.55}
+\contentsline {chapter}{参考文献}{57}{section*.54}
+\contentsline {chapter}{致谢}{59}{section*.56}
