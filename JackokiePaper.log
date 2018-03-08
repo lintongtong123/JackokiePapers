@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  7 MAR 2018 21:08
-=======
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  1 MAR 2018 18:21
->>>>>>> master
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2018.3.6)  8 MAR 2018 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2085,6 +2081,9 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux
 
+LaTeX Warning: Label `sec:eqt3_3' multiply defined.
+
+
 LaTeX Warning: Label `alg:adam' multiply defined.
 
 ) (./chapters/chapter4.aux
@@ -2684,20 +2683,22 @@ File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26]
+[26] [27]
 File: figures/chapter_3/CAE.png Graphic file (type QTm)
- <use  "figures/chapter_3/CAE.png" > [27]
+ <use  "figures/chapter_3/CAE.png" >
 File: figures/chapter_3/examples_cae.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/examples_cae.png" >
+<use  "figures/chapter_3/examples_cae.png" > [28]
 File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/cae_fea.png" > [28]
+<use  "figures/chapter_3/cae_fea.png" >
 File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/surprised_fea.png" >
-File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
 <use  "figures/chapter_3/surprised_fea.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2705,47 +2706,38 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [29]
 File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
  <use  "figures/chapter_3/cae_cnn_frame.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30]
-File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
- <use  "figures/chapter_3/cae_cnn_frame.png" > [31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31]
+File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
+ <use  "figures/chapter_3/cae_cnn_frame.png" >
+Underfull \vbox (badness 1748) has occurred while \output is active []
 
  [32]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/loss.png" >
+<use  "figures/chapter_3/loss.png" > [33]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
  <use  "figures/chapter_3/loss.png" >
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/loss.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33]
 File: figures/chapter_3/result.png Graphic file (type QTm)
- <use  "figures/chapter_3/result.png" > [34]
+ <use  "figures/chapter_3/result.png" >
+[34]
 File: figures/chapter_3/train_time.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/train_time.png" > [35]) [36]
+ <use  "figures/chapter_3/train_time.png" > [35]) [36]
 \openout2 = `chapters/chapter4.aux'.
 
- (./chapters/chapter4.tex
+
+(./chapters/chapter4.tex
 第四章
 [37
 
 
-<<<<<<< HEAD
 
 ] [38] [39]
-=======
-]
-第四章
-[37] [38] [39]
->>>>>>> master
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
 e=DFLT;mapping=tex-text;!
 Missing character: There is no ∈ in font Times New Roman/OT:script=latn;languag
@@ -2944,17 +2936,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 70864 strings out of 493005
- 1519885 string characters out of 6134597
- 1196477 words of memory out of 5000000
- 74046 multiletter control sequences out of 15000+600000
-=======
- 70850 strings out of 493005
- 1519689 string characters out of 6134597
- 1196058 words of memory out of 5000000
- 74033 multiletter control sequences out of 15000+600000
->>>>>>> master
+ 70865 strings out of 493005
+ 1519900 string characters out of 6134597
+ 1196669 words of memory out of 5000000
+ 74047 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10475b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
