@@ -251,7 +251,7 @@ LR是用线性回归模型的预测结果去逼近真实标记的对数几率的
 最终的基于LR的特征融合框架，如图\ref{sec:fig_4_2}所示：
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.6]{figures/chapter_4/LR_combile}
+	\includegraphics[scale=0.7]{figures/chapter_4/LR_combile}
 	\caption{基于LR框架的特征融合框架图}\label{sec:fig_4_2}
 \end{figure}
 
@@ -260,7 +260,7 @@ LR是用线性回归模型的预测结果去逼近真实标记的对数几率的
 随着深度学习的发展，已经有部分学者对基于深度学习的特征融合方法进行了研究。
 Simonyan 等［16］首先提出了一种使用双流架构的深度卷积神经网络模型，可解决视频中的动作识别问题。
 Feichtenhofer 等［15］则在这个基础上改进了网络融合方法，提出了空间特征融合方法和时间特征融合算法。\par
-
+ICML上看到的一篇文章，作者是华盛顿大学的一个教授，文章名：deep canonical correlation analysis。就是深度典型相关分析。目的是解决多视图学习的非线性问题。
 “如果我们的深度网络达到一定的条件，可以拟合任意的函数。“，XXX说。
 DNN是对输入的数据样本，通过隐层对数据进行非线性变换，利用交叉熵或者均方误差等损失函数对隐层参数进行训练，
 来输出我们希望的结果。\\
@@ -276,19 +276,19 @@ DNN是对输入的数据样本，通过隐层对数据进行非线性变换，�
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/signal_view_2}
+	\includegraphics[scale=0.6]{figures/chapter_4/DL_combine}
 	\caption{基于DNN框架的特征融合框架图}\label{sec:fig_4_3}
 \end{figure}
 ，但是受网络深度的限制，同时容易产生过拟合。
 
 \subsection{基于随机森林的融合框架}
-随机森林（RandomForest，RF）基于划分与模型融合的方法。降低了泛化误差。
+集成学习通过构建并结合多个学习器来完成学习任务，按照算法的思想它主要分为两类：Bagging族算法和Boosting族算法。
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/signal_view_2}
+%	\includegraphics[scale=0.7]{figures/chapter_4/GBDT_combine}
 	\caption{基于XgBoost框架的特征融合框架图}\label{sec:fig_4_4}
 \end{figure}
-
+。随机森林（RandomForest，RF）基于划分与模型融合的方法。降低了泛化误差。
 \section{结果及分析}
 
 \begin{figure}[!h]

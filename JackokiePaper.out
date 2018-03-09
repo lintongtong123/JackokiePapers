@@ -52,38 +52,4 @@
 \BOOKMARK [2][-]{subsection.3.4.3}{3.4.3 算法运行环境及参数}{section.3.4}% 52
 \BOOKMARK [1][-]{section.3.5}{3.5 结果及分析}{chapter.3}% 53
 \BOOKMARK [2][-]{subsection.3.5.1}{3.5.1 学习复杂度}{section.3.5}% 54
-\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 分类准确率与鲁棒性}{section.3.5}% 55
-\BOOKMARK [2][-]{subsection.3.5.3}{3.5.3 训练效率以及分类效率}{section.3.5}% 56
-\BOOKMARK [1][-]{section.3.6}{3.6 本章小结}{chapter.3}% 57
-\BOOKMARK [0][-]{chapter.4}{第四章  基于传统特征与深度特征融合的无线调制方式识别技术研究}{}% 58
-\BOOKMARK [1][-]{section.4.1}{4.1 引言}{chapter.4}% 59
-\BOOKMARK [1][-]{section.4.2}{4.2 传统特征}{chapter.4}% 60
-\BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 基本时频特征}{section.4.2}% 61
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 高阶累积量}{section.4.2}% 62
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 专家循环矩特征}{section.4.2}% 63
-\BOOKMARK [1][-]{section.4.3}{4.3 特征融合理论}{chapter.4}% 64
-\BOOKMARK [1][-]{section.4.4}{4.4 传统特征与深度特征融合框架}{chapter.4}% 65
-\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 基于逻辑回归（Logistic Regression， LR）的融合框架}{section.4.4}% 66
-\BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 基于深度学习的融合框架}{section.4.4}% 67
-\BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 基于随机森林的融合框架}{section.4.4}% 68
-\BOOKMARK [1][-]{section.4.5}{4.5 结果及分析}{chapter.4}% 69
-\BOOKMARK [2][-]{subsection.4.5.1}{4.5.1 学习概论}{section.4.5}% 70
-\BOOKMARK [2][-]{subsection.4.5.2}{4.5.2 未来应用-聚类}{section.4.5}% 71
-\BOOKMARK [1][-]{section.4.6}{4.6 本章小结}{chapter.4}% 72
-\BOOKMARK [0][-]{chapter.5}{第五章  调制识别的深度学习框架探索}{}% 73
-\BOOKMARK [1][-]{section.5.1}{5.1 引言}{chapter.5}% 74
-\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 卷积神经网络}{section.5.1}% 75
-\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2\040GoogLenet}{section.5.1}% 76
-\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3\040CLDNN}{section.5.1}% 77
-\BOOKMARK [1][-]{section.5.2}{5.2 不同框架的识别性能}{chapter.5}% 78
-\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 神经网络训练}{section.5.2}% 79
-\BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 基准卷积网络}{section.5.2}% 80
-\BOOKMARK [2][-]{subsection.5.2.3}{5.2.3 残留网络}{section.5.2}% 81
-\BOOKMARK [2][-]{subsection.5.2.4}{5.2.4\040CLDNN}{section.5.2}% 82
-\BOOKMARK [1][-]{section.5.3}{5.3 结果及分析}{chapter.5}% 83
-\BOOKMARK [1][-]{section.5.4}{5.4 本章小结}{chapter.5}% 84
-\BOOKMARK [0][-]{chapter.6}{第六章  总结与展望}{}% 85
-\BOOKMARK [1][-]{section.6.1}{6.1 研究结论}{chapter.6}% 86
-\BOOKMARK [1][-]{section.6.2}{6.2 未来展望}{chapter.6}% 87
-\BOOKMARK [0][-]{section*.54}{参考文献}{}% 88
-\BOOKMARK [0][-]{section*.56}{致谢}{}% 89
+\BOOKMARK [2][-]{subsection.3.5.2}{3.5.2 分类准确率与�
