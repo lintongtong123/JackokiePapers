@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  9 MAR 2018 10:31
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  9 MAR 2018 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2105,9 +2105,6 @@ LaTeX Warning: Label `fig_2_2' multiply defined.
 
 LaTeX Warning: Label `fig_2_2' multiply defined.
 
-
-LaTeX Warning: Label `fig_2_2' multiply defined.
-
 ) (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./math_symbol.aux)
 (./terminology.aux) (./chapters/thanks.aux))
 \openout1 = `JackokiePaper.aux'.
@@ -2758,32 +2755,22 @@ Underfull \vbox (badness 3209) has occurred while \output is active []
 
 
 ] [38] [39] [40]
-
-LaTeX Warning: Reference `sec:fig_4_5' on page 41 undefined on input line 203.
-
+File: figures/chapter_4/fea_combine.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fea_combine.png" > [41]
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/signal_view_2.png" >
+File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
+
 <use  "figures/chapter_3/signal_view_2.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
-<use  "figures/chapter_3/signal_view_2.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[41]
-File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
- <use  "figures/chapter_3/signal_view_2.png" >
-File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
-
 <use  "figures/chapter_3/signal_view_2.png" > [42]
 File: figures/chapter_3/result.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/result.png" > [43]
-Underfull \vbox (badness 1360) has occurred while \output is active []
-
- [44])
-[45]
+<use  "figures/chapter_3/result.png" > [43] [44]) [45]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex [46
@@ -2929,11 +2916,11 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
  ) 
 Here is how much of TeX's memory you used:
- 70871 strings out of 493005
- 1519313 string characters out of 6134597
- 1195161 words of memory out of 5000000
- 74052 multiletter control sequences out of 15000+600000
- 13121 words of font info for 100 fonts, out of 8000000 for 9000
+ 70895 strings out of 493005
+ 1520683 string characters out of 6134597
+ 1195149 words of memory out of 5000000
+ 74072 multiletter control sequences out of 15000+600000
+ 13129 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 

@@ -21,11 +21,11 @@
 \contentsline {figure}{\numberline {3.13}{\ignorespaces 训练时间\relax }}{35}{figure.caption.35}
 \contentsline {figure}{\numberline {3.14}{\ignorespaces 分类时间\relax }}{36}{figure.caption.36}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces sigmoid函数与tanh函数\relax }}{42}{figure.caption.37}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 特征融合框架图\relax }}{41}{figure.caption.37}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces sigmoid函数与tanh函数\relax }}{42}{figure.caption.38}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces sigmoid函数与tanh函数\relax }}{42}{figure.caption.39}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces sigmoid函数与tanh函数\relax }}{43}{figure.caption.39}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces sigmoid函数与tanh函数\relax }}{43}{figure.caption.40}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces sigmoid函数与tanh函数\relax }}{43}{figure.caption.41}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{43}{figure.caption.41}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {5.1}{\ignorespaces 图阿斯顿发送到发送\relax }}{50}{figure.caption.42}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces 改变两个卷积层中的抽头数量（滤波器大小）。水龙头的数量明显较少，但是水龙头的数量增加\relax }}{51}{figure.caption.43}

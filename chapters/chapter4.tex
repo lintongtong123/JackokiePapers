@@ -200,12 +200,12 @@ $h_i(x)$表示网络中第$i$个单元的输出值，则隐层神经单元构成
 \begin{equation}
 	Z =F \cup H = \{ z | (z \in H) \vee (z \in F) \}
 \end{equation}
-最终，我们通过不同的融合算法对多源特征进行融合。特征融合的基本框架如图\ref{sec:fig_4_5}所示：
+最终，我们通过不同的融合算法对多源特征进行融合。特征融合的基本框架如图\ref{sec:fig_4_1}所示：
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_2}
-	\caption{sigmoid函数与tanh函数}\label{fig_2_2}
+	\includegraphics[scale=0.5]{figures/chapter_4/fea_combine.png}
+	\caption{特征融合框架图}\label{sec:fig_4_1}
 \end{figure}
 
 其中，XX表示我们利用的不同融合算法。在下一节中，我们将对不同融合算法的效果进行研究。
@@ -215,37 +215,65 @@ $h_i(x)$表示网络中第$i$个单元的输出值，则隐层神经单元构成
 
 基于统计模式的调制识别方法也称为基于特征的调制识别方法。
 这种方法把通信信号的调制
-
-\subsection{基于LR的融合框架}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_2}
-	\caption{sigmoid函数与tanh函数}\label{fig_2_2}
-\end{figure}
-
-\subsection{基于集成树的融合框架}
 识别视为一个统计模式识别问题，整个调制识别系统由两个子系统组成：
 特征提取子系统和模式分类子系统。
 特征提取子系统的作用是从原始测数据中提取事先定义好的能表征信号调制类型的特征，
 可以看作是从输入信号所在的观测空间到选定的特征空间的一个映射。\par
 
+\subsection{基于逻辑回归（Logistic Regression， LR）的融合框架}
+LR是用线性回归模型的预测结果去逼近真实标记的对数几率的一种二分类算法。SVM是一种基于核函数的方法，它通过某些核函数把特征向量映射到高维空间SVM是一种基于核函数的方法，它通过某些核函数把特征向量映射到高维空间，然后建立一个线性判别函数对数据进行分类。由于SVM训练时间较长，而线性核函数的SVM与LR的结果基本一样【吴恩达】，因此，为了兼顾算法的有效性和高效性，我们选择LR框架作为线性特征融合的框架。\par
+
+根据【吴恩达】，我们有样本为正样本的概率：
+
+\begin{equation}
+	h_{\theta}(x) = p(y=1|x) = \frac{1}{1 + e^{-(\theta^T x)}}
+\end{equation}
+
+我们用$Cost(h_{\theta}(x^{(i)}), y^{(i)}) $表示样本预测错误时的损失，
+根据【】，在此我们使用逻辑损失函数：
+\begin{equation}
+		Cost(h_{\theta}(x^{(i)}), y^{(i)}) = 
+			\begin{cases}
+				-\log(h_{\theta}(x^{(i)})) & \text{$y = 1$}\\
+				-\log(1 - h_{\theta}^{(i)}) & \text{$y = 0$}
+			\end{cases}
+\end{equation}
+
+最终，我们有LR的损失函数：
+\begin{equation}
+	\begin{aligned}
+		J(\theta) &=- \frac{1}{m} \sum_{i=1}^{m} Cost(h_{\theta}(x_{(i)}), y_{(i)})\\
+			&= -\frac{1}{m} \sum_{i=1}^{m} \left[
+				y^{(i)} \log(h_{\theta}(x^{(i)})) +
+				(1 - y^{(i)})\log(1 - h_{\theta}^{(i)})
+			\right]
+	\end{aligned}
+\end{equation}
+
+由于，我们传统的LR算法针对的是二分类问题，因此，对于调制识别这样的多分类问题，我们需要对算法进行改进。
+在此，我们使用的是LR多分类算法中的$1VM$版本【】，即假设我们的调制类别共有$M$类，则我们需要训练$M$个分类器，分别判断样本属于每一个类别的概率值，去概率值最高的那一个类别作为我们的分类结果。\par
+最终的分类结果，如图\ref{sec:fig_4_2}所示：
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.3]{figures/chapter_3/signal_view_2}
+	\caption{基于LR框架的特征融合框架图}\label{sec:fig_4_2}
+\end{figure}
 
 
 \subsection{基于DNN的融合框架}
-
+DNN表征的是特征的非线性变换，可以拟合任意函数，但是受网络深度的限制，同时容易产生过拟合。
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_2}
-	\caption{sigmoid函数与tanh函数}\label{fig_2_2}
+	\includegraphics[scale=0.3]{figures/chapter_3/signal_view_2}
+	\caption{基于DNN框架的特征融合框架图}\label{sec:fig_4_3}
 \end{figure}
 
-\subsection{基于集成树的融合框架}
-
+\subsection{基于随机森林的融合框架}
+随机森林（RandomForest，RF）基于划分与模型融合的方法。降低了泛化误差。
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_2}
-	\caption{sigmoid函数与tanh函数}\label{fig_2_2}
+	\includegraphics[scale=0.3]{figures/chapter_3/signal_view_2}
+	\caption{基于XgBoost框架的特征融合框架图}\label{sec:fig_4_4}
 \end{figure}
 
 \section{结果及分析}
@@ -253,7 +281,7 @@ $h_i(x)$表示网络中第$i$个单元的输出值，则隐层神经单元构成
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.3]{figures/chapter_3/result}
-	\caption{sigmoid函数与tanh函数}\label{fig_2_2}
+	\caption{不同融合框架下的分类性能对比}\label{fig_2_2}
 \end{figure}
 
 \subsection{学习概论}
