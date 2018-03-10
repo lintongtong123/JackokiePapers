@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  9 MAR 2018 21:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  9 MAR 2018 21:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2641,4 +2641,291 @@ put line 331.
 [19]
 
 Package natbib Warning: Citation `Hinton-ipam2012' on page 20 undefined on inpu
-t line
+t line 374.
+
+
+LaTeX Warning: Reference `alg:rms_nesterov' on page 20 undefined on input line 
+382.
+
+
+Package natbib Warning: Citation `kingma2014adam' on page 20 undefined on input
+ line 412.
+
+[20] [21]
+
+Package natbib Warning: Citation `Schaul2014_unittests' on page 22 undefined on
+ input line 454.
+
+) [22]
+\openout2 = `chapters/chapter3.aux'.
+
+ (./chapters/chapter3.tex
+第三章
+[23
+
+
+
+]
+File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
+ <use  "figures/chapter_3/signal_view_1.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24] [25]
+File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
+ <use  "figures/chapter_3/signal_view_1.png" >
+File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/signal_view_2.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[26] [27]
+File: figures/chapter_3/CAE.png Graphic file (type QTm)
+ <use  "figures/chapter_3/CAE.png" >
+File: figures/chapter_3/examples_cae.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/examples_cae.png" > [28]
+File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/cae_fea.png" >
+File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/surprised_fea.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
+<use  "figures/chapter_3/surprised_fea.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]
+File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
+ <use  "figures/chapter_3/cae_cnn_frame.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+[31]
+File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
+ <use  "figures/chapter_3/cae_cnn_frame.png" >
+Underfull \vbox (badness 1748) has occurred while \output is active []
+
+ [32]
+File: figures/chapter_3/loss.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/loss.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]
+File: figures/chapter_3/loss.png Graphic file (type QTm)
+ <use  "figures/chapter_3/loss.png" >
+File: figures/chapter_3/loss.png Graphic file (type QTm)
+ <use  "figures/chapter_3/loss.png" >
+[34]
+File: figures/chapter_3/result.png Graphic file (type QTm)
+ <use  "figures/chapter_3/result.png" >
+File: figures/chapter_3/train_time.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/train_time.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 3209) has occurred while \output is active []
+
+ [35])
+[36]
+\openout2 = `chapters/chapter4.aux'.
+
+ (./chapters/chapter4.tex
+第四章
+[37
+
+
+
+] [38] [39] [40]
+File: figures/chapter_4/fea_combine.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fea_combine.png" > [41]
+File: figures/chapter_4/LR_combile.png Graphic file (type QTm)
+
+<use  "figures/chapter_4/LR_combile.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 263--267
+
+ []
+
+File: figures/chapter_4/DL_combine.png Graphic file (type QTm)
+<use  "figures/chapter_4/DL_combine.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[43]
+File: figures/chapter_3/result.png Graphic file (type QTm)
+ <use  "figures/chapter_3/result.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[44]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45])
+[46]
+\openout2 = `chapters/chapter5.aux'.
+
+ (./chapters/chapter5.tex
+第五章
+[47
+
+
+
+] [48] [49]
+File: figures/chapter_5/fig1.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig1.jpg" >
+File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
+
+<use  "figures/chapter_5/fig2.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig3.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig3.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+ [50]
+File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
+
+<use  "figures/chapter_5/fig4.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[51]
+File: figures/chapter_5/fig5.png Graphic file (type QTm)
+ <use  "figures/chapter_5/fig5.png" >
+Overfull \hbox (8.29861pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
+
+File: figures/chapter_5/fig6.png Graphic file (type QTm)
+<use  "figures/chapter_5/fig6.png" >
+Overfull \hbox (10.10551pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
+[52]
+File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig7.jpg" >
+File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig8.jpg" >
+[53]
+File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig9_a.jpg" >
+File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
+
+<use  "figures/chapter_5/fig10_a.jpg" >
+File: figures/chapter_5/fig9_b.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig9_b.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig10_b.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig10_b.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [54])
+[55]
+\openout2 = `chapters/chapter6.aux'.
+
+ (./chapters/chapter6.tex [56
+
+
+
+]
+第六章
+[57]) [58]
+\openout2 = `math_symbol.aux'.
+
+ (./math_symbol.tex)
+\openout2 = `terminology.aux'.
+
+ (./terminology.tex
+\@gls@deffile=\write10
+\openout10 = `JackokiePaper.glsdefs'.
+
+) (./JackokiePaper.bbl
+
+LaTeX Warning: Empty `thebibliography' environment on input line 27.
+
+[59
+
+
+
+
+
+
+
+] [60
+
+])
+\openout2 = `chapters/thanks.aux'.
+
+ (./chapters/thanks.tex [61
+
+
+] [62
+
+])
+
+Package natbib Warning: There were undefined citations.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found. 
+(Remove \makeglossaries if you don't want any glossaries.) 
+This document will not have a glossary.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 62.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 62.
+(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./math_symbol.aux)
+(./terminology.aux) (./chapters/thanks.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 62.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 62.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.41063pt have occurred.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 62.
+ ) 
+Here is how much of TeX's memory you used:
+ 70914 strings out of 493005
+ 1521600 string characters out of 6134597
+ 1195304 words of memory out of 5000000
+ 74089 multiletter control sequences out of 15000+600000
+ 13129 words of font info for 101 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on JackokiePaper.pdf (86 pages).
