@@ -67,9 +67,9 @@
 \contentsline {subsection}{\numberline {4.4.2}基于深度学习的融合框架}{43}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}基于随机森林的融合框架}{44}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}结果及分析}{45}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}学习概论}{46}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.1}学习概论}{45}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}未来应用-聚类}{46}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}本章小结}{46}{section.4.6}
+\contentsline {section}{\numberline {4.6}本章小结}{47}{section.4.6}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度学习框架探索}{49}{chapter.5}
 \contentsline {section}{\numberline {5.1}引言}{49}{section.5.1}
 \contentsline {subsection}{\numberline {5.1.1}卷积神经网络}{49}{subsection.5.1.1}
