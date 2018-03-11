@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  11 MAR 2018 12:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  11 MAR 2018 20:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2783,12 +2783,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ]
 第五章
-[51] [52] [53]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+[53]
 File: figures/chapter_5/fig3.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig3.jpg" >
 File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig2.jpg" >
+ <use  "figures/chapter_5/fig2.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2806,14 +2812,14 @@ Underfull \vbox (badness 2980) has occurred while \output is active []
 File: figures/chapter_5/fig5.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig5.png" >
-Overfull \hbox (8.29861pt too wide) in paragraph at lines 131--132
+Overfull \hbox (8.29861pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
 [56]
 File: figures/chapter_5/fig6.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig6.png" >
-Overfull \hbox (10.10551pt too wide) in paragraph at lines 140--141
+Overfull \hbox (10.10551pt too wide) in paragraph at lines 142--143
  [][] 
  []
 
@@ -2918,10 +2924,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70921 strings out of 493005
- 1521808 string characters out of 6134597
+ 70925 strings out of 493005
+ 1522062 string characters out of 6134597
  1195494 words of memory out of 5000000
- 74095 multiletter control sequences out of 15000+600000
+ 74099 multiletter control sequences out of 15000+600000
  13129 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
