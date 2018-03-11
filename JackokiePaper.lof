@@ -7,10 +7,10 @@
 \contentsline {figure}{\numberline {2.5}{\ignorespaces \glssymbol {LSTM}\nobreakspace {}\gls {recurrent_network}``细胞''的框图。 细胞彼此循环连接，代替一般\gls {recurrent_network}中普通的\gls {hidden_unit}。 这里使用常规的人工神经元计算输入特征。 如果sigmoid输入门允许，它的值可以累加到状态。 状态单元具有线性自循环，其权重由\gls {forget_gate}控制。 细胞的输出可以被输出门关闭。 所有\gls {gated}单元都具有sigmoid非线性，而输入单元可具有任意的压缩非线性。 状态单元也可以用作\gls {gated}单元的额外输入。 黑色方块表示单个\gls {time_step}的延迟。 \relax }}{18}{figure.caption.18}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces 信号生成框图\relax }}{25}{figure.caption.19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 不同调制方式的高SNR样本的时域波形\relax }}{26}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 不同调制方式的高SNR样本的时域波形\relax }}{27}{figure.caption.20}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces 不同调制方式的高SNR样本的功率谱\relax }}{27}{figure.caption.21}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces 自编码器\relax }}{28}{figure.caption.22}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 自编码器\relax }}{28}{figure.caption.23}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 自编码器\relax }}{29}{figure.caption.23}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces 自编码器\relax }}{29}{figure.caption.24}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces 自编码器\relax }}{30}{figure.caption.25}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces 自编码器\relax }}{30}{figure.caption.26}
@@ -34,7 +34,7 @@
 \contentsline {figure}{\numberline {5.5}{\ignorespaces 用于显示卷积滤波器尺寸的RF数据的初始模块。 每个卷积层有50个过滤器\relax }}{56}{figure.caption.46}
 \contentsline {figure}{\numberline {5.6}{\ignorespaces 用于RF数据的CLDNN体系结构。 在进入LSTM之前，第一个1x8卷积层的输出与三个1x8卷积层的输出级联。\relax }}{57}{figure.caption.47}
 \contentsline {figure}{\numberline {5.7}{\ignorespaces CLDNN的信噪比始终优于其他网络架构，信噪比高于-8dB。\relax }}{57}{figure.caption.48}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces CLDNN的全SNR混淆矩阵表明模拟调制与高阶QAM之间的单独混淆之间最混乱。\relax }}{57}{figure.caption.49}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces CLDNN的全SNR混淆矩阵表明模拟调制与高阶QAM之间的单独混淆之间最混乱。\relax }}{58}{figure.caption.49}
 \contentsline {figure}{\numberline {5.9}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{58}{figure.caption.50}
 \contentsline {figure}{\numberline {5.10}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{58}{figure.caption.51}
 \contentsline {figure}{\numberline {5.11}{\ignorespaces 随机数据训练最大程度地激活过滤器，看起来像BPSK。\relax }}{59}{figure.caption.52}
