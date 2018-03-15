@@ -143,11 +143,10 @@ r(t) = s(t)*c + n(t)
 \end{equation}
 
 通过约束网络的中间层维度，从而可以通过提取用于聚类的中间稀疏编码，来获得原始数据的非线性降维。在这种情况下，使用相似的调制信号，可以由相似的卷积核和特征图来表示，因此，他们分布在该压缩空间的相近区域中。自编码器中的卷积层具有时移不变性以及受约束的参数搜索空间（相对于全连接层），因此非常适合于无线电时间序列信号表示。我们使用dropout[13]并在输入层加入噪声[7]对网络进行正则化，来增强模型的泛化能力。图\ref{fig_3_2}显示了我们的卷积自动编码器使用的体系结构。\par
->>>>>>> master
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/CAE}
+	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_3}
 	\caption{自编码器}	\label{sec:fig_3_3}
 \end{figure}
 
@@ -160,7 +159,7 @@ r(t) = s(t)*c + n(t)
 以及输出维度为2x128的训练结果展示图。\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.2]{figures/chapter_3/examples_cae}
+	\includegraphics[scale=0.2]{figures/chapter_3/fig_3_3}
 	\caption{自编码器}	\label{sec:fig_3_4}
 \end{figure} 
 
