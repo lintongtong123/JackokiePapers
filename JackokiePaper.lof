@@ -1,25 +1,26 @@
 \addvspace {10.0pt}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 神经元示意图\relax }}{10}{figure.caption.14}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces sigmoid函数与tanh函数\relax }}{11}{figure.caption.15}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces 前馈神经网络\relax }}{11}{figure.caption.16}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces 自编码器\relax }}{17}{figure.caption.17}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \glssymbol {LSTM}\nobreakspace {}\gls {recurrent_network}``细胞''的框图。 细胞彼此循环连接，代替一般\gls {recurrent_network}中普通的\gls {hidden_unit}。 这里使用常规的人工神经元计算输入特征。 如果sigmoid输入门允许，它的值可以累加到状态。 状态单元具有线性自循环，其权重由\gls {forget_gate}控制。 细胞的输出可以被输出门关闭。 所有\gls {gated}单元都具有sigmoid非线性，而输入单元可具有任意的压缩非线性。 状态单元也可以用作\gls {gated}单元的额外输入。 黑色方块表示单个\gls {time_step}的延迟。 \relax }}{18}{figure.caption.18}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces $ReLU$函数\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces $Sigmoid$函数\relax }}{11}{figure.caption.15}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces 前馈神经网络\relax }}{12}{figure.caption.16}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces 自编码器\relax }}{17}{figure.caption.17}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \glssymbol {LSTM}\nobreakspace {}\gls {recurrent_network}``细胞''的框图。 细胞彼此循环连接，代替一般\gls {recurrent_network}中普通的\gls {hidden_unit}。 这里使用常规的人工神经元计算输入特征。 如果sigmoid输入门允许，它的值可以累加到状态。 状态单元具有线性自循环，其权重由\gls {forget_gate}控制。 细胞的输出可以被输出门关闭。 所有\gls {gated}单元都具有sigmoid非线性，而输入单元可具有任意的压缩非线性。 状态单元也可以用作\gls {gated}单元的额外输入。 黑色方块表示单个\gls {time_step}的延迟。 \relax }}{18}{figure.caption.18}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {3.1}{\ignorespaces 信号生成框图\relax }}{25}{figure.caption.19}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 不同调制方式的高SNR样本的时域波形\relax }}{27}{figure.caption.20}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces 不同调制方式的高SNR样本的功率谱\relax }}{27}{figure.caption.21}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 自编码器\relax }}{28}{figure.caption.22}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 自编码器\relax }}{29}{figure.caption.23}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 自编码器\relax }}{29}{figure.caption.24}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 自编码器\relax }}{30}{figure.caption.25}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces 自编码器\relax }}{30}{figure.caption.26}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 自编码器\relax }}{31}{figure.caption.27}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 整体结果\relax }}{34}{figure.caption.30}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 0dB条件下的结果\relax }}{34}{figure.caption.32}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 与其他方法的比较\relax }}{34}{figure.caption.34}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces 训练时间\relax }}{35}{figure.caption.35}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces 分类时间\relax }}{36}{figure.caption.36}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 不同调制方式的高SNR样本的时域波形\relax }}{28}{figure.caption.20}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 不同调制方式的高SNR样本的功率谱\relax }}{29}{figure.caption.21}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 自编码器\relax }}{29}{figure.caption.22}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 自编码器\relax }}{30}{figure.caption.23}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 自编码器\relax }}{30}{figure.caption.24}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 自编码器\relax }}{31}{figure.caption.25}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces 自编码器\relax }}{31}{figure.caption.26}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 自编码器\relax }}{32}{figure.caption.27}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 整体结果\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 0dB条件下的结果\relax }}{35}{figure.caption.32}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 与其他方法的比较\relax }}{35}{figure.caption.34}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 训练时间\relax }}{36}{figure.caption.35}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces 分类时间\relax }}{37}{figure.caption.36}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 特征融合框架图\relax }}{43}{figure.caption.37}
 \contentsline {figure}{\numberline {4.2}{\ignorespaces 基于LR框架的特征融合框架图\relax }}{45}{figure.caption.38}

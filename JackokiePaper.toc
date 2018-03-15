@@ -28,14 +28,14 @@
 \contentsline {subsection}{\numberline {2.4.1}卷积运算}{14}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}卷积特性}{15}{subsection.2.4.2}
 \contentsline {subsection}{\numberline {2.4.3}卷积作为一种无限强的先验}{15}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}随机或无监督的特征}{15}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.4}随机或无监督的特征}{16}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}卷积自编码器}{16}{section.2.5}
-\contentsline {section}{\numberline {2.6}\glssymbol {LSTM}}{17}{section.2.6}
+\contentsline {section}{\numberline {2.6}\glssymbol {LSTM}}{18}{section.2.6}
 \contentsline {section}{\numberline {2.7}神经网络优化算法}{19}{section.2.7}
 \contentsline {subsection}{\numberline {2.7.1}随机梯度下降优化算法}{19}{subsection.2.7.1}
 \contentsline {subsection}{\numberline {2.7.2}RMSProp优化算法}{20}{subsection.2.7.2}
-\contentsline {subsection}{\numberline {2.7.3}Adam}{20}{subsection.2.7.3}
-\contentsline {subsection}{\numberline {2.7.4}选择正确的优化算法}{22}{subsection.2.7.4}
+\contentsline {subsection}{\numberline {2.7.3}Adam}{21}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}选择正确的优化算法}{21}{subsection.2.7.4}
 \contentsline {section}{\numberline {2.8}本章小结}{22}{section.2.8}
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于CAE-CNN的无线信号调制识别}{23}{chapter.3}
 \contentsline {section}{\numberline {3.1}引言}{23}{section.3.1}
@@ -45,16 +45,16 @@
 \contentsline {section}{\numberline {3.3}调制信号的表示}{26}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}数据集可视化}{26}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}调制信号的无监督表示}{27}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{30}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{31}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}CAE-CNN网络框架}{31}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}CAE-CNN算法}{32}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}算法运行环境及参数}{32}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}结果及分析}{33}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}学习复杂度}{33}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}分类准确率与鲁棒性}{33}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}训练效率以及分类效率}{35}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}本章小结}{36}{section.3.6}
+\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{31}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{32}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}CAE-CNN网络框架}{32}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}CAE-CNN算法}{33}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}算法运行环境及参数}{33}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}结果及分析}{34}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}学习复杂度}{34}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}分类准确率与鲁棒性}{34}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}训练效率以及分类效率}{36}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}本章小结}{37}{section.3.6}
 \contentsline {chapter}{\numberline {第四章\hspace {.3em}}基于传统特征与深度特征融合的无线调制方式识别技术研究}{39}{chapter.4}
 \contentsline {section}{\numberline {4.1}引言}{39}{section.4.1}
 \contentsline {section}{\numberline {4.2}传统特征}{39}{section.4.2}
