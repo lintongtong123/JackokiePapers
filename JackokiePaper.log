@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  15 MAR 2018 14:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  16 MAR 2018 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2087,7 +2087,7 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux
 
-LaTeX Warning: Label `sec:eqt3_3' multiply defined.
+LaTeX Warning: Label `sec:eqt3_4' multiply defined.
 
 
 LaTeX Warning: Label `alg:adam' multiply defined.
@@ -2542,132 +2542,129 @@ Underfull \vbox (badness 1360) has occurred while \output is active []
 
  (./chapters/chapter2.tex
 第二章
-File: ./figures/chapter_2/fig_2_0.png Graphic file (type QTm)
-<use  "./figures/chapter_2/fig_2_0.png" > [9
+[9
 
 
 
 ]
 File: figures/chapter_2/fig_2_1.png Graphic file (type QTm)
-
-<use  "figures/chapter_2/fig_2_1.png" > [10]
+ <use  "figures/chapter_2/fig_2_1.png" > [10]
 File: figures/chapter_2/fig_2_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_2/fig_2_2.png" >
-Overfull \hbox (15.93542pt too wide) in paragraph at lines 52--53
+Overfull \hbox (15.93542pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
 File: figures/chapter_2/fig_2_3.png Graphic file (type QTm)
 <use  "figures/chapter_2/fig_2_3.png" >
-Overfull \hbox (15.93542pt too wide) in paragraph at lines 57--58
+Overfull \hbox (15.93542pt too wide) in paragraph at lines 56--57
  [][] 
  []
 
 
-Package caption Warning: \label without proper reference on input line 73.
+Package caption Warning: \label without proper reference on input line 72.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `sec:fig_2_4' on page 11 undefined on input line 70.
+LaTeX Warning: Reference `sec:fig_2_4' on page 11 undefined on input line 69.
 
 File: figures/chapter_2/fig_2_4.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_4.png" > [11]
-Underfull \vbox (badness 3417) has occurred while \output is active []
+<use  "figures/chapter_2/fig_2_4.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 1910) has occurred while \output is active []
 
  [12]
 [13]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/it' undefined
-(Font)              using `TU/SimSun(0)/m/n' instead on input line 147.
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 146.
 
 [14] [15]
 
 Package natbib Warning: Citation `Jarrett-ICCV2009-small' on page 16 undefined 
-on input line 231.
+on input line 230.
 
 
 Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 231.
+line 230.
 
 
 Package natbib Warning: Citation `pinto2011scaling' on page 16 undefined on inp
-ut line 231.
+ut line 230.
 
 
 Package natbib Warning: Citation `cox2011beyond' on page 16 undefined on input 
-line 231.
+line 230.
 
 
 Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 232.
+line 231.
 
 File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_5.png" >
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [16]
-[17]
+<use  "figures/chapter_2/fig_2_5.png" > [16] [17]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glssymbol' on input line 270.
+(hyperref)                removing `\glssymbol' on input line 269.
 
 File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
 <use  "figures/chapter_2/fig_2_5.png" >
 
 Package natbib Warning: Citation `Graves-et-al-ICASSP2013' on page 18 undefined
- on input line 296.
+ on input line 295.
 
 
 Package natbib Warning: Citation `Pascanu-et-al-ICLR2014' on page 18 undefined 
-on input line 296.
+on input line 295.
 
 [18]
 
 Package natbib Warning: Citation `Bengio-trnn94' on page 19 undefined on input 
-line 334.
+line 333.
 
 
 Package natbib Warning: Citation `Hochreiter+Schmidhuber-1997' on page 19 undef
-ined on input line 334.
+ined on input line 333.
 
 
 Package natbib Warning: Citation `chapter-gradient-flow-2001' on page 19 undefi
-ned on input line 334.
+ned on input line 333.
 
 
 Package natbib Warning: Citation `Graves-book2012' on page 19 undefined on inpu
-t line 334.
+t line 333.
 
 
 Package natbib Warning: Citation `Graves-arxiv2013' on page 19 undefined on inp
-ut line 334.
+ut line 333.
 
 
 Package natbib Warning: Citation `Sutskever-et-al-NIPS2014' on page 19 undefine
-d on input line 334.
+d on input line 333.
 
 Missing character: There is no θ in font cmmi12!
 [19]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 350.
+put line 349.
  [20]
 
 Package natbib Warning: Citation `Hinton-ipam2012' on page 21 undefined on inpu
-t line 393.
+t line 392.
 
 
 LaTeX Warning: Reference `alg:rms_nesterov' on page 21 undefined on input line 
-401.
+400.
 
 
 Package natbib Warning: Citation `kingma2014adam' on page 21 undefined on input
- line 431.
+ line 430.
 
 [21]
 
 Package natbib Warning: Citation `Schaul2014_unittests' on page 22 undefined on
- input line 473.
+ input line 472.
 
 ) [22]
 \openout2 = `chapters/chapter3.aux'.
@@ -2683,19 +2680,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 [24]
+File: ./figures/chapter_3/fig_3_1.png Graphic file (type QTm)
+ <use  "./figures/chapter_3/fig_3_1.png" > [25]
 File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
- <use  "figures/chapter_3/signal_view_1.png" >
-Overfull \hbox (252.77397pt too wide) in paragraph at lines 73--74
- [][] 
- []
 
-[25] [26]
-File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
- <use  "figures/chapter_3/signal_view_1.png" >
-Overfull \hbox (807.79887pt too wide) in paragraph at lines 111--112
- [][] 
- []
-
+<use  "figures/chapter_3/signal_view_1.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2705,77 +2694,66 @@ File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig_3_2' on page 27 undefined on input line 145.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [26]
 [27]
 
-LaTeX Warning: Text page 28 contains only floats.
+LaTeX Warning: Reference `fig_3_2' on page 28 undefined on input line 145.
 
-
-Overfull \vbox (6.33542pt too high) has occurred while \output is active []
-
-
-[28]
 File: figures/chapter_3/fig_3_3.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_3.png" >
+<use  "figures/chapter_3/fig_3_3.png" >
 File: figures/chapter_3/fig_3_3.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/fig_3_3.png" > [29]
+<use  "figures/chapter_3/fig_3_3.png" > [28]
 File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/cae_fea.png" >
-File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
+<use  "figures/chapter_3/cae_fea.png" > [29]
+File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/surprised_fea.png" > [30]
-File: figures/chapter_3/surprised_fea.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/surprised_fea.png" > [31]
+<use  "figures/chapter_3/fig_3_7.png" >
 File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/cae_cnn_frame.png" > [32]
+<use  "figures/chapter_3/cae_cnn_frame.png" > [30]
 File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/cae_cnn_frame.png" >
-Underfull \vbox (badness 1748) has occurred while \output is active []
 
- [33]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+File: figures/chapter_3/loss.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/loss.png" > [33]
+File: figures/chapter_3/loss.png Graphic file (type QTm)
+ <use  "figures/chapter_3/loss.png" >
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/loss.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34]
-File: figures/chapter_3/loss.png Graphic file (type QTm)
- <use  "figures/chapter_3/loss.png" >
-File: figures/chapter_3/loss.png Graphic file (type QTm)
- <use  "figures/chapter_3/loss.png" >
-[35]
 File: figures/chapter_3/result.png Graphic file (type QTm)
  <use  "figures/chapter_3/result.png" >
+Underfull \vbox (badness 1033) has occurred while \output is active []
+
+ [34]
 File: figures/chapter_3/train_time.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/train_time.png" >
+<use  "figures/chapter_3/train_time.png" > [35]
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 3209) has occurred while \output is active []
-
- [36]
-Underfull \vbox (badness 2837) has occurred while \output is active []
-
- [37])
-[38]
+ [36])
+[37]
 \openout2 = `chapters/chapter4.aux'.
 
- (./chapters/chapter4.tex
+ (./chapters/chapter4.tex [38
+
+
+
+]
 第四章
-[39
-
-
-
-] [40] [41] [42]
+[39] [40] [41] [42]
 File: figures/chapter_4/fea_combine.png Graphic file (type QTm)
  <use  "figures/chapter_4/fea_combine.png" > [43]
 File: figures/chapter_4/LR_combile.png Graphic file (type QTm)
@@ -2956,10 +2934,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70922 strings out of 493005
- 1521578 string characters out of 6134597
- 1197732 words of memory out of 5000000
- 74094 multiletter control sequences out of 15000+600000
+ 70921 strings out of 493005
+ 1521553 string characters out of 6134597
+ 1197694 words of memory out of 5000000
+ 74093 multiletter control sequences out of 15000+600000
  13129 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s

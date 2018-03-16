@@ -68,10 +68,10 @@ r(t) = s(t)*c + n(t)
 我们将真实的语音和文本数据集调制到信号上，这样，接收信号不仅是一系列的确知信号，并且包含了信息，
 使我们的调制信号更接近真实环境中的信号。\par
 
-\begin{figure}[!h]
+\begin{figure}
 	\centering
-	\includegraphics[scale=0.5]{figures/chapter_3/signal_view_1}
-	\caption{信号生成框图}\label{sec:fig_3_0}
+	\includegraphics[scale=0.6]{./figures/chapter_3/fig_3_1}
+	\caption{调制信号生成框图}\label{sec:fig_3_1}
 \end{figure}
 
 我们使用GNU无线信道模型[14]模块在GNU Radio[3]中对这个数据集的生成进行建模，
@@ -108,8 +108,8 @@ r(t) = s(t)*c + n(t)
 而XXX特征在视觉上让人感觉像是噪声，很难直接判断出来。\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_1}
-	\caption{不同调制方式的高SNR样本的时域波形}\label{sec:fig_3_1}
+	\includegraphics[scale=0.2]{figures/chapter_3/signal_view_1}
+	\caption{不同调制方式的高SNR样本的时域波形}\label{sec:fig_3_2}
 \end{figure}
 
 如图(图\ref{sec:fig_3_2})所示，在频域中，每一个信号都具备一个带宽限制的功率包络，
@@ -117,7 +117,7 @@ r(t) = s(t)*c + n(t)
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_2}
-	\caption{不同调制方式的高SNR样本的功率谱}\label{sec:fig_3_2}
+	\caption{不同调制方式的高SNR样本的功率谱}\label{sec:fig_3_3}
 \end{figure}
 
 \subsection{调制信号的无监督表示}
@@ -138,7 +138,7 @@ r(t) = s(t)*c + n(t)
 =======
 自动编码器是一种无监督的学习算法，其中神经网络的优化目标是通过一些更有约束的中间维度，使用均方误差（MSE）等损失函数，最小化输出处的重构误差。通常，自编码器利用反向传播算法，将误差进行反向传播，并使用随机梯度下降（SGD）算法等，以找到接近等式\ref{sec:eqt3_3}中的最佳网络参数。
 
-\begin{equation}\label{sec:eqt3_3}
+\begin{equation}\label{sec:eqt3_4}
 	\mathop{\arg\min}_{\theta}(\sum(X − f (X,\theta))^2)
 \end{equation}
 
@@ -147,7 +147,7 @@ r(t) = s(t)*c + n(t)
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_3}
-	\caption{自编码器}	\label{sec:fig_3_3}
+	\caption{自编码器}	\label{sec:fig_3_5}
 \end{figure}
 
 我们使用RMSProp[11]和Adam[12]梯度下降求解器进行优化，两者都获得了相似的结果，
@@ -178,7 +178,7 @@ r(t) = s(t)*c + n(t)
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.2]{figures/chapter_3/cae_fea}
-	\caption{自编码器}	\label{sec:fig_3_5}
+	\caption{自编码器}	\label{sec:fig_3_6}
 \end{figure}
 
 在这种情况下，我们看到几个类如WBFM，AMDSB， AM-SSB和QPSK已经形成了独立的、大部分可分离的簇，
@@ -196,19 +196,11 @@ CNN主要是由卷基层与DNN层构成；由于CNN本身可以对测试样本�
 
 在训练好分类网络以后，我们移除最后的softmax层，保留剩余的这一部分网络。
 这样，在样本经过训练好的网络，最后隐层输出的特征即为原始数据的稀疏表示。
-图X中显示了我们利用监督方式训练网络，并获取监督引导特征空间，获取数据监督引导的稀疏表示。\par
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.2]{figures/chapter_3/surprised_fea}
-	\caption{自编码器}	\label{sec:fig_3_6}
-\end{figure}
-
+我们利用监督方式训练网络，并获取监督引导特征空间，获取数据监督引导的稀疏表示。\par
 我们从每一类样本中随机采样100个样本，通过图X的网络将其映射到监督引导特征空间，并利用t-SNE映射到二维流型，最终的效果如图X：
-
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.2]{figures/chapter_3/surprised_fea}
+	\includegraphics[scale=0.4]{figures/chapter_3/fig_3_7}
 	\caption{自编码器}	\label{sec:fig_3_7}
 \end{figure}
 

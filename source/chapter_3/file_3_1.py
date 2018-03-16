@@ -13,7 +13,7 @@ import numpy as np
 import pickle
 import random
 import matplotlib.pyplot as plt
-random.seed(2016)
+random.seed(2018)
 
 
 def get_sample(data_path):
@@ -27,9 +27,9 @@ def get_sample(data_path):
     orig_data = pickle.load(open(data_path, 'rb'), encoding='iso-8859-1')
     mode_snr = list(orig_data.keys())
     mods, snrs = [sorted(list(set(x[i] for x in mode_snr))) for i in [0, 1]]
-    mods.remove('AM-DSB')
+    mods.remove('AM-SSB')
     mods.remove('WBFM')
-    snr = 18
+    snr = 0
     samples = [orig_data[(mods[i], snr)][786] for i in range(len(mods))]
     return samples, mods
 
@@ -62,7 +62,7 @@ def freq_plot(samples, mods):
         plt.xticks([])
         plt.yticks([])
         plt.title(mods[i])
-    plt.savefig("/home/scl/Documents/JackokiePapers/figures/chapter_3/fig_3_2.jpg")
+    plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_3.jpg")
     return
 
 def time_plot(samples, mods):
@@ -76,8 +76,8 @@ def time_plot(samples, mods):
     for i in range(num):
 
         plt.subplot(3, 3, i+1)
-        p1, = plt.plot(samples[i][0], 'magenta')
-        p2, = plt.plot(samples[i][1], 'black')
+        p1, = plt.plot(samples[i][0], 'blue')
+        p2, = plt.plot(samples[i][1], 'green')
         plt.hlines(0, 0, 128)
 
         axes = plt.gca()
@@ -90,12 +90,12 @@ def time_plot(samples, mods):
         plt.legend([p1, p2], ['Real', 'Complex'], loc='upper right', fontsize=6)
         plt.title(mods[i])
 
-    plt.savefig("/home/scl/Documents/JackokiePapers/figures/chapter_3/fig_3_1.jpg", dpi=120)
+    plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_2.jpg", dpi=120)
     plt.clf()
 
 def run_process():
     """ Process the data."""
-    data_path = '/home/scl/Documents/ModData/RML2016.10a_dict.dat'
+    data_path = 'E:/ModData/RML2016.10a_dict.dat'
     samples, mods = get_sample(data_path)
     time_plot(samples, mods)
     freq_plot(samples, mods)
