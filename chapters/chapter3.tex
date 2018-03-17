@@ -104,21 +104,22 @@ r(t) = s(t)*c + n(t)
 我们可以发现，不同调制方式之间具备许多相似性，同事也具备一定差异性。有些信号我们是可以通过肉眼进行模糊判别；
 但是，受脉冲形变，失真和其他信道影响，有些信号即便是人类专家也很难从视觉上分辨属于何种调制类别。\par
 
-如图(图\ref{sec:fig_3_1})所示，在时域中，我们可以看到XX信号具备较明显的特征，
+如图(图\ref{sec:fig_3_2})所示，在时域中，我们可以看到XX信号具备较明显的特征，
 而XXX特征在视觉上让人感觉像是噪声，很难直接判断出来。\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.2]{figures/chapter_3/signal_view_1}
+	\includegraphics[scale=0.3]{figures/chapter_3/fig_3_2}
 	\caption{不同调制方式的高SNR样本的时域波形}\label{sec:fig_3_2}
 \end{figure}
 
-如图(图\ref{sec:fig_3_2})所示，在频域中，每一个信号都具备一个带宽限制的功率包络，
+如图(图\ref{sec:fig_3_3})所示，在频域中，每一个信号都具备一个带宽限制的功率包络，
 其形状为调制识别提供了一定的信息，但是对于人类专家来说，从视觉来说这是一个困难且繁琐的判定方法。\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.9]{figures/chapter_3/signal_view_2}
+	\includegraphics[scale=1.0]{figures/chapter_3/fig_3_3}
 	\caption{不同调制方式的高SNR样本的功率谱}\label{sec:fig_3_3}
 \end{figure}
+
 
 \subsection{调制信号的无监督表示}
 
@@ -146,8 +147,8 @@ r(t) = s(t)*c + n(t)
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_3}
-	\caption{自编码器}	\label{sec:fig_3_5}
+	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_4}
+	\caption{自编码器}	\label{sec:fig_3_4}
 \end{figure}
 
 我们使用RMSProp[11]和Adam[12]梯度下降求解器进行优化，两者都获得了相似的结果，
@@ -155,17 +156,17 @@ r(t) = s(t)*c + n(t)
 
 最终，我们训练卷积自编码器的网络参数如表XXX所示：
 
-图\ref{sec:fig_3_4}显示了两个输入维度为2x128的训练样本，中间隐层维度为1x30，
+图\ref{sec:fig_3_5}显示了两个输入维度为2x128的训练样本，中间隐层维度为1x30，
 以及输出维度为2x128的训练结果展示图。\par
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.2]{figures/chapter_3/fig_3_3}
-	\caption{自编码器}	\label{sec:fig_3_4}
-\end{figure} 
-
-通过图\ref{sec:fig_3_4}，我们可以发现，卷积自编码器可以很好的复现原始信号；
-我们提取的特征可以很好地重构原始数据，即可以很好地表征原始数据。
-这说明我们的卷积自编码器可以通过无监督的方式学习信号的低维嵌入表示。\par
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.2]{figures/chapter_3/fig_3_5}
+%	\caption{自编码器}	\label{sec:fig_3_5}
+%\end{figure} 
+%
+%通过图\ref{sec:fig_3_5}，我们可以发现，卷积自编码器可以很好的复现原始信号；
+%我们提取的特征可以很好地重构原始数据，即可以很好地表征原始数据。
+%这说明我们的卷积自编码器可以通过无监督的方式学习信号的低维嵌入表示。\par
 
 为了可视化我们学到的卷及特征，并对这些特征的类可分性进行直观展示，我们将数据的低维嵌入特征，
 利用t-分布随机邻接嵌入（t-asdfasdfa，t-SNE）[6]算法映射到二维流型，并在平面坐标系中展示。
@@ -173,12 +174,12 @@ r(t) = s(t)*c + n(t)
 因此，我们可以通过观察不同类别的数据样本在t-SNE可视化之后的二维流型上的分布，来反映样本无监督表示的类可分性。\par
 
 我们训练卷积自编码器从每一类样本中随机采样100个样本，将其通过训练的卷积自编码器获得其低维无监督表示，
-并利用t-SNE映射到二维流型，最终的效果如图X：\par
+并利用t-SNE映射到二维流型，最终的效果如图X：
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.2]{figures/chapter_3/cae_fea}
-	\caption{自编码器}	\label{sec:fig_3_6}
+	\includegraphics[scale=0.4]{figures/chapter_3/fig_3_6}
+	\caption{基于自编码器的调制信号large-vis二维流型展示}	\label{sec:fig_3_6}
 \end{figure}
 
 在这种情况下，我们看到几个类如WBFM，AMDSB， AM-SSB和QPSK已经形成了独立的、大部分可分离的簇，
@@ -201,7 +202,7 @@ CNN主要是由卷基层与DNN层构成；由于CNN本身可以对测试样本�
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.4]{figures/chapter_3/fig_3_7}
-	\caption{自编码器}	\label{sec:fig_3_7}
+	\caption{基于CNN的调制信号large-vis二维流型展示码器}	\label{sec:fig_3_7}
 \end{figure}
 
 在这种情况下，我们几乎可以把每个调制类别的样本在二维流型中利用聚类算法分开。
@@ -223,10 +224,11 @@ CNN主要是由卷基层与DNN层构成；由于CNN本身可以对测试样本�
 为此，我们通过在CNN的交叉熵损失中加入CAE的重构误差损失作为我们的整体损失；
 通过改进CAE与CNN的训练算法，降低重构误差与分类误差，达到更好的分类效果。
 图\ref{sec:fig_3_8}展示了我们网络的结构：
+
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/cae_cnn_frame}
-	\caption{自编码器}	\label{sec:fig_3_8}
+	\includegraphics[scale=0.5]{figures/chapter_3/fig_3_8}
+	\caption{CAE-CNN网络框架}	\label{sec:fig_3_8}
 \end{figure}
 
 在CAE-CNN中的卷基层中，我们使用了Dropout，降低模型的过拟合；
@@ -277,10 +279,32 @@ r(t) = s(t)*c + n(t)
 我们在tensorflow[16]计算框架上运行网络的训练和预测，使用Nvidia NVIDIA Cuda[8]组件，
 在Nvidia GTX1080ti显卡上加速运算。接下来的仿真我们都使用这一套软硬件组合进行仿真。
 我们的神经网络参数如表\ref{sec:table_3_1}所示：\par
-\begin{table}[!h]
+
+\subsection{调制信号}
+\label{sec:mod_signal}
+本文针对的调制信号有。。。
+\begin{table}[H]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/cae_cnn_frame}
-	\caption{自编码器}	\label{sec:table_3_1}
+	\caption{系统参数配置}
+	\begin{tabular}{ccc}
+		\toprule
+		参数 & 配置\\
+		\midrule
+		System & Ubuntu 17.10\\
+		\midrule
+		CPU & Intel\textsuperscript{\textregistered}  Xeon(R) CPU E5-2683 v3 \\
+		\midrule
+		GPU & GeForce GTX 1080 Ti\\
+		\midrule 
+		Memory & 64GB\\
+		\midrule 
+		HardDisk & 1TB\\
+		\midrule 
+		Python & python3.6\\
+		\midrule 
+		Library & Tensorflow1.4\\
+		\bottomrule
+	\end{tabular}
 \end{table}
 
 图3显示了CNN架构的一个例子.CNN2是相同的但是较大的，在层1和层2中包含256和80个过滤器，在层3中包含256个神经元。评估的DNN包含4个密度层，大小分别为512,256,128 ，和n级神经元。\par

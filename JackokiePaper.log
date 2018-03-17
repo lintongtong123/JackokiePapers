@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  16 MAR 2018 17:28
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  16 MAR 2018 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2046,7 +2046,26 @@ Package: glossary-tree 2017/01/19 v4.29 (NLCT)
 
 Package glossaries Info: Writing glossary file JackokiePaper.acn on input line 
 25.
-
+ (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2016/04/27 v1.618033 publication quality tables
+\heavyrulewidth=\dimen332
+\lightrulewidth=\dimen333
+\cmidrulewidth=\dimen334
+\belowrulesep=\dimen335
+\belowbottomsep=\dimen336
+\aboverulesep=\dimen337
+\abovetopsep=\dimen338
+\cmidrulesep=\dimen339
+\cmidrulekern=\dimen340
+\defaultaddspace=\dimen341
+\@cmidla=\count311
+\@cmidlb=\count312
+\@aboverulesep=\dimen342
+\@belowrulesep=\dimen343
+\@thisruleclass=\count313
+\@lastruleclass=\count314
+\@thisrulewidth=\dimen344
+)
 *************************************************
 * xeCJK warning: "CJKfamilydefault-undefined"
 * 
@@ -2054,7 +2073,7 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 * 
 * Try to use `\setCJKmainfont[...]{...}' to define it.
 *************************************************
-\g__fontspec_family_SimSun_int=\count311
+\g__fontspec_family_SimSun_int=\count315
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2244,7 +2263,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count312
+\c@section@level=\count316
 )
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
@@ -2257,7 +2276,7 @@ LaTeX Info: Redefining \nameref on input line 44.
 
 ABD: EveryShipout initializing macros (./JackokiePaper.glsdefs)
 \linelength=\skip137
-\g__fontspec_family_SimHei_int=\count313
+\g__fontspec_family_SimHei_int=\count317
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2548,125 +2567,126 @@ Underfull \vbox (badness 1360) has occurred while \output is active []
 
 ]
 File: figures/chapter_2/fig_2_1.png Graphic file (type QTm)
- <use  "figures/chapter_2/fig_2_1.png" > [10]
+ <use  "figures/chapter_2/fig_2_1.png" >
 File: figures/chapter_2/fig_2_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_2/fig_2_2.png" >
-Overfull \hbox (15.93542pt too wide) in paragraph at lines 51--52
+Overfull \hbox (15.93542pt too wide) in paragraph at lines 46--47
  [][] 
  []
 
 File: figures/chapter_2/fig_2_3.png Graphic file (type QTm)
 <use  "figures/chapter_2/fig_2_3.png" >
-Overfull \hbox (15.93542pt too wide) in paragraph at lines 56--57
+Overfull \hbox (15.93542pt too wide) in paragraph at lines 51--52
  [][] 
  []
 
+[10]
 
-Package caption Warning: \label without proper reference on input line 72.
+Package caption Warning: \label without proper reference on input line 67.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `sec:fig_2_4' on page 11 undefined on input line 69.
+LaTeX Warning: Reference `sec:fig_2_4' on page 11 undefined on input line 64.
 
 File: figures/chapter_2/fig_2_4.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_4.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Underfull \vbox (badness 1910) has occurred while \output is active []
-
- [12]
-[13]
+<use  "figures/chapter_2/fig_2_4.png" > [11] [12] [13]
 
 LaTeX Font Warning: Font shape `TU/SimSun(0)/m/it' undefined
-(Font)              using `TU/SimSun(0)/m/n' instead on input line 146.
+(Font)              using `TU/SimSun(0)/m/n' instead on input line 141.
 
 [14] [15]
 
 Package natbib Warning: Citation `Jarrett-ICCV2009-small' on page 16 undefined 
-on input line 230.
+on input line 225.
 
 
 Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 230.
+line 225.
 
 
 Package natbib Warning: Citation `pinto2011scaling' on page 16 undefined on inp
-ut line 230.
+ut line 225.
 
 
 Package natbib Warning: Citation `cox2011beyond' on page 16 undefined on input 
-line 230.
+line 225.
 
 
 Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 231.
-
-File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_5.png" > [16] [17]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\glssymbol' on input line 269.
+line 226.
 
 File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
 <use  "figures/chapter_2/fig_2_5.png" >
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 5316) has occurred while \output is active []
+
+ [16]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\glssymbol' on input line 264.
+
+[17]
+File: figures/chapter_2/fig_2_6.png Graphic file (type QTm)
+ <use  "figures/chapter_2/fig_2_6.png" >
+
 Package natbib Warning: Citation `Graves-et-al-ICASSP2013' on page 18 undefined
- on input line 295.
+ on input line 290.
 
 
 Package natbib Warning: Citation `Pascanu-et-al-ICLR2014' on page 18 undefined 
-on input line 295.
+on input line 290.
 
 [18]
 
 Package natbib Warning: Citation `Bengio-trnn94' on page 19 undefined on input 
-line 333.
+line 328.
 
 
 Package natbib Warning: Citation `Hochreiter+Schmidhuber-1997' on page 19 undef
-ined on input line 333.
+ined on input line 328.
 
 
 Package natbib Warning: Citation `chapter-gradient-flow-2001' on page 19 undefi
-ned on input line 333.
+ned on input line 328.
 
 
 Package natbib Warning: Citation `Graves-book2012' on page 19 undefined on inpu
-t line 333.
+t line 328.
 
 
 Package natbib Warning: Citation `Graves-arxiv2013' on page 19 undefined on inp
-ut line 333.
+ut line 328.
 
 
 Package natbib Warning: Citation `Sutskever-et-al-NIPS2014' on page 19 undefine
-d on input line 333.
+d on input line 328.
 
 Missing character: There is no θ in font cmmi12!
-[19]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 349.
- [20]
+put line 344.
+[19]
 
-Package natbib Warning: Citation `Hinton-ipam2012' on page 21 undefined on inpu
-t line 392.
-
-
-LaTeX Warning: Reference `alg:rms_nesterov' on page 21 undefined on input line 
-400.
+Package natbib Warning: Citation `Hinton-ipam2012' on page 20 undefined on inpu
+t line 387.
 
 
-Package natbib Warning: Citation `kingma2014adam' on page 21 undefined on input
- line 430.
+LaTeX Warning: Reference `alg:rms_nesterov' on page 20 undefined on input line 
+395.
 
-[21]
 
-Package natbib Warning: Citation `Schaul2014_unittests' on page 22 undefined on
- input line 472.
+Package natbib Warning: Citation `kingma2014adam' on page 20 undefined on input
+ line 425.
 
-) [22]
+[20]
+
+Package natbib Warning: Citation `Schaul2014_unittests' on page 21 undefined on
+ input line 467.
+
+) [21] [22]
 \openout2 = `chapters/chapter3.aux'.
 
  (./chapters/chapter3.tex
@@ -2682,14 +2702,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [24]
 File: ./figures/chapter_3/fig_3_1.png Graphic file (type QTm)
  <use  "./figures/chapter_3/fig_3_1.png" > [25]
-File: figures/chapter_3/signal_view_1.png Graphic file (type QTm)
+File: figures/chapter_3/fig_3_2.jpg Graphic file (type QTm)
 
-<use  "figures/chapter_3/signal_view_1.png" >
+<use  "figures/chapter_3/fig_3_2.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: figures/chapter_3/signal_view_2.png Graphic file (type QTm)
-<use  "figures/chapter_3/signal_view_2.png" >
+File: figures/chapter_3/fig_3_3.jpg Graphic file (type QTm)
+<use  "figures/chapter_3/fig_3_3.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2697,57 +2717,55 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `fig_3_2' on page 28 undefined on input line 145.
+ [27]
 
-File: figures/chapter_3/fig_3_3.png Graphic file (type QTm)
-<use  "figures/chapter_3/fig_3_3.png" >
-File: figures/chapter_3/fig_3_3.png Graphic file (type QTm)
+LaTeX Warning: Reference `fig_3_2' on page 28 undefined on input line 146.
 
-<use  "figures/chapter_3/fig_3_3.png" > [28]
-File: figures/chapter_3/cae_fea.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/cae_fea.png" > [29]
-File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_7.png" >
-File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/cae_cnn_frame.png" > [30]
-File: figures/chapter_3/cae_cnn_frame.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/cae_cnn_frame.png" >
+File: figures/chapter_3/fig_3_4.png Graphic file (type QTm)
+<use  "figures/chapter_3/fig_3_4.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31]
+[28]
+File: figures/chapter_3/fig_3_6.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_6.png" > [29]
+File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_7.png" > [30]
+File: figures/chapter_3/fig_3_8.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_8.png" > [31]
+
+LaTeX Warning: Reference `sec:table_3_1' on page 32 undefined on input line 281
+.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
+[33]
 File: figures/chapter_3/loss.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/loss.png" > [33]
+ <use  "figures/chapter_3/loss.png" >
 File: figures/chapter_3/loss.png Graphic file (type QTm)
  <use  "figures/chapter_3/loss.png" >
 File: figures/chapter_3/loss.png Graphic file (type QTm)
 
 <use  "figures/chapter_3/loss.png" >
-File: figures/chapter_3/result.png Graphic file (type QTm)
- <use  "figures/chapter_3/result.png" >
-Underfull \vbox (badness 1033) has occurred while \output is active []
 
- [34]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34]
+File: figures/chapter_3/result.png Graphic file (type QTm)
+ <use  "figures/chapter_3/result.png" > [35]
 File: figures/chapter_3/train_time.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/train_time.png" > [35]
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
- [36])
-[37]
+<use  "figures/chapter_3/train_time.png" > [36]) [37]
 \openout2 = `chapters/chapter4.aux'.
 
- (./chapters/chapter4.tex [38
+ (./chapters/chapter4.tex
+[38
 
 
 
@@ -2797,10 +2815,6 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ]
 第五章
 [51]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52]
-[53]
 File: figures/chapter_5/fig3.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig3.jpg" >
 File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
@@ -2808,58 +2822,51 @@ File: figures/chapter_5/fig2.jpg Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[52]
 File: figures/chapter_5/fig1.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig1.jpg" >
+ <use  "figures/chapter_5/fig1.jpg" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+ [53]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[54]
+ [54]
+[55]
 File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig4.jpg" >
-Underfull \vbox (badness 2980) has occurred while \output is active []
-
- [55]
 File: figures/chapter_5/fig5.png Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig5.png" >
-Overfull \hbox (8.29861pt too wide) in paragraph at lines 148--149
+ <use  "figures/chapter_5/fig5.png" >
+Overfull \hbox (8.29861pt too wide) in paragraph at lines 158--159
  [][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [56]
 File: figures/chapter_5/fig6.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig6.png" >
-Overfull \hbox (10.10551pt too wide) in paragraph at lines 157--158
+Overfull \hbox (10.10551pt too wide) in paragraph at lines 167--168
  [][] 
  []
 
 File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig7.jpg" >
+<use  "figures/chapter_5/fig7.jpg" > [57]
 File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig8.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
+
 <use  "figures/chapter_5/fig9_a.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig10_a.jpg" >
+ <use  "figures/chapter_5/fig10_a.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57]
-Underfull \vbox (badness 2591) has occurred while \output is active []
-
- [58]
 File: figures/chapter_5/fig9_b.jpg Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig9_b.jpg" >
+<use  "figures/chapter_5/fig9_b.jpg" > [58]
 File: figures/chapter_5/fig10_b.jpg Graphic file (type QTm)
- <use  "figures/chapter_5/fig10_b.jpg" >
-[59]) [60]
+
+<use  "figures/chapter_5/fig10_b.jpg" > [59]) [60]
 \openout2 = `chapters/chapter6.aux'.
 
  (./chapters/chapter6.tex
@@ -2934,12 +2941,12 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70921 strings out of 493005
- 1521553 string characters out of 6134597
- 1197694 words of memory out of 5000000
- 74093 multiletter control sequences out of 15000+600000
+ 70980 strings out of 493005
+ 1522337 string characters out of 6134597
+ 1197789 words of memory out of 5000000
+ 74147 multiletter control sequences out of 15000+600000
  13129 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,13n,79p,10477b,911s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on JackokiePaper.pdf (90 pages).
