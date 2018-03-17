@@ -19,7 +19,7 @@ matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from tensorflow.contrib import layers
 
-num_epoch = 10
+num_epoch = 200
 batch_size = 1024
 learning_rate = 0.01
 train_ratio = 0.9
@@ -56,6 +56,8 @@ def load_data(data_path, input_shape):
     mods, snrs = [sorted(list(set(x[i] for x in mode_snr))) for i in [0, 1]]
     mods.remove('AM-DSB')
     mods.remove('WBFM')
+    mods.remove('8PSK')
+    mods.remove('QAM16')
 
     # Build the train set.
     samples = []
