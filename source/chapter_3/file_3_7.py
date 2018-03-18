@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 import matplotlib.cm as cm
 from tensorflow.contrib import layers
 
-num_epoch = 100
+num_epoch = 200
 batch_size = 1024
 learning_rate = 0.01
 train_ratio = 0.9
@@ -188,11 +188,10 @@ def cnn_2_model(input_pl, activation=tf.nn.relu, dropout=1):
     flatten = tf.reshape(conv2, [batch_size, width * height * num_kernel_2])
 
     hidden_1 = hidden(flatten, activation, 'hidden_1', hidden_units_1, dropout)
-    hidden_2 = hidden(hidden_1, activation, 'hidden_2', hidden_units_2, dropout)
 
-    logits = hidden(hidden_2, activation, 'hidden_2', num_classes)
+    logits = hidden(hidden_1, activation, 'hidden_2', num_classes)
 
-    return logits, hidden_2
+    return logits, hidden_1
 
 
 def eval_in_batches(data, sess, eval_prediction, eval_placeholder, keep_prob):
@@ -381,7 +380,7 @@ def main():
 
     # Use simple adam for the optimization.
     global_step = tf.Variable(0, name='global_step', trainable=False)
-    optimizer = tf.train.AdamOptimizer(learning_rate=0.001).minimize(loss, global_step=global_step)
+    optimizer = tf.train.AdamOptimizer().minimize(loss, global_step=global_step)
 
     # Predictions for the current training minibatch.
     train_prediction = tf.nn.softmax(logits)

@@ -36,7 +36,7 @@ $m_a=\frac{1}{N_s}\sum_{i=-1}^{N_s}A(t)$为瞬时幅度$A(t)$的平均值，
 
 \textbf{２）零中心归一化非弱信号瞬时幅度标准差$\delta_{da}$}
 \begin{equation}
-delta_{da}=\sqrt{\frac{1}{C}\left[\sum_{A_n(i)>a_t} A_cn^2(i)\right]
+\delta_{da}=\sqrt{\frac{1}{C}\left[\sum_{A_n(i)>a_t} A_cn^2(i)\right]
 	- \left|\frac{1}{C} \sum_{A_n(t)>a_t} A_cn(i)\right|}
 \end{equation}
 其中，$C$是全部N个采样数据中属于非弱信号值的个数，非弱信号是指幅度大于幅度判决门限电平$a_t$的信号。
@@ -45,7 +45,7 @@ $\delta_{da}$表征一个符号区间内信号的幅度变化信息，可以用�
 
 \textbf{３）零中心归一化瞬时幅度绝对值的标准差$\delta_{aa}$}
 \begin{equation}
-delta_{aa} = \sqrt{\frac{1}{N}\left[\sum_{i=1}^{N} A_{cn}^2(i)\right]
+\delta_{aa} = \sqrt{\frac{1}{N}\left[\sum_{i=1}^{N} A_{cn}^2(i)\right]
 	- \left[\frac{1}{N} \sum_{i=1}^{N} \left|A_{cn}(i)\right|^2\right]}
 \end{equation}
 $\delta_{aa}$表征了信号的绝对幅度信息，可区分不具备归一化的绝对幅度信息的调制方式，
@@ -200,7 +200,7 @@ $h_i(x)$表示网络中第$i$个单元的输出值，则隐层神经单元构成
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.5]{figures/chapter_4/fea_combine.png}
+	\includegraphics[scale=0.5]{figures/chapter_4/fig_4_1.png}
 	\caption{特征融合框架图}\label{sec:fig_4_1}
 \end{figure}
 
@@ -251,7 +251,7 @@ LR是用线性回归模型的预测结果去逼近真实标记的对数几率的
 最终的基于LR的特征融合框架，如图\ref{sec:fig_4_2}所示：
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.7]{figures/chapter_4/LR_combile}
+	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_2}
 	\caption{基于LR框架的特征融合框架图}\label{sec:fig_4_2}
 \end{figure}
 
@@ -284,7 +284,7 @@ XXX等人提出了可以利用卷积层、池化层等对不同的特征进行�
 整个基于深度学习的特征融合框架如图\ref{sec:fig_4_3}所示：
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.6]{figures/chapter_4/DL_combine}
+	\includegraphics[scale=0.6]{figures/chapter_4/fig_4_3}
 	\caption{基于DNN框架的特征融合框架图}\label{sec:fig_4_3}
 \end{figure}
 
@@ -320,7 +320,7 @@ RF不仅通过样本扰动(通过对原始训练集进行采样)实现随机性�
 图\ref{sec:fig_4_5}展示了我们基于随机森林算法的特征融合框架图：
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.5]{figures/chapter_4/Tree_combine}
+	\includegraphics[scale=0.5]{figures/chapter_4/fig_4_4}
 	\caption{基于随机森林框架的特征融合框架图}\label{sec:fig_4_4}
 \end{figure}
 
@@ -338,8 +338,8 @@ RF不仅通过样本扰动(通过对原始训练集进行采样)实现随机性�
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/result}
-	\caption{不同融合框架下的分类性能对比}\label{fig_2_2}
+	\includegraphics[scale=0.6]{figures/chapter_4/fig_4_5}
+	\caption{不同融合框架下的分类性能对比}\label{sec:fig_4_5}
 \end{figure}
 
 通过上图，我们可以发现在高信噪比条件下，三种框架的差别并不太大，但是利用深度CNN的融合框架更好一些，可能是因为这种情况的拟合能力更强一些，由于训练数据本身具有较小的噪声，所以对于强拟合能力的模型而言，泛化误差影响相对较小；
@@ -349,11 +349,23 @@ RF不仅通过样本扰动(通过对原始训练集进行采样)实现随机性�
 \subsection{混淆矩阵}
 
 \subsubsection{RF混淆矩阵}
-
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_6}
+	\caption{不同融合框架下的分类性能对比}\label{sec:fig_4_6}
+\end{figure}
 \subsubsection{DNN混淆矩阵}
-
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_7}
+	\caption{不同融合框架下的分类性能对比}\label{sec:fig_4_7}
+\end{figure}
 \subsubsection{SR混淆矩阵}
-
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_8}
+	\caption{不同融合框架下的分类性能对比}\label{sec:fig_4_8}
+\end{figure}
 仔细检查这些结果，我们可以看到BPSK不幸与QPSK和8PSK调制（它是其中的一个子集）相当混杂。
 然而，QAM16是一个以前看不见的类，这些特征在QAM64附近紧密聚集在一个相当明确的可分离的嵌入空间区域。
 这些结果虽然非常初步和定性，但确实支持这一事实，即自举特征映射具有显着的泛化能力，

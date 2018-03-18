@@ -328,21 +328,21 @@ r(t) = s(t)*c + n(t)
 即训练样本大约有。 这些样本均匀分布在从-20dB到+ 20dB的SNR中，并被标记以便我们可以评估特定子集上的性能。\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/loss}
+	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_9}
 	\caption{整体结果}	\label{sec:fig_3_9}
 \end{figure}
 对于我们最高的SNR情况下的CNN2（0.6）分类，我们在图8中显示了一个混淆矩阵。在+18dBSNR时，在混淆矩阵中我们有一个干净的对角线，可以看到我们剩下的差异是8PSK误分类为QPSK，WBFM误分类作为AM-DSB。这两个都可以在基础数据集中解释。由于QPSK星座点由8PSK点跨越，所以包含特定比特的8PSK符号从QPSK难以分辨。在WBFM /AM-DSB的情况下，模拟语音信号具有只有载波音调存在的静默时段，这使得这些示例不可见。因此，即使在这个数据集的高信噪比下，也不可能获得100％的准确度，并使得重新合理的混淆被合理地容忍。\par
 \subsubsection*{0dB误分结果}
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/loss}
+	\includegraphics[scale=0.6]{figures/chapter_3/loss}
 	\caption{0dB条件下的结果}	\label{sec:fig_3_10}
 \end{figure}
 
 \subsubsection*{与其他算法的比较}
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/loss}
+	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_11}
 	\caption{与其他方法的比较}	\label{sec:fig_3_11}
 \end{figure}
 
@@ -354,7 +354,7 @@ r(t) = s(t)*c + n(t)
 a)训练时间
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.3]{figures/chapter_3/result}
+	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_12}
 	\caption{训练时间}	\label{sec:fig_3_12}
 \end{figure}
 
@@ -369,7 +369,7 @@ b)分类时间
 许多无线电系统中的一个重要考虑因素是训练和分类运行时间，由于计算复杂性。 深度学习的一个普遍批评是对大量计算资源的需求，然而在本文中，我们的网络相对紧凑，数据集相对较小。 我们比较下面每个模型的训练和分类运行时间。 在图17中我们可以看到，我们的CNN模型确实需要大量的训练时间，但是比SVM训练案例所需要的时间要少。\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.5]{figures/chapter_3/train_time}
+	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_13}
 	\caption{分类时间}	\label{sec:fig_3_13}
 \end{figure}
 
