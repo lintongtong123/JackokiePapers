@@ -72,9 +72,9 @@ def cum(samples):
     m_21 = np.mean(samples * np.conj(samples))
 
     # 四阶矩
-    m_40 = np.mean(samples * samples * samples * samples)
-    m_41 = np.mean(samples * samples * samples * np.conj(samples))
-    m_42 = np.mean(samples * samples * np.conj(samples) * np.conj(samples))
+    m_40 = np.mean(np.power(samples, 4))
+    m_41 = np.mean(np.power(samples, 3) * np.conj(samples))
+    m_42 = np.mean(np.power(samples, 2) * np.power(np.conj(samples), 2))
 
     # 六阶矩
     m_60 = np.mean(np.power(samples, 6))
@@ -96,13 +96,52 @@ def cum(samples):
     return c_20, c_21, c_40, c_41, c_42, c_60, c_63
 
 
+def time_frequency(samples):
+    # 零中心归一化瞬时幅度谱密度的最大值.
+    samp_gamma_max = []
+
+    # 零中心归一化非弱信号瞬时幅度标准差
+    samp_delta_da = []
+
+    # 零中心归一化瞬时幅度绝对值的标准差
+    samp_delta_aa = []
+
+    # 零中心归一化瞬时幅度的四阶紧致性
+    samp_mu_42_a = []
+
+    # 零中心非弱信号瞬时相位非线性分量的标准差
+    samp_delta_dp = []
+
+    # 零中心非弱信号瞬时相位非线性分量绝对值的标准差
+    samp_delta_ap = []
+
+    # 零中心非弱信号瞬时频率绝对值的标准差
+    samp_delta_af = []
+
+    # 零中心归一化瞬时频率紧致性
+    samp_mu_42_f = []
+
+    for samp in samples:
+        samp_abs = np.abs(samp)
+        samp_mean = np.mean(samp_abs)
+        a_cn = samp_abs / samp_mean - 1
+        samp_gamma_max.append(np.max(np.square(np.abs(np.fft.fft(a_cn))) / len(samp)))
+        samp_delta_da.append()
+
+        print()
+
+
+    return
+
+
 def main():
     # Load the train data and test data.
     samples, labels, mod2cate, cate2mod, snrs, mods, samples_snr = \
         load_data(orig_file_path)
 
     c_20, c_21, c_40, c_41, c_42, c_60, c_63 = cum(samples)
-    
+
+    time_frequency(samples)
 
     print()
 
