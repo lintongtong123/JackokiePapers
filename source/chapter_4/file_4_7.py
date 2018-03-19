@@ -119,19 +119,33 @@ def time_frequency(samples):
     samp_delta_af = []
 
     # 零中心归一化瞬时频率紧致性
-    samp_mu_42_f = []
+    # samp_mu_42_f = []
 
     for samp in samples:
         samp_abs = np.abs(samp)
         samp_mean = np.mean(samp_abs)
         a_cn = samp_abs / samp_mean - 1
         samp_gamma_max.append(np.max(np.square(np.abs(np.fft.fft(a_cn))) / len(samp)))
+
+        # -------------------------------------------
         samp_delta_da.append()
+        # -------------------------------------------
 
-        print()
+        samp_delta_aa.append(np.mean(np.square(a_cn)) - np.mean(np.square(np.abs(a_cn))))
+        samp_mu_42_a.append(np.mean(np.power(a_cn, 4)) / np.power(np.mean(np.power(a_cn, 2)), 2))
+
+        # -------------------------------------------
+        samp_delta_dp.append()
+        samp_delta_ap.append()
+        samp_delta_af.append()
+        # -------------------------------------------
+
+        # theta = np.arctan2(np.imag(samp), np.real(samp))
+        # samp_mu_42_f.append()
 
 
-    return
+    return samp_gamma_max, samp_delta_da, samp_delta_aa, samp_mu_42_a, \
+           samp_delta_dp, samp_delta_ap, samp_delta_af
 
 
 def main():
@@ -141,7 +155,8 @@ def main():
 
     c_20, c_21, c_40, c_41, c_42, c_60, c_63 = cum(samples)
 
-    time_frequency(samples)
+    samp_gamma_max, samp_delta_da, samp_delta_aa, samp_mu_42_a, \
+    samp_delta_dp, samp_delta_ap, samp_delta_af = time_frequency(samples)
 
     print()
 
