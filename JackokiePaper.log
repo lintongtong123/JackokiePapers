@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  21 MAR 2018 17:30
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  21 MAR 2018 23:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2688,10 +2688,6 @@ t line 422.
 LaTeX Warning: Reference `alg:rms_nesterov' on page 21 undefined on input line 
 430.
 
-
-Package natbib Warning: Citation `kingma2014adam' on page 21 undefined on input
- line 460.
-
 [21]
 
 Package natbib Warning: Citation `Schaul2014_unittests' on page 22 undefined on
@@ -2855,7 +2851,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (72.18726pt too wide) in paragraph at lines 41--43
+Overfull \hbox (72.18726pt too wide) in paragraph at lines 37--39
 \TU/SimSun(0)/m/n/12.045 化 对 于 分 类 性 能 的 影 响。|  本 论 文 中 我 们 定 义 卷 积 核 数 目 集 合 $
 \OML/cmm/m/it/12.045 ^^T \OT1/cmr/m/n/12.045 = \OMS/cmsy/m/n/12.045 f\OT1/cmr/m
 /n/12.045 24\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 32\OML/cmm/m/it/12.045 ;
@@ -2866,39 +2862,43 @@ it/12.045 ; \OT1/cmr/m/n/12.045 80\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 96
  g$\TU/SimSun(0)/m/n/12.045 ，|
  []
 
-File: figures/chapter_5/fig_5_1.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_1.jpg" > [52]
-File: figures/chapter_5/fig_5_2.jpg Graphic file (type QTm)
+File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
+<use  "figures/chapter_5/fig_5_1.png" > [52]
+File: figures/chapter_5/fig_5_2.png Graphic file (type QTm)
 
-<use  "figures/chapter_5/fig_5_2.jpg" > [53]
-File: figures/chapter_5/fig_5_3.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig_5_2.png" > [53]
+File: figures/chapter_5/fig_5_3.png Graphic file (type QTm)
 
-<use  "figures/chapter_5/fig_5_3.jpg" >
+<use  "figures/chapter_5/fig_5_3.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54] [55] [56]
-File: figures/chapter_5/fig4.jpg Graphic file (type QTm)
- <use  "figures/chapter_5/fig4.jpg" > [57]
-File: figures/chapter_5/fig5.png Graphic file (type QTm)
+[54]
+File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
+ <use  "figures/chapter_5/fig_5_4.png" > [55]
+File: figures/chapter_5/fig_5_5.png Graphic file (type QTm)
 
-<use  "figures/chapter_5/fig5.png" >
-Overfull \hbox (8.29861pt too wide) in paragraph at lines 176--177
- [][] 
- []
+<use  "figures/chapter_5/fig_5_5.png" > [56]
+File: figures/chapter_5/fig_5_6.png Graphic file (type QTm)
 
+<use  "figures/chapter_5/fig_5_6.png" >
+Underfull \vbox (badness 7308) has occurred while \output is active []
+
+ [57]
 File: figures/chapter_5/fig6.png Graphic file (type QTm)
+
 <use  "figures/chapter_5/fig6.png" >
-Overfull \hbox (10.10551pt too wide) in paragraph at lines 185--186
+Overfull \hbox (10.10551pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+[59]
 File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig7.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[58]
+ <use  "figures/chapter_5/fig7.jpg" >
 File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
  <use  "figures/chapter_5/fig8.jpg" >
 File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
@@ -2912,28 +2912,27 @@ File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[60]
 File: figures/chapter_5/fig9_b.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig9_b.jpg" > [59]
-File: figures/chapter_5/fig10_b.jpg Graphic file (type QTm)
+ <use  "figures/chapter_5/fig9_b.jpg" >
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig10_b.jpg Graphic file (type QTm)
 <use  "figures/chapter_5/fig10_b.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 5022) has occurred while \output is active []
-
- [60])
-[61]
+[61]) [62]
 \openout2 = `chapters/chapter6.aux'.
 
- (./chapters/chapter6.tex [62
-
-
-
-]
+ (./chapters/chapter6.tex
 第六章
-[63]) [64]
+[63
+
+
+
+]) [64]
 \openout2 = `math_symbol.aux'.
 
  (./math_symbol.tex)
@@ -2996,10 +2995,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70975 strings out of 493005
- 1520898 string characters out of 6134597
- 1195868 words of memory out of 5000000
- 74132 multiletter control sequences out of 15000+600000
+ 70978 strings out of 493005
+ 1520960 string characters out of 6134597
+ 1194797 words of memory out of 5000000
+ 74134 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
