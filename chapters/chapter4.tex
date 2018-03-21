@@ -289,7 +289,7 @@ XXX等人提出了可以利用卷积层、池化层等对不同的特征进行�
 \end{figure}
 
 
-\subsection{基于随机森林的融合框架}
+\subsection{基于集成树的融合框架}
 集成学习通过构建并结合多个基学习器来完成学习任务，按照算法的思想它主要分为两类：Bagging族算法和Boosting族算法。\par
 
 Bagging [Breiman, 1996a] 是一类井行式集成学习的算法，主要基于采样数据集训练基学习器，并对这些基学习器进行组合（比如分类问题投票法、回归问题平均法）作为最终结果。Bagging主要是通过多个基学习器的集成来降低模型的方差。
@@ -346,21 +346,21 @@ RF不仅通过样本扰动(通过对原始训练集进行采样)实现随机性�
 在0dB时候，三种框架的性能有：A》B》C；
 在信噪比低于》》》时，XX的性能更好一些，因为RF是通过随机的样本采样和特征采样来降低泛化误差，对噪声数据相对不敏感一些。
 
-\subsection{混淆矩阵}
+\subsection{0dB分类混淆矩阵}
 
-\subsubsection{RF混淆矩阵}
+\subsubsection{RF分类混淆矩阵}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_6}
 	\caption{不同融合框架下的分类性能对比}\label{sec:fig_4_6}
 \end{figure}
-\subsubsection{DNN混淆矩阵}
+\subsubsection{DNN分类混淆矩阵}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_7}
 	\caption{不同融合框架下的分类性能对比}\label{sec:fig_4_7}
 \end{figure}
-\subsubsection{SR混淆矩阵}
+\subsubsection{SR分类混淆矩阵}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_8}
