@@ -205,8 +205,8 @@ r(t) = s(t)*c + n(t)
 \subsection{CAE-CNN算法}
 
 \begin{algorithm}[ht]
-	\caption{Adam算法}
-	\label{alg:adam}
+	\caption{CAE-CNN算法}
+	\label{alg:CAE_CNN}
 	\begin{algorithmic}
 		\REQUIRE 步长 $\epsilon$ （建议默认为： $0.001$）
 		\REQUIRE 矩估计的指数衰减速率， $\rho_1$ 和 $\rho_2$ 在区间 $[0, 1)$内。
@@ -236,7 +236,7 @@ r(t) = s(t)*c + n(t)
 在Nvidia GTX1080ti显卡上加速运算。接下来的仿真我们都使用这一套软硬件组合进行仿真。
 我们的神经网络参数如表\ref{sec:table_3_1}所示：\par
 
-\begin{table}[H]
+\begin{table}[H]\label{sec:table_3_1}
 	\centering
 	\caption{系统参数配置}
 	\begin{tabular}{ccc}
@@ -270,7 +270,7 @@ r(t) = s(t)*c + n(t)
 在卷积层2中，如图6所示的权重，我们将这个第一层特征图组合成64×16×2×3较大的特征图，其包括在I和Q通道上同时出现的情况。 这些特征图与在包括2D学习边缘检测器和Gabor滤波器的图像转换网络的较低层处所看到的特征图看起来没有太大的不同。\par
 
 \subsection{分类准确率与鲁棒性}
-\subsubsection*{分类结果}
+\subsubsection{分类结果}
 为了评估分类器的性能，我们看一下测试数据集的分类性能。
 我们调制方式总共有11中，每一类调制信号在噪声信噪比为$-20dB~18dB$之间每隔$2dB$进行数据采样，
 每个信噪比下采样1000个样本，每个样本共包含128个采样值；
@@ -283,14 +283,14 @@ r(t) = s(t)*c + n(t)
 	\caption{整体结果}	\label{sec:fig_3_9}
 \end{figure}
 对于我们最高的SNR情况下的CNN2（0.6）分类，我们在图8中显示了一个混淆矩阵。在+18dBSNR时，在混淆矩阵中我们有一个干净的对角线，可以看到我们剩下的差异是8PSK误分类为QPSK，WBFM误分类作为AM-DSB。这两个都可以在基础数据集中解释。由于QPSK星座点由8PSK点跨越，所以包含特定比特的8PSK符号从QPSK难以分辨。在WBFM /AM-DSB的情况下，模拟语音信号具有只有载波音调存在的静默时段，这使得这些示例不可见。因此，即使在这个数据集的高信噪比下，也不可能获得100％的准确度，并使得重新合理的混淆被合理地容忍。\par
-\subsubsection*{0dB误分结果}
+\subsubsection{0dB误分结果}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.6]{figures/chapter_3/loss}
 	\caption{0dB条件下的结果}	\label{sec:fig_3_10}
 \end{figure}
 
-\subsubsection*{与其他算法的比较}
+\subsubsection{与其他算法的比较}
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.6]{figures/chapter_3/fig_3_11}

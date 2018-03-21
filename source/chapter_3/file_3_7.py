@@ -440,13 +440,13 @@ def main():
         saver.save(sess, checkpoint_file)
         test_predicts = eval_in_batches(test_data, sess, train_prediction, train_data_node, keep_prob)
         acc_snr = accuracy_snr(test_predicts, test_labels, test_indexes, snrs, samples_snr)
-        acc_snr_show(snrs, acc_snr, 'E:/JackokiePapers/figures/chapter_3/fig_3_8.png')
+        acc_snr_show(snrs, acc_snr, 'E:/JackokiePapers/figures/temp/fig_3_8.png')
 
         # Plot zero dB confusion matrix.
         zero_predict, zero_label = get_snr_sample(test_predicts, test_labels, test_indexes, samples_snr, snr=0)
         conf_matrix = confusion_matrix(zero_predict, zero_label, num_classes)
 
-        plot_confusion_matrix(conf_matrix, labels=mods, cmap=cm.hot, name='E:/JackokiePapers/figures/chapter_3/fig_3_9.png')
+        plot_confusion_matrix(conf_matrix, labels=mods, cmap=cm.gray, name='E:/JackokiePapers/figures/temp/fig_3_9.png')
         print('The test examples\' prediction accuracy is:')
         print(acc_snr)
 

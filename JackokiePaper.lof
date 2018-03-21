@@ -17,31 +17,31 @@
 \contentsline {figure}{\numberline {3.6}{\ignorespaces 基于自编码器的调制信号large-vis二维流型展示\relax }}{30}{figure.caption.26}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces 基于CNN的调制信号large-vis二维流型展示码器\relax }}{31}{figure.caption.27}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces CAE-CNN网络框架\relax }}{32}{figure.caption.28}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 整体结果\relax }}{35}{figure.caption.31}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 0dB条件下的结果\relax }}{35}{figure.caption.33}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 与其他方法的比较\relax }}{36}{figure.caption.35}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 训练时间\relax }}{36}{figure.caption.36}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces 分类时间\relax }}{37}{figure.caption.37}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces 整体结果\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 0dB条件下的结果\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 与其他方法的比较\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 训练时间\relax }}{36}{figure.caption.33}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 分类时间\relax }}{37}{figure.caption.34}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces 特征融合框架图\relax }}{43}{figure.caption.38}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 基于LR框架的特征融合框架图\relax }}{45}{figure.caption.39}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 基于DNN框架的特征融合框架图\relax }}{46}{figure.caption.40}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于随机森林框架的特征融合框架图\relax }}{47}{figure.caption.41}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{48}{figure.caption.42}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{48}{figure.caption.43}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.44}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.45}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 特征融合框架图\relax }}{43}{figure.caption.35}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 基于LR框架的特征融合框架图\relax }}{45}{figure.caption.36}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 基于DNN框架的特征融合框架图\relax }}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于随机森林框架的特征融合框架图\relax }}{47}{figure.caption.38}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{48}{figure.caption.39}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{48}{figure.caption.40}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.41}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.42}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 改变每层滤波器的数量具有较小的影响，在更高的SNR下更明显。 每个网络在2个卷积层网络中都有1x3个过滤器，并有1个致密层和一个softmax分类器。\relax }}{52}{figure.caption.46}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 改变两个卷积层中的抽头数量（滤波器大小）,较低的水龙头数量明显较差， 但性能集群随水龙头数量的增加而增加。\relax }}{53}{figure.caption.47}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 改变DNN中卷积层的数量不会改进无线电调制识别。\relax }}{53}{figure.caption.48}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 显示超参数优化的CNN和9层残留网络的训练损失和验证损失的训练历史记录\relax }}{56}{figure.caption.49}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 用于显示卷积滤波器尺寸的RF数据的初始模块。 每个卷积层有50个过滤器\relax }}{57}{figure.caption.50}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 用于RF数据的CLDNN体系结构。 在进入LSTM之前，第一个1x8卷积层的输出与三个1x8卷积层的输出级联。\relax }}{57}{figure.caption.51}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces CLDNN的信噪比始终优于其他网络架构，信噪比高于-8dB\relax }}{57}{figure.caption.52}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces CLDNN的全SNR混淆矩阵显示了模拟调制和高阶QAM之间单独混淆之间最混乱的问题。\relax }}{58}{figure.caption.53}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{58}{figure.caption.54}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{59}{figure.caption.55}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces 随机数据训练最大程度地激活过滤器，看起来像BPSK。\relax }}{59}{figure.caption.56}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 训练最大程度激活滤波器的随机数据，这看起来像FM或FSK调制。\relax }}{59}{figure.caption.57}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 卷积核数目对分类性能的影响\relax }}{52}{figure.caption.43}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 卷积核大小对调制识别性能的影响\relax }}{53}{figure.caption.44}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 改变DNN中卷积层的数量不会改进无线电调制识别。\relax }}{55}{figure.caption.45}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 显示超参数优化的CNN和9层残留网络的训练损失和验证损失的训练历史记录\relax }}{57}{figure.caption.46}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 用于显示卷积滤波器尺寸的RF数据的初始模块。 每个卷积层有50个过滤器\relax }}{58}{figure.caption.47}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 用于RF数据的CLDNN体系结构。 在进入LSTM之前，第一个1x8卷积层的输出与三个1x8卷积层的输出级联。\relax }}{58}{figure.caption.48}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces CLDNN的信噪比始终优于其他网络架构，信噪比高于-8dB\relax }}{59}{figure.caption.49}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces CLDNN的全SNR混淆矩阵显示了模拟调制和高阶QAM之间单独混淆之间最混乱的问题。\relax }}{59}{figure.caption.50}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{60}{figure.caption.51}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{60}{figure.caption.52}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces 随机数据训练最大程度地激活过滤器，看起来像BPSK。\relax }}{60}{figure.caption.53}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces 训练最大程度激活滤波器的随机数据，这看起来像FM或FSK调制。\relax }}{61}{figure.caption.54}
 \addvspace {10.0pt}
