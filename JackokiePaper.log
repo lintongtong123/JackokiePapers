@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  22 MAR 2018 20:55
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  22 MAR 2018 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2104,12 +2104,9 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux
-
-LaTeX Warning: Label `sec:eqt3_4' multiply defined.
-
-) (./chapters/chapter4.aux) (./chapters/chapter5.aux) (./chapters/chapter6.aux)
-(./math_symbol.aux) (./terminology.aux) (./chapters/thanks.aux))
+(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./math_symbol.aux)
+(./terminology.aux) (./chapters/thanks.aux))
 \openout1 = `JackokiePaper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -2647,77 +2644,58 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 第三章
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25]
+[25]
 File: ./figures/chapter_3/fig_3_1.png Graphic file (type QTm)
-
-<use  "./figures/chapter_3/fig_3_1.png" > [26]
+ <use  "./figures/chapter_3/fig_3_1.png" > [26]
 File: figures/chapter_3/fig_3_2.jpg Graphic file (type QTm)
 
 <use  "figures/chapter_3/fig_3_2.jpg" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: figures/chapter_3/fig_3_3.jpg Graphic file (type QTm)
+
 <use  "figures/chapter_3/fig_3_3.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27] [28]
-
-LaTeX Warning: Reference `fig_3_2' on page 29 undefined on input line 118.
-
 File: figures/chapter_3/fig_3_4.png Graphic file (type QTm)
-<use  "figures/chapter_3/fig_3_4.png" >
+ <use  "figures/chapter_3/fig_3_4.png" >
 File: figures/chapter_3/fig_3_5.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/fig_3_5.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[29]
+<use  "figures/chapter_3/fig_3_5.png" > [29]
 File: figures/chapter_3/fig_3_6.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_6.png" >
-Underfull \vbox (badness 4479) has occurred while \output is active []
 
- [30]
+<use  "figures/chapter_3/fig_3_6.png" >
 File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/fig_3_7.png" > [31]
+<use  "figures/chapter_3/fig_3_7.png" > [30]
 File: figures/chapter_3/fig_3_8.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/fig_3_8.png" > [32] [33]
-File: figures/chapter_3/fig_3_9.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_9.png" >
+<use  "figures/chapter_3/fig_3_8.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-File: figures/chapter_3/loss.png Graphic file (type QTm)
-<use  "figures/chapter_3/loss.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figures/chapter_3/fig_3_11.png Graphic file (type QTm)
-<use  "figures/chapter_3/fig_3_11.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
+[31]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-Underfull \vbox (badness 1803) has occurred while \output is active []
+ [32]
+[33]
+File: figures/chapter_3/fig_3_9.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_9.png" > [34]
+File: figures/chapter_3/loss.png Graphic file (type QTm)
 
- [35]
+<use  "figures/chapter_3/loss.png" >
+File: figures/chapter_3/fig_3_11.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_11.png" >
+[35]
 File: figures/chapter_3/fig_3_12.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_12.png" > [36]
+ <use  "figures/chapter_3/fig_3_12.png" >
 File: figures/chapter_3/fig_3_13.png Graphic file (type QTm)
 
-<use  "figures/chapter_3/fig_3_13.png" > [37]) [38]
+<use  "figures/chapter_3/fig_3_13.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36] [37]) [38]
 \openout2 = `chapters/chapter4.aux'.
 
  (./chapters/chapter4.tex
@@ -2729,36 +2707,28 @@ File: figures/chapter_3/fig_3_13.png Graphic file (type QTm)
 ] [40] [41] [42]
 File: figures/chapter_4/fig_4_1.png Graphic file (type QTm)
  <use  "figures/chapter_4/fig_4_1.png" > [43]
-File: figures/chapter_4/fig_4_2.png Graphic file (type QTm)
 
-<use  "figures/chapter_4/fig_4_2.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `label' on page 44 undefined on input line 286.
 
 [44]
+File: figures/chapter_4/fig_4_2.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fig_4_2.png" > [45]
 File: figures/chapter_4/fig_4_3.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_3.png" >
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45] [46]
-
-LaTeX Warning: Reference `sec:eqt_4_23' on page 47 undefined on input line 310.
-
-
+<use  "figures/chapter_4/fig_4_3.png" > [46]
 File: figures/chapter_4/fig_4_4.png Graphic file (type QTm)
+
 <use  "figures/chapter_4/fig_4_4.png" >
 File: figures/chapter_4/fig_4_5.png Graphic file (type QTm)
 
-<use  "figures/chapter_4/fig_4_5.png" >
+<use  "figures/chapter_4/fig_4_5.png" > [47]
+File: figures/chapter_4/fig_4_6.png Graphic file (type QTm)
+
+<use  "figures/chapter_4/fig_4_6.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[47]
-File: figures/chapter_4/fig_4_6.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_6.png" >
 File: figures/chapter_4/fig_4_7.png Graphic file (type QTm)
-
 <use  "figures/chapter_4/fig_4_7.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2768,11 +2738,7 @@ File: figures/chapter_4/fig_4_8.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48]
-[49]) [50]
+[48] [49]) [50]
 \openout2 = `chapters/chapter5.aux'.
 
  (./chapters/chapter5.tex
@@ -2913,17 +2879,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70983 strings out of 493005
- 1521767 string characters out of 6134597
- 1194717 words of memory out of 5000000
- 74140 multiletter control sequences out of 15000+600000
- 13121 words of font info for 100 fonts, out of 8000000 for 9000
+ 71003 strings out of 493005
+ 1521880 string characters out of 6134597
+ 1194652 words of memory out of 5000000
+ 74161 multiletter control sequences out of 15000+600000
+ 13113 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
 

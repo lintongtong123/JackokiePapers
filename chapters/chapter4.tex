@@ -19,6 +19,7 @@
 
 我们假设原始信号$x(t)$解析表示为：
 \begin{equation}
+\label{eqt_4_1}
 s(t)=x(t)+i*y(t)
 \end{equation}
 其中，$y(t)$为实信号的希尔伯特（Hilberrt）变换。\par
@@ -27,6 +28,7 @@ s(t)=x(t)+i*y(t)
 
 \textbf{1）零中心归一化瞬时幅度谱密度的最大值}
 \begin{equation}
+\label{eqt_4_2}
 \gamma_{max}=max|DFT(A_{cn}(t))|^{2}/N_s
 \end{equation}
 其中，$N_s$为取样点数，$A_{cn}(t)=A(t)/m_a-1$为零中心归一化瞬时幅度，
@@ -36,6 +38,7 @@ $m_a=\frac{1}{N_s}\sum_{i=-1}^{N_s}A(t)$为瞬时幅度$A(t)$的平均值，
 
 \textbf{２）零中心归一化非弱信号瞬时幅度标准差$\delta_{da}$}
 \begin{equation}
+\label{eqt_4_3}
 \delta_{da}=\sqrt{\frac{1}{C}\left[\sum_{A_n(i)>a_t} A_cn^2(i)\right]
 	- \left|\frac{1}{C} \sum_{A_n(t)>a_t} A_cn(i)\right|}
 \end{equation}
@@ -45,6 +48,7 @@ $\delta_{da}$表征一个符号区间内信号的幅度变化信息，可以用�
 
 \textbf{３）零中心归一化瞬时幅度绝对值的标准差$\delta_{aa}$}
 \begin{equation}
+\label{eqt_4_4}
 \delta_{aa} = \sqrt{\frac{1}{N}\left[\sum_{i=1}^{N} A_{cn}^2(i)\right]
 	- \left[\frac{1}{N} \sum_{i=1}^{N} \left|A_{cn}(i)\right|^2\right]}
 \end{equation}
@@ -53,6 +57,7 @@ $\delta_{aa}$表征了信号的绝对幅度信息，可区分不具备归一化�
 
 \textbf{4）零中心归一化瞬时幅度的四阶紧致性$\mu_{42}^{a}$}
 \begin{equation}
+\label{eqt_4_5}
 \mu_{42}^{a} = E\left[A_{cn}^{4} (t) \right] / E\left[A_{cn}^{2} (t) \right]
 \end{equation}
 $\mu_{42}^{a}$是用来度量“瞬时幅度分布的密集性”的特征值，
@@ -61,6 +66,7 @@ $\mu_{42}^{a}$是用来度量“瞬时幅度分布的密集性”的特征值，
 
 \textbf{5）零中心归一化瞬时频率均值的平方与方差之比$R_f$}\par
 \begin{equation}
+\label{eqt_4_6}
 R_f = u_f^2 / d_f
 \end{equation}
 式中，$u_f$和$d_f$分别代表信号零中心归一化瞬时频率均值和方差。
@@ -70,6 +76,7 @@ R_f = u_f^2 / d_f
 \textbf{6）零中心非弱信号段归一化瞬时频率绝对值的标准差$\delta_{af}$}
 
 \begin{equation}
+\label{eqt_4_7}
 \delta_{af} = \sqrt{\frac{1}{c}\left[\sum_{a(i)>a_i} f_N^2(i)\right]
 	- \frac{1}{c}\left[\sum_{a(i)>a_i} \left|f_N(i)\right|^2\right]}
 \end{equation}
@@ -89,11 +96,13 @@ $\delta_{af}$表征信号的绝对频率信息，可用来区分归一化中心�
 
 对于零均值的平稳随机过程$x(t)$，其$k$阶矩定义为:\par
 \begin{equation}
+\label{eqt_4_8}
 M_{kx} = \tau_1, \tau_2, ... \tau_{k-1} = E{x(t), x(t+\tau_1), ..., x(t+\tau_{t+\tau_{k-1}})}
 \end{equation}
 
 若考虑延时$\tau_1 = \tau_2 = ... = \tau_{k-1} = 0$，则$x(t)$的$p$阶混合矩:
 \begin{equation}
+\label{eqt_4_9}
 M_{pq} = E\left\lbrace \left[ x(t)\right]^{p-q} 
 \left[ x^*(t)\right]^{q}\right\lbrace 
 \end{equation}
@@ -101,6 +110,7 @@ M_{pq} = E\left\lbrace \left[ x(t)\right]^{p-q}
 根据文献[9]中的高阶矩与高阶累量的定义，我们由零均值的平稳随机过程$x(t)$的各阶累积量的公式。
 二阶累积量：
 \begin{equation}
+\label{eqt_4_10}
 \begin{aligned}
 C_{20} = Cum(X, X) = M_{20} = E[X(t)X(t)]\\
 C_{21} = Cum(X, X^*) = M_{21} = E[X(t)X^*(t)]	
@@ -109,6 +119,7 @@ C_{21} = Cum(X, X^*) = M_{21} = E[X(t)X^*(t)]
 
 四阶累积量：：
 \begin{equation}
+\label{eqt_4_11}
 \begin{aligned}
 C_{40}=Cum(X, X, X, X) = M_{40} - 3M_{20}\\
 C_{41}=Cum(X, X, X, X^*) = M_{41} - 3M_{20}M_{21}\\
@@ -118,6 +129,7 @@ C_{42}=Cum(X, X, X^*, X^*) = M_{42} - M_{20}^2 - M_{21}^2
 
 六阶累积量：
 \begin{equation}
+\label{eqt_4_12}
 \begin{aligned}
 C_{60}=Cum(X, X, X, X, X, X) = M_{60} - 15M_{40}M_{20} + 30M_{20}^3\\
 C_{63}=Cum(X, X, X, X^*, X^*, X^*) = M_{63} - 9M_{42}M_{21} 
@@ -127,6 +139,7 @@ C_{63}=Cum(X, X, X, X^*, X^*, X^*) = M_{63} - 9M_{42}M_{21}
 
 四阶累积量与二阶累积量之比:
 \begin{equation}
+\label{eqt_4_13}
 R_{mn} = |\frac{C_{42}}{C_{21}}|
 \end{equation}
  
@@ -136,10 +149,10 @@ R_{mn} = |\frac{C_{42}}{C_{21}}|
 传统的信号分析模型都是以平稳随机过程为基础的，而通信信号经过调制、周期性采样、编码等具有周期平稳性。
 循环统计量可以很好地刻画通信信号的这种周期性。
 基于综合循环矩特征[1]目前广泛流行的调制识别和形成分析导出的决策树调制分类到不同的类别。 
-一般来说，它们采用方程 \ref{subsec:eq1} 给出的形式。
+一般来说，它们采用方程 \ref{eqt_4_14} 给出的形式。
 
 \begin{equation}
-\label{subsec:eq1}
+\label{eqt_4_14}
 snm = f_{m}(x^{n}(t)...x^{n}(t + \tau))
 \end{equation}
 
@@ -166,11 +179,8 @@ snm = f_{m}(x^{n}(t)...x^{n}(t + \tau))
 并在模型中选择特定隐层融合其他特征，利用多源特征来训练网络参数。\par
 
 特征融合理论主要基于两个基本假设：
-\begin{quote} 
-	1) 多特征融合通常比单特征具备更好的分类性能；\\
-	2) 融合的特征之间相关性尽量小。
-\end{quote}
-
+1) 多特征融合通常比单特征具备更好的分类性能；\\
+2) 融合的特征之间相关性尽量小。
 前者是进行特征融合的出发点和前提，只有融合后的特征具备这样的特性，我们才具备融合的必要性。
 后者是基于流形理论的假设，当特征之间的关联性较高时，融合之后的特征空间在高维流形中趋于扁平化，
 可能会产生特征冗余，我们实际上可以用更小的维度来表征原始数据。
@@ -182,17 +192,20 @@ snm = f_{m}(x^{n}(t)...x^{n}(t + \tau))
 $h_i(x)$表示网络中第$i$个单元的输出值，则隐层神经单元构成的深度特征集为$H={h_i(x)|h_i \in H_{hidden}}$。
 通过深度网络，我们可以获取原始特征空间到深度特征空间的映射：
 \begin{equation}
+\label{eqt_4_15}
 	h(x) = \bigcup_{0<i<N} w_i * h_{i}(x)
 \end{equation}
 当数据通过网络映射到深度特征空间的输出值，便是我们在新空间中的特征向量，即数据的深度特征。\par
 
 同时，我们以本章中第2小节的特征提取算法，对数据的传统特征进行提取，每一个特征用$f_{i}(x)$表示，作为不同维度的特征，假设我们的传统特征集为$F$，对于任意样本$x \in X$，我们根据第2小节中的特征提取算法有：
 \begin{equation}
+\label{eqt_4_16}
 	f(x) = \bigcup_{0<i<|Z|}\mu_{i} * f_{i}(x)
 \end{equation}
 
 这样，通过融合传统特征$F$与深度特征$H$得到的融合特征集为$Z$:
 \begin{equation}
+\label{eqt_4_17}
 	Z =F \cup H = \{ z | (z \in H) \vee (z \in F) \}
 \end{equation}
 最终，我们通过不同的融合算法对多源特征进行融合。特征融合的基本框架如图\ref{sec:fig_4_1}所示：
@@ -216,38 +229,69 @@ $h_i(x)$表示网络中第$i$个单元的输出值，则隐层神经单元构成
 可以看作是从输入信号所在的观测空间到选定的特征空间的一个映射。\par
 
 \subsection{基于Softmax回归（Softmax Regression， SR）的融合框架}
-LR是用线性回归模型的预测结果去逼近真实标记的对数几率的一种二分类算法。SVM是一种基于核函数的方法，它通过某些核函数把特征向量映射到高维空间SVM是一种基于核函数的方法，它通过某些核函数把特征向量映射到高维空间，然后建立一个线性判别函数对数据进行分类。由于SVM训练时间较长，而线性核函数的SVM与LR的结果基本一样【吴恩达】，因此，为了兼顾算法的有效性和高效性，我们选择LR框架作为线性特征融合的框架。\par
+Softmax回归模型，是logistic回归模型在多分类问题上的推广。
+在 softmax回归中，我们解决的是多分类问题（相对于 logistic 回归解决的二分类问题），
+类标$y$ 可以取 $k$个不同的值（而不是 2 个）。
+因此，对于训练集 $\{ (x^{(1)}, y^{(1)}), \dots, (x^{(m)}, y^{(m)}) \}$，
+我们有$y^{(i)} \in \{1, 2, \dots, k\}$。\par
 
-根据【吴恩达】，我们有样本为正样本的概率：
+对于给定的测试输入$x$，我们想用假设函数针对每一个类别j估算出概率值$p(y=j | x)$。
+也就是说，我们想估计$x$的每一种分类结果出现的概率。
+因此，我们的假设函数将要输出一个$k$维的向量（向量元素的和为$1$）来表示这$k$个估计的概率值。
+具体地说，我们的假设函数$h_{\theta}(x)$形式如方程\ref{eqt_4_18}：\par
 
 \begin{equation}
-	h_{\theta}(x) = p(y=1|x) = \frac{1}{1 + e^{-(\theta^T x)}}
+\label{eqt_4_18}
+		h_\theta(x^{(i)}) =
+		\begin{bmatrix}
+			p(y^{(i)} = 1 | x^{(i)}; \theta) \\
+			p(y^{(i)} = 2 | x^{(i)}; \theta) \\
+			\vdots \\
+			p(y^{(i)} = k | x^{(i)}; \theta)
+		\end{bmatrix}
+			=
+			\frac{1}{ \sum_{j=1}^{k}{e^{ \theta_j^T x^{(i)} }} }
+			\begin{bmatrix}
+			e^{ \theta_1^T x^{(i)} } \\
+			e^{ \theta_2^T x^{(i)} } \\
+			\vdots \\
+			e^{ \theta_k^T x^{(i)} } \\
+			\end{bmatrix}
 \end{equation}
 
-我们用$Cost(h_{\theta}(x^{(i)}), y^{(i)}) $表示样本预测错误时的损失，
-根据【】，在此我们使用逻辑损失函数：
+其中，$\theta_1, \theta_2, \ldots, \theta_k \in \Re^{n+1}$是模型的参数。
+$\frac{1}{ \sum_{j=1}^{k}{e^{ \theta_j^T x^{(i)} }} }$这一项对概率分布进行归一化，使得所有概率之和为 1 。
+我们有$Softmax$回归中将$x$分类为类别$j$ 的概率为：\par
 \begin{equation}
-		Cost(h_{\theta}(x^{(i)}), y^{(i)}) = 
-			\begin{cases}
-				-\log(h_{\theta}(x^{(i)})) & \text{$y = 1$}\\
-				-\log(1 - h_{\theta}^{(i)}) & \text{$y = 0$}
-			\end{cases}
+p(y^{(i)} = j | x^{(i)} ; \theta) = \frac{e^{\theta_j^T x^{(i)}}}{\sum_{l=1}^k e^{ \theta_l^T x^{(i)}} }
 \end{equation}
 
-最终，我们有LR的损失函数：
+那么$softmax$回归算法的损失函数有方程\ref{eqt_4_19}。
 \begin{equation}
-	\begin{aligned}
-		J(\theta) &=- \frac{1}{m} \sum_{i=1}^{m} Cost(h_{\theta}(x_{(i)}), y_{(i)})\\
-			&= -\frac{1}{m} \sum_{i=1}^{m} \left[
-				y^{(i)} \log(h_{\theta}(x^{(i)})) +
-				(1 - y^{(i)})\log(1 - h_{\theta}^{(i)})
-			\right]
-	\end{aligned}
+	\label{eqt_4_19}
+	J(\theta) = - \frac{1}{m} \left[ \sum_{i=1}^{m} \sum_{j=1}^{k}  1\left\{y^{(i)} = j\right\} \log \frac{e^{\theta_j^T x^{(i)}}}{\sum_{l=1}^k e^{ \theta_l^T x^{(i)} }}\right]
+\end{equation}
+其中，$1\{\cdot\}$是示性函数，其取值规则为：$1\{ \text{True} \}=1, 1\{ \text{False }\}=0$。\par
+
+我们通过添加一个权重衰减项$\frac{\lambda}{2} \sum_{i=1}^k \sum_{j=0}^{n} \theta_{ij}^2$来修改代价函数，这个衰减项会惩罚过大的参数值，现在我们的代价函数变为：
+\begin{equation}
+	\label{eqt_4_20}
+	J(\theta) = - \frac{1}{m} \left[ \sum_{i=1}^{m} \sum_{j=1}^{k} 1\left\{y^{(i)} 
+	= j\right\} \log \frac{e^{\theta_j^T x^{(i)}}}{\sum_{l=1}^k e^{ \theta_l^T x^{(i)} }}  \right]
+	+ \frac{\lambda}{2} \sum_{i=1}^k \sum_{j=0}^n \theta_{ij}^2
 \end{equation}
 
-由于，我们传统的LR算法针对的是二分类问题，因此，对于调制识别这样的多分类问题，我们需要对算法进行改进。
-在此，我们使用的是LR多分类算法中的$1VM$版本【】，即假设我们的调制类别共有$M$类，则我们需要训练$M$个分类器，分别判断样本属于每一个类别的概率值，取概率值最高的那一个类别作为我们的分类结果。\par
-最终的基于LR的特征融合框架，如图\ref{sec:fig_4_2}所示：
+有了这个权重衰减项以后 ($\lambda > 0$)，代价函数就变成了严格的凸函数，这样就可以保证得到唯一的解了。
+对$J(\theta)$的最小化问题，目前还没有闭式解法。因此，我们使用迭代的优化算法（例如梯度下降法，或 L-BFGS）。
+对$J(\theta)$求导，我们得到梯度方程\ref{eqt_4_21}：
+\begin{align}
+	\label{eqt_4_21}
+	\nabla_{\theta_j} J(\theta) = - \frac{1}{m} \sum_{i=1}^{m}{ \left[ x^{(i)} ( 1\{ y^{(i)} = j\}  - p(y^{(i)} = j | x^{(i)}; \theta) ) \right]  } + \lambda \theta_j
+\end{align}
+
+通过最小化$J(\theta)$，我们就能实现一个可用的$softmax$回归模型。\par
+
+最终的基于SF的特征融合框架，如图\ref{sec:fig_4_2}所示：\par
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.7]{figures/chapter_4/fig_4_2}
@@ -270,6 +314,7 @@ DNN是对输入的数据样本，通过隐层对数据进行非线性变换，�
 为降低因为特征尺度关系对后期网络学习造成的影响，我们在特征融合之前在框架中加了一个特征预处理层，
 来对特征进行归一化处理。此时，我们获得的归一化特征集变为：
 \begin{equation}
+	\label{eqt_4_22}
 	\hat{Z} =\{ f_{norm}(z) | z \in H \cup F \}
 \end{equation}
 
@@ -307,8 +352,9 @@ Boosting算法的思想是先训练简单的基学习器，再根据基学习器
 因此，在调制分类问题中，我们使用投票法来作为基分类器的结合方法。\par
 
 假设我们总共学习$K$个基学习器，则每个并行训练得到的基学习器为$T_{i}$，
-那么利用投票法所得的分类结果如方程\ref{sec:eqt_4_23}所示：
+那么利用投票法所得的分类结果如方程\ref{eqt_4_23}所示：
 \begin{equation}
+	\label{eqt_4_23}
 	C(x) = \mathop{\arg\max}_{c} \sum_{i=1}^{K} I(T_i(x), c)
 \end{equation}
 

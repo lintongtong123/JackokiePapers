@@ -42,17 +42,17 @@
 \contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于CAE-CNN的无线信号调制识别}{25}{chapter.3}
 \contentsline {section}{\numberline {3.1}引言}{25}{section.3.1}
 \contentsline {section}{\numberline {3.2}调制信号生成}{25}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}调制信号获取}{26}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}调制信号的表示}{27}{section.3.3}
+\contentsline {subsection}{\numberline {3.2.1}调制信号获取}{25}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}调制信号的表示}{26}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}数据集可视化}{27}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}调制信号的无监督表示}{27}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{31}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{32}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}CAE-CNN网络框架}{32}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}CAE-CNN算法}{33}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}算法运行环境及参数}{33}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}结果及分析}{34}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}学习复杂度}{34}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{30}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{31}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}CAE-CNN网络框架}{31}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}CAE-CNN算法}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}算法运行环境及参数}{32}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}结果及分析}{33}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}学习复杂度}{33}{subsection.3.5.1}
 \contentsline {subsection}{\numberline {3.5.2}分类准确率与鲁棒性}{34}{subsection.3.5.2}
 \contentsline {subsubsection}{\numberline {3.5.2.1}分类结果}{34}{subsubsection.3.5.2.1}
 \contentsline {subsubsection}{\numberline {3.5.2.2}0dB误分结果}{35}{subsubsection.3.5.2.2}
@@ -70,13 +70,13 @@
 \contentsline {subsection}{\numberline {4.4.1}基于Softmax回归（Softmax Regression， SR）的融合框架}{44}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}基于深度学习的融合框架}{45}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}基于集成树的融合框架}{46}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}结果及分析}{47}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}分类性能比较}{47}{subsection.4.5.1}
+\contentsline {section}{\numberline {4.5}结果及分析}{48}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}分类性能比较}{48}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}0dB分类混淆矩阵}{48}{subsection.4.5.2}
 \contentsline {subsubsection}{\numberline {4.5.2.1}RF分类混淆矩阵}{48}{subsubsection.4.5.2.1}
-\contentsline {subsubsection}{\numberline {4.5.2.2}DNN分类混淆矩阵}{49}{subsubsection.4.5.2.2}
-\contentsline {subsubsection}{\numberline {4.5.2.3}SR分类混淆矩阵}{49}{subsubsection.4.5.2.3}
-\contentsline {section}{\numberline {4.6}本章小结}{50}{section.4.6}
+\contentsline {subsubsection}{\numberline {4.5.2.2}DNN分类混淆矩阵}{48}{subsubsection.4.5.2.2}
+\contentsline {subsubsection}{\numberline {4.5.2.3}SR分类混淆矩阵}{48}{subsubsection.4.5.2.3}
+\contentsline {section}{\numberline {4.6}本章小结}{49}{section.4.6}
 \contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度框架研究}{51}{chapter.5}
 \contentsline {section}{\numberline {5.1}引言}{51}{section.5.1}
 \contentsline {section}{\numberline {5.2}网络超参数对调制识别的影响}{51}{section.5.2}
