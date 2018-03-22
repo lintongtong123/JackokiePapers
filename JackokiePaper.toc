@@ -66,8 +66,8 @@
 \contentsline {subsection}{\numberline {4.2.2}高阶累积量}{41}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}专家循环矩特征}{42}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}特征融合理论}{42}{section.4.3}
-\contentsline {section}{\numberline {4.4}传统特征与深度特征融合框架}{44}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}基于Softmax回归（Softmax Regression， SR）的融合框架}{44}{subsection.4.4.1}
+\contentsline {section}{\numberline {4.4}传统特征与深度特征融合框架}{43}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}基于Softmax回归的融合框架}{44}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}基于深度学习的融合框架}{45}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}基于集成树的融合框架}{46}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}结果及分析}{48}{section.4.5}

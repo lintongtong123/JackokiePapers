@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  22 MAR 2018 22:13
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  22 MAR 2018 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2706,13 +2706,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ] [40] [41] [42]
 File: figures/chapter_4/fig_4_1.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_1.png" > [43]
-
-LaTeX Warning: Reference `label' on page 44 undefined on input line 286.
-
-[44]
+ <use  "figures/chapter_4/fig_4_1.png" > [43] [44]
 File: figures/chapter_4/fig_4_2.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_2.png" > [45]
+
+<use  "figures/chapter_4/fig_4_2.png" > [45]
 File: figures/chapter_4/fig_4_3.png Graphic file (type QTm)
 
 <use  "figures/chapter_4/fig_4_3.png" > [46]
@@ -2882,10 +2879,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 71003 strings out of 493005
- 1521880 string characters out of 6134597
- 1194652 words of memory out of 5000000
- 74161 multiletter control sequences out of 15000+600000
+ 70988 strings out of 493005
+ 1520942 string characters out of 6134597
+ 1194532 words of memory out of 5000000
+ 74146 multiletter control sequences out of 15000+600000
  13113 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,915s stack positions out of 5000i,500n,10000p,200000b,80000s

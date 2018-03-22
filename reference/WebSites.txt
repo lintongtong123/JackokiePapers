@@ -13,3 +13,14 @@ DLBook
 学习速率
 Schölkopf, B. and Smola, A. J. (2002). Learning with kernels: Support vector machines, regu-
 larization, optimization, and beyond. MIT press. 601
+
+
+[1] HintonG E, Osindero S, Teh Y W. A fast learning algorithm for deep belief nets[J].Neural computation, 2006, 18(7): 1527-1554.
+
+[2] Krizhevsky A, Sutskever I,Hinton G E. Imagenet classification with deep convolutional neuralnetworks[C]//Advances in neural information processing systems. 2012:1097-1105.
+
+[3] Zeiler M D, Fergus R.Visualizing and understanding convolutional networks[C]//European Conference onComputer Vision. Springer International Publishing, 2014: 818-833.
+
+[4] Szegedy C, Liu W, Jia Y,et al. Going deeper with convolutions[C]//Proceedings of the IEEE Conference onComputer Vision and Pattern Recognition. 2015: 1-9.
+
+[5] He K, Zhang X, Ren S, etal. Deep residual learning for image recognition[J]. arXiv preprintarXiv:1512.03385, 2015.

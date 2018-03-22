@@ -61,7 +61,7 @@
 \BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 专家循环矩特征}{section.4.2}% 61
 \BOOKMARK [1][-]{section.4.3}{4.3 特征融合理论}{chapter.4}% 62
 \BOOKMARK [1][-]{section.4.4}{4.4 传统特征与深度特征融合框架}{chapter.4}% 63
-\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 基于Softmax回归（Softmax Regression， SR）的融合框架}{section.4.4}% 64
+\BOOKMARK [2][-]{subsection.4.4.1}{4.4.1 基于Softmax回归的融合框架}{section.4.4}% 64
 \BOOKMARK [2][-]{subsection.4.4.2}{4.4.2 基于深度学习的融合框架}{section.4.4}% 65
 \BOOKMARK [2][-]{subsection.4.4.3}{4.4.3 基于集成树的融合框架}{section.4.4}% 66
 \BOOKMARK [1][-]{section.4.5}{4.5 结果及分析}{chapter.4}% 67
