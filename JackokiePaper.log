@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  21 MAR 2018 23:54
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  22 MAR 2018 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2878,31 +2878,38 @@ File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_4.png" > [55]
 File: figures/chapter_5/fig_5_5.png Graphic file (type QTm)
 
-<use  "figures/chapter_5/fig_5_5.png" > [56]
+<use  "figures/chapter_5/fig_5_5.png" >
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+
+LaTeX Warning: Reference `sec:fig_5_6' on page 57 undefined on input line 139.
+
 File: figures/chapter_5/fig_5_6.png Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig_5_6.png" >
-Underfull \vbox (badness 7308) has occurred while \output is active []
-
- [57]
+<use  "figures/chapter_5/fig_5_6.png" > [57]
 File: figures/chapter_5/fig6.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig6.png" >
-Overfull \hbox (10.10551pt too wide) in paragraph at lines 168--169
+Overfull \hbox (10.10551pt too wide) in paragraph at lines 163--164
  [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2781) has occurred while \output is active []
 
  [58]
-[59]
 File: figures/chapter_5/fig7.jpg Graphic file (type QTm)
- <use  "figures/chapter_5/fig7.jpg" >
-File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
- <use  "figures/chapter_5/fig8.jpg" >
-File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
 
+<use  "figures/chapter_5/fig7.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig8.jpg Graphic file (type QTm)
+<use  "figures/chapter_5/fig8.jpg" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figures/chapter_5/fig9_a.jpg Graphic file (type QTm)
 <use  "figures/chapter_5/fig9_a.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -2912,14 +2919,15 @@ File: figures/chapter_5/fig10_a.jpg Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[60]
+[59]
+Underfull \vbox (badness 2591) has occurred while \output is active []
+
+ [60]
 File: figures/chapter_5/fig9_b.jpg Graphic file (type QTm)
- <use  "figures/chapter_5/fig9_b.jpg" >
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+<use  "figures/chapter_5/fig9_b.jpg" >
 File: figures/chapter_5/fig10_b.jpg Graphic file (type QTm)
-<use  "figures/chapter_5/fig10_b.jpg" >
+ <use  "figures/chapter_5/fig10_b.jpg" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -2995,10 +3003,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70978 strings out of 493005
- 1520960 string characters out of 6134597
- 1194797 words of memory out of 5000000
- 74134 multiletter control sequences out of 15000+600000
+ 70979 strings out of 493005
+ 1520973 string characters out of 6134597
+ 1195797 words of memory out of 5000000
+ 74135 multiletter control sequences out of 15000+600000
  13121 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
