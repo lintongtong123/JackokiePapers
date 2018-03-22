@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  22 MAR 2018 23:51
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  23 MAR 2018 01:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2551,19 +2551,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
 [3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1496) has occurred while \output is active []
 
  [4]
 File: figures/chapter_1/fig_1_0.png Graphic file (type QTm)
 
 <use  "figures/chapter_1/fig_1_0.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2435) has occurred while \output is active []
 
  [5]
 File: figures/chapter_1/fig_1_1.png Graphic file (type QTm)
 
-<use  "figures/chapter_1/fig_1_1.png" > [6]
-Underfull \vbox (badness 6658) has occurred while \output is active []
+<use  "figures/chapter_1/fig_1_1.png" >
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7])
 [8]
@@ -2879,10 +2882,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 60.
  ) 
 Here is how much of TeX's memory you used:
- 70988 strings out of 493005
- 1520942 string characters out of 6134597
- 1194532 words of memory out of 5000000
- 74146 multiletter control sequences out of 15000+600000
+ 70992 strings out of 493005
+ 1521196 string characters out of 6134597
+ 1194531 words of memory out of 5000000
+ 74150 multiletter control sequences out of 15000+600000
  13113 words of font info for 99 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,12n,79p,10477b,915s stack positions out of 5000i,500n,10000p,200000b,80000s
