@@ -1,0 +1,15 @@
+LSTM
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+DLBook
+@book{Goodfellow-et-al-2016,
+    title={Deep Learning},
+    author={Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+    publisher={MIT Press},
+    note={\url{http://www.deeplearningbook.org}},
+    year={2016}
+}
+
+学习速率
+Schölkopf, B. and Smola, A. J. (2002). Learning with kernels: Support vector machines, regu-
+larization, optimization, and beyond. MIT press. 601

@@ -29,11 +29,10 @@ Warning--I didn't find a database entry for "Graves-book2012"
 Warning--I didn't find a database entry for "Graves-arxiv2013"
 Warning--I didn't find a database entry for "Sutskever-et-al-NIPS2014"
 Warning--I didn't find a database entry for "Hinton-ipam2012"
-Warning--I didn't find a database entry for "kingma2014adam"
 Warning--I didn't find a database entry for "Schaul2014_unittests"
 You've used 0 entries,
             3054 wiz_defined-function locations,
-            735 strings with 6543 characters,
+            734 strings with 6529 characters,
 and the built_in function-call counts, 64 in all, are:
 = -- 0
 > -- 0
@@ -72,4 +71,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 27
-(There were 15 warnings)
+(There were 14 warnings)

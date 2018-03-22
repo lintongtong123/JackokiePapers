@@ -28,7 +28,6 @@
 \newlabel{sec:the_convolution_operation}{{2.4.1}{14}{卷积运算}{subsection.2.4.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.4.2}卷积特性}{15}{subsection.2.4.2}}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2.1}卷积是一种无限强的先验}{15}{subsubsection.2.4.2.1}}
-\citation{Jarrett-ICCV2009-small,Saxe-ICML2011,pinto2011scaling,cox2011beyond}
 \citation{Saxe-ICML2011}
 \@writefile{toc}{\contentsline {subsubsection}{\numberline {2.4.2.2}卷积性质}{16}{subsubsection.2.4.2.2}}
 \newlabel{con_net}{{2.4.2.2}{16}{卷积性质}{subsubsection.2.4.2.2}{}}
@@ -37,32 +36,25 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.1}自编码器}{17}{subsection.2.5.1}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.5}{\ignorespaces 自编码器\relax }}{17}{figure.caption.19}}
 \newlabel{sec:fig_2_5}{{2.5}{17}{自编码器\relax }{figure.caption.19}{}}
-\citation{Graves-et-al-ICASSP2013,Pascanu-et-al-ICLR2014}
 \newlabel{sec:eqt2_3}{{2-20}{18}{自编码器}{equation.2.20}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.5.2}卷积自编码器}{18}{subsection.2.5.2}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.6}长短期记忆网络}{18}{section.2.6}}
-\newlabel{sec:lstm}{{2.6}{18}{长短期记忆网络}{section.2.6}{}}
-\newlabel{chap:sequence_modeling_recurrent_and_recursive_nets}{{2.6}{18}{长短期记忆网络}{section.2.6}{}}
-\citation{Bengio-trnn94,Hochreiter+Schmidhuber-1997,chapter-gradient-flow-2001}
-\citation{Graves-book2012,Graves-arxiv2013,Sutskever-et-al-NIPS2014}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces \glssymbol {LSTM}\nobreakspace {}\gls {recurrent_network}``细胞''的框图。 细胞彼此循环连接，代替一般\gls {recurrent_network}中普通的\gls {hidden_unit}。 这里使用常规的人工神经元计算输入特征。 如果sigmoid输入门允许，它的值可以累加到状态。 状态单元具有线性自循环，其权重由\gls {forget_gate}控制。 细胞的输出可以被输出门关闭。 所有\gls {gated}单元都具有sigmoid非线性，而输入单元可具有任意的压缩非线性。 状态单元也可以用作\gls {gated}单元的额外输入。 黑色方块表示单个\gls {time_step}的延迟。 \relax }}{19}{figure.caption.20}}
-\newlabel{fig:chapter2_lstm_cell}{{2.6}{19}{\glssymbol {LSTM}~\gls {recurrent_network}``细胞''的框图。 细胞彼此循环连接，代替一般\gls {recurrent_network}中普通的\gls {hidden_unit}。 这里使用常规的人工神经元计算输入特征。 如果sigmoid输入门允许，它的值可以累加到状态。 状态单元具有线性自循环，其权重由\gls {forget_gate}控制。 细胞的输出可以被输出门关闭。 所有\gls {gated}单元都具有sigmoid非线性，而输入单元可具有任意的压缩非线性。 状态单元也可以用作\gls {gated}单元的额外输入。 黑色方块表示单个\gls {time_step}的延迟。 \relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.6}{\ignorespaces LSTM网络结构框图\relax }}{19}{figure.caption.20}}
+\newlabel{sec:fig_2_6}{{2.6}{19}{LSTM网络结构框图\relax }{figure.caption.20}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2.7}神经网络优化算法}{20}{section.2.7}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}随机梯度下降优化算法}{20}{subsection.2.7.1}}
-\newlabel{sec:stochastic_gradient_descent_chap8}{{2.7.1}{20}{\glsentrytext {SGD}优化算法}{subsection.2.7.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.7.1}统计梯度下降优化算法}{20}{subsection.2.7.1}}
+\newlabel{sec_chap8}{{2.7.1}{20}{统计梯度下降优化算法}{subsection.2.7.1}{}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {2.1}{\ignorespaces \gls {SGD}（\glssymbol {SGD}）在第$k$个训练迭代的更新\relax }}{20}{algorithm.2.1}}
 \newlabel{alg:sgd}{{2.1}{20}{\gls {SGD}（\glssymbol {SGD}）在第$k$个训练迭代的更新\relax }{algorithm.2.1}{}}
-\newlabel{eq:8.12}{{2-26}{20}{\glsentrytext {SGD}优化算法}{equation.2.26}{}}
-\citation{Hinton-ipam2012}
-\newlabel{eq:8.13}{{2-27}{21}{\glsentrytext {SGD}优化算法}{equation.2.27}{}}
-\newlabel{eq:8.14}{{2-28}{21}{\glsentrytext {SGD}优化算法}{equation.2.28}{}}
+\newlabel{eq:8.12}{{2-25}{20}{统计梯度下降优化算法}{equation.2.25}{}}
+\newlabel{eq:8.13}{{2-26}{20}{统计梯度下降优化算法}{equation.2.26}{}}
+\newlabel{eq:8.14}{{2-27}{21}{统计梯度下降优化算法}{equation.2.27}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7.2}RMSProp优化算法}{21}{subsection.2.7.2}}
 \newlabel{sec:rmsprop}{{2.7.2}{21}{RMSProp优化算法}{subsection.2.7.2}{}}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {2.2}{\ignorespaces RMSProp算法\relax }}{21}{algorithm.2.2}}
 \newlabel{alg:rms_prop}{{2.2}{21}{RMSProp算法\relax }{algorithm.2.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7.3}Adam}{21}{subsection.2.7.3}}
 \newlabel{sec:adam}{{2.7.3}{21}{Adam}{subsection.2.7.3}{}}
-\citation{Schaul2014_unittests}
 \@writefile{loa}{\contentsline {algorithm}{\numberline {2.3}{\ignorespaces Adam算法\relax }}{22}{algorithm.2.3}}
 \newlabel{alg:adam}{{2.3}{22}{Adam算法\relax }{algorithm.2.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.7.4}选择正确的优化算法}{22}{subsection.2.7.4}}
@@ -70,7 +62,7 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2.8}本章小结}{23}{section.2.8}}
 \@setckpt{chapters/chapter2}{
 \setcounter{page}{24}
-\setcounter{equation}{28}
+\setcounter{equation}{27}
 \setcounter{enumi}{0}
 \setcounter{enumii}{0}
 \setcounter{enumiii}{0}

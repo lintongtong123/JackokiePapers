@@ -34,7 +34,7 @@
 \contentsline {subsection}{\numberline {2.5.2}卷积自编码器}{18}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}长短期记忆网络}{18}{section.2.6}
 \contentsline {section}{\numberline {2.7}神经网络优化算法}{20}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}随机梯度下降优化算法}{20}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.1}统计梯度下降优化算法}{20}{subsection.2.7.1}
 \contentsline {subsection}{\numberline {2.7.2}RMSProp优化算法}{21}{subsection.2.7.2}
 \contentsline {subsection}{\numberline {2.7.3}Adam}{21}{subsection.2.7.3}
 \contentsline {subsection}{\numberline {2.7.4}选择正确的优化算法}{22}{subsection.2.7.4}
@@ -45,11 +45,11 @@
 \contentsline {subsection}{\numberline {3.2.1}调制信号获取}{26}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}调制信号的表示}{27}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}数据集可视化}{27}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}调制信号的无监督表示}{28}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{30}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{31}{section.3.4}
+\contentsline {subsection}{\numberline {3.3.2}调制信号的无监督表示}{27}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}调制信号的监督引导稀疏表示}{31}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}基于CAE-CNN的无线信号调制识别}{32}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}CAE-CNN网络框架}{32}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}CAE-CNN算法}{32}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}CAE-CNN算法}{33}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}算法运行环境及参数}{33}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}结果及分析}{34}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}学习复杂度}{34}{subsection.3.5.1}
@@ -84,17 +84,18 @@
 \contentsline {subsection}{\numberline {5.2.2}卷积核数目对调制识别的影响}{52}{subsection.5.2.2}
 \contentsline {subsection}{\numberline {5.2.3}卷积核大小对调制识别的影响}{53}{subsection.5.2.3}
 \contentsline {subsection}{\numberline {5.2.4}网络层数对调制识别的影响}{54}{subsection.5.2.4}
-\contentsline {section}{\numberline {5.3}现有的网络架构}{55}{section.5.3}
+\contentsline {section}{\numberline {5.3}常见的网络架构}{55}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}GoogLeNet}{56}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}残差网络}{57}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}CLDNN}{57}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.3}卷积长短期深度神经网络}{57}{subsection.5.3.3}
 \contentsline {section}{\numberline {5.4}结果及分析}{58}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}神经网络训练}{58}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}网络参数}{59}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}CLDNN}{59}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.1}不同网络的分类性能}{59}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}GoogLeNet分类混淆矩阵}{59}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}ResNet分类混淆矩阵}{59}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}CLDNN分类混淆矩阵}{59}{subsection.5.4.4}
 \contentsline {section}{\numberline {5.5}本章小结}{62}{section.5.5}
 \contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{63}{chapter.6}
 \contentsline {section}{\numberline {6.1}研究结论}{63}{section.6.1}
 \contentsline {section}{\numberline {6.2}未来展望}{64}{section.6.2}
-\contentsline {chapter}{参考文献}{65}{section*.56}
-\contentsline {chapter}{致谢}{67}{section*.58}
+\contentsline {chapter}{参考文献}{65}{section*.57}
+\contentsline {chapter}{致谢}{67}{section*.59}

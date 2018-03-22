@@ -222,7 +222,8 @@ S(i, j) = (K*I)(i,j) = \sum_m \sum_n I(i-m, j-n) K(m, n).
 这个无限强的先验是说一个隐藏单元的权重必须和它邻居的权重相同，但可以在空间上移动。
 这个先验也要求除了那些处在隐藏单元的小的空间连续的接受域内的权重以外，其余的权重都为零。\par
 总之，我们可以把卷积的使用当作是对网络中一层的参数引入了一个无限强的先验概率分布。
-这个先验说明了该层应该学得的函数只包含局部连接关系并且对平移具有等变性。
+这个先验说明了该层应该学得的函数只包含局部连接关系并且对平移具有等变性。\par
+
 \subsubsection{卷积性质}
 卷积运算通过三个重要的思想来帮助改进机器学习系统：稀疏交互、参数共享、等变表示。
 传统的神经网络使用矩阵乘法来建立输入与输出的连接关系。
@@ -233,6 +234,7 @@ S(i, j) = (K*I)(i,j) = \sum_m \sum_n I(i-m, j-n) K(m, n).
 当处理时间序列数据时，这意味着通过卷积可以得到一个由输入中出现不同特征的时刻所组成的时间轴。
 如果我们把输入中的一个事件向后延时，在输出中仍然会有完全相同的表示，只是时间延后了。
 而这也正好对应到我们无线信号中的时移不变性。因此，我们可以很好的将\label{con_net}应用到调制信号识别中。\par
+
 \subsubsection{卷积特征学习}
 通常，卷积神经网络训练中最耗时的部分是特征学习。 
 通常输出层的计算代价相对不高，因为在通过若干层卷积池化之后，输入到该层的特征的数量较小。
@@ -250,7 +252,7 @@ S(i, j) = (K*I)(i,j) = \sum_m \sum_n I(i-m, j-n) K(m, n).
 这样，便可以只需提取一次全部训练集的特征，作为随后分类层的新的训练集。
 假设最后一层类似逻辑回归（多分类问题可以认为是Softmax回归）或者支持向量机，
 那么分类层的学习通常是一种凸优化问题。\par
-随机滤波器经常在卷积神经网络中表现得很好~\cite{Jarrett-ICCV2009-small,Saxe-ICML2011,pinto2011scaling,cox2011beyond}。
+随机滤波器经常在卷积神经网络中表现得很好。
 \cite{Saxe-ICML2011}~说明，由卷积和随后的池化组成的层，当赋予随机权重时，自然地变得具有频率选择性和平移不变性。
 他们认为这提供了一种低时间成本的方法来选择卷积网络的结构：首先通过仅训练最后一层来评估几个卷积网络结构的性能，然后选择最好的结构并使用相对耗时的方法来训练整个网络。
 一个折中方法是学习特征，但是使用那种不需要在每个梯度计算步骤中都进行完整的前向和反向传播的方法。
@@ -297,92 +299,87 @@ CAE中的卷积层具有时移不变性以及受约束的参数搜索空间（�
 我们使用dropout[13]并在输入层加入噪声[7]对网络进行正则化，来增强模型的泛化能力。\par
 
 \section{长短期记忆网络}
-\label{sec:lstm}
-\label{chap:sequence_modeling_recurrent_and_recursive_nets}
-\gls{RNN}或~\glssymbol{RNN}是一类用于处理序列数据的\gls{NN}。
-就像\gls{convolutional_network}是专门用于处理网格化数据的\gls{NN}，\gls{RNN}是专门用于处理序列$x^{(1)}, \dots, x^{(\tau)}$的\gls{NN}。
 
-正如\gls{convolutional_network}可以很容易地扩展到具有很大宽度和高度的图像，以及处理大小可变的图像，\gls{recurrent_network}可以扩展到更长的序列（比不基于序列的特化网络长得多）。
-大多数\gls{recurrent_network}也能处理可变长度的序列。
+循环神经网络（Recurrent Neural Network）是一类用于处理序列数据的神经网络。
+就像CNN主要是用于处理二维网格化数据的网络，RNN主要是用于处理时间序列$x^{(1)}, \dots, x^{(\tau)}$的神经网络。
 
+对于卷积神经网络，它可以很容易地扩展到具有很大宽度和高度的图像，同时可以处理大小可变的图像；
+而RNN同样可以扩展到很长的序列。\par
+长短期记忆网络（Long Short Term Network， LSTM）是一种特殊的 RNN 类型，可以学习数据的长期依赖信息。LSTM 由Hochreiter和 Schmidhuber (1997)提出，并在近期被Alex Graves进行了改良和推广。在很多问题，LSTM 都取得相当巨大的成功，并得到了广泛的使用。
+LSTM的网络结构如图\ref{sec:fig_2_6}所示：\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=0.7]{figures/chapter_2/fig_2_6.png}
-	\caption{\glssymbol{LSTM}~\gls{recurrent_network}``细胞''的框图。
-		细胞彼此循环连接，代替一般\gls{recurrent_network}中普通的\gls{hidden_unit}。
-		这里使用常规的人工神经元计算输入特征。
-		如果sigmoid输入门允许，它的值可以累加到状态。
-		状态单元具有线性自循环，其权重由\gls{forget_gate}控制。
-		细胞的输出可以被输出门关闭。
-		所有\gls{gated}单元都具有sigmoid非线性，而输入单元可具有任意的压缩非线性。
-		状态单元也可以用作\gls{gated}单元的额外输入。
-		黑色方块表示单个\gls{time_step}的延迟。
-	}\label{fig:chapter2_lstm_cell}
+	\includegraphics[scale=0.5]{figures/chapter_2/fig_2_6_1.png}
+	\caption{LSTM网络结构框图}\label{sec:fig_2_6}
 \end{figure}
 
-\glssymbol{LSTM}~块如\figref{fig:chapter2_lstm_cell}所示。
-在浅\gls{recurrent_network}的架构下，相应的\gls{forward_propagation}公式如下。
-更深的架构也被成功应用\citep{Graves-et-al-ICASSP2013,Pascanu-et-al-ICLR2014}。
-\glssymbol{LSTM}~\gls{recurrent_network}除了外部的~\glssymbol{RNN}~循环外，还具有内部的``\glssymbol{LSTM}~细胞''循环（自环），因此~\glssymbol{LSTM}~不是简单地向输入和循环单元的仿射变换之后施加一个逐元素的非线性。
-与普通的\gls{recurrent_network}类似，每个单元有相同的输入和输出，但也有更多的参数和控制信息流动的\gls{gated}单元系统。
+LSTM 网络除了外部的RNN 循环外，还具有内部的“LSTM 细胞’’ 循环（自环），
+因此LSTM 不是简单地向输入和循环单元的仿射变换之后施加一个逐元素的非线性。
+与普通的循环网络类似，每个单元有相同的输入和输出，但也有更多的参数和控制信息流动的门控单元系统。
 
-最重要的组成部分是状态单元$s_i^{(t)}$，与前一节讨论的\gls{leaky_unit}有类似的线性自环。
-然而，此处自环的权重（或相关联的时间常数）由\firstgls{forget_gate}~$f_i^{(t)}$控制（时刻$t$和细胞$i$），由~\ENNAME{sigmoid}~单元将权重设置为0和1之间的值：
-
+最重要的组成部分是状态单元$s_i^{(t)}$。
+LSTM中包含自环，其权重（或相关联的时间常数）由遗忘门$f_i{(t)}$（forget gate）控制（时刻$t$和细胞$i$），
+并由$sigmoid$单元将权重设置为0和1之间：\par
 \begin{equation}
 f_i^{(t)} = \sigma \Big( b_i^f + \sum_j U_{i,j}^f x_j^{(t)} + \sum_j W_{i,j}^f h_j^{(t-1)} \Big),
 \end{equation}
-
 其中$x^{(t)}$是当前输入向量，$h^{t}$是当前隐藏层向量，$h^{t}$包含所有~\glssymbol{LSTM}~细胞的输出。 
 $b^f, U^f, W^f$分别是\gls{bias_aff}、输入权重和\gls{forget_gate}的循环权重。
-因此~\glssymbol{LSTM}~细胞内部状态以如下方式更新，其中有一个条件的自环权重$f_i^{(t)}$：
-
-\begin{align}
-s_i^{(t)} = f_i^{(t)}  s_i^{(t-1)} +  g_i^{(t)}
-\sigma \Big( b_i + \sum_j U_{i,j} x_j^{(t)} + \sum_j W_{i,j} h_j^{(t-1)} \Big),
-\end{align}
+因此LSTM细胞内部状态以如下方式更新，其中有一个条件的自环权重$f_i^{(t)}$：\par
+\begin{equation}
+	\begin{aligned}
+		s_i^{(t)} = f_i^{(t)}  s_i^{(t-1)} +  g_i^{(t)}
+		\sigma \Big( b_i + \sum_j U_{i,j} x_j^{(t)} + \sum_j W_{i,j} h_j^{(t-1)} \Big),
+	\end{aligned}
+\end{equation}
 
 其中$b, U, W$分别是~\glssymbol{LSTM}~细胞中的\gls{bias_aff}、输入权重和\gls{forget_gate}的循环权重。
-\textbf{外部输入门}(external input gate)单元$g_i^{(t)}$以类似\gls{forget_gate}（使用\ENNAME{sigmoid}获得一个0和1之间的值）的方式更新，但有自身的参数：
+外部输入门(external input gate)单元$g_i^{(t)}$，以类似遗忘门（使用sigmoid获得一个0和1之间的值）的方式更新，
+但其自身的参数：\par
 
-\begin{align}
-g_i^{(t)} = \sigma \Big( b_i^g + \sum_j U_{i,j}^g x_j^{(t)} + \sum_j W_{i,j}^g h_j^{(t-1)} \Big).
-\end{align}
+\begin{equation}
+	\begin{aligned}
+	g_i^{(t)} = \sigma \Big( b_i^g + \sum_j U_{i,j}^g x_j^{(t)} + \sum_j W_{i,j}^g h_j^{(t-1)} \Big).
+	\end{aligned}
+\end{equation}
 
-\glssymbol{LSTM}~细胞的输出$h_i^{(t)}$也可以由\textbf{输出门}(output gate)~$q_i^{(t)}$关闭（使用\ENNAME{sigmoid}单元作为\gls{gated}）：
-
-\begin{align}
-h_i^{(t)} &= \text{tanh}\big( s_i^{(t)} \big) q_i^{(t)}, \\
-q_i^{(t)} &= \sigma \Big( b_i^o + \sum_j U_{i,j}^o x_j^{(t)} + \sum_j W_{i,j}^o h_j^{(t-1)} \Big),
-\end{align}
+LSTM细胞的输出$h_i^{(t)}$也可以由输出门(output gate)~$q_i^{(t)}$关闭（使用sigmoid单元作为门控）：\par
+\begin{equation}
+	\begin{gathered}
+		h_i^{(t)} = \text{tanh}\big( s_i^{(t)} \big) q_i^{(t)}, \\
+		q_i^{(t)} = \sigma \Big( b_i^o + \sum_j U_{i,j}^o x_j^{(t)} + \sum_j W_{i,j}^o h_j^{(t-1)} \Big),
+	\end{gathered}
+\end{equation}
 
 其中$b^o, U^o, W^o$分别是\gls{bias_aff}、输入权重和\gls{forget_gate}的循环权重。
-在这些变体中，可以选择使用细胞状态$s_i^{(t)}$作为额外的输入（及其权重），输入到第$i$个单元的三个门，如\figref{fig:chapter2_lstm_cell}所示。
-这将需要三个额外的参数。
-
-\glssymbol{LSTM}~网络比简单的循环架构更易于学习\gls{long_term_dependency}，先是用于测试\gls{long_term_dependency}学习能力的人工数据集\citep{Bengio-trnn94,Hochreiter+Schmidhuber-1997,chapter-gradient-flow-2001}，然后是在具有挑战性的序列处理任务上获得最先进的表现\citep{Graves-book2012,Graves-arxiv2013,Sutskever-et-al-NIPS2014}。
+在这些变体中，可以选择使用细胞状态$s_i^{(t)}$作为额外的输入（及权重），输入到第$i$个单元的三个门，
+如\ref{sec:fig_2_6}所示。
+LSTM网络比简单的循环架构更易于学习长期依赖。
 
 \section{神经网络优化算法}
-用于深度模型训练的优化算法与传统的优化算法在几个方面有所不同。 机器学习通常是间接作用的。
-在大多数机器学习问题中，我们关注某些性能度量 P，其定义于测试集上并且可能是不可解的。
-因此，我们只是间接地优化 P。我们希望通过降低代价函数$J(θ)$来提高 P。
-这一点与纯优化不同，纯优化最小化目标 J 本身。训练深度模型的优化算法通常也会包括一些针对机器学习目标函数的特定结构进行的特化。
+用于深度模型训练的优化算法与传统的优化算法在几个方面有所不同。 
+在大多数机器学习问题中，我们关注某些性能度量$P$，其定义于测试集上并且可能是不可解的。
+因此，我们只是间接地优化$P$。我们希望通过降低代价函数$J(\theta)$来提高$P$。
+这一点与纯粹的优化不同，纯优化最小化目标 $J(\theta)$本身。
+训练深度模型的优化算法通常也会包括一些针对机器学习目标函数的特定结构进行的优化。
+即寻找神经网络上的一组参数$\theta$，它能显著地降低代价函数$J(\theta)$，
+该代价函数通常包括整个训练集上的性能评估和额外的正则化项。
 
-\subsection{\glsentrytext{SGD}优化算法}
-\label{sec:stochastic_gradient_descent_chap8}
-\gls{SGD}及其变种很可能是一般\gls{ML}中应用最多的优化算法，特别是在\gls{DL}中。
-按照\gls{DGD}抽取$m$个\gls{minibatch}（独立同分布的）样本，通过计算它们梯度均值，
-我们可以得到梯度的\gls{unbiased}估计。
+\subsection{统计梯度下降优化算法}
+\label{sec_chap8}
+统计梯度下降（Stochastic Gradient Descent，SGD）及其变种是机器学习中常用的一种优化算法，特别是在深度学习中。
+按照数据生成分布抽取$m$个小批量（独立同分布的）样本，通过计算它们梯度均值，
+我们可以得到梯度的无偏估计。
 展示了如何沿着这个梯度的估计下降。
 
 \begin{algorithm}[ht]
 	\caption{\gls{SGD}（\glssymbol{SGD}）在第$k$个训练迭代的更新}
 	\label{alg:sgd}
 	\begin{algorithmic}
-		\REQUIRE \gls{learning_rate} $\epsilon_k$
+		\REQUIRE 学习速率 $\epsilon_k$
 		\REQUIRE 初始参数$\theta$
 		\WHILE{停止\gls{criterion}未满足}
-		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的\gls{minibatch}，其中$x^{(i)}$对应目标为$y^{(i)}$
+		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，其中$x^{(i)}$对应目标为$y^{(i)}$
 		\STATE 计算梯度估计： $\hat{g} \leftarrow + 
 		\frac{1}{m} \nabla_{\theta} \sum_i L(f(x^{(i)};\theta),y^{(i)})$
 		\STATE 应用更新：$\theta \leftarrow theta - \epsilon \hat{g}$
@@ -390,14 +387,14 @@ q_i^{(t)} &= \sigma \Big( b_i^o + \sum_j U_{i,j}^o x_j^{(t)} + \sum_j W_{i,j}^o 
 	\end{algorithmic}
 \end{algorithm}
 
-\glssymbol{SGD}\,算法中的一个关键参数是\gls{learning_rate}。
-之前，我们介绍的\,\glssymbol{SGD}\,使用固定的\gls{learning_rate}。
-在实践中，有必要随着时间的推移逐渐降低\gls{learning_rate}，
-因此我们将第$k$步迭代的\gls{learning_rate}记作$\epsilon_k$。
+SGD算法中的一个关键参数是学习速率。
+之前，我们介绍的\,\glssymbol{SGD}\,使用固定的学习速率。
+在实践中，有必要随着时间的推移逐渐降低学习速率，
+因此我们将第$k$步迭代的学习速率记作$\epsilon_k$。
 
 这是因为\,\glssymbol{SGD}\,中梯度估计引入的噪声源（$m$个训练样本的随机采样）并不会在\gls{minimum}处消失。
 相比之下，当我们使用\gls{batch}\gls{GD}到达\gls{minimum}时，整个\gls{cost_function}的真实梯度会变得很小，
-之后为$\mathbf{0}$，因此\gls{batch}\gls{GD}可以使用固定的\gls{learning_rate}。
+之后为$\mathbf{0}$，因此\gls{batch}\gls{GD}可以使用固定的学习速率。
 保证\,\glssymbol{SGD}\,收敛的一个充分条件是
 \begin{equation}
 \label{eq:8.12}
@@ -409,7 +406,7 @@ q_i^{(t)} &= \sigma \Big( b_i^o + \sum_j U_{i,j}^o x_j^{(t)} + \sum_j W_{i,j}^o 
 \sum_{k=1}^\infty \epsilon_k^2 < \infty.
 \end{equation}
 
-实践中，一般会线性衰减\gls{learning_rate}直到第$\tau$次迭代：
+实践中，一般会线性衰减学习速率直到第$\tau$次迭代：
 \begin{equation}
 \label{eq:8.14}
 \epsilon_k = (1-\alpha) \epsilon_0 + \alpha \epsilon_\tau
@@ -419,31 +416,30 @@ q_i^{(t)} &= \sigma \Big( b_i^o + \sum_j U_{i,j}^o x_j^{(t)} + \sum_j W_{i,j}^o 
 
 \subsection{RMSProp优化算法}
 \label{sec:rmsprop}
-\textbf{RMSProp}算法\citep{Hinton-ipam2012}修改AdaGrad以在\gls{nonconvex}设定下效果更好，
+\textbf{RMSProp}算法修改AdaGrad以在\gls{nonconvex}设定下效果更好，
 改变梯度积累为指数加权的移动平均。
 \gls{adagrad}\,旨在应用于凸问题时快速收敛。
 当应用于\gls{nonconvex}函数训练\gls{NN}时，学习轨迹可能穿过了很多不同的结构，最终到达一个局部是凸碗的区域。
-AdaGrad根据平方梯度的整个历史收缩\gls{learning_rate}，可能使得\gls{learning_rate}在达到这样的凸结构前就变得太小了。
+AdaGrad根据平方梯度的整个历史收缩学习速率，可能使得学习速率在达到这样的凸结构前就变得太小了。
 RMSProp使用指数衰减平均以丢弃遥远过去的历史，使其能够在找到凸碗状结构后快速收敛，
 它就像一个初始化于该碗状结构的AdaGrad算法实例。
 
 RMSProp的标准形式如\algref{alg:rms_prop}所示，结合Nesterov动量的形式如\algref{alg:rms_nesterov}所示。
-相比于AdaGrad，使用移动平均引入了一个新的\gls{hyperparameter}$\rho$，用来控制移动平均的长度范围。
+相比于AdaGrad，使用移动平均引入了一个新的超参数$\rho$，用来控制移动平均的长度范围。
 
-经验上，RMSProp已被证明是一种有效且实用的\gls{DNN}优化算法。
-目前它是\gls{DL}从业者经常采用的优化方法之一。
-
+经验上，RMSProp已被证明是一种有效且实用的DNN优化算法。
+目前它是深度学习领域经常使用的优化算法之一。\par
 
 \begin{algorithm}[ht]
 	\caption{RMSProp算法}
 	\label{alg:rms_prop}
 	\begin{algorithmic}
-		\REQUIRE 全局\gls{learning_rate} $\epsilon$，衰减速率$\rho$
+		\REQUIRE 全局学习速率 $\epsilon$，衰减速率$\rho$
 		\REQUIRE  初始参数$\theta$
 		\REQUIRE 小常数$\delta$，通常设为$10^{-6}$（用于被小数除时的数值稳定）
 		\STATE 初始化累积变量 $r = 0$
 		\WHILE{没有达到停止\gls{criterion}}
-		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的\gls{minibatch}，对应目标为$y^{(i)}$。
+		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，对应目标为$y^{(i)}$。
 		\STATE 计算梯度：$g \leftarrow  
 		\frac{1}{m} \nabla_{\theta} \sum_i L(f(x^{(i)};\theta),y^{(i)})$ 
 		\STATE 累积平方梯度：$r \leftarrow \rho
@@ -454,20 +450,18 @@ RMSProp的标准形式如\algref{alg:rms_prop}所示，结合Nesterov动量的�
 		\ENDWHILE
 	\end{algorithmic}
 \end{algorithm}
-
 \subsection{Adam}
 \label{sec:adam}
-\textbf{Adam}是另一种\gls{learning_rate}自适应的优化算法，如\algref{alg:adam}所示。
+\textbf{Adam}是另一种学习速率自适应的优化算法，如\algref{alg:adam}所示。
 ``Adam''这个名字派生自短语``adaptive moments''。
-早期算法背景下，它也许最好被看作结合RMSProp和具有一些重要区别的\gls{momentum}的变种。
-首先，在Adam中，\gls{momentum}直接并入了梯度一阶矩（指数加权）的估计。
-将\gls{momentum}加入RMSProp最直观的方法是将\gls{momentum}应用于缩放后的梯度。
-结合缩放的\gls{momentum}使用没有明确的理论动机。
-其次，Adam包括偏置修正，修正从原点初始化的一阶矩（\gls{momentum}项）和（非中心的）二阶矩的估计（\algref{alg:adam}）。
+早期算法背景下，它也许最好被看作结合RMSProp和具有一些重要区别的动量的变种。
+首先，在Adam中，动量直接并入了梯度一阶矩（指数加权）的估计。
+将动量加入RMSProp最直观的方法是将动量应用于缩放后的梯度。
+结合缩放的动量使用没有明确的理论动机。
+其次，Adam包括偏置修正，修正从原点初始化的一阶矩（动量项）和（非中心的）二阶矩的估计（\algref{alg:adam}）。
 RMSProp也采用了（非中心的）二阶矩估计，然而缺失了修正因子。
 因此，不像Adam，RMSProp二阶矩估计可能在训练初期有很高的偏置。
-Adam通常被认为对\gls{hyperparameter}的选择相当鲁棒，尽管\gls{learning_rate}有时需要从建议的默认修改。
-
+Adam通常被认为对超参数的选择相当鲁棒，尽管学习速率有时需要从建议的默认修改。\par
 \begin{algorithm}[ht]
 	\caption{Adam算法}
 	\label{alg:adam}
@@ -480,7 +474,7 @@ Adam通常被认为对\gls{hyperparameter}的选择相当鲁棒，尽管\gls{lea
 		\STATE 初始化一阶和二阶矩变量 $s = 0 $, $r = 0$
 		\STATE 初始化\gls{time_step} $t=0$ 
 		\WHILE{没有达到停止\gls{criterion}}
-		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的\gls{minibatch}，对应目标为$y^{(i)}$。
+		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，对应目标为$y^{(i)}$。
 		\STATE 计算梯度：$g \leftarrow \frac{1}{m} \nabla_{\theta} \sum_i L(f(x^{(i)};\theta),y^{(i)})$ 
 		\STATE $t \leftarrow t + 1$
 		\STATE 更新有偏一阶矩估计： $s \leftarrow \rho_1 s + (1-\rho_1) g$
@@ -492,17 +486,20 @@ Adam通常被认为对\gls{hyperparameter}的选择相当鲁棒，尽管\gls{lea
 		\ENDWHILE
 	\end{algorithmic}
 \end{algorithm}
-
 \subsection{选择正确的优化算法}
 \label{sec:choosing_the_right_optimization_algorithms}
-在本节中，我们讨论了一系列算法，通过自适应每个模型参数的\gls{learning_rate}以解决优化\gls{deep_model}中的难题。
-此时，一个自然的问题是：该选择哪种算法呢？
+在本节中，我们讨论了一系列算法，通过自适应每个模型参数的学习速率以解决优化\gls{deep_model}中的难题。
+然而，对于哪一种优化算法具有最优的性能，目前仍没有确定。
+Schaul et al. (2014)展示了许多优化算法在很多学习任务上极具的比较。
+虽然结果表明，具有自适应学习速率（以RMSProp和AdaDelta为代表）的算法族表现得较为鲁棒，性能相近；
+但没，却有哪个算法能绝对地优于其他算法。
 
-遗憾的是，目前在这一点上没有达成共识。
-\cite{Schaul2014_unittests}展示了许多优化算法在大量学习任务上极具价值的比较。
-虽然结果表明，具有自适应\gls{learning_rate}（以RMSProp和AdaDelta为代表）的算法族表现得相当鲁棒，不分伯仲，但没有哪个算法能脱颖而出。
-
-目前，最流行并且使用很高的优化算法包括SGD、具\gls{momentum}的SGD、RMSProp、具\gls{momentum}的RMSProp、AdaDelta和Adam。
-此时，选择哪一个算法似乎主要取决于使用者对算法的熟悉程度（以便调节\gls{hyperparameter}）。
+目前，使用率较高的优化算法主要有SGD、具动量的SGD、基于动量的RMSProp、AdaDelta和Adam。
+此时，选择哪一个算法则主要取决于使用者的喜好以及对不同优化算法的熟悉程度（以便调节超参数）。
+本文中，根据不同的条件，综合使用以上几种优化算法，以期能够达到性能的最优。
 
 \section{本章小结}
+本章对于论文中所用到的相关理论知识进行了较为系统的阐述，主要介绍了信号调制及深度学习的理论基础。
+我们首先介绍了信道对于调制识别的影响，并基于数据利用网络自学习信道的影响，避免了直接对于信道建模的误差影响；
+接下来，介绍了神经元、前馈神经网络、卷积神经网络、自编码器、LSTM网络等深度学习的基本理论和基本网络架构；
+最后，介绍了最近较为流行的几种神经网络优化算法，并分析了各种算法的一些理论基础。
