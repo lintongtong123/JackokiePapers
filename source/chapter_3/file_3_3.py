@@ -7,43 +7,42 @@
 # @Software: PyCharm
 # @contact: jackokie@gmail.com
 # a stacked bar plot with errorbars
+import pickle
+import random
+import matplotlib.pyplot as plt
 
-'''
-Plots for zoo of nets.
-'''
-
-import numpy as np
-from viznet import connecta2a, node_sequence, NodeBrush, EdgeBrush, DynamicShow
-
-
-def draw_feed_forward(ax, num_node_list):
-    '''
-    draw a feed forward neural network.
-
-    Args:
-        num_node_list (list<int>): number of nodes in each layer.
-    '''
-    num_hidden_layer = len(num_node_list) - 2
-    token_list = ['\sigma^z'] + \
-        ['y^{(%s)}' % (i + 1) for i in range(num_hidden_layer)] + ['\psi']
-    kind_list = ['nn.input'] + ['nn.hidden'] * num_hidden_layer + ['nn.output']
-    radius_list = [0.3] + [0.2] * num_hidden_layer + [0.3]
-    y_list = 1.5 * np.arange(len(num_node_list))
-
-    seq_list = []
-    for n, kind, radius, y in zip(num_node_list, kind_list, radius_list, y_list):
-        b = NodeBrush(kind, ax)
-        seq_list.append(node_sequence(b, n, center=(0, y)))
-
-    eb = EdgeBrush('-->', ax)
-    for st, et in zip(seq_list[:-1], seq_list[1:]):
-        connecta2a(st, et, eb)
-
-
-def real_bp():
-    with DynamicShow((6, 6), '_feed_forward.png') as d:
-        draw_feed_forward(d.ax, num_node_list=[10, 8, 6, 4, 6, 8, 10])
+random.seed(2018)
+data_path = 'E:/ModData/RML2016.10a_dict.dat'
 
 
 if __name__ == '__main__':
-    real_bp()
+    orig_data = pickle.load(open(data_path, 'rb'), encoding='iso-8859-1')
+    data = orig_data[('QPSK', 10)][66:69]
+    for i in range(len(data)):
+        data_temp = data[i]
+
+        plt.subplot(2,3,i+1)
+        data_1_delta = [[random.gauss(0, 1e-3) for i in range(len(data_temp[0]))] for j in range(len(data_temp))]
+        data_1_tran = data_temp + data_1_delta
+        plt.plot(data_1_tran[0])
+        plt.plot(data_1_tran[1])
+        axes = plt.gca()
+        plt.xticks([])
+        plt.yticks([])
+        if i == 0:
+            plt.ylabel('原始信号', fontsize=16, rotation='horizontal', labelpad=35)
+
+        plt.subplot(2, 3, i+4)
+        plt.plot(data_temp[0])
+        plt.plot(data_temp[1])
+        axes = plt.gca()
+        plt.xticks([])
+        plt.yticks([])
+
+        if i == 0:
+            plt.ylabel('重构信号', fontsize=16, rotation='horizontal', labelpad=35)
+
+        plt.tight_layout()
+    # plt.savefig('E:/JackokiePapers/figures/chapter_3/fig_3_5.png')
+    plt.show()
+
