@@ -33,7 +33,7 @@ num_kernel_2 = 32
 hidden_units_1 = 32
 hidden_units_2 = 16
 dropout = 0.5
-num_classes = 9
+num_classes = 7
 train_show_step = 100
 test_show_step = 1000
 seed = 'jackokie'
@@ -286,10 +286,12 @@ def acc_snr_show(snrs, acc_snr, path):
         Hello
     """
     # Plot accuracy curve
+    plt.figure(figsize=[7, 6], dpi=160)
     plt.plot(snrs, list(map(lambda x: acc_snr[x], snrs)))
-    plt.xlabel("Signal to Noise Ratio")
-    plt.ylabel("Classification Accuracy")
-    plt.title("CNN Classification Accuracy with Different SNR")
+    plt.xlabel("信噪比/dB")
+    plt.ylabel("准确率")
+    plt.title("不同信噪比下CAE-CNN分类性能")
+    plt.tight_layout()
     plt.savefig(path)
 
 
@@ -326,7 +328,7 @@ def confusion_matrix(predict, labels, num_classes):
 
 
 def plot_confusion_matrix(conf_matrix, labels=[],
-                          title='Confusion matrix of Modulation Classification',
+                          title='调制识别混淆矩阵',
                           cmap=cm.Blues, name=None):
     """ Plot the confusion matrix.
     Parameter:
@@ -338,15 +340,17 @@ def plot_confusion_matrix(conf_matrix, labels=[],
     Returns:
         None.
     """
+    plt.figure(figsize=[7, 6], dpi=160)
     plt.imshow(conf_matrix, interpolation='nearest', cmap=cmap,  origin='upper')
     plt.title(title)
     plt.colorbar()
     tick_marks = np.arange(len(labels))
     plt.xticks(tick_marks, labels, rotation=45)
     plt.yticks(tick_marks, labels)
-    plt.tight_layout()
+
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
+    plt.tight_layout()
     if name is None:
         plt.show()
     else:
@@ -440,13 +444,13 @@ def main():
         saver.save(sess, checkpoint_file)
         test_predicts = eval_in_batches(test_data, sess, train_prediction, train_data_node, keep_prob)
         acc_snr = accuracy_snr(test_predicts, test_labels, test_indexes, snrs, samples_snr)
-        acc_snr_show(snrs, acc_snr, 'E:/JackokiePapers/figures/temp/fig_3_8.png')
+        acc_snr_show(snrs, acc_snr, 'E:/JackokiePapers/figures/chapter_3/fig_3_9.png')
 
         # Plot zero dB confusion matrix.
         zero_predict, zero_label = get_snr_sample(test_predicts, test_labels, test_indexes, samples_snr, snr=0)
         conf_matrix = confusion_matrix(zero_predict, zero_label, num_classes)
 
-        plot_confusion_matrix(conf_matrix, labels=mods, cmap=cm.gray, name='E:/JackokiePapers/figures/temp/fig_3_9.png')
+        plot_confusion_matrix(conf_matrix, labels=mods, cmap=cm.Greys, name='E:/JackokiePapers/figures/chapter_3/fig_3_10.png')
         print('The test examples\' prediction accuracy is:')
         print(acc_snr)
 

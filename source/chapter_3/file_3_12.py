@@ -6,3 +6,5 @@
 # @File    : file_3_12.py
 # @Software: PyCharm
 # @contact: jackokie@gmail.com
+
+# Layer number comparing.

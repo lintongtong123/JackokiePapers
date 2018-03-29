@@ -24,7 +24,7 @@ Chapter_3
         classify compare.
 
     file_3_9.py
-        decision tree classifier.
+        performance compare.
 
     file_3.10.py
         svm classifier.
@@ -108,3 +108,13 @@ Chapter_5
         ResNet performance vs CLDNN Model.
 
     file_5_7.py
+        Layer Comparing.
+
+    file_5_8.py
+        Kernel Number Comparing.
+
+    file_5_9.py
+        Kernel Size Comparing.
+
+    file_5_10.py
+        Layer Comparing.

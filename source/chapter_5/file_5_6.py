@@ -6,3 +6,6 @@
 # @File    : file_5_6.py
 # @Software: PyCharm
 # @contact: jackokie@gmail.com
+
+if __name__ == '__main__':
+    print()

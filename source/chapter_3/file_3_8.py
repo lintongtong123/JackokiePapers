@@ -7,22 +7,21 @@
 # @Software: PyCharm
 # @contact: jackokie@gmail.com
 
-# classify compare.
+
+# classify compare. Accuracy Save.
 
 import os
 import pickle
 
 import numpy as np
 import tensorflow as tf
-import matplotlib
-from sklearn.manifold import TSNE
 
 # matplotlib.use('agg')
 import matplotlib.pyplot as plt
 from tensorflow.contrib import layers
 
 num_epochs = [30, 50, 70, 80, 100, 200]
-num_epoch = 20
+num_epoch = 200
 batch_size = 1024
 learning_rate = 0.01
 train_ratio = 0.9
@@ -30,9 +29,9 @@ log_dir = './log/'
 orig_file_path = 'E:/ModData/RML2016.10a_dict.dat'
 [height, width] = [2, 128]
 num_channels = 1
-num_kernel_1 = 64
-num_kernel_2 = 32
-hidden_units_1 = 32
+num_kernel_1 = 32
+num_kernel_2 = 16
+hidden_units_1 = 16
 hidden_units_2 = 16
 dropout = 0.5
 num_classes = 7
@@ -179,8 +178,8 @@ def cnn_2_model(input_pl, activation=tf.nn.relu, dropout=1):
     Returns:
         logits: The model output value for each category.
      """
-    kernel1 = [1, 5, num_channels, num_kernel_1]
-    kernel2 = [2, 7, num_kernel_1, num_kernel_2]
+    kernel1 = [1, 3, num_channels, num_kernel_1]
+    kernel2 = [2, 5, num_kernel_1, num_kernel_2]
     conv1 = conv(input_pl, kernel1, activation, 'conv_1', dropout)
     # pool = tf.nn.avg_pool(conv1, ksize=[1, 1, 3, 1], strides=[1, 1, 1, 1], padding='SAME')
     conv2 = conv(conv1, kernel2, activation, 'conv_2', dropout)
@@ -286,17 +285,16 @@ def get_snr_sample(samples, labels, indexes, samples_snr, snr=0):
     idx = (predict_snr == snr).reshape([len(labels)])
     return samples[idx], labels[idx]
 
+
 def accus_compare(accus, fig_path):
     """ Plot the accuracies compare figure.
     accus: The accuracy of different classifier.
     fig_path: The path to save the figure.
     """
-    fig = plt.figure()
-    fig.tight_layout()
     for accuracy in accus:
-        fig.plot(accuracy)
-    fig.savefig(fig_path)
-
+        acc_values = list(accuracy.values())
+        plt.plot(acc_values)
+    plt.savefig(fig_path)
 
 
 def main():
@@ -346,8 +344,8 @@ def main():
 
         # Loop through training steps.
         num_train = len(train_labels)
-        max_step_train = int(num_epochs * num_train / batch_size)
-        num_classify = 10 * num_train / batch_size
+        max_step_train = int(num_epoch * num_train / batch_size)
+        num_classify = int(10 * num_train / batch_size) + 1
 
         for step in range(max_step_train):
             # Compute the offset of the current minibatch in the data.
@@ -366,18 +364,21 @@ def main():
             sess.run(optimizer, feed_dict=feed_dict)
 
             # print some extra information once reach the evaluation frequency
-            if num_classify == step:
+            if step % num_classify == 0:
                 test_predicts = eval_in_batches(test_data, sess, train_prediction, train_data_node, keep_prob)
                 acc_snr = accuracy_snr(test_predicts, test_labels, test_indexes, snrs, samples_snr)
                 accus.append(acc_snr)
-    pickle.dump(accus, open('./accus_comp.pkl'))
+                print('saving...')
+            elif step % 128 == 0:
+                test_predicts = eval_in_batches(test_data, sess, train_prediction, train_data_node, keep_prob)
+                acc_snr = accuracy_snr(test_predicts, test_labels, test_indexes, snrs, samples_snr)
+
+    pickle.dump(accus, open('./log_cmp/accus_comp_4.pkl', 'wb'))
 
     accus_compare(accus, fig_path)
 
 
-
 if __name__ == '__main__':
-    if tf.gfile.Exists(log_dir):
-        tf.gfile.DeleteRecursively(log_dir)
-    tf.gfile.MakeDirs(log_dir)
+    if not tf.gfile.Exists(log_dir):
+        tf.gfile.MakeDirs(log_dir)
     main()

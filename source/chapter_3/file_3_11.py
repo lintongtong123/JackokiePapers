@@ -6,3 +6,5 @@
 # @File    : file_3_11.py
 # @Software: PyCharm
 # @contact: jackokie@gmail.com
+
+# Kernel number comparing.

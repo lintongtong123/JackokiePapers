@@ -1,21 +1,39 @@
 import numpy as np
 import pylab as pl
 
-sampling_rate = 8000
-fft_size = 512
-t = np.arange(0, 1.0, 1.0/sampling_rate)
-x = np.sin(2*np.pi*156.25*t)  + 2*np.sin(2*np.pi*234.375*t)
-xs = x[:fft_size]
-xf = np.fft.rfft(xs)/fft_size
-freqs = np.linspace(0, sampling_rate/2, fft_size/2+1)
-xfp = 20*np.log10(np.clip(np.abs(xf), 1e-20, 1e100))
-pl.figure(figsize=(8,4))
-pl.subplot(211)
-pl.plot(t[:fft_size], xs)
-pl.xlabel(u"时间(秒)")
-pl.title(u"156.25Hz和234.375Hz的波形和频谱")
-pl.subplot(212)
-pl.plot(freqs, xfp)
-pl.xlabel(u"频率(Hz)")
-pl.subplots_adjust(hspace=0.4)
-pl.show()
+
+import numpy as np
+from viznet import connecta2a, node_sequence, NodeBrush, EdgeBrush, DynamicShow
+
+
+def draw_feed_forward(ax, num_node_list):
+    '''
+    draw a feed forward neural network.
+
+    Args:
+        num_node_list (list<int>): number of nodes in each layer.
+    '''
+    num_hidden_layer = len(num_node_list) - 2
+    token_list = ['\sigma^z'] + \
+        ['y^{(%s)}' % (i + 1) for i in range(num_hidden_layer)] + ['\psi']
+    kind_list = ['nn.input'] + ['nn.hidden'] * num_hidden_layer + ['nn.output']
+    radius_list = [0.3] + [0.2] * num_hidden_layer + [0.3]
+    y_list = 1.5 * np.arange(len(num_node_list))
+
+    seq_list = []
+    for n, kind, radius, y in zip(num_node_list, kind_list, radius_list, y_list):
+        b = NodeBrush(kind, ax)
+        seq_list.append(node_sequence(b, n, center=(0, y)))
+
+    eb = EdgeBrush('-->', ax)
+    for st, et in zip(seq_list[:-1], seq_list[1:]):
+        connecta2a(st, et, eb)
+
+
+def real_bp():
+    with DynamicShow((6, 6), '_feed_forward.png') as d:
+        draw_feed_forward(d.ax, num_node_list=[10, 8, 6, 4, 6, 8, 10])
+
+
+if __name__ == '__main__':
+    real_bp()
