@@ -10,6 +10,8 @@
 # ---------------------------------------------------------------------
 # Kernel Number Comparing.
 # ---------------------------------------------------------------------
+
+import pickle
 import numpy as np
 
 import scipy.interpolate as inp
@@ -18,29 +20,81 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 
-def kernel_epoches():
-    """ Graph the kernel number change with epoches."""
-    x = y = [16, 32, 48, 64, 96, 128, 196, 256]
-    epoches = [[57.130, 29.688, 26.368, 26.563, 23.243, 25.587, 15.235, 13.282],
-               [32.618, 26.661, 25.489, 26.563, 28.126, 44.435, 26.075, 23.829],
-               [41.700, 35.938, 23.243, 35.450, 29.688, 26.759, 27.540, 27.735],
-               [38.087, 31.251, 31.349, 38.087, 17.481, 25.294, 32.130, 15.821],
-               [41.993, 24.122, 17.384, 22.657, 35.157, 29.396, 17.091, 16.310],
-               [24.024, 35.841, 33.009, 28.224, 31.739, 16.310, 22.071, 23.829],
-               [41.993, 35.255, 28.224, 17.970, 19.728, 20.802, 18.556, 19.923],
-               [33.106, 27.149, 20.509, 32.423, 21.583, 15.919, 15.138, 16.993]]
-
-    fig = plt.figure(dpi=600)
+def accurs_show_3d(num_layer_1, num_layer_2, accurs, cmap, title, path):
+    """ Show the accuracy.
+    num_layer_1: The coordinate of the first axes.
+    num_layer_2: The coordinate of the second axes.
+    accurs: The accuracy of different
+    """
+    fig = plt.figure(dpi=120, figsize=[8, 6])
     ax = Axes3D(fig)
 
-    fit = inp.interp2d(x, y, epoches)
+    fit = inp.interp2d(num_layer_1, num_layer_2, accurs)
 
-    x_n = y_n = np.linspace(16, 256, 5120)
-    epoches_n = fit(x_n, y_n)
-    ax.plot_surface(x_n, y_n, epoches_n, cmap='magma')
-    plt.show()
+    x_n = np.linspace(min(num_layer_1), max(num_layer_1), 10240)
+    y_n = np.linspace(min(num_layer_2), max(num_layer_2), 10240)
+
+    accurs_n = fit(x_n, y_n)
+    ax.plot_surface(x_n, y_n, accurs_n, cmap=cmap)
+    ax.set_xlabel('first layer number')
+    ax.set_ylabel('second layer number')
+    ax.set_zlabel('accuracy')
+    plt.title(title)
+    # plt.tight_layout()
+    fig.savefig(path)
+
+
+def accurs_show_2d(num_layer_1, num_layer_2, accurs, y_wide, linecolor, title, path):
+    """ Show the accuracy.
+    num_layer_1: The coordinate of the first axes.
+    num_layer_2: The coordinate of the second axes.
+    accurs: The accuracy of different
+    """
+
+    fig = plt.figure(dpi=200, figsize=[8, 8])
+    p_1_labels = []
+    p_1 = []
+    for i in range(8):
+        p_1_labels.append('first_layer_num--%d' % num_layer_1[i])
+
+    for i in range(8):
+        p_1.append(plt.plot(num_layer_2, accurs[i], '--',
+                            color=linecolor[i],
+                            label=p_1_labels[i]))
+
+    plt.ylim(y_wide)
+    plt.xticks(num_layer_2)
+    plt.xlabel('second_layer_number')
+    plt.ylabel('accuracy')
+    plt.legend()
+    plt.title(title)
+    plt.tight_layout()
+    fig.savefig(path)
+
+
+def number_compare(kernel_numbers):
+    """ Plot the kernel numbers comparing...
+    kernel_numbers: the data of kernel numbers.
+    """
+    x = y = [16, 32, 48, 64, 96, 128, 196, 256]
+    linecolor = ['gold', 'red', 'springgreen', 'black', 'blue', 'cyan', 'blueviolet', 'magenta']
+
+    accurs = np.ones([8, 8], dtype=float)
+    for m in range(8):
+        for n in range(8):
+            accurs[m][n] = kernel_numbers[(x[m], y[n])]
+
+    accurs_show_3d(x, y, accurs, plt.cm.rainbow, '不同数目卷积核的分类准确率',
+                   'E:/JackokiePapers/figures/chapter_5/fig_5_9.png')
+    accurs_show_2d(x, y, accurs, [0, 73], linecolor, '不同数目卷积核的分类准确率',
+                   'E:/JackokiePapers/figures/chapter_5/fig_5_10.png')
+    accurs_show_2d(x, y, accurs, [66, 72], linecolor, '不同数目卷积核的分类准确率',
+                   'E:/JackokiePapers/figures/chapter_5/fig_5_11.png')
 
 
 if __name__ == '__main__':
-    kernel_epoches()
+
+    kernel_numbers = pickle.load(open('accuracy_kernels_num.pkl', 'rb'))
+    number_compare(kernel_numbers)
+
     print('The program has finished running...')
