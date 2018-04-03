@@ -23,7 +23,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_5_7.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="file_5_7.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter_5/file_5_7.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
@@ -35,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_5_8.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="file_5_8.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter_5/file_5_8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+            <state relative-caret-position="209">
+              <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
               <folding>
                 <element signature="e#381#394#0" expanded="true" />
               </folding>
@@ -164,14 +164,14 @@
         <option value="$PROJECT_DIR$/chapter_3/file_3_14.py" />
         <option value="$PROJECT_DIR$/chapter_4/file_4_13.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_6.py" />
-        <option value="$PROJECT_DIR$/chapter_5/file_5_8.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_3.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_9.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_7.py" />
+        <option value="$PROJECT_DIR$/chapter_5/file_5_8.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="750" />
     <option name="width" value="1040" />
     <option name="height" value="775" />
@@ -242,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_5_7">
+  <component name="RunManager" selected="Python.file_5_8">
     <configuration name="file_3_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -342,8 +342,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.file_5_7" />
         <item itemvalue="Python.file_5_8" />
+        <item itemvalue="Python.file_5_7" />
         <item itemvalue="Python.file_5_9" />
         <item itemvalue="Python.file_5_6" />
         <item itemvalue="Python.file_3_14" />
@@ -782,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter_5/file_5_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="64" column="51" lean-forward="true" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
-          <folding>
-            <element signature="e#381#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_9.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -808,6 +798,16 @@
           <caret line="69" column="56" lean-forward="true" selection-start-line="69" selection-start-column="56" selection-end-line="69" selection-end-column="56" />
           <folding>
             <element signature="e#374#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_5/file_5_8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="106" column="44" selection-start-line="106" selection-start-column="44" selection-end-line="106" selection-end-column="44" />
+          <folding>
+            <element signature="e#381#394#0" expanded="true" />
           </folding>
         </state>
       </provider>

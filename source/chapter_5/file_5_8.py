@@ -104,7 +104,7 @@ def accurs_show_2d(num_layer_1, num_layer_2, accurs, y_wide, axis_x, linecolor, 
                                 label=p_1_labels[i]))
         if mean_show:
             means = np.mean(accurs, axis=axis_x)
-            plt.plot(num_layer_2, means, '-o', linewidth=2, label='mean_accuray')
+            plt.plot(num_layer_2, means, '-ro', linewidth=2, label='mean_accuray')
         plt.ylim(y_wide)
         plt.xticks(num_layer_2)
         plt.xlabel('first_layer_number')
