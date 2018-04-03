@@ -423,11 +423,8 @@ AdaGrad根据平方梯度的整个历史收缩学习速率，可能使得学习�
 RMSProp使用指数衰减平均以丢弃遥远过去的历史，使其能够在找到凸碗状结构后快速收敛，
 它就像一个初始化于该碗状结构的AdaGrad算法实例。
 
-RMSProp的标准形式如\algref{alg:rms_prop}所示，结合Nesterov动量的形式如\algref{alg:rms_nesterov}所示。
-相比于AdaGrad，使用移动平均引入了一个新的超参数$\rho$，用来控制移动平均的长度范围。
-
-经验上，RMSProp已被证明是一种有效且实用的DNN优化算法。
-目前它是深度学习领域经常使用的优化算法之一。\par
+RMSProp相比于AdaGrad，使用移动平均引入了一个新的超参数$\rho$，用来控制移动平均的长度范围，
+其的标准形式如\ref{alg:rms_prop}所示。\par
 
 \begin{algorithm}[ht]
 	\caption{RMSProp算法}
@@ -452,12 +449,12 @@ RMSProp的标准形式如\algref{alg:rms_prop}所示，结合Nesterov动量的�
 
 \subsection{Adam}
 \label{sec:adam}
-Adam是另一种学习速率自适应的优化算法，如\algref{alg:adam}所示。
+Adam是另一种学习速率自适应的优化算法，如\ref{alg:adam}所示。
 早期算法背景下，它也许最好被看作结合RMSProp和具有一些重要区别的动量的变种。
 首先，在Adam中，动量直接并入了梯度一阶矩（指数加权）的估计。
 将动量加入RMSProp最直观的方法是将动量应用于缩放后的梯度。
 结合缩放的动量使用没有明确的理论动机。
-其次，Adam包括偏置修正，修正从原点初始化的一阶矩（动量项）和（非中心的）二阶矩的估计（\algref{alg:adam}）。
+其次，Adam包括偏置修正，修正从原点初始化的一阶矩（动量项）和（非中心的）二阶矩的估计（\ref{alg:adam}）。
 RMSProp也采用了（非中心的）二阶矩估计，然而缺失了修正因子。
 因此，不像Adam，RMSProp二阶矩估计可能在训练初期有很高的偏置。
 Adam通常被认为对超参数的选择相当鲁棒，尽管学习速率有时需要从建议的默认修改。\par

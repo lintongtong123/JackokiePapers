@@ -11,37 +11,143 @@
 # Layer Comparing.
 # ---------------------------------------------------------------------
 
+import pickle
 import numpy as np
-
+from matplotlib import cm
 import scipy.interpolate as inp
 import matplotlib.pyplot as plt
-
 from mpl_toolkits.mplot3d import Axes3D
+import seaborn as sns
+import plotly.plotly as py
+import pandas as pd
+import plotly.graph_objs as go
 
-
-def kernel_epoches():
-    """ Graph the kernel number change with epoches."""
-    x = y = [16, 32, 48, 64, 96, 128, 196, 256]
-    epoches = [[57.130, 29.688, 26.368, 26.563, 23.243, 25.587, 15.235, 13.282],
-               [32.618, 26.661, 25.489, 26.563, 28.126, 44.435, 26.075, 23.829],
-               [41.700, 35.938, 23.243, 35.450, 29.688, 26.759, 27.540, 27.735],
-               [38.087, 31.251, 31.349, 38.087, 17.481, 25.294, 32.130, 15.821],
-               [41.993, 24.122, 17.384, 22.657, 35.157, 29.396, 17.091, 16.310],
-               [24.024, 35.841, 33.009, 28.224, 31.739, 16.310, 22.071, 23.829],
-               [41.993, 35.255, 28.224, 17.970, 19.728, 20.802, 18.556, 19.923],
-               [33.106, 27.149, 20.509, 32.423, 21.583, 15.919, 15.138, 16.993]]
-
-    fig = plt.figure(dpi=120)
+def layer_show_3D(layers, width, accuracys, title, path):
+    """ Show the accuracy with 3D
+    layers: The number of layers.
+    width: The width of each layers' kernel width.
+    accuracys: The accuracys with layers and width
+    """
+    fig = plt.figure(dpi=120, figsize=(8, 6))
     ax = Axes3D(fig)
+    fit = inp.interp2d(layers, width, accuracys)
+    y_n = np.linspace(min(layers), max(layers), 5120)
+    x_n = np.linspace(min(width), max(width), 5120)
+    epoches_n = fit(y_n, x_n)
+    surf = ax.plot_surface(y_n, x_n, epoches_n, cmap='magma')
+    # plt.title(title)
+    ax.set_xlabel('kernel width')
+    ax.set_ylabel('layers ')
+    ax.set_zlabel('accuracy')
+    fig.colorbar(surf, shrink=0.5, aspect=5)
+    # plt.tight_layout()
+    plt.savefig(path)
 
-    fit = inp.interp2d(x, y, epoches)
 
-    x_n = y_n = np.linspace(16, 256, 5120)
-    epoches_n = fit(x_n, y_n)
-    ax.plot_surface(x_n, y_n, epoches_n, cmap='magma')
-    plt.show()
+def layer_hot_map(layer, width, accuracys, colormap=None, title=None, path=None):
+    """ Plot the hot map of data.
+
+    """
+    fig = plt.figure(dpi=120, figsize=(8, 7))
+    y_n = np.linspace(min(layer), max(layer), 1001*len(layer))
+    x_n = np.linspace(min(width), max(width), 1001*len(width))
+    fit = inp.interp2d(layer, width, accuracys)
+    accurs_n = fit(y_n, x_n)
+    surf = plt.imshow(accurs_n, cmap=colormap)
+    fig.colorbar(surf, shrink=0.5, aspect=5)
+    plt.xticks([])
+    plt.yticks([])
+    plt.xlabel(
+               
+        '3                   4                 5                   6                    7                     8                   9'
+               '\n\n'
+        '                     Layer Number')
+    plt.ylabel( '                  Each Layer Kernel Width \n\n'
+        '12              11             10             9             8             7             6'
+               '             5           4            3')
+    plt.tight_layout()
+    plt.savefig(path)
+
+
+
+def layer_show_mean(layer, width, accurs, y_wide=None, title=None, path=None):
+    """ Show the accuracy with different layers and kernel width.
+    layers: The number of layers.
+    width: The width of each layers' kernel width.
+    accurs: The accuracys with layers and width
+    """
+    fig = plt.figure(dpi=120, figsize=[8, 6])
+    plt.plot(layer, accurs.mean(axis=0), '--o', label='mean_accuracy')
+
+    plt.ylim(y_wide)
+    plt.xticks(layer)
+    plt.xlabel('layers number')
+    plt.ylabel('accuracy')
+    plt.legend()
+    # plt.title(title)
+    plt.tight_layout()
+    fig.savefig(path)
+
+
+def layer_show_2D(layer, width, accurs, y_wide, linecolor, title=None, mean_show=False, path=None):
+    """ Show the accuracy with different layers and kernel width.
+    layers: The number of layers.
+    width: The width of each layers' kernel width.
+    accurs: The accuracys with layers and width
+    """
+    fig = plt.figure(dpi=120, figsize=[8, 6])
+    p_1_labels = []
+    p_1 = []
+    for i in range(len(width)):
+        p_1_labels.append('kernel_width--%d' % width[i])
+
+    for i in range(len(width)):
+        p_1.append(plt.plot(layer, accurs[i], '--',
+                            color=linecolor[i],
+                            label=p_1_labels[i]))
+    if mean_show:
+        means = np.mean(accurs, 0)
+        plt.plot(layer, means, '-ro', linewidth=2, label='mean_accuray')
+
+    plt.ylim(y_wide)
+    plt.xticks(layer)
+    plt.xlabel('layers number')
+    plt.ylabel('accuracy')
+    plt.legend()
+    plt.tight_layout()
+    # plt.title(title)
+    fig.savefig(path)
+
+
+def layer_compare(accuracy_layer_numbers):
+    """ Compare the accuracy with layer number changing.
+    accuracy_layer_numbers: accuracy dict with layer number changing.
+    """
+    width = np.linspace(3, 12, 10, dtype=int)
+    layer = np.linspace(1, 9, 9, dtype=int)
+    accurs = np.ones([10, 9], dtype=float)
+
+    for m in range(10):
+        for n in range(9):
+            accurs[m][n] = accuracy_layer_numbers[(width[m], layer[n])]
+
+    linecolor = ['gold', 'red', 'green', 'springgreen', 'black', 'blue', 'cyan', 'blueviolet', 'magenta', 'navy']
+
+    layer_show_3D(layer, width, accurs,
+                  title='不同数目卷积层和卷积核宽度的分类准确率',
+                  path='E:/JackokiePapers/figures/chapter_5/fig_5_1.png')
+
+    layer_hot_map(layer, width, accurs,
+                  colormap=cm.rainbow,
+                  path='E:/JackokiePapers/figures/chapter_5/fig_5_2.png')
+
+    layer_show_2D(layer, width, accurs, [0, 72],
+                  linecolor=linecolor,
+                  mean_show=True,
+                  path='E:/JackokiePapers/figures/chapter_5/fig_5_4.png')
 
 
 if __name__ == '__main__':
-    data = pickle.load(open('accuracy_kernels_num'))
+    data = pickle.load(open('accuracy_layers.pkl', 'rb'))
+    layer_compare(data)
     print('The program has finished running...')

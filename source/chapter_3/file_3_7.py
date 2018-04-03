@@ -59,7 +59,7 @@ def load_data(data_path, input_shape):
     mods.remove('WBFM')
     mods.remove('8PSK')
     mods.remove('QAM16')
-
+    print(mods)
     # Build the train set.
     samples = []
     labels = []

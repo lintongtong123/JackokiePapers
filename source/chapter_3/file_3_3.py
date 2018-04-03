@@ -43,6 +43,6 @@ if __name__ == '__main__':
             plt.ylabel('重构信号', fontsize=16, rotation='horizontal', labelpad=35)
 
         plt.tight_layout()
-    # plt.savefig('E:/JackokiePapers/figures/chapter_3/fig_3_5.png')
+    plt.savefig('E:/JackokiePapers/figures/chapter_3/fig_3_5.png')
     plt.show()
 

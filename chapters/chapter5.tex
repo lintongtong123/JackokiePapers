@@ -34,6 +34,47 @@ $b$和$k$代表学习偏差和滤波器权重参数，$x_i$代表输入激活，
 使得我们可以克服或减弱梯度消失以及梯度弥散问题。\par
 基准的卷积网络在softmax分类器之前有两个卷积层和一个全连接层。每个隐藏层具有整流线性单元（ReLU）激活函数并使用0.5的$dropout$降低过拟合。\par
 
+
+\subsection{网络层数对调制识别的影响}
+
+在本小节我们将探索网络层数对调制识别的影响。
+由于我们仅仅是探索卷积层深度对分类性能的影响，而且网络的训练本身是一个非常耗时的过程。
+因此，为了降低时间成本并简化分析提供一个定性的结果，我们在本小节中的仿真所有卷积核的大小都为$1x8$，卷积核数目都为32。
+在卷积层之后，我们使用单隐层，然后利用softmax分类器作为最后的分类概率。\par
+由于网络层次深度对训练数据遍历次数的要求差别很大，我们也应用了与上一小节相同的预停止策略，
+在尽量保证准确率的同时提高训练效率。系统的仿真结果如图\ref{sec:fig_5_3}所示。\par
+\begin{figure}[!h]
+	\centering
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_1}
+		\label{sec:fig_5_1_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_2}
+		\label{sec:fig_5_1_b}}
+	\caption{不同卷积核宽度下，卷积层数目对分类准确率的影响}
+	\label{sec:fig_5_1}
+\end{figure}
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.6]{figures/chapter_5/fig_5_4}
+	\caption{不同卷积核宽度下，卷积层数目对分类准确率的影响}
+	\label{sec:fig_5_2}
+\end{figure}
+我们从卷积层只有$2$层的网络开始，不断增加卷积层深度。
+从图\ref{sec:fig_5_3}可以发现，增加卷积层的深度，在卷积层数目小于2时，可以微小地改善分类性能；
+当卷积层深度大于2时，改变卷积层的数量在分类准确性方面几乎没有改善。
+这表明对于我们的数据而言，没有必要学习更高层次的深度特征。
+可能是由于调制数据通常只改变正弦曲线的幅度，频率或相位，因此数据的原始的复杂度不高。\par
+
+然而，令我们意外的是，添加更多的卷积层似乎并不能在低信噪比下提高分类器的性能。
+这可能是由于在低信噪比下，由于噪声能量占比过高，覆盖了调制数据本身的特性，
+而深度网络更多的是对加噪之后的数据的数值特性进行特征提取，对于统计量、循环谱等特性并没有涉及，
+因此低信噪比下分类器的识别性能并没有得到提高。\par
+
+尽管添加更多卷积层不会提高分类准确性并不奇怪，但出乎意料的是分类和损失在3个卷积层之后快速提高。
+最初的研究结果表明，较深的网络会导致较高的训练损失。
+这很可能是由于深度网络具有较高的训练难度，而不是发生了过度训练。\par
+
 \subsection{卷积核数目对调制识别的影响}
 我们探究的第一个超参数是卷积核数目，即卷基层的大小，对调制识别的影响。
 通过在第三章的探索，我们发现卷积层在第一个卷积层为$1x5$的卷积核大小，第二个卷积层为$2x6$的大小时，有较好的分类性能。
@@ -44,9 +85,40 @@ $b$和$k$代表学习偏差和滤波器权重参数，$x_i$代表输入激活，
 通过仿真，我们最终得到分类器性能随卷积核数目变化的结果如图\ref{sec:fig_5_1}所示：\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=1.2]{figures/chapter_5/fig_5_1}
-	\caption{卷积核数目对分类性能的影响} \label{sec:fig_5_1}
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_9}
+		\label{sec:fig_5_3_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_10}
+		\label{sec:fig_5_3_b}}
+	\caption{卷积核数目对分类准确率的影响}
+	\label{sec:fig_5_3}
 \end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_11}
+		\label{sec:fig_5_4_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_12}
+		\label{sec:fig_5_4_b}}
+	\caption{卷积核数目对分类准确率的影响}
+	\label{sec:fig_5_4}
+\end{figure}
+
+\begin{figure}[!h]
+	\centering
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_13}
+		\label{sec:fig_5_5_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_14}
+		\label{sec:fig_5_5_b}}
+	\caption{卷积核数目对分类准确率的影响}
+	\label{sec:fig_5_5}
+\end{figure}
+
 
 图\ref{sec:fig_5_1}显示了滤波器数量从24增加到90时，信噪比为0dB时的$7$类信号分类准确率。通过图\ref{sec:fig_5_1}的结果我们可以发现，当第一层和第二层的滤波器数量较小时，分类的准确率处于一个比较低的水准；当第一层和第二层的卷积核数目增加时，分类准确率相应的增加；当第二个卷积层数目增加到64时，网络的分类性能不再随着第一层卷积核数目增加而增加；当第二个卷积层中卷积核的数目大于64时，不管第一层卷积核数目如何变化，分类性能都不能超过最值。通过综合考虑两个卷积层，我们可以发现当第一层卷积核数目为64、第二层卷积核数目为32时，分类器性能达到最优。\par
 对于这种现象出现的原因，通过分析，我们认为滤波器数目从网络的复杂度以及网络的特征提取维度两方面影响分类的性能。\par
@@ -58,9 +130,43 @@ $b$和$k$代表学习偏差和滤波器权重参数，$x_i$代表输入激活，
 我们假设卷积核高度在$0$与$1$之间变化，卷积核的宽度在$3$到$9$之间变化。则总的训练迭代次数为$7 * 7 * 2 * 2$。为了弱化不同网络结构对训练样本$epoch$次数的需求，我们假设$epoch=1000$，这是一个很大的值，但是我们自定义了预停止策略：当每次训练迭代时，$epoch$次数增大10次，而分类性能没有提升，我们则停止本次的训练迭代。整个仿真在我们的硬件平台下大约持续了150小时，结果如图\ref{sec:fig_5_2}所示：\par
 \begin{figure}[!h]
 	\centering
-	\includegraphics[scale=1.2]{figures/chapter_5/fig_5_2}
-	\caption{卷积核大小对调制识别性能的影响}\label{sec:fig_5_2}
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_15}
+		\label{sec:fig_5_6_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_16}
+		\label{sec:fig_5_6_b}}
+	\\
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_17}
+		\label{sec:fig_5_6_c}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_18}
+		\label{sec:fig_5_6_d}}
+	\caption{不同卷积核宽度下，卷积层数目对分类准确率的影响}
+	\label{sec:fig_5_6}
 \end{figure}
+
+
+\begin{figure}[!h]
+	\centering
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_23}
+		\label{sec:fig_5_7_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_24}
+		\label{sec:fig_5_7_b}}
+	\\
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_25}
+		\label{sec:fig_5_7_c}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_26}
+		\label{sec:fig_5_7_d}}
+	\caption{不同卷积核宽度下，卷积层数目对分类准确率的影响}
+	\label{sec:fig_5_7}
+\end{figure}
+
 每个卷积层的卷积核尺寸变化的结果表明：1. 对卷积核的宽度而言，整体而言较小的卷积核不如较大的卷积核，但是当卷积的宽度增大到7之后，
 分类性能变化很小；2. 对卷积核的高度而言，当第一层卷积核的高度为1，第二层卷积核的高度为2时，我们可以获得相对最优分类性能。\par
 
@@ -80,186 +186,126 @@ $b$和$k$代表学习偏差和滤波器权重参数，$x_i$代表输入激活，
 但是，可以确定的是，卷积的操作提取的不仅仅是某些确定的特征，
 而很有可能是某些信号特性本身的体现，而且这些卷积特征随着参数的初始化、卷积核的维度变化所表征的含义也是完全不同的。\par
 
-\subsection{网络层数对调制识别的影响}
-
-在本小节我们将探索网络层数对调制识别的影响。
-由于我们仅仅是探索卷积层深度对分类性能的影响，而且网络的训练本身是一个非常耗时的过程。
-因此，为了降低时间成本并简化分析提供一个定性的结果，我们在本小节中的仿真所有卷积核的大小都为$1x8$，卷积核数目都为32。
-在卷积层之后，我们使用单隐层，然后利用softmax分类器作为最后的分类概率。\par
-由于网络层次深度对训练数据遍历次数的要求差别很大，我们也应用了与上一小节相同的预停止策略，
-在尽量保证准确率的同时提高训练效率。系统的仿真结果如图\ref{sec:fig_5_3}所示。\par
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1.2]{figures/chapter_5/fig_5_3}
-	\caption{网络层数对调制识别的影响}\label{sec:fig_5_3}
-\end{figure}
-我们从卷积层只有$2$层的网络开始，不断增加卷积层深度。
-从图\ref{sec:fig_5_3}可以发现，增加卷积层的深度，在卷积层数目小于2时，可以微小地改善分类性能；
-当卷积层深度大于2时，改变卷积层的数量在分类准确性方面几乎没有改善。
-这表明对于我们的数据而言，没有必要学习更高层次的深度特征。
-可能是由于调制数据通常只改变正弦曲线的幅度，频率或相位，因此数据的原始的复杂度不高。\par
-
-然而，令我们意外的是，添加更多的卷积层似乎并不能在低信噪比下提高分类器的性能。
-这可能是由于在低信噪比下，由于噪声能量占比过高，覆盖了调制数据本身的特性，
-而深度网络更多的是对加噪之后的数据的数值特性进行特征提取，对于统计量、循环谱等特性并没有涉及，
-因此低信噪比下分类器的识别性能并没有得到提高。\par
-
-尽管添加更多卷积层不会提高分类准确性并不奇怪，但出乎意料的是分类和损失在3个卷积层之后快速提高。
-最初的研究结果表明，较深的网络会导致较高的训练损失。
-这很可能是由于深度网络具有较高的训练难度，而不是发生了过度训练。\par
-
-\section{常见的网络架构}
-LeNet主要是用于识别10个手写数字的，但其具有较简单的网络底层结构，对于复杂数据识别效果较差。
-自2012年ImageNet竞赛之后，深度学习在之后大放异彩，表\ref{sec:table_5_1}是近几年主流的深度框架（AlexNet、VGG、GoogLeNet、ResNet）的比较。\par
-\begin{table}[H]\label{sec:table_5_1}
-	\centering
-	\caption{ ILSVRC历年Top-5错误率}
-	\begin{tabular}{ccccc}
-		\toprule
-		模型 & AlexNet & VGG & GoogLeNet & ResNet\\
-		\midrule
-		发布时间 &	2012 & 2014 & 2014 & 2015\\
-		\midrule
-		层数 & 8 & 19 & 22 & 152\\
-		\midrule
-		Top-5错误率 & 16.4\% & 7.3\% & 6.7\% & 3.57\%\\
-		\bottomrule 
-	\end{tabular}
-\end{table}
-AlexNet相比传统的CNN的改进主要在数据增强、dropout、池化、ReLU函数等，相较于我们提出的CNN基础框架没有本质上的区别。
-而VGG主要的改进是网络深度的改进，对我们的调制数据而言，网络深度的增加并不能带来模型性能的提升。
-因此，本文中我们对其影响并不作研究，而是主要对几个主流框架GoogLeNet、ResNet、CLDNN的底层结构进行改动适应调制信号的维度，
-并降低网络深度，观察不同的底层网络结构对调制识别的影响。
-
-\subsection{GoogLeNet}
-GoogLeNet相较于CNN主要的创新在于提出了Inception结构，这是一种底层的网络结构，其类似于卷积核一样，是一种网络组成的单元。
-它可以提高网络深度和宽度，并能够将不同规模的特性推广到一般管理复杂性。
-Inception一直在不断发展，目前已经发展到$v4$版本，对于我们的调制识别应用场景，
-经过修改后基本的网络结构如图\ref{sec:fig_5_4}所示：\par
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.8]{figures/chapter_5/fig_5_4}
-	\caption{InceptionModel}\label{sec:fig_5_4}
-\end{figure}
-每个Inception模块（如图\ref{sec:fig_5_4}所示）包含四条并行路径，输出是四个并行输出的串联，
-用了Inception结构之后整个网络结构的宽度和深度都可扩大。
-第一条路径是一组对选定信息转发的$1\times1$卷积核，它只是简单地向前传递信息而不进行变换，
-可以使选择性信息高速前向传播。
-第二和第三条通道首先是$1\times1$卷积，接着是一组$1\times3$和$1\times8$卷积以提供多个宽度的特征检测。
-最后一条并行通道，首先是一个3x3池化层，接着是1x1卷积。\par
-我们在特征提取层中使用了两层适应性重构后的Inception网络，其中第一层包含32个Inception结构，第二层包含16个Inception结构。
-这样，我们可以保证在尽量不提高网络深度和宽度的情况下，学习数据的不同维度特征。\par
-
-\subsection{残差网络}
-残差网络（ResNet）的提出本质上是要解决层次比较深的时候无法训练的问题。
-使用跨层转发信息的体系结构是一种增加网络深度的有效方法，
-微软凭借ResNet的网络结构增加网络层深度至152层并赢得ImageNet 2015的冠军[4]。
-这种借鉴了Highway Network思想的网络相当于在主干网络之外开通一个特殊通道使得输入可以直达输出。
-图\ref{sec:fig_5_5}展示了ResNet的基本结构：\par
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.6]{figures/chapter_5/fig_5_5}
-	\caption{残差网络结构}\label{sec:fig_5_5}
-\end{figure}
-如图\ref{sec:fig_5_5}所示，，$x$是网络的输入，主干网络为输入信号$x$经过不同的网络层后向传播；
-同时，ResNet也会将一层的输出添加到更深层的两层输出中。
-其中$H(X)$是某一层原始的的期望映射输出，而优化的目标由原来的拟合输出$H(x)$变成输出和输入的差$H(x)-x$，
-由于ResNet的信息转发迫使网络学习残差函数进而学习数据的特征，因此这样的网络结构被称之为残差网络。\par
-ResNet的作者认为消失梯度可以通过广泛采用的归一化技术来解决，而深度网络的深度则受限于深度网络的训练复杂度，
-而残差网络正可以通过额外的信息转发通道，弱化网络深度对训练复杂度的影响。\par66
-
-由本章第二小节得到的结论，网络的深度并不是我们调制性能限制的主要因素。
-因此，我们在ResNet调制识别网络的设计时，仅仅考虑到使用五个层的简单网络，每隔两层进行信息转发，
-来探索ResNet的网络结构是否能提高调制识别的准确率。
-
-
-\subsection{卷积长短期深度神经网络}
-CNN可以减小频率的偏移变化，LSTM则很适合对时序语音进行建模，DNN就可以对特征进行非线性映射到一个抽象空间进行有效分离。
-卷积长短期深度神经网络（Convolutional Long short-term Deep Neural Networks，CLDNN）正是一种将CNN、LSTM和DNN结合的用于语音处理的算法。它在CNN上加入了对输入特征的时域卷积，同时实现了时域和频域卷积，并将时频域上的特征进行关联。\par
-
-受通信领域专业知识引导和CLDNN等网络体系结构的启发，我们最朴素的想法是采用典型通信接收器的通用结构，
-并构建具有类似结构的神经网络。
-通信接收机有一个滤波器（通常与传输的脉冲或波形匹配），同步器和采样器。
-通常，前置滤波器抽取每个符号的少量采样，用于执行相移以找到最佳采样点的同步器。
-与此类似的神经网络体系结构是卷积层，因此我们首先引入卷积层。
-LSTM广泛用于时间序列应用，由于我们是对时间序列信号进行分析获取调制方式，
-需要对时间特征进行建模，因此我们引入了LSTM单元组成的层。
- \par
-本论文中使用的CLDNN结构如图\ref{sec:fig_5_6}所示：\par
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=0.6]{figures/chapter_5/fig_5_6}
-	\caption{CLDNN结构}\label{sec:fig_5_6}
-\end{figure}
-我们测试了两层和三层卷积的CLDNN型结构，其功能类似于卷积匹配滤波器。
-而在，由于数据本身不具备较高的复杂度，我们采用了两层的版本，实际证明两个卷积层的网络性能相对更优。
-随后是两个由长期短期记忆（LSTM）单元组成的循环层，其主要用于建模数据的时间特征。
-由于调制基带数据是时间序列，因此我们认为这对于整体的网络来说可能是一个较优的改进。
-CLDNN也可以具有绕过层的连接，旨在为数据提供更长的时间上下文信息。
-例如，原始CLDNN在LSTM层之前转发卷积层输出的原始样本到DNN层，此连接是原始波形和卷积输出的连接。
-我们尝试过有和没有前向连接，发现加入连接之后，网络的分类精度更高，梯度下降更稳定。\par
-
-\section{结果及分析}
-
-本节中，我们继续使用第三章中的数据集作为评估调制识别性能的基础。
-我们使用所有信噪比条件下的$top-1$分类精率作为单个数字基准，并且比较信噪比在0dB时的分类精度。
-所有模型的训练都基于Tensorflow深度学习库，平台系统配置如表\ref{sec:table_3_1}所示。\par
-\subsection{不同网络的分类性能}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1.2]{figures/chapter_5/fig_5_7}
-	\caption{CLDNN的信噪比始终优于其他网络架构，信噪比高于-8dB}\label{sec:fig_5_7}
-\end{figure}
-Inception结构在我们的实验中并没有改进无线信号调制分类的识别准确率。网络中1-4个启动模块的结果并没有显示出我们的超参数优化CNN的改进。 同样，这表明我们不受深度的限制，也不受限于滤波器的规模。\par
-
-\subsection{GoogLeNet分类混淆矩阵}
-
-\subsection{ResNet分类混淆矩阵}
-
-\subsection{CLDNN分类混淆矩阵}
-
-为了进一步理解什么限制了分类的准确性，我们看一下图1所示的CLDNN的混淆矩阵。 8.有两个主要的混淆领域。一个在模拟调制之间，另一个在高阶QAM之间。模拟调制将很难解决，但是QAM可以通过更好的同步和减少信道损伤来改善。
-对CLDNN在每一层学习的内容有直觉，对指导未来的工作很重要。为此，我们绘制了一些滤波器抽头的时间和频率表示。对于频率响应，滤波器抽头用零填充100个零点以获得128点FFT。图图9a和图10a示出了来自第一层的两个选择滤波器。专家的眼睛看起来并不特别熟悉时域表示;然而频率响应确实显示了整形的低通滤波器。未示出的其他滤波器具有频率选择性组件，DC阻断器和类似sinc的频谱形状。
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1]{figures/chapter_5/fig8}
-	\caption{CLDNN的全SNR混淆矩阵显示了模拟调制和高阶QAM之间单独混淆之间最混乱的问题。}
-\end{figure}
-
-为了进一步理解什么限制了分类精度，我们查看了图10中所示的CLDNN的混淆矩阵。有两个主要混淆领域。 一个在模拟调制之间，另一个在高阶QAM之间。 模拟调制将很难解决，但是QAM可以通过更好的同步和减少信道损伤来改善。\par
-
-为了进一步理解什么限制了分类的准确性，我们看一下图8所示的CLDNN的混淆矩阵。有两个主要的混淆领域。一个在模拟调制之间，另一个在高阶QAM之间。模拟调制将很难解决，但是QAM可以在更好的同步和减少信道损伤的情况下得到改善。\par
-
-
-
-对CLDNN在每一层学习的内容有直觉，对指导未来的工作很重要。 为此，我们绘制了一些滤波器抽头的时间和频率表示。 对于频率响应，滤波器抽头用零填充100个零点以获得128点FFT。图 图11a和12a示出了来自第一层的两个选择滤波器。 专家的眼睛看起来并不特别熟悉时域表示; 然而频率响应确实显示出成形的低通滤波器。 未示出的其他滤波器具有频率选择性组件，DC阻断器和类似sinc的频谱形状。\par
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1]{figures/chapter_5/fig9_a}
-	\caption{我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。}
-\end{figure}
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1]{figures/chapter_5/fig10_a}
-	\caption{我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。}
-\end{figure}
-另一种可视化这些滤波器的方法是将随机数据应用于它们，并对特定滤波器的输出执行梯度上升，该滤波器将收敛到最能激活卷积神经元的数据上[11]。 选定的两个过滤器的结果如图2所示。 11b和12b。 所得到的载体看起来有点像粗PSK和FM / FSK调制到专家眼睛。 由于模拟的信道模型，矢量还显示出存在于我们的数据集中的一些恒定的相位旋转。 需要注意的是，选择这两种过滤器可视化并非所有过滤器都对专家有意义。\par
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1]{figures/chapter_5/fig9_b}
-	\caption{随机数据训练最大程度地激活过滤器，看起来像BPSK。}
-\end{figure}
-
-\begin{figure}[!h]
-	\centering
-	\includegraphics[scale=1]{figures/chapter_5/fig10_b}
-	\caption{训练最大程度激活滤波器的随机数据，这看起来像FM或FSK调制。}
-\end{figure}
-
-
-我们的超参数优化CNN和9层残留网络达到了相似的损失，验证损失和准确性，但未显示;然而，剩余网络在更少的时期学习。我们还试验了5-9层的残留网络，它们都具有相似的性能和训练时间。这与我们对普通CNN深度的超参数搜索相结合，表明我们不受无线电学习任务网络深度的限制，尽管我们受到纯粹CNN架构可以学习的功能的限制。\par
+%\section{常见的网络架构}
+%LeNet主要是用于识别10个手写数字的，但其具有较简单的网络底层结构，对于复杂数据识别效果较差。
+%自2012年ImageNet竞赛之后，深度学习在之后大放异彩，表\ref{sec:table_5_1}是近几年主流的深度框架（AlexNet、VGG、GoogLeNet、ResNet）的比较。\par
+%\begin{table}[H]\label{sec:table_5_1}
+%	\centering
+%	\caption{ ILSVRC历年Top-5错误率}
+%	\begin{tabular}{ccccc}
+%		\toprule
+%		模型 & AlexNet & VGG & GoogLeNet & ResNet\\
+%		\midrule
+%		发布时间 &	2012 & 2014 & 2014 & 2015\\
+%		\midrule
+%		层数 & 8 & 19 & 22 & 152\\
+%		\midrule
+%		Top-5错误率 & 16.4\% & 7.3\% & 6.7\% & 3.57\%\\
+%		\bottomrule 
+%	\end{tabular}
+%\end{table}
+%AlexNet相比传统的CNN的改进主要在数据增强、dropout、池化、ReLU函数等，相较于我们提出的CNN基础框架没有本质上的区别。
+%而VGG主要的改进是网络深度的改进，对我们的调制数据而言，网络深度的增加并不能带来模型性能的提升。
+%因此，本文中我们对其影响并不作研究，而是主要对几个主流框架GoogLeNet、ResNet、CLDNN的底层结构进行改动适应调制信号的维度，
+%并降低网络深度，观察不同的底层网络结构对调制识别的影响。
+%
+%\subsection{InceptionNet}
+%GoogLeNet相较于CNN主要的创新在于提出了Inception结构，这是一种底层的网络结构，其类似于卷积核一样，是一种网络组成的单元。
+%它可以提高网络深度和宽度，并能够将不同规模的特性推广到一般管理复杂性。
+%Inception一直在不断发展，目前已经发展到$v4$版本，对于我们的调制识别应用场景，
+%经过修改后基本的网络结构如图\ref{sec:fig_5_4}所示：\par
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.8]{figures/chapter_5/fig_5_27}
+%	\caption{InceptionModel}\label{sec:fig_5_27}
+%\end{figure}
+%每个Inception模块（如图\ref{sec:fig_5_4}所示）包含四条并行路径，输出是四个并行输出的串联，
+%用了Inception结构之后整个网络结构的宽度和深度都可扩大。
+%第一条路径是一组对选定信息转发的$1\times1$卷积核，它只是简单地向前传递信息而不进行变换，
+%可以使选择性信息高速前向传播。
+%第二和第三条通道首先是$1\times1$卷积，接着是一组$1\times3$和$1\times8$卷积以提供多个宽度的特征检测。
+%最后一条并行通道，首先是一个3x3池化层，接着是1x1卷积。\par
+%我们在特征提取层中使用了两层适应性重构后的Inception网络，其中第一层包含32个Inception结构，第二层包含16个Inception结构。
+%这样，我们可以保证在尽量不提高网络深度和宽度的情况下，学习数据的不同维度特征。\par
+%
+%\subsection{残差网络}
+%残差网络（ResNet）的提出本质上是要解决层次比较深的时候无法训练的问题。
+%使用跨层转发信息的体系结构是一种增加网络深度的有效方法，
+%微软凭借ResNet的网络结构增加网络层深度至152层并赢得ImageNet 2015的冠军[4]。
+%这种借鉴了Highway Network思想的网络相当于在主干网络之外开通一个特殊通道使得输入可以直达输出。
+%图\ref{sec:fig_5_5}展示了ResNet的基本结构：\par
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.6]{figures/chapter_5/fig_5_28}
+%	\caption{残差网络结构}\label{sec:fig_5_28}
+%\end{figure}
+%如图\ref{sec:fig_5_5}所示，，$x$是网络的输入，主干网络为输入信号$x$经过不同的网络层后向传播；
+%同时，ResNet也会将一层的输出添加到更深层的两层输出中。
+%其中$H(X)$是某一层原始的的期望映射输出，而优化的目标由原来的拟合输出$H(x)$变成输出和输入的差$H(x)-x$，
+%由于ResNet的信息转发迫使网络学习残差函数进而学习数据的特征，因此这样的网络结构被称之为残差网络。\par
+%ResNet的作者认为消失梯度可以通过广泛采用的归一化技术来解决，而深度网络的深度则受限于深度网络的训练复杂度，
+%而残差网络正可以通过额外的信息转发通道，弱化网络深度对训练复杂度的影响。\par66
+%
+%由本章第二小节得到的结论，网络的深度并不是我们调制性能限制的主要因素。
+%因此，我们在ResNet调制识别网络的设计时，仅仅考虑到使用五个层的简单网络，每隔两层进行信息转发，
+%来探索ResNet的网络结构是否能提高调制识别的准确率。
+%
+%
+%\subsection{卷积长短期深度神经网络}
+%CNN可以减小频率的偏移变化，LSTM则很适合对时序语音进行建模，DNN就可以对特征进行非线性映射到一个抽象空间进行有效分离。
+%卷积长短期深度神经网络（Convolutional Long short-term Deep Neural Networks，CLDNN）正是一种将CNN、LSTM和DNN结合的用于语音处理的算法。它在CNN上加入了对输入特征的时域卷积，同时实现了时域和频域卷积，并将时频域上的特征进行关联。\par
+%
+%受通信领域专业知识引导和CLDNN等网络体系结构的启发，我们最朴素的想法是采用典型通信接收器的通用结构，
+%并构建具有类似结构的神经网络。
+%通信接收机有一个滤波器（通常与传输的脉冲或波形匹配），同步器和采样器。
+%通常，前置滤波器抽取每个符号的少量采样，用于执行相移以找到最佳采样点的同步器。
+%与此类似的神经网络体系结构是卷积层，因此我们首先引入卷积层。
+%LSTM广泛用于时间序列应用，由于我们是对时间序列信号进行分析获取调制方式，
+%需要对时间特征进行建模，因此我们引入了LSTM单元组成的层。
+% \par
+%本论文中使用的CLDNN结构如图\ref{sec:fig_5_29}所示：\par
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=0.6]{figures/chapter_5/fig_5_29}
+%	\caption{CLDNN结构}\label{sec:fig_5_29}
+%\end{figure}
+%我们测试了两层和三层卷积的CLDNN型结构，其功能类似于卷积匹配滤波器。
+%而在，由于数据本身不具备较高的复杂度，我们采用了两层的版本，实际证明两个卷积层的网络性能相对更优。
+%随后是两个由长期短期记忆（LSTM）单元组成的循环层，其主要用于建模数据的时间特征。
+%由于调制基带数据是时间序列，因此我们认为这对于整体的网络来说可能是一个较优的改进。
+%CLDNN也可以具有绕过层的连接，旨在为数据提供更长的时间上下文信息。
+%例如，原始CLDNN在LSTM层之前转发卷积层输出的原始样本到DNN层，此连接是原始波形和卷积输出的连接。
+%我们尝试过有和没有前向连接，发现加入连接之后，网络的分类精度更高，梯度下降更稳定。\par
+%
+%\section{结果及分析}
+%
+%本节中，我们继续使用第三章中的数据集作为评估调制识别性能的基础。
+%我们使用所有信噪比条件下的$top-1$分类精率作为单个数字基准，并且比较信噪比在0dB时的分类精度。
+%所有模型的训练都基于Tensorflow深度学习库，平台系统配置如表\ref{sec:table_3_1}所示。\par
+%\subsection{不同网络的分类性能}
+%
+%\begin{figure}[!h]
+%	\centering
+%	\includegraphics[scale=1.2]{figures/chapter_5/fig_5_9}
+%	\caption{CLDNN的信噪比始终优于其他网络架构，信噪比高于-8dB}\label{sec:fig_5_9}
+%\end{figure}
+%Inception结构在我们的实验中并没有改进无线信号调制分类的识别准确率。网络中1-4个启动模块的结果并没有显示出我们的超参数优化CNN的改进。 同样，这表明我们不受深度的限制，也不受限于滤波器的规模。\par
+%
+%\subsection{GoogLeNet分类混淆矩阵}
+%
+%\subsection{ResNet分类混淆矩阵}
+%
+%\subsection{CLDNN分类混淆矩阵}
+%
+%为了进一步理解什么限制了分类的准确性，我们看一下图1所示的CLDNN的混淆矩阵。 8.有两个主要的混淆领域。一个在模拟调制之间，另一个在高阶QAM之间。模拟调制将很难解决，但是QAM可以通过更好的同步和减少信道损伤来改善。
+%对CLDNN在每一层学习的内容有直觉，对指导未来的工作很重要。为此，我们绘制了一些滤波器抽头的时间和频率表示。对于频率响应，滤波器抽头用零填充100个零点以获得128点FFT。图图9a和图10a示出了来自第一层的两个选择滤波器。专家的眼睛看起来并不特别熟悉时域表示;然而频率响应确实显示了整形的低通滤波器。未示出的其他滤波器具有频率选择性组件，DC阻断器和类似sinc的频谱形状。
+%
+%为了进一步理解什么限制了分类精度，我们查看了图10中所示的CLDNN的混淆矩阵。有两个主要混淆领域。 一个在模拟调制之间，另一个在高阶QAM之间。 模拟调制将很难解决，但是QAM可以通过更好的同步和减少信道损伤来改善。\par
+%
+%为了进一步理解什么限制了分类的准确性，我们看一下图8所示的CLDNN的混淆矩阵。有两个主要的混淆领域。一个在模拟调制之间，另一个在高阶QAM之间。模拟调制将很难解决，但是QAM可以在更好的同步和减少信道损伤的情况下得到改善。\par
+%
+%
+%我们的超参数优化CNN和9层残留网络达到了相似的损失，验证损失和准确性，但未显示;然而，剩余网络在更少的时期学习。我们还试验了5-9层的残留网络，它们都具有相似的性能和训练时间。这与我们对普通CNN深度的超参数搜索相结合，表明我们不受无线电学习任务网络深度的限制，尽管我们受到纯粹CNN架构可以学习的功能的限制。\par
 
 \section{本章小结}
 深度神经网络在无线电领域的性能似乎不受网络深度的限制。 虽然我们的实验将调制识别作为基准任务，但我们期望其他无线机器学习任务能够使用类似的网络架构。 无线电任务深度学习的进一步发展可能来自改进的训练方法和网络架构，这些架构可以学习转换射频数据以消除无线信道的影响，而这些神经网络架构并非为此设计的。 目前正在探索的一个例子是使用空间变换来均衡和同步输入波形[14]。\par

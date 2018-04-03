@@ -27,7 +27,9 @@ def get_sample(data_path):
     orig_data = pickle.load(open(data_path, 'rb'), encoding='iso-8859-1')
     mode_snr = list(orig_data.keys())
     mods, snrs = [sorted(list(set(x[i] for x in mode_snr))) for i in [0, 1]]
-    mods.remove('AM-SSB')
+    mods.remove('AM-DSB')
+    mods.remove('QAM16')
+    mods.remove('8PSK')
     mods.remove('WBFM')
     snr = 0
     samples = [orig_data[(mods[i], snr)][786] for i in range(len(mods))]
@@ -40,7 +42,7 @@ def freq_plot(samples, mods):
         mods: The Modulation of samples.
     """
 
-    plt.figure(num=9, figsize=(12, 10), dpi=600)
+    plt.figure(num=9, figsize=(10, 8), dpi=120)
 
     comp_samples = list()
     for i in range(len(samples)):
@@ -62,7 +64,8 @@ def freq_plot(samples, mods):
         plt.xticks([])
         plt.yticks([])
         plt.title(mods[i])
-    plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_3.jpg")
+    plt.tight_layout()
+    plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_3.png", dpi=120)
     return
 
 def time_plot(samples, mods):
@@ -71,7 +74,7 @@ def time_plot(samples, mods):
         samples: The samples to be plot.
         mods: The Modulation of samples.
     """
-    plt.figure(num=9, figsize=(10, 8), dpi=600)
+    plt.figure(num=7, figsize=(10, 8), dpi=120)
     num = len(samples)
     for i in range(num):
 
@@ -89,8 +92,8 @@ def time_plot(samples, mods):
         # plt.yticks([-0.02, 0.02])
         plt.legend([p1, p2], ['Real', 'Complex'], loc='upper right', fontsize=6)
         plt.title(mods[i])
-
-    plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_2.jpg", dpi=120)
+    plt.tight_layout()
+    plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_2.png", dpi=120)
     plt.clf()
 
 def run_process():

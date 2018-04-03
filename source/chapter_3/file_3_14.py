@@ -12,9 +12,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 name = 'E:/JackokiePapers/figures/chapter_3/fig_3_13.png'
-data = [1.8e1, 0.6e1, 2.3e-1, 5.2e-2, 6.5e-3, 1.2e-3]
+data = [1.2e1, 0.6e-1, 0.3e-1, 2.2e-2, 6.5e-3, 1.2e-3]
 height = np.log10(data)
-labels = ['KNN', 'SVM', 'CAE-CNN', 'DNN', 'XgBoost', 'DTREE']
+labels = ['KNN', 'SVM', 'CAE-CNN', 'DNN', 'RF', 'DTREE']
 plt.yscale('log')
 plt.bar(range(len(data)), data, fc='gray', tick_label=labels)
 plt.xlabel('分类器')

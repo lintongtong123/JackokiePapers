@@ -1,0 +1,47 @@
+
+% 我是代码 07 号
+\documentclass[UTF8]{ctexart}
+\usepackage{multirow}
+\usepackage{booktabs}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}  
+\begin{document}
+	\begin{table}[!htbp]
+		\centering
+		\caption{信号生成器参数}\label{tab:aStrangeTable}
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\multirow{6}*{Baseband}
+			& symbol Rate & 10M Sym/s\\ \cline{2-3}
+			& Trigger In & Auto\\  \cline{2-3}
+			& Clock & Internal\\ \cline{2-3}
+			& Data Source & RRBS \\ \cline{2-3}
+			& Modulation &\tabincell{c}{
+				QAM(16,32,64,128,256)\\
+				ASK,BPSK,QPSK,8PSK\\
+				AM-SSB, CPFSK, GFSK, PAM4\\
+				FSK(MSK,2FSK,4FSK)			
+				}\\ \cline{2-3}
+				
+			& Filter & \tabincell{c}{
+			Gauss, Multi-Path, Rayleigh\\
+				roll off factor=0.3}\\
+			\hline
+			
+			\multirow{2}*{AWGN A}
+			& System Bandwidth & 10MHz\\ \cline{2-3}
+			& Mode & Additive Noise\\
+			\hline
+			
+			\multirow{4}*{Others}
+			& IQ Mod & open\\ \cline{2-3}
+			& RF A & open\\ \cline{2-3}
+			& 载频 & 1GHz\\ \cline{2-3}
+			& Level &\tabincell{c}{
+			(-15-10db) = -10Dbm\\
+			(-9--5db) = -5dbm\\
+			(-4-15db) = 0dbm}\\
+			\hline
+		\end{tabular}
+	\end{table}
+
+\end{document}

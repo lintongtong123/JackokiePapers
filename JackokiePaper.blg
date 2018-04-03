@@ -16,23 +16,10 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/tex.bib
-Warning--I didn't find a database entry for "Jarrett-ICCV2009-small"
 Warning--I didn't find a database entry for "Saxe-ICML2011"
-Warning--I didn't find a database entry for "pinto2011scaling"
-Warning--I didn't find a database entry for "cox2011beyond"
-Warning--I didn't find a database entry for "Graves-et-al-ICASSP2013"
-Warning--I didn't find a database entry for "Pascanu-et-al-ICLR2014"
-Warning--I didn't find a database entry for "Bengio-trnn94"
-Warning--I didn't find a database entry for "Hochreiter+Schmidhuber-1997"
-Warning--I didn't find a database entry for "chapter-gradient-flow-2001"
-Warning--I didn't find a database entry for "Graves-book2012"
-Warning--I didn't find a database entry for "Graves-arxiv2013"
-Warning--I didn't find a database entry for "Sutskever-et-al-NIPS2014"
-Warning--I didn't find a database entry for "Hinton-ipam2012"
-Warning--I didn't find a database entry for "Schaul2014_unittests"
 You've used 0 entries,
             3054 wiz_defined-function locations,
-            734 strings with 6529 characters,
+            711 strings with 6080 characters,
 and the built_in function-call counts, 64 in all, are:
 = -- 0
 > -- 0
@@ -71,4 +58,4 @@ warning$ -- 0
 while$ -- 0
 width$ -- 0
 write$ -- 27
-(There were 14 warnings)
+(There was 1 warning)

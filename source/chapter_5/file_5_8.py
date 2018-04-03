@@ -16,6 +16,7 @@ import numpy as np
 
 import scipy.interpolate as inp
 import matplotlib.pyplot as plt
+from matplotlib import cm
 
 from mpl_toolkits.mplot3d import Axes3D
 
@@ -26,7 +27,7 @@ def accurs_show_3d(num_layer_1, num_layer_2, accurs, cmap, title, path):
     num_layer_2: The coordinate of the second axes.
     accurs: The accuracy of different
     """
-    fig = plt.figure(dpi=120, figsize=[8, 6])
+    fig = plt.figure(dpi=120, figsize=[8, 7])
     ax = Axes3D(fig)
 
     fit = inp.interp2d(num_layer_1, num_layer_2, accurs)
@@ -35,39 +36,83 @@ def accurs_show_3d(num_layer_1, num_layer_2, accurs, cmap, title, path):
     y_n = np.linspace(min(num_layer_2), max(num_layer_2), 10240)
 
     accurs_n = fit(x_n, y_n)
-    ax.plot_surface(x_n, y_n, accurs_n, cmap=cmap)
+    surf = ax.plot_surface(x_n, y_n, accurs_n, cmap=cmap)
     ax.set_xlabel('first layer number')
     ax.set_ylabel('second layer number')
     ax.set_zlabel('accuracy')
-    plt.title(title)
-    # plt.tight_layout()
+    fig.colorbar(surf, shrink=0.5, aspect=5)
+    # plt.title(title)
     fig.savefig(path)
 
+def kernel_num_hot_map(layers, accuracys, colormap=None, title=None, path=None):
+    """ Plot the hot map of data.
 
-def accurs_show_2d(num_layer_1, num_layer_2, accurs, y_wide, linecolor, title, path):
+    """
+    fig = plt.figure(dpi=120, figsize=(8, 7))
+    y_n = np.linspace(min(layers), max(layers), 1001*len(layers))
+    x_n = np.linspace(min(layers), max(layers), 1001*len(layers))
+    fit = inp.interp2d(layers, layers, accuracys)
+    accurs_n = fit(y_n, x_n)
+    surf = plt.imshow(accurs_n, cmap=colormap)
+    fig.colorbar(surf, shrink=0.5, aspect=5)
+    plt.xticks([])
+    plt.yticks([])
+    plt.ylabel('                                        Second Layer Kernel Number                    '
+               '                         \n\n'
+               '256             196              128               96               64               48'
+               '              32              16')
+
+    plt.xlabel('16             32              48               64               96               128'
+               '              196              256\n\n'
+               '                        First Layer Kernel Number                              ')
+    plt.tight_layout()
+    plt.savefig(path)
+
+
+def accurs_show_2d(num_layer_1, num_layer_2, accurs, y_wide, axis_x, linecolor, title=None, mean_show=False, path=None):
     """ Show the accuracy.
     num_layer_1: The coordinate of the first axes.
     num_layer_2: The coordinate of the second axes.
     accurs: The accuracy of different
     """
 
-    fig = plt.figure(dpi=200, figsize=[8, 8])
+    fig = plt.figure(dpi=120, figsize=[8, 6])
     p_1_labels = []
     p_1 = []
-    for i in range(8):
-        p_1_labels.append('first_layer_num--%d' % num_layer_1[i])
+    if axis_x == 0:
+        for i in range(len(num_layer_1)):
+            p_1_labels.append('first_layer_num--%d' % num_layer_1[i])
 
-    for i in range(8):
-        p_1.append(plt.plot(num_layer_2, accurs[i], '--',
-                            color=linecolor[i],
-                            label=p_1_labels[i]))
+        for i in range(len(num_layer_1)):
+            p_1.append(plt.plot(num_layer_1, accurs[i], '--',
+                                color=linecolor[i],
+                                label=p_1_labels[i]))
+        if mean_show:
+            means = np.mean(accurs, axis=axis_x)
+            plt.plot(num_layer_1, means, '-o', linewidth=2, label='mean_accuray')
+        plt.ylim(y_wide)
+        plt.xticks(num_layer_1)
+        plt.xlabel('second_layer_number')
+        plt.ylabel('accuracy')
+    else:
+        for i in range(len(num_layer_2)):
+            p_1_labels.append('second_layer_num--%d' % num_layer_2[i])
 
-    plt.ylim(y_wide)
-    plt.xticks(num_layer_2)
-    plt.xlabel('second_layer_number')
-    plt.ylabel('accuracy')
+        for i in range(len(num_layer_2)):
+            p_1.append(plt.plot(num_layer_1, accurs[:, i], '--',
+                                color=linecolor[i],
+                                label=p_1_labels[i]))
+        if mean_show:
+            means = np.mean(accurs, axis=axis_x)
+            plt.plot(num_layer_2, means, '-o', linewidth=2, label='mean_accuray')
+        plt.ylim(y_wide)
+        plt.xticks(num_layer_2)
+        plt.xlabel('first_layer_number')
+        plt.ylabel('accuracy')
+
     plt.legend()
-    plt.title(title)
+    if not title is None:
+        plt.title(title)
     plt.tight_layout()
     fig.savefig(path)
 
@@ -86,15 +131,39 @@ def number_compare(kernel_numbers):
 
     accurs_show_3d(x, y, accurs, plt.cm.rainbow, '不同数目卷积核的分类准确率',
                    'E:/JackokiePapers/figures/chapter_5/fig_5_9.png')
-    accurs_show_2d(x, y, accurs, [0, 73], linecolor, '不同数目卷积核的分类准确率',
-                   'E:/JackokiePapers/figures/chapter_5/fig_5_10.png')
-    accurs_show_2d(x, y, accurs, [66, 72], linecolor, '不同数目卷积核的分类准确率',
-                   'E:/JackokiePapers/figures/chapter_5/fig_5_11.png')
+
+    kernel_num_hot_map(x, accurs, colormap=cm.rainbow,
+                  path='E:/JackokiePapers/figures/chapter_5/fig_5_10.png')
+
+    accurs_show_2d(x, y, accurs, [0, 73],
+                   axis_x=1,
+                   linecolor=linecolor,
+                   mean_show=False,
+                   path='E:/JackokiePapers/figures/chapter_5/fig_5_11.png')
+
+    accurs_show_2d(x, y, accurs, [66, 72],
+                   axis_x=1,
+                   linecolor=linecolor,
+                   mean_show=True,
+                   path='E:/JackokiePapers/figures/chapter_5/fig_5_12.png')
+
+    accurs_show_2d(x, y, accurs, [0, 73],
+                   axis_x=0,
+                   linecolor=linecolor,
+                   mean_show=False,
+                   path='E:/JackokiePapers/figures/chapter_5/fig_5_13.png')
+
+    accurs_show_2d(x, y, accurs, [66, 72],
+                   axis_x=0,
+                   linecolor=linecolor,
+                   mean_show=True,
+                   path='E:/JackokiePapers/figures/chapter_5/fig_5_14.png')
 
 
 if __name__ == '__main__':
 
     kernel_numbers = pickle.load(open('accuracy_kernels_num.pkl', 'rb'))
+    # print(kernel_numbers)
     number_compare(kernel_numbers)
 
     print('The program has finished running...')

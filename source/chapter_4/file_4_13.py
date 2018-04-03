@@ -453,3 +453,6 @@ def main():
 
 if __name__ == '__main__':
     main()
+amb = dict()
+for key in sorted(temp.keys()):
+    amb[key] = temp(key)
