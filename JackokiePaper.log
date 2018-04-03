@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  3 APR 2018 12:18
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  3 APR 2018 18:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2111,42 +2111,39 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 . <->"SimSun/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
-(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./math_symbol.aux)
-(./terminology.aux) (./chapters/thanks.aux))
+(./JackokiePaper.aux (./chapters/chapter5.aux))
 \openout1 = `JackokiePaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 27.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 29.
+LaTeX Info: Redefining \selectfont on input line 27.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -2154,63 +2151,63 @@ LaTeX Info: Redefining \selectfont on input line 29.
 .................................................
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
+LaTeX Font Info:    Redeclaring math accent \check on input line 27.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
+(Font)              `operators' in the math version `normal' on input line 27.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-9.
+7.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
+(Font)              `operators' in the math version `bold' on input line 27.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-29.
+27.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 29.
+input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 29.
+ 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 29.
+ 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 29.
+ input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 29.
+ne 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 27.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 27.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -2257,7 +2254,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 27.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2267,9 +2264,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count316
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./JackokiePaper.out) (./JackokiePaper.out)
 \@outlinefile=\write6
@@ -2321,30 +2318,30 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+LaTeX Font Info:    Try loading font information for U+msa on input line 28.
  (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 28.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 30.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 28.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 30.
+(Font)              size <10.95> substituted on input line 28.
 
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 30.
+LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 28.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/calrsfs/omsrsfs.fd)
 
 LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 30.
+(Font)              size <10.95> substituted on input line 28.
 
 [3
 
@@ -2362,418 +2359,36 @@ LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
 
 
 ]
-\openout2 = `chapters/abstract.aux'.
-
- (./chapters/abstract.tex
-Underfull \vbox (badness 1199) has occurred while \output is active []
-
- [1
-
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
-
- []
-
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 33--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--40
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--40
-
- []
-
-[3
-
-
-] [4
-
-]
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 61--62
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 62--63
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 63--64
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 64--65
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 65--66
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 66--67
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 67--68
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 68--69
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 69--70
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 70--71
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 71--72
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 73--74
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 74--75
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 75--76
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 76--77
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 77--78
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 78--79
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 79--80
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 80--81
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 81--82
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 82--83
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 83--84
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 84--85
-[][] [] [] 
- []
-
-[5
-
-] [6
-
-]) (./JackokiePaper.toc [7
-
-
-] [8])
-\tf@toc=\write7
-\openout7 = `JackokiePaper.toc'.
-
- [9] [10
-
-]
-\openout2 = `chapters/chapter1.aux'.
-
- (./chapters/chapter1.tex
-第一章
-[1
-
-
-
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2]
-[3]
-Underfull \vbox (badness 1496) has occurred while \output is active []
-
- [4]
-File: figures/chapter_1/fig_1_0.png Graphic file (type QTm)
-
-<use  "figures/chapter_1/fig_1_0.png" >
-Underfull \vbox (badness 2435) has occurred while \output is active []
-
- [5]
-File: figures/chapter_1/fig_1_1.png Graphic file (type QTm)
-
-<use  "figures/chapter_1/fig_1_1.png" >
-Underfull \vbox (badness 1337) has occurred while \output is active []
-
- [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7])
-[8]
-\openout2 = `chapters/chapter2.aux'.
-
- (./chapters/chapter2.tex
-第二章
-
-Underfull \vbox (badness 4621) has occurred while \output is active []
-
- [9
-
-
-
-]
-
-LaTeX Warning: Reference `sec:eqt3_1' on page 10 undefined on input line 53.
-
-File: figures/chapter_2/fig_2_1.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_1.png" > [10]
-Missing character: There is no 、 in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no 、 in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-File: figures/chapter_2/fig_2_2.png Graphic file (type QTm)
-
-<use  "figures/chapter_2/fig_2_2.png" >
-Overfull \hbox (15.93542pt too wide) in paragraph at lines 89--90
- [][] 
- []
-
-File: figures/chapter_2/fig_2_3.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_3.png" >
-Overfull \hbox (15.93542pt too wide) in paragraph at lines 94--95
- [][] 
- []
-
-
-Package caption Warning: \label without proper reference on input line 103.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `sec:fig_2_4' on page 11 undefined on input line 100.
-
-File: figures/chapter_2/fig_2_4.png Graphic file (type QTm)
-<use  "figures/chapter_2/fig_2_4.png" > [11] [12] [13] [14] [15]
-
-Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
-line 256.
-
-[16]
-File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
- <use  "figures/chapter_2/fig_2_5.png" > [17]
-File: figures/chapter_2/fig_2_6_1.png Graphic file (type QTm)
-
-<use  "figures/chapter_2/fig_2_6_1.png" > [18] [19]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 377.
- [20] [21]) [22]
-\openout2 = `chapters/chapter3.aux'.
-
-
-(./chapters/chapter3.tex
-第三章
-[23
-
-
-
-]
-File: ./figures/chapter_3/fig_3_1.png Graphic file (type QTm)
- <use  "./figures/chapter_3/fig_3_1.png" >
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
- [24]
-File: figures/chapter_3/fig_3_2.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_2.png" > [25]
-File: figures/chapter_3/fig_3_3.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_3.png" > [26]
-File: figures/chapter_3/fig_3_4.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_4.png" > [27]
-File: figures/chapter_3/fig_3_5.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_5.png" >
-File: figures/chapter_3/fig_3_6.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_6.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28]
-File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_7.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29]
-File: figures/chapter_3/fig_3_8.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_8.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[30]
-Underfull \hbox (badness 1168) in paragraph at lines 293--295
-[] []\TU/SimSun(0)/m/n/12.045 构 建 \TU/TimesNewRoman(0)/m/n/12.045 CAE \TU/SimSu
-n(0)/m/n/12.045 框 架 及 损 失 函 数 $\OML/cmm/m/it/12.045 J[]\OT1/cmr/m/n/12.045 (\OM
-L/cmm/m/it/12.045 X; Y\OT1/cmr/m/n/12.045 ; \OML/cmm/m/it/12.045 ^^R[]\OT1/cmr/
-m/n/12.045 )$\TU/TimesNewRoman(0)/m/n/12.045 , CAE \TU/SimSun(0)/m/n/12.045 框 架
- 及 损 失 函 数
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31]
-[32]
-File: figures/chapter_3/fig_3_9.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_9.png" > [33]
-File: figures/chapter_3/fig_3_11.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_11.png" >
-File: figures/chapter_3/fig_3_10.png Graphic file (type QTm)
-
-<use  "figures/chapter_3/fig_3_10.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[34]
-File: figures/chapter_3/fig_3_12.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_12.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[35]
-File: figures/chapter_3/fig_3_13.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_13.png" > [36]) [37]
-\openout2 = `chapters/chapter4.aux'.
-
-
-(./chapters/chapter4.tex [38
-
-
-
-]
-第四章
-[39] [40] [41] [42]
-File: figures/chapter_4/fig_4_1.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_1.png" > [43] [44]
-File: figures/chapter_4/fig_4_2.png Graphic file (type QTm)
-
-<use  "figures/chapter_4/fig_4_2.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45]
-File: figures/chapter_4/fig_4_3.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_3.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[46] [47]
-File: figures/chapter_4/fig_4_4.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_4.png" >
-File: figures/chapter_4/fig_4_5.png Graphic file (type QTm)
-
-<use  "figures/chapter_4/fig_4_5.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[48]
-File: figures/chapter_4/fig_4_6.png Graphic file (type QTm)
- <use  "figures/chapter_4/fig_4_6.png" >
-File: figures/chapter_4/fig_4_7.png Graphic file (type QTm)
-
-<use  "figures/chapter_4/fig_4_7.png" >
-Overfull \hbox (12.04498pt too wide) in paragraph at lines 412--416
- [][][][] 
- []
-
-File: figures/chapter_4/fig_4_8.png Graphic file (type QTm)
-<use  "figures/chapter_4/fig_4_8.png" >
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[49]
-Underfull \vbox (badness 2065) has occurred while \output is active []
-
- [50])
-[51]
 \openout2 = `chapters/chapter5.aux'.
 
- (./chapters/chapter5.tex [52
+ (./chapters/chapter5.tex [1
 
 
 
-]
-第五章
-[53]
+] [2]
 File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
- <use  "figures/chapter_5/fig_5_1.png" >
+
+<use  "figures/chapter_5/fig_5_1.png" >
 File: figures/chapter_5/fig_5_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_2.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 50--54
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 122--126
  [][][][] 
  []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_4.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[54]
-Overfull \hbox (72.18726pt too wide) in paragraph at lines 82--84
+[3]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+Overfull \hbox (72.18726pt too wide) in paragraph at lines 154--156
 \TU/SimSun(0)/m/n/12.045 化 对 于 分 类 性 能 的 影 响。|  本 论 文 中 我 们 定 义 卷 积 核 数 目 集 合 $
 \OML/cmm/m/it/12.045 ^^T \OT1/cmr/m/n/12.045 = \OMS/cmsy/m/n/12.045 f\OT1/cmr/m
 /n/12.045 24\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 32\OML/cmm/m/it/12.045 ;
@@ -2789,19 +2404,16 @@ File: figures/chapter_5/fig_5_9.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_10.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_10.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 90--94
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 162--166
  [][][][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/chapter_5/fig_5_11.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_11.png" >
 File: figures/chapter_5/fig_5_12.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_12.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 102--106
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 174--178
  [][][][] 
  []
 
@@ -2813,20 +2425,20 @@ File: figures/chapter_5/fig_5_13.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_14.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_14.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 114--118
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 186--190
  [][][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55] [56]
+[5] [6]
 File: figures/chapter_5/fig_5_15.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_15.png" >
 File: figures/chapter_5/fig_5_16.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_16.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 135--139
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 207--211
  [][][][] 
  []
 
@@ -2835,19 +2447,16 @@ File: figures/chapter_5/fig_5_17.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_18.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_18.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 142--146
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 214--218
  [][][][] 
  []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figures/chapter_5/fig_5_23.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_23.png" >
 File: figures/chapter_5/fig_5_24.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_24.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 155--159
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 227--231
  [][][][] 
  []
 
@@ -2856,75 +2465,29 @@ File: figures/chapter_5/fig_5_25.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_26.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_26.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 162--166
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 234--238
  [][][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[57] [58]
-Underfull \vbox (badness 3386) has occurred while \output is active []
+[7] [8]
 
- [59])
-[60]
-\openout2 = `chapters/chapter6.aux'.
+LaTeX Warning: Reference `sec:table_3_1' on page IX undefined on input line 356
+.
 
- (./chapters/chapter6.tex
-第六章
-[61
-
-
-
-]) [62]
-\openout2 = `math_symbol.aux'.
-
- (./math_symbol.tex)
-\openout2 = `terminology.aux'.
-
- (./terminology.tex
-\@gls@deffile=\write8
-\openout8 = `JackokiePaper.glsdefs'.
-
-) (./JackokiePaper.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 27.
-
-[63
-
-
-
-
-
-
-
-] [64
-
-])
-\openout2 = `chapters/thanks.aux'.
-
- (./chapters/thanks.tex [65
-
-
-] [66
-
-])
-
-Package natbib Warning: There were undefined citations.
-
+) [9]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
-(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
-(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
-(./chapters/chapter5.aux) (./chapters/chapter6.aux) (./math_symbol.aux)
-(./terminology.aux) (./chapters/thanks.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 43.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
+(./JackokiePaper.aux (./chapters/chapter5.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 41.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2933,15 +2496,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 71028 strings out of 493005
- 1518931 string characters out of 6134597
- 1201347 words of memory out of 5000000
- 74185 multiletter control sequences out of 15000+600000
- 13121 words of font info for 100 fonts, out of 8000000 for 9000
+ 70309 strings out of 493005
+ 1503569 string characters out of 6134597
+ 1181469 words of memory out of 5000000
+ 73576 multiletter control sequences out of 15000+600000
+ 13089 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,14n,89p,10477b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,89p,10477b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (84 pages).
+Output written on JackokiePaper.pdf (17 pages).
