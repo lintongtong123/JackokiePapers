@@ -36,8 +36,8 @@ def layer_show_3D(layers, width, accuracys, title, path):
     epoches_n = fit(y_n, x_n)
     surf = ax.plot_surface(y_n, x_n, epoches_n, cmap='magma')
     # plt.title(title)
-    ax.set_xlabel('kernel width')
-    ax.set_ylabel('layers ')
+    ax.set_xlabel('layers number')
+    ax.set_ylabel('kernel width')
     ax.set_zlabel('accuracy')
     fig.colorbar(surf, shrink=0.5, aspect=5)
     # plt.tight_layout()
@@ -57,14 +57,20 @@ def layer_hot_map(layer, width, accuracys, colormap=None, title=None, path=None)
     fig.colorbar(surf, shrink=0.5, aspect=5)
     plt.xticks([])
     plt.yticks([])
-    plt.xlabel(
-               
-        '3                   4                 5                   6                    7                     8                   9'
-               '\n\n'
-        '                     Layer Number')
-    plt.ylabel( '                  Each Layer Kernel Width \n\n'
-        '12              11             10             9             8             7             6'
-               '             5           4            3')
+
+    first_str = ''
+    second_str = 10 * ' ' + 'Each Layer Kernel Width\n\n'
+    for num in layer:
+        first_str = first_str + str(num) + 13*' '
+    first_str = first_str.strip()
+    first_str = first_str + '\n\n' + 8 * ' ' + 'Layers Number'
+
+    for index in range(len(width)):
+        cu_width = width[len(width)-index-1]
+        second_str = second_str + str(cu_width) + 13*' '
+    second_str = second_str.rstrip()
+    plt.xlabel(first_str)
+    plt.ylabel(second_str)
     plt.tight_layout()
     plt.savefig(path)
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  3 APR 2018 18:07
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  4 APR 2018 01:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2111,7 +2111,7 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 . <->"SimSun/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-(./JackokiePaper.aux (./chapters/chapter5.aux))
+(./JackokiePaper.aux)
 \openout1 = `JackokiePaper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -2268,13 +2268,44 @@ LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
 
-(./JackokiePaper.out) (./JackokiePaper.out)
+(./JackokiePaper.out
+! Undefined control sequence.
+l.55 \BO
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./JackokiePaper.out
+! Undefined control sequence.
+l.55 \BO
+        
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
 \@outlinefile=\write6
 \openout6 = `JackokiePaper.out'.
 
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 ABD: EveryShipout initializing macros (./JackokiePaper.glsdefs)
-\linelength=\skip137
+\openout2 = `chapters/chapter5.aux'.
+
+
+(./chapters/chapter5.tex
+第一章
+(d:/WorkPrograms/TexLive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
 \g__fontspec_family_SimHei_int=\count317
 .................................................
 . fontspec info: "no-font-shape"
@@ -2306,89 +2337,76 @@ ABD: EveryShipout initializing macros (./JackokiePaper.glsdefs)
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
 
-(d:/WorkPrograms/TexLive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
-File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
-)
-[1
+LaTeX Warning: Reference `eqt_5_1' on page 1 undefined on input line 23.
 
-\openout4 = `JackokiePaper.xdy'.
-
-] [2
-
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
- (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 28.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 24.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 24.
 
-LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 28.
-
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 28.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/calrsfs/omsrsfs.fd)
 
-LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 28.
+LaTeX Warning: Reference `fig_5_0' on page 1 undefined on input line 33.
 
-[3
+File: figures/chapter_5/fig_5_0.png Graphic file (type QTm)
+<use  "figures/chapter_5/fig_5_0.png" > [1
 
-] [4
-
-
-] [5
-
-] [6
-
-
-] [7
-
-] [8
-
-
-]
-\openout2 = `chapters/chapter5.aux'.
-
- (./chapters/chapter5.tex [1
+\openout4 = `JackokiePaper.xdy'.
 
 
 
 ] [2]
-File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
 
+LaTeX Warning: Reference `sec_5_2_1' on page 3 undefined on input line 107.
+
+
+LaTeX Warning: Reference `fig_5_1' on page 3 undefined on input line 144.
+
+File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_1.png" >
 File: figures/chapter_5/fig_5_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_2.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 122--126
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 149--153
  [][][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `fig_5_1' on page 3 undefined on input line 157.
+
+
+LaTeX Warning: Reference `fig_5_1_a' on page 3 undefined on input line 159.
+
+[3]
+
+LaTeX Warning: Reference `fig_5_1_b' on page 4 undefined on input line 163.
+
+
+LaTeX Warning: Reference `fig_5_2' on page 4 undefined on input line 167.
+
 File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_4.png" >
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `fig_5_3' on page 4 undefined on input line 175.
 
-[3]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [4]
-Overfull \hbox (72.18726pt too wide) in paragraph at lines 154--156
+[4]
+Overfull \hbox (72.18726pt too wide) in paragraph at lines 208--210
 \TU/SimSun(0)/m/n/12.045 化 对 于 分 类 性 能 的 影 响。|  本 论 文 中 我 们 定 义 卷 积 核 数 目 集 合 $
 \OML/cmm/m/it/12.045 ^^T \OT1/cmr/m/n/12.045 = \OMS/cmsy/m/n/12.045 f\OT1/cmr/m
 /n/12.045 24\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 32\OML/cmm/m/it/12.045 ;
@@ -2399,12 +2417,15 @@ it/12.045 ; \OT1/cmr/m/n/12.045 80\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 96
  g$\TU/SimSun(0)/m/n/12.045 ，|
  []
 
+
+LaTeX Warning: Reference `fig_5_1' on page 5 undefined on input line 211.
+
 File: figures/chapter_5/fig_5_9.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_9.png" >
 File: figures/chapter_5/fig_5_10.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_10.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 162--166
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 216--220
  [][][][] 
  []
 
@@ -2413,7 +2434,7 @@ File: figures/chapter_5/fig_5_11.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_12.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_12.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 174--178
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 228--232
  [][][][] 
  []
 
@@ -2425,20 +2446,29 @@ File: figures/chapter_5/fig_5_13.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_14.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_14.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 186--190
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 240--244
  [][][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `fig_5_1' on page 5 undefined on input line 249.
+
+
+LaTeX Warning: Reference `fig_5_1' on page 5 undefined on input line 249.
+
 [5] [6]
+
+LaTeX Warning: Reference `fig_5_2' on page 7 undefined on input line 256.
+
 File: figures/chapter_5/fig_5_15.png Graphic file (type QTm)
- <use  "figures/chapter_5/fig_5_15.png" >
+<use  "figures/chapter_5/fig_5_15.png" >
 File: figures/chapter_5/fig_5_16.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_16.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 207--211
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 261--265
  [][][][] 
  []
 
@@ -2447,7 +2477,7 @@ File: figures/chapter_5/fig_5_17.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_18.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_18.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 214--218
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 268--272
  [][][][] 
  []
 
@@ -2456,7 +2486,7 @@ File: figures/chapter_5/fig_5_23.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_24.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_24.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 227--231
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 281--285
  [][][][] 
  []
 
@@ -2465,46 +2495,19 @@ File: figures/chapter_5/fig_5_25.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_26.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_26.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 234--238
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 288--292
  [][][][] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7] [8]
 
-LaTeX Warning: Reference `sec:table_3_1' on page IX undefined on input line 356
-.
+LaTeX Warning: Reference `fig_5_2' on page 7 undefined on input line 299.
 
-) [9]
+[7]
+Underfull \vbox (badness 3049) has occurred while \output is active []
 
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
+ [8]
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
-(./JackokiePaper.aux (./chapters/chapter5.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 41.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.41063pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
- ) 
-Here is how much of TeX's memory you used:
- 70309 strings out of 493005
- 1503569 string characters out of 6134597
- 1181469 words of memory out of 5000000
- 73576 multiletter control sequences out of 15000+600000
- 13089 words of font info for 96 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 63i,12n,89p,10477b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on JackokiePaper.pdf (17 pages).
+LaTeX Warning: Reference `sec:table_3_1' on page 9 undefined on in
