@@ -35,7 +35,8 @@ def accurs_show_3d(num_layer_1, num_layer_2, accurs, cmap, title, path):
     y_n = np.linspace(min(num_layer_2), max(num_layer_2), 10240)
 
     accurs_n = fit(x_n, y_n)
-    ax.plot_surface(x_n, y_n, accurs_n, cmap=cmap)
+    surf = ax.plot_surface(x_n, y_n, accurs_n, cmap=cmap)
+    fig.colorbar(surf, shrink=0.5, aspect=5)
     ax.set_xlabel('first layer number')
     ax.set_ylabel('second layer number')
     ax.set_zlabel('accuracy')
@@ -203,6 +204,7 @@ def size_compare(kernel_sizes):
 if __name__ == '__main__':
 
     kernel_sizes = pickle.load(open('accuracy_kernels_size.pkl', 'rb'))
+    print(len(kernel_sizes))
     size_compare(kernel_sizes)
 
     print('The program has finished running...')

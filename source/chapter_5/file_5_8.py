@@ -36,9 +36,9 @@ def accurs_show_3d(num_layer_1, num_layer_2, accurs, cmap, title, path):
     y_n = np.linspace(min(num_layer_2), max(num_layer_2), 10240)
 
     accurs_n = fit(x_n, y_n)
-    surf = ax.plot_surface(x_n, y_n, accurs_n, cmap=cmap)
-    ax.set_xlabel('first layer number')
-    ax.set_ylabel('second layer number')
+    surf = ax.plot_surface(y_n, x_n, accurs_n, cmap=cmap)
+    ax.set_xlabel('Second Layer Number')
+    ax.set_ylabel('First Layer Number')
     ax.set_zlabel('accuracy')
     fig.colorbar(surf, shrink=0.5, aspect=5)
     # plt.title(title)
@@ -52,19 +52,19 @@ def kernel_num_hot_map(layers, accuracys, colormap=None, title=None, path=None):
     y_n = np.linspace(min(layers), max(layers), 1001*len(layers))
     x_n = np.linspace(min(layers), max(layers), 1001*len(layers))
     fit = inp.interp2d(layers, layers, accuracys)
-    accurs_n = fit(y_n, x_n)
+    accurs_n = fit(x_n, y_n)
     surf = plt.imshow(accurs_n, cmap=colormap)
     fig.colorbar(surf, shrink=0.5, aspect=5)
     plt.xticks([])
     plt.yticks([])
-    plt.ylabel('                                        Second Layer Kernel Number                    '
+    plt.ylabel('                                        First Layer Kernel Number                    '
                '                         \n\n'
                '256             196              128               96               64               48'
                '              32              16')
 
     plt.xlabel('16             32              48               64               96               128'
                '              196              256\n\n'
-               '                        First Layer Kernel Number                              ')
+               '                        Second Layer Kernel Number                              ')
     plt.tight_layout()
     plt.savefig(path)
 

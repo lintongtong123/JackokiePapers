@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  4 APR 2018 01:42
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  4 APR 2018 12:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2380,68 +2380,46 @@ File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_2.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_2.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 149--153
+Overfull \hbox (12.04192pt too wide) in paragraph at lines 152--156
  [][][][] 
  []
 
 [4]
 File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_4.png" > [5]
-Overfull \hbox (72.18726pt too wide) in paragraph at lines 212--214
-\TU/SimSun(0)/m/n/12.045 化 对 于 分 类 性 能 的 影 响。|  本 论 文 中 我 们 定 义 卷 积 核 数 目 集 合 $
-\OML/cmm/m/it/12.045 ^^T \OT1/cmr/m/n/12.045 = \OMS/cmsy/m/n/12.045 f\OT1/cmr/m
-/n/12.045 24\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 32\OML/cmm/m/it/12.045 ;
- \OT1/cmr/m/n/12.045 48\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 64\OML/cmm/m/
-it/12.045 ; \OT1/cmr/m/n/12.045 80\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 96
-\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 128\OML/cmm/m/it/12.045 ; \OT1/cmr/m
-/n/12.045 160\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 192\OMS/cmsy/m/n/12.045
- g$\TU/SimSun(0)/m/n/12.045 ，|
- []
-
-File: figures/chapter_5/fig_5_9.png Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_9.png" >
 File: figures/chapter_5/fig_5_10.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_10.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 220--224
- [][][][] 
- []
-
-File: figures/chapter_5/fig_5_11.png Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_11.png" >
-File: figures/chapter_5/fig_5_12.png Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig_5_12.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 232--236
- [][][][] 
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figures/chapter_5/fig_5_13.png Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_13.png" >
-File: figures/chapter_5/fig_5_14.png Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig_5_14.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 244--248
- [][][][] 
- []
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6]
-Underfull \vbox (badness 5302) has occurred while \output is active []
+File: figures/chapter_5/fig_5_11.png Graphic file (type QTm)
+ <use  "figures/chapter_5/fig_5_11.png" >
+File: figures/chapter_5/fig_5_12.png Graphic file (type QTm)
 
- [7]
+<use  "figures/chapter_5/fig_5_12.png" >
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 249--253
+ [][][][] 
+ []
+
+[7]
+File: figures/chapter_5/fig_5_13.png Graphic file (type QTm)
+ <use  "figures/chapter_5/fig_5_13.png" >
+File: figures/chapter_5/fig_5_14.png Graphic file (type QTm)
+
+<use  "figures/chapter_5/fig_5_14.png" >
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 275--279
+ [][][][] 
+ []
+
+[8]
 File: figures/chapter_5/fig_5_15.png Graphic file (type QTm)
-
-<use  "figures/chapter_5/fig_5_15.png" >
+ <use  "figures/chapter_5/fig_5_15.png" >
 File: figures/chapter_5/fig_5_16.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_16.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 265--269
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 310--314
  [][][][] 
  []
 
@@ -2450,16 +2428,17 @@ File: figures/chapter_5/fig_5_17.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_18.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_18.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 272--276
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 317--321
  [][][][] 
  []
 
+[9]
 File: figures/chapter_5/fig_5_23.png Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_23.png" >
+ <use  "figures/chapter_5/fig_5_23.png" >
 File: figures/chapter_5/fig_5_24.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_24.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 285--289
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 339--343
  [][][][] 
  []
 
@@ -2468,19 +2447,11 @@ File: figures/chapter_5/fig_5_25.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_26.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_26.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 292--296
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 346--350
  [][][][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8] [9]
-
-LaTeX Warning: Reference `sec:table_3_1' on page X undefined on input line 414.
-
-
-) [10]
+[10]) [11]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2496,18 +2467,15 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 70318 strings out of 493005
- 1503531 string characters out of 6134597
- 1181059 words of memory out of 5000000
- 73584 multiletter control sequences out of 15000+600000
- 13089 words of font info for 96 fonts, out of 8000000 for 9000
+ 70320 strings out of 493005
+ 1503562 string characters out of 6134597
+ 1180293 words of memory out of 5000000
+ 73583 multiletter control sequences out of 15000+600000
+ 14799 words of font info for 103 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,89p,10477b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,12n,89p,10477b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (18 pages).
+Output written on JackokiePaper.pdf (19 pages).
