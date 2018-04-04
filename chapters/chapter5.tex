@@ -16,7 +16,7 @@
 \section{系统模型}
 
 在大部分现有的深度神经网络中，卷积层是它们共有的基本网络单元。
-每个卷积层由若干个卷积核组成，每个卷积核通常非常小（$1 \times 1$到$5 \times 5$是图像处理中的常见尺寸）。
+每个卷积层由若干个卷积核组成，每个卷积核通常非常小（1x1到5x5是图像处理中的常见尺寸）。
 在传统的DSP应用中，卷积核通常设计得非常宽，而非设计成很深的多层结构。
 计算机视觉领域中，神经网络的一个明显趋势是建立更深的网络来学习更复杂的函数变换和层次特征关系。\par
 
@@ -30,7 +30,7 @@
 $b$和$k$表示卷积核的偏置和卷积核的权重参数，$I_i$代表卷积核的输入 值，$*$ 表示卷积运算，
 并且$f(\dot)$表示诸如整流线性单元（$ReLU$）或$Sigmoid$单元等激活函数。\par
 
-本章中，我们所有的网络结构都是基于图\ref{fig_5_0}的框架，基准的CNN在$Softmax$分类层之前有两个卷积层和一个全连接层，Softmax层之后输出样本分类结果。\par
+本章中，我们所有的网络结构都是基于图\ref{fig_5_0}的框架，基准的卷积神经网络在$Softmax$分类层之前有两个卷积层和一个全连接层，Softmax层之后输出样本分类结果。\par
 \begin{figure}[!htbp]
 	\centering
 	\includegraphics[scale=0.6]{figures/chapter_5/fig_5_0}
@@ -231,7 +231,7 @@ CNN是通过增加网络的深度来增强拟合能力的，而网络对于数�
 	\label{fig_5_3}
 \end{figure}
 
-通过图\ref{fig_5_3}，我们可以发现，在第一层卷积核数目为$16$，即第一层卷积核数目较小时，
+通过图\ref{fig_5_3}，我们可以发现，在第一层卷积核数目为16，即第一层卷积核数目较小时，
 网络的性能几乎随着第二层卷积核数目的增大而减小。
 而随着第一层卷积核增大，改变第二层卷积核数目，系统分类准确率变化很小，只有轻微的波动。
 由于我们使用的是较小的卷积核，因此单卷积层的卷积核的局部感知野有限，
@@ -297,72 +297,33 @@ CNN是通过增加网络的深度来增强拟合能力的，而网络对于数�
 对于卷积核而言，卷积核的高度$height$和宽度$width$决定了卷积核感知野的范围。
 在本小节我们将探究卷积核的高度和宽度对调制识别性能的影响。\par
 
-根据第三章我们采用的CNN结构，我们将第一个卷积层的卷积核数目固定在$64$，
+根据第三章我们采用的卷积神经网络结构，我们将第一个卷积层的卷积核数目固定在$64$，
 将第二个卷积层的卷积核数目固定在$32$，因为这种情况下网络具有较好的分类性能。
 我们假设卷积核高度$H^{(1)}$和$H^{(2)}$在$1$与$2$之间变化，
 卷积核的宽度$W^{(1)}$和$W^{(2)}$在$3$到$12$之间变化。
 则总的训练迭代次数为$10 \times 10 \times 2 \times 2 = 400$。
-我们同样使用$Adam$优化器，并应用预停止策略，最后分类结果如图\ref{fig_5_6}所示。\par
-\begin{figure}[!h]
-	\centering
-	\subfloat[$H^{(1)} = 1, H^{(2)} = 1$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_15}
-		\label{fig_5_6_a}}
-	\subfloat[$H^{(1)} = 1, H^{(2)} = 2$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_16}
-		\label{fig_5_6_b}}
-	\\
-	\subfloat[$H^{(1)} = 2, H^{(2)} = 1$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_17}
-		\label{fig_5_6_c}}
-	\subfloat[$H^{(1)} = 2, H^{(2} = 2$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_18}
-		\label{fig_5_6_d}}
-	\caption{不同$H^{(1)} \times H^{(2)}$条件下卷积核宽度对分类性能的影响}
-	\label{fig_5_6}
-\end{figure}
-
-从图\ref{fig_5_6}我们可以发现一个整体的趋势，即卷积核$W^{(1)}$和$W^{(2)}$小的卷积核性能没有其宽度大的卷积核性能强。
-从达到的性能上界而言，图\ref{fig_5_6_b}的最值是超过$72\%$的，高于其他三种情况，
-也就是说网络的卷积层高度为$H^{(1)} = 1$，$H^{(2)} = 2$时，模型具有最优分类性能。
-这可能是因为随着卷积核的宽度增加，网络变得复杂，模型的容量变大，更能够捕获数据本身所携带的信息，
-所以呈现出较宽的卷积核具有较强的分类性能。\par
-
-分类性能在两层高度$H^{(1)}=1$和$H^{(2)}=2$时达到性能上界，
-这可能是由于我们的数据本身表示的是信号的$I \times Q$两路的信号，
-而 $I$ 路信号与 $Q$ 路信号本身呈希尔伯特变换的关系,
-所以，我们在第一个卷积层利用高度$H^{(1)}=1$的卷积核分别提取每一路的信息，
-更符合数据本身逻辑上的关系，因此也更有可能取得好的效果。
-\par
-
-从四种情况而言，图\ref{fig_5_6_d}在第二卷积层宽度为$W^{(2)}=3$时分类性能就已经达到一个较高的水平，
-相对其他三种情况而言容易更容易达到好的性能；
-而图\ref{fig_5_6_a}所示的网络最慢达到一个性能的较高水平。
-这可能是由于图\ref{fig_5_6_d}中，卷积核$H^{(1)}=2$和$H^{(2)}=2$，
-卷积核宽度大，捕获数据信息能力较强，所以性能较容易在小卷积核时达到较高水平。\par
-
+我们同样适用$Adam$优化器，并使用了预停止策略，最后分类结果如图\ref{fig_5_6}所示。\par
 \begin{figure}[!h]
 	\centering
 	\subfloat[$H^{(1)} = 1, H^{(1)} = 1$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_23}
-		\label{fig_5_7_a}}
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_15}
+		\label{fig_5_6_a}}
 	\subfloat[$H^{(1)} = 1, H^{(1)} = 2$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_24}
-		\label{fig_5_7_b}}
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_16}
+		\label{fig_5_6_b}}
 	\\
 	\subfloat[$H^{(1)} = 2, H^{(1)} = 1$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_25}
-		\label{fig_5_7_c}}
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_17}
+		\label{fig_5_6_c}}
 	\subfloat[$H^{(1)} = 2, H^{(1)} = 2$]{
-		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_26}
-		\label{fig_5_7_d}}
-	\caption{不同卷积核宽度下，卷积层数目对分类准确率的影响}
-	\label{fig_5_7}
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_18}
+		\label{fig_5_6_d}}
+	\caption{卷积核大小对分类性能的影响}
+	\label{fig_5_6}
 \end{figure}
 
 每个卷积层的卷积核尺寸变化的结果表明：1. 对卷积核的宽度而言，整体而言较小的卷积核不如较大的卷积核，但是当卷积的宽度增大到7之后，
 分类性能变化很小；2. 对卷积核的高度而言，当第一层卷积核的高度为1，第二层卷积核的高度为2时，我们可以获得相对最优分类性能。\par
-
 
 通过图\ref{fig_5_2}我们可以发现卷积核宽度为$6-9$时网络的分类性能可以达到一个较高的水准。
 这些数目的卷积核宽度相互之间有一定的差异，但是考虑到网络能达到的只是一个局部极小值，
@@ -370,6 +331,26 @@ CNN是通过增加网络的深度来增强拟合能力的，而网络对于数�
 但是可以确定的是，由于我们的信号样本是128个采样点，而每个样本包含8到16个符号，也就是每个符号占用为$16$或者$8$个采样点。
 因此，我们的卷积核宽度为$8$时，每次卷积操作相当于对$1$个符号或$1/2$个符号进行运算，
 此时，分类器的性能很有可能达到一个相对较优的水平。\par
+
+\begin{figure}[!h]
+	\centering
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_23}
+		\label{fig_5_7_a}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_24}
+		\label{fig_5_7_b}}
+	\\
+	\subfloat[3D展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_25}
+		\label{fig_5_7_c}}
+	\subfloat[热力图展示]{
+		\includegraphics[width=0.5\linewidth, height=0.4\linewidth]{figures/chapter_5/fig_5_26}
+		\label{fig_5_7_d}}
+	\caption{不同卷积核宽度下，卷积层数目对分类准确率的影响}
+	\label{fig_5_7}
+\end{figure}
+
 
 
 对于卷积层的高度而言，由于我们的样本是一个$2\times128$的时间序列，我们可以看成是由两行$128$维的向量组成。

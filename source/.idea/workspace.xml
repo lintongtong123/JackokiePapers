@@ -50,8 +50,8 @@
       <file leaf-file-name="file_5_9.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chapter_5/file_5_9.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+            <state relative-caret-position="276">
+              <caret line="206" column="26" selection-start-line="206" selection-start-column="26" selection-end-line="206" selection-end-column="26" />
               <folding>
                 <element signature="e#379#392#0" expanded="true" />
               </folding>
@@ -372,7 +372,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32784638" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23731138" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23731138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32784638" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -426,16 +426,11 @@
           <line>157</line>
           <option name="timeStamp" value="150" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/chapter_5/file_5_9.py</url>
-          <line>207</line>
-          <option name="timeStamp" value="161" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="162" />
+      <option name="time" value="161" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -809,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_9.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="156" lean-forward="true" selection-start-line="156" selection-end-line="156" />
+        <state relative-caret-position="276">
+          <caret line="206" column="26" selection-start-line="206" selection-start-column="26" selection-end-line="206" selection-end-column="26" />
           <folding>
             <element signature="e#379#392#0" expanded="true" />
           </folding>
