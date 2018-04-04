@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  5 APR 2018 00:54
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  5 APR 2018 01:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,8 +1106,83 @@ File: ctex-cs4size.clo 2017/04/01 v2.4.9 cs4size option (CTEX)
 . 
 . Defining command \CTeX with sig. '' on line 1437.
 .................................................
+
+(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows
+.def
+File: ctex-fontset-windows.def 2017/04/01 v2.4.9 Windows fonts definition (CTEX
 )
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/ctex/config/ctex.cfg
+
+(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows
+new.def
+File: ctex-fontset-windowsnew.def 2017/04/01 v2.4.9 Windows fonts definition fo
+r Vista or later version (CTEX)
+\g__fontspec_family_SimSun_int=\count149
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "KaiTi/B" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "SimHei/I" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font "SimSun/BI" (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'SimSun(0)' created for font 'SimSun' with options
+. [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.: <->"SimSun/OT:script=hani;language=DFLT;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.: <->"SimHei/OT:script=hani;language=DFLT;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.: <->"KaiTi/OT:script=hani;language=DFLT;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \songti with sig. '' on line 110.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \heiti with sig. '' on line 111.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fangsong with sig. '' on line 112.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kaishu with sig. '' on line 113.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lishu with sig. '' on line 114.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \youyuan with sig. '' on line 115.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \yahei with sig. '' on line 116.
+.................................................
+))) (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/ctex/config/ctex.cfg
 File: ctex.cfg 2017/04/01 v2.4.9 Configuration file (CTEX)
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/geometry/geometry.sty
@@ -1123,9 +1198,9 @@ Package ifvtex Info: VTeX not detected.
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count149
-\Gm@cntv=\count150
-\c@Gm@tempcnt=\count151
+\Gm@cnth=\count150
+\Gm@cntv=\count151
+\c@Gm@tempcnt=\count152
 \Gm@bindingoffset=\dimen175
 \Gm@wd@mp=\dimen176
 \Gm@odd@mp=\dimen177
@@ -1138,15 +1213,15 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count152
-\calc@Bcount=\count153
+\calc@Acount=\count153
+\calc@Bcount=\count154
 \calc@Adimen=\dimen183
 \calc@Bdimen=\dimen184
 \calc@Askip=\skip61
 \calc@Bskip=\skip62
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count154
+\calc@Ccount=\count155
 \calc@Cskip=\skip63
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/base/ifthen.sty
@@ -1184,8 +1259,8 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforefigskip=\skip90
 \cftfigindent=\skip91
 \cftfignumwidth=\skip92
-\c@lofdepth=\count155
-\c@lotdepth=\count156
+\c@lofdepth=\count156
+\c@lotdepth=\count157
 \cftbeforelottitleskip=\skip93
 \cftafterlottitleskip=\skip94
 \cftbeforetabskip=\skip95
@@ -1206,7 +1281,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen190
 \caption@hangindent=\dimen191
 )
-\c@ContinuedFloat=\count157
+\c@ContinuedFloat=\count158
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/diagbox/diagbox.sty
 Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
@@ -1234,19 +1309,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/fp/defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count158
+\actioncount=\count159
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/fp/fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count159
-\FP@xia=\count160
-\FP@xib=\count161
-\FP@xfa=\count162
-\FP@xfb=\count163
-\FP@rega=\count164
-\FP@regb=\count165
-\FP@regs=\count166
-\FP@times=\count167
+\FP@xs=\count160
+\FP@xia=\count161
+\FP@xib=\count162
+\FP@xfa=\count163
+\FP@xfb=\count164
+\FP@rega=\count165
+\FP@regb=\count166
+\FP@regs=\count167
+\FP@times=\count168
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/fp/fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1265,7 +1340,7 @@ Package: fp-pas 1994/08/29
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/fp/fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count168
+\FPseed=\count169
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/fp/fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1299,7 +1374,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip100
 \bibsep=\skip101
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count169
+\c@NAT@ctr=\count170
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -1355,13 +1430,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen259
-\Hy@linkcounter=\count170
-\Hy@pagecounter=\count171
+\Hy@linkcounter=\count171
+\Hy@pagecounter=\count172
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count172
+\Hy@SavedSpaceFactor=\count173
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1384,7 +1459,7 @@ Package hyperref Info: Plain pages OFF on input line 4513.
 Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count173
+\c@Hy@tempcnt=\count174
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1392,7 +1467,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5104.
 \XeTeXLinkMargin=\dimen260
-\Fld@menulength=\count174
+\Fld@menulength=\count175
 \Field@Width=\dimen261
 \Fld@charsize=\dimen262
 Package hyperref Info: Hyper figures OFF on input line 6358.
@@ -1404,9 +1479,9 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
 LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count175
-\c@Item=\count176
-\c@Hfootnote=\count177
+\Hy@abspage=\count176
+\c@Item=\count177
+\c@Hfootnote=\count178
 )
 
 Package hyperref Message: Driver (autodetected): hxetex.
@@ -1414,10 +1489,10 @@ Package hyperref Message: Driver (autodetected): hxetex.
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/hyperref/hxetex.def
 File: hxetex.def 2017/03/14 v6.85a Hyperref driver for XeTeX
 \pdfm@box=\box57
-\c@Hy@AnnotLevel=\count178
-\HyField@AnnotCount=\count179
-\Fld@listcount=\count180
-\c@bookmark@seq@number=\count181
+\c@Hy@AnnotLevel=\count179
+\HyField@AnnotCount=\count180
+\Fld@listcount=\count181
+\c@bookmark@seq@number=\count182
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -1462,7 +1537,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/calrsfs/calrsfs.sty
 \symrsfscript=\mathgroup7
 )
-\g__fontspec_family_TimesNewRoman_int=\count182
+\g__fontspec_family_TimesNewRoman_int=\count183
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -1502,7 +1577,7 @@ Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
 \f@ncyO@olf=\skip110
 \f@ncyO@orf=\skip111
 )
-\c@XDU@counter@resumelistcounter=\count183
+\c@XDU@counter@resumelistcounter=\count184
 )
 (./XDUthesis.def
 File: XDUthesis.def 2015/01/01 XDU, Thesis document class, version 0.1.0
@@ -1512,7 +1587,7 @@ File: XDUthesis.cfg 2015/01/01 XDU, Thesis document class, version 0.1.0
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip112
-\multirow@cntb=\count184
+\multirow@cntb=\count185
 \multirow@dima=\skip113
 \bigstrutjot=\dimen263
 )
@@ -1528,25 +1603,25 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen271
 \cmidrulekern=\dimen272
 \defaultaddspace=\dimen273
-\@cmidla=\count185
-\@cmidlb=\count186
+\@cmidla=\count186
+\@cmidlb=\count187
 \@aboverulesep=\dimen274
 \@belowrulesep=\dimen275
-\@thisruleclass=\count187
-\@lastruleclass=\count188
+\@thisruleclass=\count188
+\@lastruleclass=\count189
 \@thisrulewidth=\dimen276
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count189
+\c@KVtest=\count190
 \sf@farskip=\skip114
 \sf@captopadj=\dimen277
 \sf@capskip=\skip115
 \sf@nearskip=\skip116
-\c@subfigure=\count190
-\c@subfigure@save=\count191
-\c@subtable=\count192
-\c@subtable@save=\count193
+\c@subfigure=\count191
+\c@subfigure@save=\count192
+\c@subtable=\count193
+\c@subtable@save=\count194
 \sf@top=\skip117
 \sf@bottom=\skip118
 )
@@ -1592,10 +1667,10 @@ ode.tex
 \pgf@yc=\dimen287
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count194
-\c@pgf@countb=\count195
-\c@pgf@countc=\count196
-\c@pgf@countd=\count197
+\c@pgf@counta=\count195
+\c@pgf@countb=\count196
+\c@pgf@countc=\count197
+\c@pgf@countd=\count198
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
@@ -1617,13 +1692,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count198
+\pgfsys@objnum=\count199
 )))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count199
-\pgfsyssoftpath@bigbuffer@items=\count266
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1652,7 +1727,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen288
-\pgfmath@count=\count267
+\pgfmath@count=\count268
 \pgfmath@box=\box59
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
@@ -1677,7 +1752,7 @@ code.tex)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count268
+\c@pgfmathroundto@lastzeros=\count269
 ))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
@@ -1715,7 +1790,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count269
+\pgf@picture@serial@count=\count270
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
@@ -1750,7 +1825,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen312
-\pgf@sys@shading@range@num=\count270
+\pgf@sys@shading@range@num=\count271
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1813,7 +1888,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count271
+\pgf@plot@mark@count=\count272
 \pgfplotmarksize=\dimen317
 )
 \tikz@lastx=\dimen318
@@ -1826,19 +1901,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
 \tikz@tempbox@bg=\box68
-\tikztreelevel=\count272
-\tikznumberofchildren=\count273
-\tikznumberofcurrentchild=\count274
-\tikz@fig@count=\count275
+\tikztreelevel=\count273
+\tikznumberofchildren=\count274
+\tikznumberofcurrentchild=\count275
+\tikz@fig@count=\count276
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count276
-\pgfmatrixcurrentcolumn=\count277
-\pgf@matrix@numberofcolumns=\count278
+\pgfmatrixcurrentrow=\count277
+\pgfmatrixcurrentcolumn=\count278
+\pgf@matrix@numberofcolumns=\count279
 )
-\tikz@expandcount=\count279
+\tikz@expandcount=\count280
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1874,13 +1949,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count280
+\inf@bad=\count281
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count281
-\leftroot@=\count282
+\uproot@=\count282
+\leftroot@=\count283
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count283
-\DOTSCASE@=\count284
+\classnum@=\count284
+\DOTSCASE@=\count285
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1889,15 +1964,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen326
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count285
-\c@MaxMatrixCols=\count286
+\macc@depth=\count286
+\c@MaxMatrixCols=\count287
 \dotsspace@=\muskip18
-\c@parentequation=\count287
-\dspbrk@lvl=\count288
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
 \tag@help=\toks38
-\row@=\count289
-\column@=\count290
-\maxfields@=\count291
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
 \andhelp@=\toks39
 \eqnshift@=\dimen327
 \alignsep@=\dimen328
@@ -1919,22 +1994,22 @@ nment
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count292
+\c@float@type=\count293
 \float@exts=\toks42
 \float@box=\box71
 \@float@everytoks=\toks43
 \@floatcapt=\box72
 )
 \@float@every@algorithm=\toks44
-\c@algorithm=\count293
+\c@algorithm=\count294
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count294
-\c@ALC@line=\count295
-\c@ALC@rem=\count296
-\c@ALC@depth=\count297
+\c@ALC@unique=\count295
+\c@ALC@line=\count296
+\c@ALC@rem=\count297
+\c@ALC@depth=\count298
 \ALC@tlm=\skip122
 \algorithmicindent=\skip123
 )
@@ -1956,7 +2031,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks45
 \XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count298
+\XKV@depth=\count299
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
@@ -1964,7 +2039,7 @@ Package: mfirstuc 2016/07/31 v2.04 (NLCT)
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count299
+\etb@tempcnta=\count300
 )
 \@glsmfirst=\toks47
 \@glsmrest=\toks48
@@ -1980,26 +2055,26 @@ Package: datatool-base 2016/07/28 v2.27 (NLCT)
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/substr/substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count300
+\c@su@anzahl=\count301
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/datatool/datatool-fp.sty
 Package: datatool-fp 2016/07/28 v2.27 (NLCT)
 )
 \@dtl@toks=\toks49
-\@dtl@tmpcount=\count301
+\@dtl@tmpcount=\count302
 \dtl@tmplength=\skip124
-\dtl@sortresult=\count302
-\@dtl@numgrpsepcount=\count303
-\@dtl@datatype=\count304
-\dtl@codeA=\count305
-\dtl@codeB=\count306
-\@dtl@foreach@level=\count307
+\dtl@sortresult=\count303
+\@dtl@numgrpsepcount=\count304
+\@dtl@datatype=\count305
+\dtl@codeA=\count306
+\dtl@codeB=\count307
+\@dtl@foreach@level=\count308
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/base/glossaries-compat
 ible-307.sty
 Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
 )
-\gls@level=\count308
+\gls@level=\count309
 \@gls@tmpb=\toks50
 \gls@tmplen=\skip125
 \glskeylisttok=\toks51
@@ -2025,16 +2100,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip128
 \LTpre=\skip129
 \LTpost=\skip130
-\LTchunksize=\count309
+\LTchunksize=\count310
 \LTcapwidth=\dimen333
 \LT@head=\box73
 \LT@firsthead=\box74
 \LT@foot=\box75
 \LT@lastfoot=\box76
-\LT@cols=\count310
-\LT@rows=\count311
-\c@LT@tables=\count312
-\c@LT@chunks=\count313
+\LT@cols=\count311
+\LT@rows=\count312
+\c@LT@tables=\count313
+\c@LT@chunks=\count314
 \LT@p@ftn=\toks55
 )
 \glsdescwidth=\skip131
@@ -2045,7 +2120,7 @@ sty
 Package: glossary-super 2017/01/19 v4.29 (NLCT)
  (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count314
+\c@tracingst=\count315
 \ST@wd=\dimen334
 \ST@rightskip=\skip133
 \ST@leftskip=\skip134
@@ -2073,45 +2148,7 @@ Package: glossary-tree 2017/01/19 v4.29 (NLCT)
 
 Package glossaries Info: Writing glossary file JackokiePaper.acn on input line 
 25.
-
-*************************************************
-* xeCJK warning: "CJKfamilydefault-undefined"
-* 
-* Undefined CJK default family `\CJKrmdefault' has been replaced by `song'.
-* 
-* Try to use `\setCJKmainfont[...]{...}' to define it.
-*************************************************
-\g__fontspec_family_SimSun_int=\count315
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SimSun(0)' created for font 'SimSun' with options
-. [Script={CJK},AutoFakeBold={4}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"SimSun/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.:
-. <->"SimSun/OT:script=hani;language=DFLT;embolden=4;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-.................................................
-(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
+ (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
 (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/thanks.aux))
 \openout1 = `JackokiePaper.aux'.
@@ -2276,6 +2313,13 @@ LaTeX Info: Redefining \nameref on input line 28.
 
 
 ABD: EveryShipout initializing macros (./JackokiePaper.glsdefs)
+*************************************************
+* xeCJK warning: "CJKfamily-Unknown"
+* 
+* Unknown CJK family `song' is being ignored.
+* 
+* Try to use `\setCJKfamilyfont{song}[...]{...}' to define it.
+*************************************************
 \linelength=\skip137
 \g__fontspec_family_SimHei_int=\count317
 .................................................
@@ -2307,7 +2351,6 @@ ABD: EveryShipout initializing macros (./JackokiePaper.glsdefs)
 . <->"SimHei/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
@@ -2786,11 +2829,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 70717 strings out of 493005
- 1515896 string characters out of 6134597
- 1201921 words of memory out of 5000000
- 73885 multiletter control sequences out of 15000+600000
- 14855 words of font info for 110 fonts, out of 8000000 for 9000
+ 70787 strings out of 493005
+ 1517065 string characters out of 6134597
+ 1204763 words of memory out of 5000000
+ 73938 multiletter control sequences out of 15000+600000
+ 14863 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,14n,89p,10477b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
 

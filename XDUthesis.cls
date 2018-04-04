@@ -39,7 +39,7 @@
 %% book
 %%
 %\LoadClass[zihao=-4,UTF8,twoside,fontset=windows]{ctexbook}
-\LoadClass[zihao=-4,UTF8,twoside,fontset=none]{ctexbook}
+\LoadClass[zihao=-4,UTF8,twoside,fontset=windows]{ctexbook}
 \RequirePackage[a4paper]{geometry}
 
 %% calc
@@ -174,7 +174,7 @@
 %\setCJKmainfont[BoldFont=SimHei]{SimSun}
 %\setCJKmonofont{SimSun}     % 设置缺省中文字体
 %\setCJKfamilyfont{song}[AutoFakeBold=1]{SimSun}                             %宋体 song
-\setCJKfamilyfont{song}[AutoFakeBold=true]{SimSun}                             %宋体 song
+\setCJKfamilyfont{songti}[AutoFakeBold=true]{SimSun}                             %宋体 song
 \newcommand{\song}{\CJKfamily{song}}
 %\setCJKfamilyfont{hei}{SimHei}                              %黑体  hei
 %\setCJKfamilyfont{hei}[AutoFakeBold=1]{SimHei}                              %黑体  hei
@@ -184,6 +184,10 @@
 %% family
 \DeclareRobustCommand*{\XDU@font@st}{\song}
 \DeclareRobustCommand*{\XDU@font@ht}{\hei}
+\DeclareRobustCommand*{\XDU@font@fs}{\fangsong}
+\DeclareRobustCommand*{\XDU@font@ks}{\kaishu}
+\DeclareRobustCommand*{\XDU@font@ls}{\lishu}
+\DeclareRobustCommand*{\XDU@font@yy}{\youyuan}
 
 %% size
 \DeclareRobustCommand*{\XDU@font@zihao}[1]{\zihao{#1}\setlength{\baselineskip}{20pt}}
