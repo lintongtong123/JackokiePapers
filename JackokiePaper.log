@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  4 APR 2018 12:18
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  4 APR 2018 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2111,7 +2111,9 @@ Package glossaries Info: Writing glossary file JackokiePaper.acn on input line
 . <->"SimSun/OT:script=hani;language=DFLT;embolden=4;"
 . - 'bold small caps'  (bx/sc) with NFSS spec.: 
 .................................................
-(./JackokiePaper.aux (./chapters/chapter5.aux))
+(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/chapter5.aux) (./chapters/chapter6.aux))
 \openout1 = `JackokiePaper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
@@ -2359,21 +2361,403 @@ LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
 
 
 ]
-\openout2 = `chapters/chapter5.aux'.
+\openout2 = `chapters/abstract.aux'.
 
- (./chapters/chapter5.tex
-Overfull \hbox (10.24258pt too wide) in paragraph at lines 33--33
-[]\TU/SimSun(0)/m/n/12.045 本 章 中，|  我 们 所 有 的 网 络 结 构 都 是 基 于 图[][]\TU/TimesNew
-Roman(0)/m/n/12.045 1[][]\TU/SimSun(0)/m/n/12.045 的 框 架，|  基 准 的 卷 积 神 经 网 络 在 
-$\OML/cmm/m/it/12.045 Softmax$
+ (./chapters/abstract.tex
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+ [1
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
  []
 
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+[3
+
+
+] [4
+
+]
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 61--62
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 62--63
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 63--64
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 64--65
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 65--66
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 66--67
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 67--68
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 68--69
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 69--70
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 70--71
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 71--72
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 73--74
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 74--75
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 75--76
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 76--77
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 77--78
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 78--79
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 79--80
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 80--81
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 81--82
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 82--83
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 83--84
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 84--85
+[][] [] [] 
+ []
+
+[5
+
+] [6
+
+]) (./JackokiePaper.toc [7
+
+
+] [8])
+\tf@toc=\write7
+\openout7 = `JackokiePaper.toc'.
+
+ [9] [10
+
+]
+\openout2 = `chapters/chapter1.aux'.
+
+ (./chapters/chapter1.tex
+第一章
+[1
+
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+[3]
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [4]
+File: figures/chapter_1/fig_1_0.png Graphic file (type QTm)
+
+<use  "figures/chapter_1/fig_1_0.png" >
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+ [5]
+File: figures/chapter_1/fig_1_1.png Graphic file (type QTm)
+
+<use  "figures/chapter_1/fig_1_1.png" >
+Underfull \vbox (badness 1337) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7])
+[8]
+\openout2 = `chapters/chapter2.aux'.
+
+ (./chapters/chapter2.tex
+第二章
+
+Underfull \vbox (badness 4621) has occurred while \output is active []
+
+ [9
+
+
+
+]
+
+LaTeX Warning: Reference `sec:eqt3_1' on page 10 undefined on input line 53.
+
+File: figures/chapter_2/fig_2_1.png Graphic file (type QTm)
+<use  "figures/chapter_2/fig_2_1.png" > [10]
+Missing character: There is no 、 in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+Missing character: There is no 、 in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+File: figures/chapter_2/fig_2_2.png Graphic file (type QTm)
+
+<use  "figures/chapter_2/fig_2_2.png" >
+Overfull \hbox (15.93542pt too wide) in paragraph at lines 89--90
+ [][] 
+ []
+
+File: figures/chapter_2/fig_2_3.png Graphic file (type QTm)
+<use  "figures/chapter_2/fig_2_3.png" >
+Overfull \hbox (15.93542pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+
+Package caption Warning: \label without proper reference on input line 103.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `sec:fig_2_4' on page 11 undefined on input line 100.
+
+File: figures/chapter_2/fig_2_4.png Graphic file (type QTm)
+<use  "figures/chapter_2/fig_2_4.png" > [11] [12] [13] [14] [15]
+
+Package natbib Warning: Citation `Saxe-ICML2011' on page 16 undefined on input 
+line 256.
+
+[16]
+File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
+ <use  "figures/chapter_2/fig_2_5.png" > [17]
+File: figures/chapter_2/fig_2_6_1.png Graphic file (type QTm)
+
+<use  "figures/chapter_2/fig_2_6_1.png" > [18] [19]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 377.
+ [20] [21]) [22]
+\openout2 = `chapters/chapter3.aux'.
+
+
+(./chapters/chapter3.tex
+第三章
+[23
+
+
+
+]
+File: ./figures/chapter_3/fig_3_1.png Graphic file (type QTm)
+ <use  "./figures/chapter_3/fig_3_1.png" >
+Underfull \vbox (badness 1281) has occurred while \output is active []
+
+ [24]
+File: figures/chapter_3/fig_3_2.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_2.png" > [25]
+File: figures/chapter_3/fig_3_3.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_3.png" > [26]
+File: figures/chapter_3/fig_3_4.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_4.png" > [27]
+File: figures/chapter_3/fig_3_5.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_5.png" >
+File: figures/chapter_3/fig_3_6.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_6.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28]
+File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_7.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+File: figures/chapter_3/fig_3_8.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_8.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[30]
+Underfull \hbox (badness 1168) in paragraph at lines 293--295
+[] []\TU/SimSun(0)/m/n/12.045 构 建 \TU/TimesNewRoman(0)/m/n/12.045 CAE \TU/SimSu
+n(0)/m/n/12.045 框 架 及 损 失 函 数 $\OML/cmm/m/it/12.045 J[]\OT1/cmr/m/n/12.045 (\OM
+L/cmm/m/it/12.045 X; Y\OT1/cmr/m/n/12.045 ; \OML/cmm/m/it/12.045 ^^R[]\OT1/cmr/
+m/n/12.045 )$\TU/TimesNewRoman(0)/m/n/12.045 , CAE \TU/SimSun(0)/m/n/12.045 框 架
+ 及 损 失 函 数
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+[32]
+File: figures/chapter_3/fig_3_9.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_9.png" > [33]
+File: figures/chapter_3/fig_3_11.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_11.png" >
+File: figures/chapter_3/fig_3_10.png Graphic file (type QTm)
+
+<use  "figures/chapter_3/fig_3_10.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34]
+File: figures/chapter_3/fig_3_12.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_12.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[35]
+File: figures/chapter_3/fig_3_13.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_13.png" > [36]) [37]
+\openout2 = `chapters/chapter4.aux'.
+
+
+(./chapters/chapter4.tex [38
+
+
+
+]
+第四章
+[39] [40] [41] [42]
+File: figures/chapter_4/fig_4_1.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fig_4_1.png" > [43] [44]
+File: figures/chapter_4/fig_4_2.png Graphic file (type QTm)
+
+<use  "figures/chapter_4/fig_4_2.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[45]
+File: figures/chapter_4/fig_4_3.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fig_4_3.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[46] [47]
+File: figures/chapter_4/fig_4_4.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fig_4_4.png" >
+File: figures/chapter_4/fig_4_5.png Graphic file (type QTm)
+
+<use  "figures/chapter_4/fig_4_5.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[48]
+File: figures/chapter_4/fig_4_6.png Graphic file (type QTm)
+ <use  "figures/chapter_4/fig_4_6.png" >
+File: figures/chapter_4/fig_4_7.png Graphic file (type QTm)
+
+<use  "figures/chapter_4/fig_4_7.png" >
+Overfull \hbox (12.04498pt too wide) in paragraph at lines 412--416
+ [][][][] 
+ []
+
+File: figures/chapter_4/fig_4_8.png Graphic file (type QTm)
+<use  "figures/chapter_4/fig_4_8.png" >
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[49]
+Underfull \vbox (badness 2065) has occurred while \output is active []
+
+ [50])
+[51]
+\openout2 = `chapters/chapter5.aux'.
+
+ (./chapters/chapter5.tex [52
+
+
+
+]
+第五章
 File: figures/chapter_5/fig_5_0.png Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_0.png" > [1
-
-
-
-] [2] [3]
+<use  "figures/chapter_5/fig_5_0.png" > [53] [54] [55]
 File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_1.png" >
@@ -2384,16 +2768,16 @@ Overfull \hbox (12.04192pt too wide) in paragraph at lines 152--156
  [][][][] 
  []
 
-[4]
+[56]
 File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
- <use  "figures/chapter_5/fig_5_4.png" > [5]
+ <use  "figures/chapter_5/fig_5_4.png" > [57]
 File: figures/chapter_5/fig_5_10.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_10.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6]
+[58]
 File: figures/chapter_5/fig_5_11.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_11.png" >
 File: figures/chapter_5/fig_5_12.png Graphic file (type QTm)
@@ -2403,7 +2787,7 @@ Overfull \hbox (12.04193pt too wide) in paragraph at lines 249--253
  [][][][] 
  []
 
-[7]
+[59]
 File: figures/chapter_5/fig_5_13.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_13.png" >
 File: figures/chapter_5/fig_5_14.png Graphic file (type QTm)
@@ -2413,7 +2797,7 @@ Overfull \hbox (12.04193pt too wide) in paragraph at lines 275--279
  [][][][] 
  []
 
-[8]
+[60]
 File: figures/chapter_5/fig_5_15.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_15.png" >
 File: figures/chapter_5/fig_5_16.png Graphic file (type QTm)
@@ -2432,13 +2816,13 @@ Overfull \hbox (12.04193pt too wide) in paragraph at lines 317--321
  [][][][] 
  []
 
-[9]
+[61]
 File: figures/chapter_5/fig_5_23.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_23.png" >
 File: figures/chapter_5/fig_5_24.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_24.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 339--343
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 342--346
  [][][][] 
  []
 
@@ -2447,11 +2831,23 @@ File: figures/chapter_5/fig_5_25.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_26.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_26.png" >
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 346--350
+Overfull \hbox (12.04193pt too wide) in paragraph at lines 349--353
  [][][][] 
  []
 
-[10]) [11]
+[62]) [63]
+\openout2 = `chapters/chapter6.aux'.
+
+ (./chapters/chapter6.tex [64
+
+
+
+]
+第六章
+[65]) [66]
+
+Package natbib Warning: There were undefined citations.
+
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2459,7 +2855,9 @@ This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
-(./JackokiePaper.aux (./chapters/chapter5.aux))
+(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
+(./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
+(./chapters/chapter5.aux) (./chapters/chapter6.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 41.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
 
@@ -2467,15 +2865,18 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
  ) 
 Here is how much of TeX's memory you used:
- 70320 strings out of 493005
- 1503562 string characters out of 6134597
- 1180293 words of memory out of 5000000
- 73583 multiletter control sequences out of 15000+600000
- 14799 words of font info for 103 fonts, out of 8000000 for 9000
+ 70731 strings out of 493005
+ 1516970 string characters out of 6134597
+ 1199336 words of memory out of 5000000
+ 73904 multiletter control sequences out of 15000+600000
+ 14855 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,12n,89p,10477b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,89p,10477b,913s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on JackokiePaper.pdf (19 pages).
+Output written on JackokiePaper.pdf (84 pages).
