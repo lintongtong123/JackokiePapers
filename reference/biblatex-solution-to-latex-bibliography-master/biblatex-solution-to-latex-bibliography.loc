@@ -1,0 +1,82 @@
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {1}{\ignorespaces 参考文献信息基本格式即bibtex格式}}{2}{egcode.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {2}{\ignorespaces 利用filecontents环境随latex文档生成bib}}{4}{egcode.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {3}{\ignorespaces 文档源文件的代码基本结构}}{6}{egcode.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {4}{\ignorespaces biblatex宏包、数据源和样式的加载}}{7}{egcode.4}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {5}{\ignorespaces 添加参考文献数据源的两种方式}}{7}{egcode.5}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {6}{\ignorespaces 参考文献的引用命令}}{7}{egcode.6}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {7}{\ignorespaces 参考文献表打印命令}}{7}{egcode.7}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {8}{\ignorespaces 参考文献反向超链接选项}}{8}{egcode.8}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {9}{\ignorespaces texstudio一键编译过程提示}}{8}{egcode.9}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {10}{\ignorespaces 命令行手动输入的命令}}{9}{egcode.10}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {11}{\ignorespaces window下的bat脚本文件}}{10}{egcode.11}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {12}{\ignorespaces linux下的sh脚本文件}}{10}{egcode.12}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {13}{\ignorespaces 分章参考文献}}{11}{egcode.13}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {14}{\ignorespaces 利用宏包选项实现分章参考文献}}{12}{egcode.14}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {15}{\ignorespaces 利用refsection的全局参考文献}}{13}{egcode.15}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {16}{\ignorespaces 全局参考文献综合示例}}{13}{egcode.16}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {17}{\ignorespaces 手动加入目录链接}}{15}{egcode.17}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {18}{\ignorespaces 使用bibintoc加入目录链接}}{16}{egcode.18}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {19}{\ignorespaces biblatex对于目录的影响}}{16}{egcode.19}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {20}{\ignorespaces 重设heading选项参数}}{16}{egcode.20}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {21}{\ignorespaces 文档类提供ctex修改的页眉页脚举例}}{16}{egcode.21}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {22}{\ignorespaces 利用fancyhdr生成页眉页脚举例}}{17}{egcode.22}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {23}{\ignorespaces 利用titleps生成页眉页脚举例}}{18}{egcode.23}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {24}{\ignorespaces 利用titlesec局部修改参考文献标题格式}}{20}{egcode.24}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {25}{\ignorespaces 参考文献表内容的格式}}{21}{egcode.25}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {26}{\ignorespaces 参考文献表内容格式修改举例}}{22}{egcode.26}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {27}{\ignorespaces 自定义参考文献表环境举例}}{25}{egcode.27}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {28}{\ignorespaces 基于list的参考文献表标签的左对齐}}{26}{egcode.28}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {29}{\ignorespaces GB/T 7714 2015方式的参考文献表环境}}{26}{egcode.29}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {30}{\ignorespaces 参考文献样式定制举例}}{30}{egcode.30}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {31}{\ignorespaces 参考文献样式定制举例-国标样式}}{30}{egcode.31}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {32}{\ignorespaces 设置set条目集用于双语文献动态方法}}{31}{egcode.32}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {33}{\ignorespaces 设置set条目集用于双语文献静态方法}}{33}{egcode.33}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {34}{\ignorespaces 脚注中引用参考文献}}{33}{egcode.34}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {35}{\ignorespaces 题注中引用参考文献}}{34}{egcode.35}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {36}{\ignorespaces 小页环境中引用参考文献}}{35}{egcode.36}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {37}{\ignorespaces 脚注参考文献表}}{36}{egcode.37}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {38}{\ignorespaces 旁注参考文献表}}{37}{egcode.38}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {39}{\ignorespaces 另一种脚注和旁注参考文献表}}{38}{egcode.39}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {40}{\ignorespaces 分类筛选打印参考文献表}}{39}{egcode.40}
+\defcounter {refsection}{1}\relax 
+\contentsline {egcode}{\numberline {41}{\ignorespaces beamer中使用biblatex参考文献}}{42}{egcode.41}

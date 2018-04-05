@@ -1,4 +1,4 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 \providecommand{\bibauthor}[1]{#1}
 \providecommand{\bibeditor}[1]{#1}
 \providecommand{\bibtranslator}[1]{#1}
@@ -23,5 +23,231 @@
 \providecommand{\bibyear}[1]{#1}
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{昌信2006通信原理}
+\bibauthor{昌信\@, 樊\@, 丽娜}\@.
+  \bibbooktitle{通信原理}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{国防工业出版社}\@, \bibyear{2006}\@.
+
+\bibitem{nandi1995automatic}
+\bibauthor{NANDI A\@, AZZOUZ E~E}\@. \bibtitle{Automatic analogue modulation
+  recognition}\bibmark{[J]}\@. \bibjournal{Signal processing}\@,
+  \bibyear{1995}\@, \bibvolume{46}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{211\thinspace{}\textnormal{--}\thinspace{}222}\@.
+
+\bibitem{程汉文2009基于累计量的干扰信号调制识别算法}
+\bibauthor{程汉文\@, 朱雷\@, 吴乐南, et~al}\@.
+  \bibtitle{基于累计量的干扰信号调制识别算法}\bibmark{[J]}\@.
+  \bibjournal{电子与信息学报}\@, \bibyear{2009}\@,
+  \bibvolume{31}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{1741\thinspace{}\textnormal{--}\thinspace{}1745}\@.
+
+\bibitem{张春磊2013认知电子战初探}
+\bibauthor{张春磊\@, 杨小牛}\@.
+  \bibtitle{认知电子战初探}\bibmark{[J]}\@. \bibjournal{通信对抗}\@,
+  \bibyear{2013}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}4}\@.
+
+\bibitem{hinton2006fast}
+\bibauthor{HINTON G~E\@, OSINDERO S\@, TEH Y-W}\@. \bibtitle{A fast learning
+  algorithm for deep belief nets}\bibmark{[J]}\@. \bibjournal{Neural
+  computation}\@, \bibyear{2006}\@,
+  \bibvolume{18}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{1527\thinspace{}\textnormal{--}\thinspace{}1554}\@.
+
+\bibitem{lecun2015deep}
+\bibauthor{LECUN Y\@, BENGIO Y\@, HINTON G}\@. \bibtitle{Deep
+  learning}\bibmark{[J]}\@. \bibjournal{nature}\@, \bibyear{2015}\@,
+  \bibvolume{521}\bibnumber{(7553)}\thinspace{}\textnormal{: }\bibpages{436}\@.
+
+\bibitem{krizhevsky2012imagenet}
+\bibauthor{KRIZHEVSKY A\@, SUTSKEVER I\@, HINTON G~E}\@. \bibtitle{Imagenet
+  classification with deep convolutional neural networks}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Advances in neural information processing
+  systems}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{1097\thinspace{}\textnormal{--}\thinspace{}1105}\@.
+
+\bibitem{Szegedy_2015_CVPR}
+\bibauthor{SZEGEDY C\@, LIU W\@, JIA Y, et~al}\@. \bibtitle{Going Deeper With
+  Convolutions}\bibmark{[C]} //\thinspace{}\bibbooktitle{The IEEE Conference on
+  Computer Vision and Pattern Recognition (CVPR)}\@. \bibyear{2015}\@.
+
+\bibitem{he2016deep}
+\bibauthor{HE K\@, ZHANG X\@, REN S, et~al}\@. \bibtitle{Deep residual learning
+  for image recognition}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings
+  of the IEEE conference on computer vision and pattern recognition}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{770\thinspace{}\textnormal{--}\thinspace{}778}\@.
+
+\bibitem{osako2015complex}
+\bibauthor{OSAKO K\@, SINGH R\@, RAJ B}\@. \bibtitle{Complex recurrent neural
+  networks for denoising speech signals}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Applications of Signal Processing to Audio and
+  Acoustics (WASPAA), 2015 IEEE Workshop on}\@.
+  \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}5}\@.
+
+\bibitem{gupta2015learning}
+\bibauthor{GUPTA A\@, WANG H\@, GANAPATHIRAJU M}\@. \bibtitle{Learning
+  structure in gene expression data using deep architectures, with an
+  application to gene clustering}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Bioinformatics and Biomedicine (BIBM), 2015 IEEE
+  International Conference on}\@. \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{1328\thinspace{}\textnormal{--}\thinspace{}1335}\@.
+
+\bibitem{gatys2015neural}
+\bibauthor{GATYS L~A\@, ECKER A~S\@, BETHGE M}\@. \bibtitle{A neural algorithm
+  of artistic style}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:1508.06576}\@, \bibyear{2015}\@.
+
+\bibitem{weaver1969automatic}
+\bibauthor{WEAVER C\@, COLE C\@, KRUMLAND R, et~al}\@. \bibtitle{THE AUTOMATIC
+  CLASSIFICATION OF MODULATION TYPES BY PATTERN RECOGNITION.}\bibmark{[R]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibinstitution{STANFORD UNIV
+  CALIF STANFORD ELECTRONICS LABS}\@, \bibyear{1969}\@.
+
+\bibitem{kim1988digital}
+\bibauthor{KIM K\@, POLYDOROS A}\@. \bibtitle{Digital modulation
+  classification: the BPSK versus QPSK case}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Military Communications Conference, 1988. MILCOM
+  88, Conference record. 21st Century Military Communications-What's Possible?
+  1988 IEEE}\@. \bibyear{1988}\thinspace{}\textnormal{:
+  }\bibpages{431\thinspace{}\textnormal{--}\thinspace{}436}\@.
+
+\bibitem{hwang1991advanced}
+\bibauthor{HWANG C\@, POLYDOROS A}\@. \bibtitle{Advanced methods for digital
+  quadrature and offset modulation classification}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Military Communications Conference, 1991.
+  MILCOM'91, Conference Record, Military Communications in a Changing World.,
+  IEEE}\@. \bibyear{1991}\thinspace{}\textnormal{:
+  }\bibpages{841\thinspace{}\textnormal{--}\thinspace{}845}\@.
+
+\bibitem{380199}
+\bibauthor{HUAN C-Y\@, POLYDOROS A}\@. \bibtitle{Likelihood methods for MPSK
+  modulation classification}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions
+  on Communications}\@, \bibyear{1995}\@,
+  \bibvolume{43}\bibnumber{(2/3/4)}\thinspace{}\textnormal{:
+  }\bibpages{1493\thinspace{}\textnormal{--}\thinspace{}1504}\@.
+  \url{http://dx.doi.org/10.1109/26.380199}\@.
+
+\bibitem{644992}
+\bibauthor{SCHREYOGG C\@, REICHERT J}\@. \bibtitle{Modulation classification of
+  QAM schemes using the DFT of phase histogram combined with modulus
+  information}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{MILCOM 97 MILCOM 97
+  Proceedings\thinspace{}\textnormal{: }Vol~3}\@.
+  \bibyear{1997}\thinspace{}\textnormal{:
+  }\bibpages{1372\thinspace{}\textnormal{--}\thinspace{}1376 vol.3}\@.
+  \url{http://dx.doi.org/10.1109/MILCOM.1997.644992}\@.
+
+\bibitem{wei2000maximum}
+\bibauthor{WEI W\@, MENDEL J~M}\@. \bibtitle{Maximum-likelihood classification
+  for digital amplitude-phase modulations}\bibmark{[J]}\@. \bibjournal{IEEE
+  transactions on Communications}\@, \bibyear{2000}\@,
+  \bibvolume{48}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{189\thinspace{}\textnormal{--}\thinspace{}193}\@.
+
+\bibitem{boiteau1998general}
+\bibauthor{BOITEAU D\@, LE~MARTRET C}\@. \bibtitle{A general maximum likelihood
+  framework for modulation classification}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Acoustics, Speech and Signal Processing, 1998.
+  Proceedings of the 1998 IEEE International Conference
+  on\thinspace{}\textnormal{: }Vol~4}\@.
+  \bibyear{1998}\thinspace{}\textnormal{:
+  }\bibpages{2165\thinspace{}\textnormal{--}\thinspace{}2168}\@.
+
+\bibitem{liedtke1984computer}
+\bibauthor{LIEDTKE F}\@. \bibtitle{Computer simulation of an automatic
+  classification procedure for digitally modulated communication signals with
+  unknown parameters}\bibmark{[J]}\@. \bibjournal{Signal processing}\@,
+  \bibyear{1984}\@, \bibvolume{6}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{311\thinspace{}\textnormal{--}\thinspace{}323}\@.
+
+\bibitem{azzouz1995automatic}
+\bibauthor{AZZOUZ E~E\@, NANDI A~K}\@. \bibtitle{Automatic identification of
+  digital modulation types}\bibmark{[J]}\@. \bibjournal{Signal Processing}\@,
+  \bibyear{1995}\@, \bibvolume{47}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{55\thinspace{}\textnormal{--}\thinspace{}69}\@.
+
+\bibitem{wong2001automatic}
+\bibauthor{WONG M~D\@, NANDI A~K}\@. \bibtitle{Automatic digital modulation
+  recognition using spectral and statistical features with multi-layer
+  perceptrons}\bibmark{[C]} //\thinspace{}\bibbooktitle{Signal Processing and
+  its Applications, Sixth International, Symposium on.
+  2001\thinspace{}\textnormal{: }Vol~2}\@.
+  \bibyear{2001}\thinspace{}\textnormal{:
+  }\bibpages{390\thinspace{}\textnormal{--}\thinspace{}393}\@.
+
+\bibitem{reichert1992automatic}
+\bibauthor{REICHERT J}\@. \bibtitle{Automatic classification of communication
+  signals using higher order statistics}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Acoustics, Speech, and Signal Processing, 1992.
+  ICASSP-92., 1992 IEEE International Conference on\thinspace{}\textnormal{:
+  }Vol~5}\@. \bibyear{1992}\thinspace{}\textnormal{:
+  }\bibpages{221\thinspace{}\textnormal{--}\thinspace{}224}\@.
+
+\bibitem{swami2000hierarchical}
+\bibauthor{SWAMI A\@, SADLER B~M}\@. \bibtitle{Hierarchical digital modulation
+  classification using cumulants}\bibmark{[J]}\@. \bibjournal{IEEE Transactions
+  on communications}\@, \bibyear{2000}\@,
+  \bibvolume{48}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{416\thinspace{}\textnormal{--}\thinspace{}429}\@.
+
+\bibitem{mobasseri1999constellation}
+\bibauthor{MOBASSERI B~G}\@. \bibtitle{Constellation shape as a robust
+  signature for digital modulation recognition}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Military Communications Conference Proceedings,
+  1999. MILCOM 1999. IEEE\thinspace{}\textnormal{: }Vol~1}\@.
+  \bibyear{1999}\thinspace{}\textnormal{:
+  }\bibpages{442\thinspace{}\textnormal{--}\thinspace{}446}\@.
+
+\bibitem{mobasseri2000digital}
+\bibauthor{MOBASSERI B~G}\@. \bibtitle{Digital modulation classification using
+  constellation shape}\bibmark{[J]}\@. \bibjournal{Signal processing}\@,
+  \bibyear{2000}\@, \bibvolume{80}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{251\thinspace{}\textnormal{--}\thinspace{}277}\@.
+
+\bibitem{o2016convolutional}
+\bibauthor{O’SHEA T~J\@, CORGAN J\@, CLANCY T~C}\@. \bibtitle{Convolutional
+  radio modulation recognition networks}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{International Conference on Engineering
+  Applications of Neural Networks}\@. \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{213\thinspace{}\textnormal{--}\thinspace{}226}\@.
+
+\bibitem{o2016radio}
+\bibauthor{O'SHEA T~J\@, WEST N}\@. \bibtitle{Radio machine learning dataset
+  generation with gnu radio}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the GNU Radio
+  Conference\thinspace{}\textnormal{: }Vol~1}\@. \bibyear{2016}\@.
+
+\bibitem{mendis2016deep}
+\bibauthor{MENDIS G~J\@, WEI J\@, MADANAYAKE A}\@. \bibtitle{Deep
+  learning-based automated modulation classification for cognitive
+  radio}\bibmark{[C]} //\thinspace{}\bibbooktitle{Communication Systems (ICCS),
+  2016 IEEE International Conference on}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}6}\@.
+
+\bibitem{ali2017automatic}
+\bibauthor{ALI A\@, YANGYU F}\@. \bibtitle{Automatic Modulation Classification
+  Using Deep Learning Based on Sparse Autoencoders With Nonnegativity
+  Constraints}\bibmark{[J]}\@. \bibjournal{IEEE Signal Processing Letters}\@,
+  \bibyear{2017}\@, \bibvolume{24}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{1626\thinspace{}\textnormal{--}\thinspace{}1630}\@.
+
+\bibitem{rajendran2017distributed}
+\bibauthor{RAJENDRAN S\@, MEERT W\@, GIUSTINIANO D, et~al}\@.
+  \bibtitle{Distributed deep learning models for wireless signal classification
+  with low-cost spectrum sensors}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:1707.08908}\@, \bibyear{2017}\@.
+
+\bibitem{8319926}
+\bibauthor{TANG B\@, TU Y\@, ZHANG S, et~al}\@. \bibtitle{Digital Signal
+  Modulation Classification with Data Aug-mentation Using Generative
+  Adversarial Nets in Cogni-tive Radio Networks}\bibmark{[J/OL]}\@.
+  \bibjournal{IEEE Access}\@, \bibyear{2018}\@,
+  \bibvolume{PP}\bibnumber{(99)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}1}\@.
+  \url{http://dx.doi.org/10.1109/ACCESS.2018.2815741}\@.
 
 \end{thebibliography}

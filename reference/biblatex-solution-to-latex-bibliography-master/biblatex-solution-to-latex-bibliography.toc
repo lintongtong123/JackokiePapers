@@ -1,0 +1,109 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {0}引言}{1}{section.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {1}需求分析}{1}{section.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {2}解决方案}{2}{section.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.1}数据源文件准备}{2}{subsection.3.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}手动文本文件生成}{3}{subsubsection.3.1.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.1.2}利用winedt生成}{3}{subsubsection.3.1.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.1.3}利用texstudio生成}{4}{subsubsection.3.1.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.1.4}利用Jabref软件生成}{4}{subsubsection.3.1.4}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.1.5}随\LaTeX 文档生成}{4}{subsubsection.3.1.5}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.1.6}获取标准bib文件}{6}{subsubsection.3.1.6}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.2}文档的组成}{6}{subsection.3.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}文档源文件基本结构}{6}{subsubsection.3.2.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}biblatex宏包、参考文献数据源和样式的加载}{6}{subsubsection.3.2.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.2.3}文献的引用命令}{7}{subsubsection.3.2.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.2.4}文献表打印命令}{7}{subsubsection.3.2.4}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.2.5}参考文献正反超链接}{8}{subsubsection.3.2.5}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.3}文档的编译}{8}{subsection.3.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}利用winedt}{8}{subsubsection.3.3.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.3.2}利用texstudio}{8}{subsubsection.3.3.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.3.3}命令行或脚本}{9}{subsubsection.3.3.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.4}分章参考文献和书后参考文献}{11}{subsection.3.4}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.4.1}利用refsection环境分章}{11}{subsubsection.3.4.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2}利用宏包refsection选项分章}{11}{subsubsection.3.4.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.4.3}统一的全局参考文献}{13}{subsubsection.3.4.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.5}参考文献标题格式}{14}{subsection.3.5}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.5.1}加入目录链接}{15}{subsubsection.3.5.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.5.2}重定义heading}{16}{subsubsection.3.5.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.5.3}利用titlesec}{20}{subsubsection.3.5.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.6}参考文献内容格式}{21}{subsection.3.6}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.6.1}一般设置方法}{21}{subsubsection.3.6.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.6.2}自定义环境和局部修改}{22}{subsubsection.3.6.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.6.3}自定义环境举例}{25}{subsubsection.3.6.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.7}参考文献著录和标注样式}{27}{subsection.3.7}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.7.1}标准样式}{27}{subsubsection.3.7.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.7.2}gb7714-2015}{28}{subsubsection.3.7.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.7.3}其他定制样式}{29}{subsubsection.3.7.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.7.4}快速定制/临时定制}{29}{subsubsection.3.7.4}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.8}多语言文献}{30}{subsection.3.8}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.8.1}动态方法}{30}{subsubsection.3.8.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.8.2}静态方法}{33}{subsubsection.3.8.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.9}脚注题注小页环境中的引用}{33}{subsection.3.9}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.9.1}脚注中的引用}{33}{subsubsection.3.9.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.9.2}题注中的引用}{34}{subsubsection.3.9.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.9.3}小页环境中的引用}{35}{subsubsection.3.9.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.10}脚注旁注中的文献表}{36}{subsection.3.10}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.10.1}使用biblatex命令实现脚注文献表}{36}{subsubsection.3.10.1}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.10.2}使用biblatex命令和footmisc实现旁注文献表}{36}{subsubsection.3.10.2}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsubsection}{\numberline {2.10.3}使用自定义方式环境方式实现旁注文献表}{38}{subsubsection.3.10.3}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.11}文献表分类筛选打印}{39}{subsection.3.11}
+\defcounter {refsection}{1}\relax 
+\contentsline {subsection}{\numberline {2.12}beamer类中的参考文献}{41}{subsection.3.12}
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {3}结论}{42}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{目录}{44}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{插图}{45}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{示例}{46}{section*.3}

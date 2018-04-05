@@ -9,53 +9,64 @@ A level-1 auxiliary file: chapters/chapter3.aux
 A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
-A level-1 auxiliary file: math_symbol.aux
-A level-1 auxiliary file: terminology.aux
 A level-1 auxiliary file: chapters/thanks.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/tex.bib
+Repeated entry---line 1047 of file bib/tex.bib
+ : @article{rajendran2017distributed
+ :                                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1155 of file bib/tex.bib
+ : @inproceedings{o2016radio
+ :                          ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Saxe-ICML2011"
-You've used 0 entries,
+Warning--Require address: 昌信2006通信原理
+Warning--Require address: weaver1969automatic
+Warning--Require citedate: 380199
+Warning--Require citedate: 644992
+Warning--Require citedate: 8319926
+You've used 32 entries,
             3054 wiz_defined-function locations,
-            711 strings with 6080 characters,
-and the built_in function-call counts, 64 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 3
+            909 strings with 12158 characters,
+and the built_in function-call counts, 54300 in all, are:
+= -- 5879
+> -- 107
+< -- 246
++ -- 4543
+- -- 375
+* -- 1531
+:= -- 5882
 add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+call.type$ -- 32
+change.case$ -- 150
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 2
+cite$ -- 37
+duplicate$ -- 7757
+empty$ -- 2261
+format.name$ -- 300
+if$ -- 14450
 int.to.chr$ -- 0
-int.to.str$ -- 0
+int.to.str$ -- 32
 missing$ -- 0
-newline$ -- 27
-num.names$ -- 0
-pop$ -- 0
+newline$ -- 123
+num.names$ -- 32
+pop$ -- 822
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 517
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 6452
+swap$ -- 1536
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 27
-(There was 1 warning)
+warning$ -- 5
+while$ -- 750
+width$ -- 34
+write$ -- 446
+(There were 2 error messages)
