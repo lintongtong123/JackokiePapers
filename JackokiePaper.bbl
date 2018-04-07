@@ -25,7 +25,7 @@
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
 \bibitem{昌信2006通信原理}
-\bibauthor{昌信\@, 樊\@, 丽娜}\@.
+\bibauthor{樊昌信，曹丽娜}\@.
   \bibbooktitle{通信原理}\bibmark{[M]}\@.
   \bibaddress{[S.l.]}\thinspace{}\textnormal{:
   }\bibpublisher{国防工业出版社}\@, \bibyear{2006}\@.
@@ -178,6 +178,18 @@
   \bibyear{2001}\thinspace{}\textnormal{:
   }\bibpages{390\thinspace{}\textnormal{--}\thinspace{}393}\@.
 
+\bibitem{汤卫东2010基于小波变换的数字通信信号调制识别研究}
+\bibauthor{汤卫东}\@.
+  \bibtitle{基于小波变换的数字通信信号调制识别研究}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibschool{西安电子科技大学}\@, \bibyear{2010}\@.
+
+\bibitem{杨发权2015无线通信信号调制识别关键技术与理论研究}
+\bibauthor{杨发权}\@.
+  \bibtitle{无线通信信号调制识别关键技术与理论研究}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibschool{西安电子科技大学}\@, \bibyear{2015}\@.
+
 \bibitem{reichert1992automatic}
 \bibauthor{REICHERT J}\@. \bibtitle{Automatic classification of communication
   signals using higher order statistics}\bibmark{[C]}
@@ -249,5 +261,144 @@
   \bibvolume{PP}\bibnumber{(99)}\thinspace{}\textnormal{:
   }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}1}\@.
   \url{http://dx.doi.org/10.1109/ACCESS.2018.2815741}\@.
+
+\bibitem{rosenblatt1958perceptron}
+\bibauthor{ROSENBLATT F}\@. \bibtitle{The perceptron: a probabilistic model for
+  information storage and organization in the brain.}\bibmark{[J]}\@.
+  \bibjournal{Psychological review}\@, \bibyear{1958}\@,
+  \bibvolume{65}\bibnumber{(6)}\thinspace{}\textnormal{: }\bibpages{386}\@.
+
+\bibitem{glorot2011deep}
+\bibauthor{GLOROT X\@, BORDES A\@, BENGIO Y}\@. \bibtitle{Deep sparse rectifier
+  neural networks}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  Fourteenth International Conference on Artificial Intelligence and
+  Statistics}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{315\thinspace{}\textnormal{--}\thinspace{}323}\@.
+
+\bibitem{maas2013rectifier}
+\bibauthor{MAAS A~L\@, HANNUN A~Y\@, NG A~Y}\@. \bibtitle{Rectifier
+  nonlinearities improve neural network acoustic models}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proc. icml\thinspace{}\textnormal{: }Vol~30}\@.
+  \bibyear{2013}\thinspace{}\textnormal{: }\bibpages{3}\@.
+
+\bibitem{rumelhart1986learning}
+\bibauthor{RUMELHART D~E\@, HINTON G~E\@, WILLIAMS R~J}\@. \bibtitle{Learning
+  representations by back-propagating errors}\bibmark{[J]}\@.
+  \bibjournal{nature}\@, \bibyear{1986}\@,
+  \bibvolume{323}\bibnumber{(6088)}\thinspace{}\textnormal{: }\bibpages{533}\@.
+
+\bibitem{lecun1989backpropagation}
+\bibauthor{LECUN Y\@, BOSER B\@, DENKER J~S, et~al}\@.
+  \bibtitle{Backpropagation applied to handwritten zip code
+  recognition}\bibmark{[J]}\@. \bibjournal{Neural computation}\@,
+  \bibyear{1989}\@, \bibvolume{1}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{541\thinspace{}\textnormal{--}\thinspace{}551}\@.
+
+\bibitem{saxe2011random}
+\bibauthor{SAXE A~M\@, KOH P~W\@, CHEN Z, et~al}\@. \bibtitle{On Random Weights
+  and Unsupervised Feature Learning.}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{ICML}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{1089\thinspace{}\textnormal{--}\thinspace{}1096}\@.
+
+\bibitem{ruder2016overview}
+\bibauthor{RUDER S}\@. \bibtitle{An overview of gradient descent optimization
+  algorithms}\bibmark{[J]}\@. \bibjournal{arXiv preprint arXiv:1609.04747}\@,
+  \bibyear{2016}\@.
+
+\bibitem{bottou2010large}
+\bibauthor{BOTTOU L}\@. \bibtitle{Large-scale machine learning with stochastic
+  gradient descent}\bibmark{[G]} //\thinspace{}\bibbooktitle{Proceedings of
+  COMPSTAT'2010}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Springer}\@, \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{177\thinspace{}\textnormal{--}\thinspace{}186}\@.
+
+\bibitem{kingma2014adam}
+\bibauthor{KINGMA D~P\@, BA J}\@. \bibtitle{Adam: A method for stochastic
+  optimization}\bibmark{[J]}\@. \bibjournal{arXiv preprint arXiv:1412.6980}\@,
+  \bibyear{2014}\@.
+
+\bibitem{tieleman2012lecture}
+\bibauthor{TIELEMAN T\@, HINTON G}\@. \bibtitle{Lecture 6.5-rmsprop: Divide the
+  gradient by a running average of its recent magnitude}\bibmark{[J]}\@.
+  \bibjournal{COURSERA: Neural networks for machine learning}\@,
+  \bibyear{2012}\@, \bibvolume{4}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{26\thinspace{}\textnormal{--}\thinspace{}31}\@.
+
+\bibitem{schaul2013unit}
+\bibauthor{SCHAUL T\@, ANTONOGLOU I\@, SILVER D}\@. \bibtitle{Unit tests for
+  stochastic optimization}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:1312.6055}\@, \bibyear{2013}\@.
+
+\bibitem{migliori2016biologically}
+\bibauthor{MIGLIORI B\@, ZELLER-TOWNSON R\@, GRADY D, et~al}\@.
+  \bibtitle{Biologically inspired radio signal feature extraction with sparse
+  denoising autoencoders}\bibmark{[J]}\@. \bibjournal{arXiv preprint
+  arXiv:1605.05239}\@, \bibyear{2016}\@.
+
+\bibitem{schmidt2017wireless}
+\bibauthor{SCHMIDT M\@, BLOCK D\@, MEIER U}\@. \bibtitle{Wireless interference
+  identification with convolutional neural networks}\bibmark{[J]}\@.
+  \bibjournal{arXiv preprint arXiv:1703.00737}\@, \bibyear{2017}\@.
+
+\bibitem{oshea2016convolutional}
+\bibauthor{OSHEA T~J\@, CORGAN J\@, CLANCY T~C}\@. \bibtitle{Convolutional
+  Radio Modulation Recognition Networks}\bibmark{[J]}\@. \bibjournal{arXiv:
+  Learning}\@, \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{213\thinspace{}\textnormal{--}\thinspace{}226}\@.
+
+\bibitem{刘渭滨2017模式分类中的特征融合方法}
+\bibauthor{刘渭滨\@, 邹智元\@, 邢薇薇}\@.
+  \bibtitle{模式分类中的特征融合方法}\bibmark{[J]}\@.
+  \bibjournal{北京邮电大学学报}\@, \bibyear{2017}\@,
+  \bibvolume{40}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}8}\@.
+
+\bibitem{杨杰2014通信信号调制识别}
+\bibauthor{杨杰}\@. \bibbooktitle{通信信号调制识别:
+  原理与算法}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{人民邮电出版社}\@, \bibyear{2014}\@.
+
+\bibitem{张利2017基于高阶累积量的调制识别算法的研究}
+\bibauthor{张利\@, 李青}\@.
+  \bibtitle{基于高阶累积量的调制识别算法的研究}\bibmark{[J]}\@.
+  \bibjournal{信息工程大学学报}\@,
+  \bibyear{2017}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{403\thinspace{}\textnormal{--}\thinspace{}408}\@.
+
+\bibitem{breiman1996bagging}
+\bibauthor{BREIMAN L}\@. \bibtitle{Bagging predictors}\bibmark{[J]}\@.
+  \bibjournal{Machine learning}\@, \bibyear{1996}\@,
+  \bibvolume{24}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{123\thinspace{}\textnormal{--}\thinspace{}140}\@.
+
+\bibitem{freund1999short}
+\bibauthor{FREUND Y\@, SCHAPIRE R\@, ABE N}\@. \bibtitle{A short introduction
+  to boosting}\bibmark{[J]}\@. \bibjournal{Journal-Japanese Society For
+  Artificial Intelligence}\@, \bibyear{1999}\@,
+  \bibvolume{14}\bibnumber{(771-780)}\thinspace{}\textnormal{:
+  }\bibpages{1612}\@.
+
+\bibitem{freund1996experiments}
+\bibauthor{FREUND Y\@, SCHAPIRE R~E\@, OTHERS}\@. \bibtitle{Experiments with a
+  new boosting algorithm}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Icml\thinspace{}\textnormal{: }Vol~96}\@.
+  \bibyear{1996}\thinspace{}\textnormal{:
+  }\bibpages{148\thinspace{}\textnormal{--}\thinspace{}156}\@.
+
+\bibitem{liaw2002classification}
+\bibauthor{LIAW A\@, WIENER M\@, OTHERS}\@. \bibtitle{Classification and
+  regression by randomForest}\bibmark{[J]}\@. \bibjournal{R news}\@,
+  \bibyear{2002}\@, \bibvolume{2}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{18\thinspace{}\textnormal{--}\thinspace{}22}\@.
+
+\bibitem{breiman2017classification}
+\bibauthor{BREIMAN L}\@. \bibbooktitle{Classification and regression
+  trees}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibpublisher{Routledge}\@, \bibyear{2017}\@.
+
+\bibitem{周志华2016机器学习}
+\bibauthor{周志华}\@. \bibbooktitle{机器学习}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Qing hua da xue
+  chu ban she}\@, \bibyear{2016}\@.
 
 \end{thebibliography}

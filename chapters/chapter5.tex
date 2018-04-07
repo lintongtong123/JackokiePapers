@@ -20,12 +20,11 @@
 在传统的DSP应用中，卷积核通常设计得非常宽，而非设计成很深的多层结构。
 计算机视觉领域中，神经网络的一个明显趋势是建立更深的网络来学习更复杂的函数变换和层次特征关系。\par
 
-标准卷积层【】的传递函数在方程\ref{eqt_5_1}中给出：
+标准卷积层【】的传递函数在方程\eqref{eqt_5_1}中给出：
 \begin{equation}
 	\label{eqt_5_1}
 	f(I_i) = f (b_j + \sum_{i}(k_{ij} * I_i))
 \end{equation}
-
 其中，$f(I_i)$是第$i$个卷积核的输出特征图（Featrue Map），
 $b$和$k$表示卷积核的偏置和卷积核的权重参数，$I_i$代表卷积核的输入 值，$*$ 表示卷积运算，
 并且$f(\dot)$表示诸如整流线性单元（$ReLU$）或$Sigmoid$单元等激活函数。\par
@@ -64,7 +63,6 @@ $b$和$k$表示卷积核的偏置和卷积核的权重参数，$I_i$代表卷积
 	\label{eqt_5_3}
 	\overline{\phi}(x) = E_X\left[ \phi(x; X) \right]
 \end{equation}
-
 如果我们使用相同数目的不同训练样本集$\hat{X}$进行训练，那么我们有方差：
 \begin{equation}
 	\label{eqt_5_4}
@@ -77,7 +75,6 @@ $b$和$k$表示卷积核的偏置和卷积核的权重参数，$I_i$代表卷积
 \begin{equation}
 	bias^2(x) = (\overline{\phi}(x)  - \hat{y})^2
 \end{equation}
-
 我们假设噪声期望为$0$，即$E_{\hat{X}}[\hat{y} - y] = 0$，由【】我们有泛化误差为偏差、方差与噪声之和：
 \begin{equation}
 	E(\phi; X) = bias^2(x) + \delta_{\hat{X}}^2(x) + \epsilon^2

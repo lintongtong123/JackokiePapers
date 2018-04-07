@@ -14,59 +14,76 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/tex.bib
-Repeated entry---line 1047 of file bib/tex.bib
+I was expecting a `,' or a `}'---line 849 of file bib/tex.bib
+ : @mastersthesis{汤卫东 
+ :                          2010 基于小波变换的数字通信信号调制识别研究,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1311 of file bib/tex.bib
+ : @article{rumelhart1986learning
+ :                               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1463 of file bib/tex.bib
  : @article{rajendran2017distributed
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1155 of file bib/tex.bib
+Repeated entry---line 1583 of file bib/tex.bib
  : @inproceedings{o2016radio
  :                          ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Saxe-ICML2011"
+Repeated entry---line 1657 of file bib/tex.bib
+ : @article{schmidt2017wireless
+ :                             ,
+I'm skipping whatever remains of this entry
 Warning--Require address: 昌信2006通信原理
 Warning--Require address: weaver1969automatic
 Warning--Require citedate: 380199
 Warning--Require citedate: 644992
+Warning--Require address: 汤卫东2010基于小波变换的数字通信信号调制识别研究
+Warning--Require address: 杨发权2015无线通信信号调制识别关键技术与理论研究
 Warning--Require citedate: 8319926
-You've used 32 entries,
+Warning--Require address: bottou2010large
+Warning--Require address: 杨杰2014通信信号调制识别
+Warning--Require address: breiman2017classification
+Warning--Require address: 周志华2016机器学习
+You've used 57 entries,
             3054 wiz_defined-function locations,
-            909 strings with 12158 characters,
-and the built_in function-call counts, 54300 in all, are:
-= -- 5879
-> -- 107
-< -- 246
-+ -- 4543
-- -- 375
-* -- 1531
-:= -- 5882
+            1036 strings with 15874 characters,
+and the built_in function-call counts, 90990 in all, are:
+= -- 9855
+> -- 184
+< -- 425
++ -- 7782
+- -- 616
+* -- 2628
+:= -- 10065
 add.period$ -- 0
-call.type$ -- 32
-change.case$ -- 150
+call.type$ -- 57
+change.case$ -- 254
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 7757
-empty$ -- 2261
-format.name$ -- 300
-if$ -- 14450
+cite$ -- 68
+duplicate$ -- 12760
+empty$ -- 3644
+format.name$ -- 508
+if$ -- 24284
 int.to.chr$ -- 0
-int.to.str$ -- 32
+int.to.str$ -- 57
 missing$ -- 0
-newline$ -- 123
-num.names$ -- 32
-pop$ -- 822
+newline$ -- 198
+num.names$ -- 57
+pop$ -- 1290
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 517
+skip$ -- 913
 stack$ -- 0
-substring$ -- 6452
-swap$ -- 1536
+substring$ -- 10680
+swap$ -- 2621
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 5
-while$ -- 750
-width$ -- 34
-write$ -- 446
-(There were 2 error messages)
+warning$ -- 11
+while$ -- 1208
+width$ -- 59
+write$ -- 765
+(There were 5 error messages)
