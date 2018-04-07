@@ -14,10 +14,16 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/tex.bib
-I was expecting a `,' or a `}'---line 849 of file bib/tex.bib
- : @mastersthesis{汤卫东 
- :                          2010 基于小波变换的数字通信信号调制识别研究,
+Warning--entry type for "汤卫东2010基于小波变换的数字通信信号调制识别研究" isn't style-file defined
+--line 849 of file bib/tex.bib
+Repeated entry---line 925 of file bib/tex.bib
+ : @phdthesis{汤卫东2010基于小波变换的数字通信信号调制识别研究
+ :                                                                                  ,
 I'm skipping whatever remains of this entry
+Warning--entry type for "于政委2017基于多特征融合的调制模式识别研究" isn't style-file defined
+--line 959 of file bib/tex.bib
+Warning--entry type for "王维智2015基于特征提取和特征选择的级联深度学习模型研究" isn't style-file defined
+--line 973 of file bib/tex.bib
 Repeated entry---line 1311 of file bib/tex.bib
  : @article{rumelhart1986learning
  :                               ,
@@ -38,52 +44,54 @@ Warning--Require address: 昌信2006通信原理
 Warning--Require address: weaver1969automatic
 Warning--Require citedate: 380199
 Warning--Require citedate: 644992
-Warning--Require address: 汤卫东2010基于小波变换的数字通信信号调制识别研究
+Warning--Unsupported entry type for 汤卫东2010基于小波变换的数字通信信号调制识别研究
 Warning--Require address: 杨发权2015无线通信信号调制识别关键技术与理论研究
 Warning--Require citedate: 8319926
 Warning--Require address: bottou2010large
+Warning--Unsupported entry type for 于政委2017基于多特征融合的调制模式识别研究
+Warning--Unsupported entry type for 王维智2015基于特征提取和特征选择的级联深度学习模型研究
 Warning--Require address: 杨杰2014通信信号调制识别
 Warning--Require address: breiman2017classification
 Warning--Require address: 周志华2016机器学习
-You've used 57 entries,
+You've used 60 entries,
             3054 wiz_defined-function locations,
-            1036 strings with 15874 characters,
-and the built_in function-call counts, 90990 in all, are:
-= -- 9855
-> -- 184
-< -- 425
-+ -- 7782
-- -- 616
-* -- 2628
-:= -- 10065
+            1051 strings with 16407 characters,
+and the built_in function-call counts, 92732 in all, are:
+= -- 10066
+> -- 189
+< -- 429
++ -- 7963
+- -- 627
+* -- 2649
+:= -- 10269
 add.period$ -- 0
-call.type$ -- 57
-change.case$ -- 254
+call.type$ -- 60
+change.case$ -- 258
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 12760
-empty$ -- 3644
-format.name$ -- 508
-if$ -- 24284
+cite$ -- 70
+duplicate$ -- 13023
+empty$ -- 3690
+format.name$ -- 516
+if$ -- 24747
 int.to.chr$ -- 0
-int.to.str$ -- 57
+int.to.str$ -- 60
 missing$ -- 0
 newline$ -- 198
 num.names$ -- 57
-pop$ -- 1290
+pop$ -- 1318
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 913
+skip$ -- 920
 stack$ -- 0
-substring$ -- 10680
-swap$ -- 2621
+substring$ -- 10904
+swap$ -- 2644
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 11
-while$ -- 1208
-width$ -- 59
-write$ -- 765
+warning$ -- 13
+while$ -- 1231
+width$ -- 62
+write$ -- 768
 (There were 5 error messages)

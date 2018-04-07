@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  7 APR 2018 00:58
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  7 APR 2018 10:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2492,6 +2492,11 @@ Underfull \vbox (badness 2435) has occurred while \output is active []
 File: figures/chapter_1/fig_1_1.png Graphic file (type QTm)
 
 <use  "figures/chapter_1/fig_1_1.png" >
+
+Package natbib Warning: Citation `汤卫东2010基于小波变换的数字通信信号调制识别研究' on page 5 undefin
+ed on input line 176.
+
+
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
  [5]
@@ -2638,6 +2643,14 @@ File: figures/chapter_3/fig_3_13.png Graphic file (type QTm)
 
 ]
 第四章
+
+Package natbib Warning: Citation `于政委2017基于多特征融合的调制模式识别研究' on page 39 undefined
+ on input line 6.
+
+
+Package natbib Warning: Citation `王维智2015基于特征提取和特征选择的级联深度学习模型研究' on page 39 und
+efined on input line 6.
+
 [39] [40] [41] [42]
 File: figures/chapter_4/fig_4_1.png Graphic file (type QTm)
  <use  "figures/chapter_4/fig_4_1.png" > [43] [44]
@@ -2801,13 +2814,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
-Underfull \hbox (badness 5592) in paragraph at lines 304--307
+Underfull \hbox (badness 5592) in paragraph at lines 298--301
 []\TU/TimesNewRoman(0)/m/n/10.53937 RUDER S. An overview of gradient descent op
 timization algorithms[J]. arXiv preprint
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 316--319
+Underfull \hbox (badness 3668) in paragraph at lines 310--313
 []\TU/TimesNewRoman(0)/m/n/10.53937 KINGMA D P, BA J. Adam: A method for stocha
 stic optimization[J]. arXiv preprint
  []
@@ -2826,6 +2839,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [70
 
 ])
+
+Package natbib Warning: There were undefined citations.
+
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2849,10 +2865,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 70988 strings out of 493005
- 1522072 string characters out of 6134597
- 1205449 words of memory out of 5000000
- 74136 multiletter control sequences out of 15000+600000
+ 70991 strings out of 493005
+ 1522156 string characters out of 6134597
+ 1205450 words of memory out of 5000000
+ 74139 multiletter control sequences out of 15000+600000
  14863 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,14n,89p,10477b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
