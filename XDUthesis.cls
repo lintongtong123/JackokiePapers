@@ -37,10 +37,7 @@
 %%%%%%%%%%%%%%%%%%%%
 
 %% book
-%%
-%\LoadClass[zihao=-4,UTF8,twoside,fontset=windows]{ctexbook}
-\LoadClass[zihao=-4,UTF8,twoside,fontset=windows]{ctexbook}
-\RequirePackage[a4paper]{geometry}
+\LoadClass[a4paper,cs4size,twoside,openright,fancyhdr,fntef,punct]{ctexbook}
 
 %% calc
 \RequirePackage{calc}
@@ -191,7 +188,6 @@
 
 %% size
 \DeclareRobustCommand*{\XDU@font@zihao}[1]{\zihao{#1}\setlength{\baselineskip}{20pt}}
-
 \renewcommand*{\baselinestretch}{1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -226,23 +222,13 @@
 \def\XDU@hdr@thesistitle
   {\XDU@label@university\XDU@value@degreemark\XDU@value@thesis}
 
-%% the double line under header
-\renewcommand{\headrulewidth}{0.5pt}
-%\newcommand{\makeheadrule}{%
-%\makebox[0pt][l]{\rule[15pt]{\headwidth}{0.5pt}}%
-%\rule[14pt]{\headwidth}{0.5pt}}
-%\renewcommand{\headrule}{%
-%{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
-%\makeheadrule}}
+% the double line under header
+\newcommand{\makeheadrule}{%
+\makebox[0pt][l]{\rule[9pt]{\headwidth}{0.5pt}}%
+\rule[8pt]{\headwidth}{0.5pt}}
 \renewcommand{\headrule}{%
-    {\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
-    %\vskip 1pt%
-    \hrule\@height\headrulewidth\@width\headwidth
-    \hrule\@height\headrulewidth\@width\headwidth
-    \vskip-1\headrulewidth
-    %\vskip-1pt
-    }
-}
+{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\makeheadrule}}
 
 %% set header
 \fancypagestyle{plain}{

@@ -39,57 +39,58 @@ CNN在调制识别时的性能似乎不受网络深度的限制，在卷积层�
 
 \begin{englishabstract}
 Wireless signal recognition in complex electromagnetic environments is an important method for optimizing spectrum utilization efficiency, identifying and minimizing interference. Traditional modulation identification methods mainly focus on energy detection and the use of expert characteristics and decision criteria. With the development of deep learning, the original sampled signal is used to learn the signal features and identify and modulate the signal. The accuracy under low signal-to-noise ratio is better than the traditional statistical machine learning model based on expert feature extraction. This paper studies the modulation recognition algorithms based on deep learning, feature fusion framework, and factors that affect the performance of the model. The main contributions are as follows:
-\\~\\
+\par~\par
 1. This paper proposes a CAE-CNN modulation recognition algorithm framework and proposes a corresponding training algorithm. We visualized the signal characteristics using supervised methods and unsupervised methods, respectively, and found that the unsupervised convolutional self-encoder can reproduce the input signals. The low-dimensional representation of the obtained data has a certain class distinction; it is obtained through supervised CNN. The low dimension of the signal indicates that there is a strong degree of discrimination between the different classes of modulated signals, which is reduced to a two-dimensional flow pattern using the t-SNE algorithm, and the signals of the same class form a cluster independently. We fuse convolutional self-encoders and convolutional neural networks and propose a CAE-CNN algorithm framework and corresponding training algorithms. The simulation results show that the proposed algorithm has higher recognition accuracy (95\% or more) under high signal-to-noise ratio, and has stronger robustness; it has higher performance than traditional methods under low signal-to-noise ratio conditions. The recognition rate is still about 85\% when the SNR is -4dB. In terms of algorithm efficiency, the training time of our proposed algorithm is within an acceptable range, and the classification and recognition time of the algorithm is also low.
-\\~\\
+\par~\par
 2. A framework for the fusion of traditional features and depth features is proposed. The $Batch-Normalization$ that adapts the features of modulation recognition commonly used in traditional methods and the depth features obtained by CNN, and then construct a fusion model for fusion algorithms such as Softmax, random forest, and deep neural network, and the fusion algorithms for different fusion algorithms Simulations were performed. The simulation results show that the performance of the fusion algorithm based on random forest and Softmax is due to the benchmark convolutional neural network, and the RF-based fusion algorithm has relatively optimal classification performance, which is comparable in both low SNR and high SNR. Strong robustness. At the same time, due to the influence of the characteristics of the fusion algorithm, the misclassification signals under different fusion frameworks are different.
-\\~\\
+\par~\par
 3. We study the effect of network hyperparameters on modulation recognition performance from the network bottom and explain the simulation results from the perspective of under-fitting and over-fitting, as well as deviation and variance. The performance of CNN in modulation recognition does not seem to be limited by the depth of the network. The maximum value of performance can be achieved when the number of convolution layers is $3$. At this time, the depth of the convolutional layer is further increased, and the system performance may decrease. When the number of first-level convolutional cores is small, the performance of the network decreases almost as the number of second-level convolutional cores increases. With the increase of the number of convolutional nuclei at the first level, the number of second-level convolutional nuclei changes, and the accuracy of system classification changes only slightly, with only slight fluctuations. Overall, the larger network performance of the convolution kernel widths $W^{(1)}$ and $W^{(2)}$ is better, but the classification performance is increased when the convolution width is increased to $7$. It is relatively stable and only minor fluctuations occur.
-\englishkeywords{Modulation identification,\space{}deep Learning,\space{}feature fusion}\\
+~\par
+\englishkeywords{Modulation identification,\space{}deep Learning,\space{}feature fusion}
 
 \end{englishabstract}
 
-%
-%\XDUpremainmatter
-%
-%\begin{symbollist}
-%\item [符号] \hspace{12em} {符号名称}
-%\item [$\in$]\hspace{12.5em} {属于}
-%\item [$\mathbb{R}$]\hspace{12.5em} {实数集}
-%\item [$w$] \hspace{12.5em} {权重}
-%\item [$x$] \hspace{12.5em} {样本}
-%\item [$y$] \hspace{12.5em} {标签}
-%\item [$M$] \hspace{12.5em} {特征维数}
-%\item [$N$] \hspace{12.5em} {样本数量}
-%\item [$\eta$] \hspace{12.5em} {学习率}
-%\item [$\mathcal{F}^{-1}$] \hspace{12.5em} {逆傅里叶变换}
-%\item [$\gamma$] \hspace{12.5em} {弱分类器更新率}
-%\end{symbollist}
 
-%\begin{abbreviationlist}
-%\item \makebox[8em][l]{缩略语}  \makebox[16em][l]{英文全称}  \makebox[16em][l]{中文对照}
-%\item \makebox[4em][l]{SVM}    \makebox[20em][l]{Support Vector Machine}    \makebox[16em][l]{支持向量机}
-%\item \makebox[4em][l]{EM}    \makebox[20em][l]{expectation–maximization}    \makebox[16em][l]{最大期望}
-%\item \makebox[4em][l]{WTS}   \makebox[20em][l]{Weighted Tensor Subspace}    \makebox[16em][l]{加权张量子空间}
-%\item \makebox[4em][l]{PCA}    \makebox[20em][l]{Principal Component Analysis}    \makebox[16em][l]{主成分分析}
-%\item \makebox[4em][l]{IPCA}    \makebox[20em][l]{Incremental PCA}    \makebox[16em][l]{增量主成分分析}
-%\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
-%\item \makebox[4em][l]{2D-LDA}    \makebox[20em][l]{2D Fisher Linear Discriminant Analysis}  \makebox[16em][l]{二维Fisher线性判别分析}
-%\item \makebox[4em][l]{AVT}    \makebox[20em][l]{Attentional Visual Tracking}    \makebox[16em][l]{注意视觉跟踪}
-%\item \makebox[4em][l]{RF}    \makebox[20em][l]{Random Forest}    \makebox[16em][l]{随机森林}
-%\item \makebox[4em][l]{FFT}    \makebox[20em][l]{Fast Fourier Transformation}    \makebox[16em][l]{快速傅里叶变换}
-%\item \makebox[4em][l]{MOSSE}   \makebox[20em][l]{Minimum Output Sum of Squared Error filter}    \makebox[10em][l]{最小平方误差滤波器}
-%\item \makebox[4em][l]{CFT}    \makebox[20em][l]{Correlation Filter Tracker}    \makebox[16em][l]{相关滤波跟踪器}
-%\item \makebox[4em][l]{DFT}    \makebox[20em][l]{Discrete Fourier Transform}    \makebox[16em][l]{离散傅里叶变换}
-%\item \makebox[4em][l]{KCF}    \makebox[20em][l]{Kernelized Correlation Filter}    \makebox[16em][l]{核相关滤波器}
-%\item \makebox[4em][l]{CLE}    \makebox[20em][l]{Center Location Error}    \makebox[16em][l]{中心位置误差}
-%\item \makebox[4em][l]{OP}    \makebox[20em][l]{Overlap Precision}    \makebox[16em][l]{重叠精度}
-%\item \makebox[4em][l]{DP}    \makebox[20em][l]{Distance Precision}    \makebox[16em][l]{距离精度}
-%\item \makebox[4em][l]{ASMM}    \makebox[20em][l]{Atkinson–Shiffrin Memory Model}    \makebox[16em][l]{AtkinsonShiffrin 内存模型}
-%\item \makebox[4em][l]{MUSTer}    \makebox[20em][l]{MUlti-Store Tracker}    \makebox[16em][l]{多贮存跟踪器}
-%\item \makebox[4em][l]{KNN}    \makebox[20em][l]{K-Nearest Neighbor}    \makebox[16em][l]{K-最近邻}
-%\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
-%\item \makebox[4em][l]{ALM}    \makebox[20em][l]{Augmented Lagrange Method}    \makebox[16em][l]{增强拉格朗日方法}
-%\item \makebox[4em][l]{ADMM}    \makebox[20em][l]{Alternating Direction Method of Multipliers}    \makebox[16em][l]{交替方向乘子算法}
-%\end{abbreviationlist}
+
+\XDUpremainmatter
+
+\begin{symbollist}
+\item [符号] \hspace{12em} {符号名称}
+\item [$\in$]\hspace{12.5em} {属于}
+\item [$w$] \hspace{12.5em} {权重}
+\item [$x$] \hspace{12.5em} {样本}
+\item [$y$] \hspace{12.5em} {标签}
+\item [$M$] \hspace{12.5em} {特征维数}
+\item [$N$] \hspace{12.5em} {样本数量}
+\item [$\eta$] \hspace{12.5em} {学习率}
+\item [$\mathcal{F}^{-1}$] \hspace{12.5em} {逆傅里叶变换}
+\item [$\gamma$] \hspace{12.5em} {弱分类器更新率}
+\end{symbollist}
+
+\begin{abbreviationlist}
+\item \makebox[8em][l]{缩略语}  \makebox[16em][l]{英文全称}  \makebox[16em][l]{中文对照}
+\item \makebox[4em][l]{SVM}    \makebox[20em][l]{Support Vector Machine}    \makebox[16em][l]{支持向量机}
+\item \makebox[4em][l]{EM}    \makebox[20em][l]{expectation–maximization}    \makebox[16em][l]{最大期望}
+\item \makebox[4em][l]{WTS}   \makebox[20em][l]{Weighted Tensor Subspace}    \makebox[16em][l]{加权张量子空间}
+\item \makebox[4em][l]{PCA}    \makebox[20em][l]{Principal Component Analysis}    \makebox[16em][l]{主成分分析}
+\item \makebox[4em][l]{IPCA}    \makebox[20em][l]{Incremental PCA}    \makebox[16em][l]{增量主成分分析}
+\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
+\item \makebox[4em][l]{2D-LDA}    \makebox[20em][l]{2D Fisher Linear Discriminant Analysis}  \makebox[16em][l]{二维Fisher线性判别分析}
+\item \makebox[4em][l]{AVT}    \makebox[20em][l]{Attentional Visual Tracking}    \makebox[16em][l]{注意视觉跟踪}
+\item \makebox[4em][l]{RF}    \makebox[20em][l]{Random Forest}    \makebox[16em][l]{随机森林}
+\item \makebox[4em][l]{FFT}    \makebox[20em][l]{Fast Fourier Transformation}    \makebox[16em][l]{快速傅里叶变换}
+\item \makebox[4em][l]{MOSSE}   \makebox[20em][l]{Minimum Output Sum of Squared Error filter}    \makebox[10em][l]{最小平方误差滤波器}
+\item \makebox[4em][l]{CFT}    \makebox[20em][l]{Correlation Filter Tracker}    \makebox[16em][l]{相关滤波跟踪器}
+\item \makebox[4em][l]{DFT}    \makebox[20em][l]{Discrete Fourier Transform}    \makebox[16em][l]{离散傅里叶变换}
+\item \makebox[4em][l]{KCF}    \makebox[20em][l]{Kernelized Correlation Filter}    \makebox[16em][l]{核相关滤波器}
+\item \makebox[4em][l]{CLE}    \makebox[20em][l]{Center Location Error}    \makebox[16em][l]{中心位置误差}
+\item \makebox[4em][l]{OP}    \makebox[20em][l]{Overlap Precision}    \makebox[16em][l]{重叠精度}
+\item \makebox[4em][l]{DP}    \makebox[20em][l]{Distance Precision}    \makebox[16em][l]{距离精度}
+\item \makebox[4em][l]{ASMM}    \makebox[20em][l]{Atkinson–Shiffrin Memory Model}    \makebox[16em][l]{AtkinsonShiffrin 内存模型}
+\item \makebox[4em][l]{MUSTer}    \makebox[20em][l]{MUlti-Store Tracker}    \makebox[16em][l]{多贮存跟踪器}
+\item \makebox[4em][l]{KNN}    \makebox[20em][l]{K-Nearest Neighbor}    \makebox[16em][l]{K-最近邻}
+\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
+\item \makebox[4em][l]{ALM}    \makebox[20em][l]{Augmented Lagrange Method}    \makebox[16em][l]{增强拉格朗日方法}
+\item \makebox[4em][l]{ADMM}    \makebox[20em][l]{Alternating Direction Method of Multipliers}    \makebox[16em][l]{交替方向乘子算法}
+\end{abbreviationlist}
 

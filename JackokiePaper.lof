@@ -1,47 +1,53 @@
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {1.1}{\ignorespaces 基于似然比判决理论的调制识别系统框图\relax }}{5}{figure.caption.14}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces 基于统计机器学习的调制识别系统框图\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces 基于似然比判决理论的调制识别系统框图\relax }}{4}{figure.caption.14}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces 基于统计机器学习的调制识别系统框图\relax }}{5}{figure.caption.15}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {2.1}{\ignorespaces 神经元示意图\relax }}{11}{figure.caption.16}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces $ReLU$函数\relax }}{11}{figure.caption.17}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces $Sigmoid$函数\relax }}{11}{figure.caption.17}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces ReLU函数\relax }}{11}{figure.caption.17}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Sigmoid函数\relax }}{11}{figure.caption.17}
 \contentsline {figure}{\numberline {2.4}{\ignorespaces 前馈神经网络\relax }}{12}{figure.caption.18}
 \contentsline {figure}{\numberline {2.5}{\ignorespaces 自编码器\relax }}{17}{figure.caption.19}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces LSTM网络结构框图\relax }}{18}{figure.caption.20}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces 调制信号生成框图\relax }}{24}{figure.caption.22}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces 不同调制方式的高SNR样本的时域波形\relax }}{25}{figure.caption.23}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 调制信号生成框图\relax }}{24}{figure.caption.20}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 不同调制方式的高SNR样本的时域波形\relax }}{26}{figure.caption.23}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces 不同调制方式的高SNR样本的频谱\relax }}{26}{figure.caption.24}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces 自编码器\relax }}{27}{figure.caption.25}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces 基于自编码器的信号复现\relax }}{27}{figure.caption.26}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces 基于自编码器的调制信号large-vis二维流型展示\relax }}{28}{figure.caption.27}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces 基于CNN的调制信号large-vis二维流型展示码器\relax }}{29}{figure.caption.28}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces CAE-CNN网络框架\relax }}{30}{figure.caption.29}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces 整体结果\relax }}{32}{figure.caption.31}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces 0dB条件下的结果\relax }}{33}{figure.caption.32}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 与其他方法的比较\relax }}{34}{figure.caption.33}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces 训练时间\relax }}{35}{figure.caption.34}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces 分类时间\relax }}{35}{figure.caption.35}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 自编码器\relax }}{28}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces 基于自编码器的信号复现\relax }}{28}{figure.caption.26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces 基于自编码器的调制信号t-SNE二维流型展示\relax }}{29}{figure.caption.27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces 基于CNN的调制信号t-SNE二维流型展示码器\relax }}{30}{figure.caption.28}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces CAE-CNN网络框架\relax }}{31}{figure.caption.29}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces CAE-CNN分类结果\relax }}{33}{figure.caption.31}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces 与其他方法的比较\relax }}{34}{figure.caption.32}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces 0dB条件下的结果\relax }}{35}{figure.caption.33}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces 不同算法训练时间\relax }}{36}{figure.caption.34}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces 不同算法分类时间\relax }}{36}{figure.caption.35}
 \addvspace {10.0pt}
 \contentsline {figure}{\numberline {4.1}{\ignorespaces 特征融合框架图\relax }}{43}{figure.caption.36}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces 基于LR框架的特征融合框架图\relax }}{45}{figure.caption.37}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces 基于DNN框架的特征融合框架图\relax }}{46}{figure.caption.38}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于随机森林框架的特征融合框架图\relax }}{47}{figure.caption.39}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{48}{figure.caption.40}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.41}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.42}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{50}{figure.caption.43}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces 基于LR框架的特征融合框架图\relax }}{46}{figure.caption.37}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 基于DNN框架的特征融合框架图\relax }}{47}{figure.caption.38}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces 基于随机森林框架的特征融合框架图\relax }}{48}{figure.caption.39}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces 不同融合框架下的分类性能对比\relax }}{49}{figure.caption.40}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces 不同融合模型分类混淆矩阵对比\relax }}{50}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {RF分类混淆矩阵}}}{50}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Softmax分类混淆矩阵}}}{50}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {DNN分类混淆矩阵}}}{50}{subfigure.6.3}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 卷积核数目对分类性能的影响\relax }}{54}{figure.caption.44}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 卷积核大小对调制识别性能的影响\relax }}{56}{figure.caption.45}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 网络层数对调制识别的影响\relax }}{57}{figure.caption.46}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces InceptionModel\relax }}{58}{figure.caption.48}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 残差网络结构\relax }}{59}{figure.caption.49}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces CLDNN结构\relax }}{60}{figure.caption.50}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces CLDNN的信噪比始终优于其他网络架构，信噪比高于-8dB\relax }}{61}{figure.caption.51}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces CLDNN的全SNR混淆矩阵显示了模拟调制和高阶QAM之间单独混淆之间最混乱的问题。\relax }}{62}{figure.caption.52}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{62}{figure.caption.53}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces 我们训练的CLDNN的第一卷积层中滤波器的时间和频率幅度表示。。\relax }}{63}{figure.caption.54}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces 随机数据训练最大程度地激活过滤器，看起来像BPSK。\relax }}{63}{figure.caption.55}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces 训练最大程度激活滤波器的随机数据，这看起来像FM或FSK调制。\relax }}{63}{figure.caption.56}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 本章所用CNN网络框架\relax }}{52}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 不同卷积核宽度下，卷积层数目对分类准确率的影响\relax }}{54}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {3D展示}}}{54}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {热力图展示}}}{54}{subfigure.2.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 分类准确率随卷积层数目和卷积核宽度的变化\relax }}{55}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 分类准确率随卷积核数目的变化情况\relax }}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 第一卷积层中卷积核数目对分类准确率的影响\relax }}{57}{figure.caption.46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 第二卷积层中卷积核数目对分类准确率的影响\relax }}{58}{figure.caption.47}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 不同$H^{(1)} \times H^{(2)}$条件下卷积核宽度对分类性能的影响\relax }}{60}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$H^{(1)} = 1, H^{(2)} = 1$}}}{60}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$H^{(1)} = 1, H^{(2)} = 2$}}}{60}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$H^{(1)} = 2, H^{(2)} = 1$}}}{60}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$H^{(1)} = 2, H^{(2} = 2$}}}{60}{subfigure.7.4}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 不同卷积核高度$H^{(1)} \times H^{(2)}$下，卷积核宽度对分类准确率的影响\relax }}{61}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$H^{(1)} = 1, H^{(1)} = 1$}}}{61}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$H^{(1)} = 1, H^{(1)} = 2$}}}{61}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$H^{(1)} = 2, H^{(1)} = 1$}}}{61}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$H^{(1)} = 2, H^{(1)} = 2$}}}{61}{subfigure.8.4}
 \addvspace {10.0pt}

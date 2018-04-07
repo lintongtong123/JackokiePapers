@@ -10,36 +10,38 @@ A level-1 auxiliary file: chapters/chapter4.aux
 A level-1 auxiliary file: chapters/chapter5.aux
 A level-1 auxiliary file: chapters/chapter6.aux
 A level-1 auxiliary file: chapters/thanks.aux
+A level-1 auxiliary file: chapters/resume.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: bib/tex.bib
 Warning--entry type for "汤卫东2010基于小波变换的数字通信信号调制识别研究" isn't style-file defined
---line 849 of file bib/tex.bib
-Repeated entry---line 925 of file bib/tex.bib
+--line 907 of file bib/tex.bib
+Repeated entry---line 983 of file bib/tex.bib
  : @phdthesis{汤卫东2010基于小波变换的数字通信信号调制识别研究
  :                                                                                  ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "于政委2017基于多特征融合的调制模式识别研究" isn't style-file defined
---line 959 of file bib/tex.bib
+--line 1017 of file bib/tex.bib
 Warning--entry type for "王维智2015基于特征提取和特征选择的级联深度学习模型研究" isn't style-file defined
---line 973 of file bib/tex.bib
-Repeated entry---line 1311 of file bib/tex.bib
+--line 1111 of file bib/tex.bib
+Repeated entry---line 1449 of file bib/tex.bib
  : @article{rumelhart1986learning
  :                               ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1463 of file bib/tex.bib
+Repeated entry---line 1601 of file bib/tex.bib
  : @article{rajendran2017distributed
  :                                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1583 of file bib/tex.bib
+Repeated entry---line 1721 of file bib/tex.bib
  : @inproceedings{o2016radio
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1657 of file bib/tex.bib
+Repeated entry---line 1795 of file bib/tex.bib
  : @article{schmidt2017wireless
  :                             ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "基于高阶累积量和循环谱的信号调制方式混合识别算法"
 Warning--Require address: 昌信2006通信原理
 Warning--Require address: weaver1969automatic
 Warning--Require citedate: 380199
@@ -49,49 +51,50 @@ Warning--Require address: 杨发权2015无线通信信号调制识别关键技�
 Warning--Require citedate: 8319926
 Warning--Require address: bottou2010large
 Warning--Unsupported entry type for 于政委2017基于多特征融合的调制模式识别研究
-Warning--Unsupported entry type for 王维智2015基于特征提取和特征选择的级联深度学习模型研究
 Warning--Require address: 杨杰2014通信信号调制识别
-Warning--Require address: breiman2017classification
+Warning--Unsupported entry type for 王维智2015基于特征提取和特征选择的级联深度学习模型研究
+Warning--Require journal: feichtenhofer2016convolutional
 Warning--Require address: 周志华2016机器学习
-You've used 60 entries,
+Warning--Require address: breiman2017classification
+You've used 66 entries,
             3054 wiz_defined-function locations,
-            1051 strings with 16407 characters,
-and the built_in function-call counts, 92732 in all, are:
-= -- 10066
-> -- 189
-< -- 429
-+ -- 7963
-- -- 627
-* -- 2649
-:= -- 10269
+            1083 strings with 17565 characters,
+and the built_in function-call counts, 103577 in all, are:
+= -- 11274
+> -- 209
+< -- 475
++ -- 8917
+- -- 698
+* -- 2896
+:= -- 11459
 add.period$ -- 0
-call.type$ -- 60
-change.case$ -- 258
+call.type$ -- 66
+change.case$ -- 286
 chr.to.int$ -- 0
-cite$ -- 70
-duplicate$ -- 13023
-empty$ -- 3690
-format.name$ -- 516
-if$ -- 24747
+cite$ -- 77
+duplicate$ -- 14582
+empty$ -- 4124
+format.name$ -- 572
+if$ -- 27673
 int.to.chr$ -- 0
-int.to.str$ -- 60
+int.to.str$ -- 66
 missing$ -- 0
-newline$ -- 198
-num.names$ -- 57
-pop$ -- 1318
+newline$ -- 216
+num.names$ -- 63
+pop$ -- 1465
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 920
+skip$ -- 1025
 stack$ -- 0
-substring$ -- 10904
-swap$ -- 2644
+substring$ -- 12238
+swap$ -- 2904
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 13
-while$ -- 1231
-width$ -- 62
-write$ -- 768
+warning$ -- 14
+while$ -- 1370
+width$ -- 68
+write$ -- 839
 (There were 5 error messages)

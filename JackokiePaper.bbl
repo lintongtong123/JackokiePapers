@@ -340,19 +340,19 @@
   Learning}\@, \bibyear{2016}\thinspace{}\textnormal{:
   }\bibpages{213\thinspace{}\textnormal{--}\thinspace{}226}\@.
 
+\bibitem{le2013building}
+\bibauthor{LE Q~V}\@. \bibtitle{Building high-level features using large scale
+  unsupervised learning}\bibmark{[C]} //\thinspace{}\bibbooktitle{Acoustics,
+  Speech and Signal Processing (ICASSP), 2013 IEEE International Conference
+  on}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{8595\thinspace{}\textnormal{--}\thinspace{}8598}\@.
+
 \bibitem{刘渭滨2017模式分类中的特征融合方法}
 \bibauthor{刘渭滨\@, 邹智元\@, 邢薇薇}\@.
   \bibtitle{模式分类中的特征融合方法}\bibmark{[J]}\@.
   \bibjournal{北京邮电大学学报}\@, \bibyear{2017}\@,
   \bibvolume{40}\bibnumber{(4)}\thinspace{}\textnormal{:
   }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}8}\@.
-
-\bibitem{马永军2017一种基于深度学习模型的数据融合处理算法}
-\bibauthor{马永军\@, 薛永浩\@, 刘洋, et~al}\@.
-  \bibtitle{一种基于深度学习模型的数据融合处理算法}\bibmark{[J]}\@.
-  \bibjournal{天津科技大学学报}\@, \bibyear{2017}\@,
-  \bibvolume{32}\bibnumber{(4)}\thinspace{}\textnormal{:
-  }\bibpages{71\thinspace{}\textnormal{--}\thinspace{}74}\@.
 
 \bibitem{杨杰2014通信信号调制识别}
 \bibauthor{杨杰}\@. \bibbooktitle{通信信号调制识别:
@@ -365,6 +365,51 @@
   \bibjournal{信息工程大学学报}\@,
   \bibyear{2017}\bibnumber{(4)}\thinspace{}\textnormal{:
   }\bibpages{403\thinspace{}\textnormal{--}\thinspace{}408}\@.
+
+\bibitem{李世平2011基于小波和高阶累积量的数字调制识别算法}
+\bibauthor{李世平\@, 陈方超}\@.
+  \bibtitle{基于小波和高阶累积量的数字调制识别算法}\bibmark{[J]}\@.
+  \bibjournal{计算机应用}\@,
+  \bibyear{2011}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{2926\thinspace{}\textnormal{--}\thinspace{}2928,2935}\@.
+
+\bibitem{韩钢2003基于高阶累积量和支撑矢量机的调制识别研究}
+\bibauthor{韩钢\@, 张文红\@, 李建东, et~al}\@.
+  \bibtitle{基于高阶累积量和支撑矢量机的调制识别研究}\bibmark{[J]}\@.
+  \bibjournal{系统工程与电子技术}\@,
+  \bibyear{2003}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1007\thinspace{}\textnormal{--}\thinspace{}1011}\@.
+
+\bibitem{陆凤波2008一种基于高阶累积量的数字调相信号识别方法}
+\bibauthor{陆凤波\@, 黄知涛\@, 易辉荣, et~al}\@.
+  \bibtitle{一种基于高阶累积量的数字调相信号识别方法}\bibmark{[J]}\@.
+  \bibjournal{系统工程与电子技术}\@,
+  \bibyear{2008}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{1611\thinspace{}\textnormal{--}\thinspace{}1615}\@.
+
+\bibitem{马永军2017一种基于深度学习模型的数据融合处理算法}
+\bibauthor{马永军\@, 薛永浩\@, 刘洋, et~al}\@.
+  \bibtitle{一种基于深度学习模型的数据融合处理算法}\bibmark{[J]}\@.
+  \bibjournal{天津科技大学学报}\@, \bibyear{2017}\@,
+  \bibvolume{32}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{71\thinspace{}\textnormal{--}\thinspace{}74}\@.
+
+\bibitem{simonyan2014two}
+\bibauthor{SIMONYAN K\@, ZISSERMAN A}\@. \bibtitle{Two-stream convolutional
+  networks for action recognition in videos}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Advances in neural information processing
+  systems}\@. \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{568\thinspace{}\textnormal{--}\thinspace{}576}\@.
+
+\bibitem{feichtenhofer2016convolutional}
+\bibauthor{FEICHTENHOFER C\@, PINZ A\@, ZISSERMAN A}\@. \bibtitle{Convolutional
+  two-stream network fusion for video action recognition}\bibmark{[J]}\@,
+  \bibyear{2016}\@.
+
+\bibitem{周志华2016机器学习}
+\bibauthor{周志华}\@. \bibbooktitle{机器学习}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Qing hua da xue
+  chu ban she}\@, \bibyear{2016}\@.
 
 \bibitem{breiman1996bagging}
 \bibauthor{BREIMAN L}\@. \bibtitle{Bagging predictors}\bibmark{[J]}\@.
@@ -396,10 +441,5 @@
 \bibauthor{BREIMAN L}\@. \bibbooktitle{Classification and regression
   trees}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
   }\bibpublisher{Routledge}\@, \bibyear{2017}\@.
-
-\bibitem{周志华2016机器学习}
-\bibauthor{周志华}\@. \bibbooktitle{机器学习}\bibmark{[M]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Qing hua da xue
-  chu ban she}\@, \bibyear{2016}\@.
 
 \end{thebibliography}

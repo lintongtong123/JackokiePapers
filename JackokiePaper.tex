@@ -15,11 +15,6 @@
 \usepackage[chapter]{algorithm}
 \usepackage{algorithmic}
 \floatname{algorithm}{算法}
-% 不生成PDF
-%\usepackage{syntonly}
-%\syntaxonly
-
-% 生成目录
 \usepackage[chapter, nottoc]{tocbibind}
 \usepackage[nomain,acronym,xindy,toc,nopostdot]{glossaries}
 \makeglossaries
@@ -35,8 +30,8 @@
 \include{chapters/chapter4}
 \include{chapters/chapter5}
 \include{chapters/chapter6}
-%\include{math_symbol}
-%\include{terminology}
+
 \XDUbackmatter{\bibliography{bib/tex}}
 \include{chapters/thanks}
+\include{chapters/resume}
 \end{document}
