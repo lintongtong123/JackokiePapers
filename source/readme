@@ -1,0 +1,120 @@
+Chapter_3
+    file_3_1.py
+        data_set visualization.
+
+    file_3_2.py
+        convolutional autoencoder.
+
+    file_3_3.py
+        non-supervised visualization.
+
+    file_3_4.py
+        basic supervised training.
+
+    file_3_5.py
+        supervised visualization.
+
+    file_3_6.py
+        cae_cnn framework.
+
+    file_3_7.py
+        classify performance.
+
+    file_3_8.py
+        classify compare.
+
+    file_3_9.py
+        performance compare.
+
+    file_3.10.py
+        svm classifier.
+
+    file_3_11.py
+        knn_classifier.
+
+    file_3_12.py
+        dnn_classifier.
+
+    file_3_13.py
+        time_compare.
+
+Chapter_4
+    file_4_1.py
+        零中心归一化瞬时幅度谱密度的最大值.
+
+    file_4_2.py
+        零中心归一化非弱信号瞬时幅度标准差
+
+    file_4_3.py
+        零中心归一化瞬时幅度绝对值的标准差
+
+    file_4_4.py
+        零中心归一化瞬时幅度的四阶紧致性
+
+    file_4_5.py
+        零中心归一化瞬时频率均值的平方与方差之比
+
+    file_4_6.py
+        零中心非弱信号段归一化瞬时频率绝对值的标准差
+
+    file_4_7.py
+        二阶累积量
+
+    file_4_8.py
+        四阶累积量
+
+    file_4_9.py
+        六阶累积量
+
+    file_4_10.py
+        四阶累积量与二阶累积量之比
+
+    file_4_11.py
+        专家循环矩特征
+
+    file_4_12.py
+        基于Softmax回归的特征融合.
+
+    file_4_13.py
+        基于深度学习的融合框架.
+
+    file_4_14.py
+        基于随机森林的融合框架.
+
+    file_4_15.py
+        分类性能比较图.
+
+    file_4_16.py
+        0dB混淆矩阵.
+
+
+Chapter_5
+    file_5_1.py
+        CNN的层数变化.
+
+    file_5_2.py
+        CNN filters变化.
+
+    file_5_3.py
+        CNN size变化.
+
+    file_5_4.py
+        ResNet performance vs CNN.
+
+    file_5_5.py
+        ResNet performance vs Inception Model.
+
+    file_5_6.py
+        ResNet performance vs CLDNN Model.
+
+    file_5_7.py
+        Layer Comparing.
+
+    file_5_8.py
+        Kernel Number Comparing.
+
+    file_5_9.py
+        Kernel Size Comparing.
+
+    file_5_10.py
+        Layer Comparing.

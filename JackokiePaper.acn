@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (indexentry :tkey (("stochastic gradient descent" "\\glossentry{SGD}") ) :locref "{}{19}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("stochastic gradient descent" "\\glossentry{SGD}") ) :locref "{}{19}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("criterion" "\\glossentry{criterion}") ) :locref "{}{19}" :attr "pageglsnumberformat" ) 
@@ -19,3 +20,5 @@
 (indexentry :tkey (("bias in statistics" "\\glossentry{bias_sta}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("criterion" "\\glossentry{criterion}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("training set" "\\glossentry{training_set}") ) :locref "{}{20}" :attr "pageglsnumberformat" ) 
+=======
+>>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
