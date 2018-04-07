@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  7 APR 2018 17:36
-=======
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  4 APR 2018 12:18
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2146,7 +2142,6 @@ Package: glossary-tree 2017/01/19 v4.29 (NLCT)
 \openout5 = `JackokiePaper.acn'.
 
 Package glossaries Info: Writing glossary file JackokiePaper.acn on input line 
-<<<<<<< HEAD
 20.
  (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux
@@ -2175,73 +2170,10 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 23.
 LaTeX Font Info:    Try loading font information for T3+cmr on input line 23.
-=======
-24.
-
-*************************************************
-* xeCJK warning: "CJKfamilydefault-undefined"
-* 
-* Undefined CJK default family `\CJKrmdefault' has been replaced by `song'.
-* 
-* Try to use `\setCJKmainfont[...]{...}' to define it.
-*************************************************
-\g__fontspec_family_SimSun_int=\count315
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/BI" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font "SimSun/I" (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'SimSun(0)' created for font 'SimSun' with options
-. [Script={CJK},AutoFakeBold={4}].
-.  
-.  This font family consists of the following NFSS series/shapes:
-.  
-. - 'normal' (m/n) with NFSS spec.: <->"SimSun/OT:script=hani;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. - 'bold' (bx/n) with NFSS spec.:
-. <->"SimSun/OT:script=hani;language=DFLT;embolden=4;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: 
-.................................................
-(./JackokiePaper.aux (./chapters/chapter5.aux))
-\openout1 = `JackokiePaper.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 27.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 27.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-<<<<<<< HEAD
 LaTeX Font Info:    ... okay on input line 23.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
 LaTeX Font Info:    ... okay on input line 23.
@@ -2250,16 +2182,6 @@ LaTeX Font Info:    ... okay on input line 23.
 
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 23.
-=======
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-
-ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 27.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -2267,7 +2189,6 @@ LaTeX Info: Redefining \selectfont on input line 27.
 .................................................
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-<<<<<<< HEAD
 (Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 23.
 LaTeX Font Info:    Redeclaring math accent \acute on input line 23.
 LaTeX Font Info:    Redeclaring math accent \grave on input line 23.
@@ -2325,100 +2246,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 23.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 23.
-=======
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 27.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 27.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 27.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 27.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 27.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 27.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 27.
-LaTeX Font Info:    Redeclaring math accent \check on input line 27.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 27.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 27.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 27.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 27.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 27.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 27.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 2
-7.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 27.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-27.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line
- 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 27.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on
- input line 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input li
-ne 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 27.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 27.
-
-*geometry* driver: auto-detecting
-*geometry* detected driver: xetex
-*geometry* verbose mode - [ preamble ] result:
-* driver: xetex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: twoside 
-* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
-* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=441.01773pt
-* \textheight=674.33032pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-15.36447pt
-* \headheight=10.5pt
-* \headsep=17.95274pt
-* \topskip=12.0pt
-* \footskip=35.56595pt
-* \marginparwidth=0.0pt
-* \marginparsep=0.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidetrue
-* \@mparswitchtrue
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
@@ -2431,11 +2258,7 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box78
-<<<<<<< HEAD
 Package hyperref Info: Link coloring ON on input line 23.
-=======
-Package hyperref Info: Link coloring ON on input line 27.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2445,15 +2268,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-<<<<<<< HEAD
 LaTeX Info: Redefining \ref on input line 23.
 LaTeX Info: Redefining \pageref on input line 23.
 LaTeX Info: Redefining \nameref on input line 23.
-=======
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 (./JackokiePaper.out) (./JackokiePaper.out)
 \@outlinefile=\write6
@@ -2511,52 +2328,30 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 
 ]
-<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for U+msa on input line 24.
  (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 24.
-=======
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
- (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<<<<<<< HEAD
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 24.
-=======
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 28.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.53937> not available
-<<<<<<< HEAD
 (Font)              size <10.95> substituted on input line 24.
 
 LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 24.
-=======
-(Font)              size <10.95> substituted on input line 28.
-
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 28.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/calrsfs/omsrsfs.fd)
 
 LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
-<<<<<<< HEAD
 (Font)              size <10.95> substituted on input line 24.
-=======
-(Font)              size <10.95> substituted on input line 28.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 [3
 
@@ -2574,7 +2369,6 @@ LaTeX Font Warning: Font shape `OMS/rsfs/m/n' in size <10.53937> not available
 
 
 ]
-<<<<<<< HEAD
 \openout2 = `chapters/abstract.aux'.
 
  (./chapters/abstract.tex
@@ -3395,18 +3189,12 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 File: figures/chapter_4/fig_4_6.png Graphic file (type QTm)
  <use  "figures/chapter_4/fig_4_6.png" >
 File: figures/chapter_4/fig_4_7.png Graphic file (type QTm)
-=======
-\openout2 = `chapters/chapter5.aux'.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
- (./chapters/chapter5.tex
-Overfull \hbox (10.24258pt too wide) in paragraph at lines 33--33
-[]\TU/SimSun(0)/m/n/12.045 本 章 中，|  我 们 所 有 的 网 络 结 构 都 是 基 于 图[][]\TU/TimesNew
-Roman(0)/m/n/12.045 1[][]\TU/SimSun(0)/m/n/12.045 的 框 架，|  基 准 的 卷 积 神 经 网 络 在 
-$\OML/cmm/m/it/12.045 Softmax$
+<use  "figures/chapter_4/fig_4_7.png" >
+Overfull \hbox (12.04498pt too wide) in paragraph at lines 412--416
+ [][][][] 
  []
 
-<<<<<<< HEAD
 File: figures/chapter_4/fig_4_8.png Graphic file (type QTm)
 <use  "figures/chapter_4/fig_4_8.png" >
 
@@ -3415,10 +3203,6 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-=======
-File: figures/chapter_5/fig_5_0.png Graphic file (type QTm)
-<use  "figures/chapter_5/fig_5_0.png" > [1
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3426,7 +3210,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<<<<<<< HEAD
 [49])
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3449,10 +3232,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 
 [51
 
-=======
-] [2] [3]
-File: figures/chapter_5/fig_5_1.png Graphic file (type QTm)
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 
 ]
@@ -3479,7 +3258,6 @@ Overfull \hbox (12.04192pt too wide) in paragraph at lines 149--153
  [][][][] 
  []
 
-<<<<<<< HEAD
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3489,12 +3267,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [54]
 File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_4.png" >
-=======
-[4]
-File: figures/chapter_5/fig_5_4.png Graphic file (type QTm)
- <use  "figures/chapter_5/fig_5_4.png" > [5]
-File: figures/chapter_5/fig_5_10.png Graphic file (type QTm)
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3507,7 +3279,6 @@ File: figures/chapter_5/fig_5_10.png Graphic file (type QTm)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<<<<<<< HEAD
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3515,9 +3286,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [56]
-=======
-[6]
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 File: figures/chapter_5/fig_5_11.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_11.png" >
 File: figures/chapter_5/fig_5_12.png Graphic file (type QTm)
@@ -3527,7 +3295,6 @@ Overfull \hbox (12.04193pt too wide) in paragraph at lines 246--250
  [][][][] 
  []
 
-<<<<<<< HEAD
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3535,9 +3302,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [57]
-=======
-[7]
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 File: figures/chapter_5/fig_5_13.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_13.png" >
 File: figures/chapter_5/fig_5_14.png Graphic file (type QTm)
@@ -3547,7 +3311,6 @@ Overfull \hbox (12.04193pt too wide) in paragraph at lines 272--276
  [][][][] 
  []
 
-<<<<<<< HEAD
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3555,19 +3318,12 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [58]
-=======
-[8]
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 File: figures/chapter_5/fig_5_15.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_15.png" >
 File: figures/chapter_5/fig_5_16.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_16.png" >
-<<<<<<< HEAD
 Overfull \hbox (12.04193pt too wide) in paragraph at lines 315--319
-=======
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 310--314
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
  [][][][] 
  []
 
@@ -3576,7 +3332,6 @@ File: figures/chapter_5/fig_5_17.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_18.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_18.png" >
-<<<<<<< HEAD
 Overfull \hbox (12.04193pt too wide) in paragraph at lines 322--326
  [][][][] 
  []
@@ -3595,23 +3350,12 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [59]
-=======
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 317--321
- [][][][] 
- []
-
-[9]
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 File: figures/chapter_5/fig_5_23.png Graphic file (type QTm)
  <use  "figures/chapter_5/fig_5_23.png" >
 File: figures/chapter_5/fig_5_24.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_24.png" >
-<<<<<<< HEAD
 Overfull \hbox (12.04193pt too wide) in paragraph at lines 355--359
-=======
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 339--343
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
  [][][][] 
  []
 
@@ -3620,7 +3364,6 @@ File: figures/chapter_5/fig_5_25.png Graphic file (type QTm)
 File: figures/chapter_5/fig_5_26.png Graphic file (type QTm)
 
 <use  "figures/chapter_5/fig_5_26.png" >
-<<<<<<< HEAD
 Overfull \hbox (12.04193pt too wide) in paragraph at lines 362--366
  [][][][] 
  []
@@ -3780,19 +3523,11 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 
 Package natbib Warning: There were undefined citations.
 
-=======
-Overfull \hbox (12.04193pt too wide) in paragraph at lines 346--350
- [][][][] 
- []
-
-[10]) [11]
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 37.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
 (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
@@ -3801,19 +3536,11 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 37.
 (./chapters/resume.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 37.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 37.
-=======
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 41.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 41.
-(./JackokiePaper.aux (./chapters/chapter5.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 41.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 41.
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
 
-<<<<<<< HEAD
 
 LaTeX Warning: There were undefined references.
 
@@ -3832,17 +3559,3 @@ Here is how much of TeX's memory you used:
  63i,14n,89p,10443b,921s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on JackokiePaper.pdf (96 pages).
-=======
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 41.
- ) 
-Here is how much of TeX's memory you used:
- 70320 strings out of 493005
- 1503562 string characters out of 6134597
- 1180293 words of memory out of 5000000
- 73583 multiletter control sequences out of 15000+600000
- 14799 words of font info for 103 fonts, out of 8000000 for 9000
- 1348 hyphenation exceptions out of 8191
- 63i,12n,89p,10477b,599s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on JackokiePaper.pdf (19 pages).
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35

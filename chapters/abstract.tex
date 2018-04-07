@@ -1,36 +1,43 @@
 
 \begin{abstract}
-复杂电磁环境下的无线信号认知是优化频谱利用、识别和最小化干扰，并实施行为策略和有效协调系统的重要工具。传统方法的研究主要集中在能量检测以及专家特征和决策准则的使用，以获取对不同信号的认知能力。这些方法依赖于信号属性、特征和决策统计的先验知识来分离已知的信号（如调制）类型，并且通常在简化的硬件资源、低干扰无线传播环境模型下得到。\par
+复杂电磁环境下的无线信号认知是优化频谱利用效率、识别和最小化干扰的重要方法。
+传统的调制识别方法主要集中在能量检测以及专家特征和决策准则的使用。
+随着深度学习发展，利用原始采样信号学习信号特征并进行识别调制方式得以实现，
+并且在低信噪比条件下的准确率优于传统的基于专家特征提取的统计机器学习模型。
+本文对基于深度学习的调制识别算法、特征融合框架、影响模型性能的因素等进行了研究，
+主要贡献如下：\par
 
-随着深度学习发展，利用原始采样信号进行特征学习并对（调制）信号分类得以实现；并且，在灵敏度和准确性方面优于传统的基于专家特征提取进行统计分类决策。这为当前的无线信号识别的相关问题提供了一种全新的解决方案，但它仍然完全依赖于监督学习。在现实世界中，特别是在无线电领域，我们面临着大量的未标记的示例数据，我们的传感器感知的也只是小部分的标签数据以及大部分的无标签数据，只能获取目标的不完整低可靠性的知识。\par
+1. 本文提出了一种CAE-CNN调制识别的算法框架，并提出了相应的训练算法。
+我们分别利用监督方法和无监督方法将信号特征可视化，
+发现通过无监督的卷积自编码器可以复现输入信号，获得的数据低维表示具有一定的类别区分性；
+通过有监督的CNN获取的信号低维表示，对不同类别的调制信号具有较强的区分度，利用t-SNE算法
+降到二维的流型中，相同类别的信号独立成一个簇。
+我们融合卷积自编码器与卷积神经网络，提出了CAE-CNN算法框架和相应训练算法。
+仿真结果显示，我们提出的算法，在高信噪比条件下具有较高的识别准确率（95\%以上），并且鲁棒性较强；
+在低信噪比条件下具备比传统方法更高的识别率，在SNR为-4dB时准确率仍在85\%左右。
+在算法效率上，我们提出的算法训练时间在可接受范围以内，同时算法分类识别时间也较低。\par
 
-无线信号数据易于从天线获得，但有类别标记信号样本数据通常很少，若直接使用传统的监督学习技术，仅能使用有标记数据构建模型，而无法利用未标记的数据来学习信号所包含的信息；同样由于有标记的样本信号较少，训练样本不足，学习泛化能力较差。因此，我们可以利用半监督学习技术，结合深度学习技术，进行有效的无线信号感知\par
+2. 提出了一种传统特征与深度特征融合的框架。
+将传统方法中常用的调制识别的特征与CNN获取的深度特征进行适应性的$Batch-Normalization$，
+然后分别针对Softmax、随机森林、深度神经网络等融合算法构建融合模型，
+并对不同融合算法的进行了仿真仿真。
+仿真结果显示，基于随机森林和基于Softmax的融合算法性能由于基准的卷积神经网络，
+并且基于RF的融合算法具有相对最优的分类性能，无论在低信噪比还是高信噪比都具有较强的鲁棒性。
+同时，受融合算法特性等的影响，不同融合框架下的误分信号各不相同。 \par
 
-在复杂电磁环境下，完成不同信噪比、不同专家特征集条件下，利用无监督数据构建原始信号的征稀疏表示；针对无线信号应用场景，融合专家指纹特征与深度网络特征，利用监督数据构建无线信号的完备特征集，建立无线信号调制方式分类器，完成已知信号的调制方式识别；针对低信噪比条件，分析不同网络结构对于信号分类结果的影响，构建特征融合的最优分类器。\par
+3. 我们从网络底层研究网络超参数对调制识别性能的影响，
+并从欠拟合与过拟合以及偏差与方差的角度解释了仿真结果。
+CNN在调制识别时的性能似乎不受网络深度的限制，在卷积层数目为$3$时即可达到性能的最值，
+此时再增大卷积层的深度，系统性能可能会发生下降。
+第一层卷积核数目较小时，网络的性能几乎随着第二层卷积核数目的增大而减小。
+而随着第一层卷积核增大，改变第二层卷积核数目，系统分类准确率变化很小，只有轻微的波动。
+整体而言，卷积核宽度$W^{(1)}$和$W^{(2)}$较大的网络性能较好，
+但是当卷积的宽度增大到$7$之后，分类性能较为稳定，仅仅发生微小的波动。\par
 
-第三章 提出了一种CAE-CNN调制识别的算法框架。
-首先，介绍了调制信号的生成；
-然后，对信号进行了时频域可视化，利用监督方法和无监督方法将信号特征可视化；
-接下来，我们将监督方法与无监督方法融合，提出了CAE-CNN的算法；
-最后，我们将所提算法的性能进行展示并与传统的方法进行比较。 \par
-
-第四章 提出了一种传统特征与深度特征融合的框架。
-首先，介绍了常用的调制识别所用的特征；
-然后，对特征融合的相关理论进行概述；接
-着，提出了基于LR、DNN以及集成树的融合框架；
-最后，对不同特征融合算法的仿真结果进行了相应的理论分析。 \par
-
-第五章 对调制识别的不同网络结构进行了分析验证。
-首先，基于CNN网路框架，研究了卷积核数目、大小以及卷基层深度对调制识别的影响；
-接下来，研究了网络底层结构（如CLDNN、ResNet等）对调制识别的影响，并对仿真结果进行了理论分析。\par
-
-利用深度网络对无线信号进行特征学习，可以获得更能表征信号原始特征的稀疏特征空间。将传统无线信号特征与深度学习特征相融合，构建信号的完备特征集，并将其作为分类的特征空间。首先，对深度网络进行预训练，获取可以表征信号的深度特征空间；进而，将传统特征进行归一化等一系列的预处理，作为新的特征并以全连接的形式输入到分类器；这样整个分类器的输入特征空间相当于深度特征与传统特征的结合，在保证分类准确率的条件下，能够兼顾传统特征与深度特征，充分利用传统方法所获取的先验知识。在特征融合之后，利用监督数据对于整个网络进行训练，以获取最优分类网络。\par
-
-\keywords{XXX,\quad{}XXX,\quad{}XXX,\quad{}XXX,\quad{}XXX} \\
+\keywords{调制识别,\quad{}深度学习,\quad{}网络超参数,\quad{}特征融合} \\
 \end{abstract}
 
 \begin{englishabstract}
-<<<<<<< HEAD
 Wireless signal recognition in complex electromagnetic environments is an important method for optimizing spectrum utilization efficiency, identifying and minimizing interference. Traditional modulation identification methods mainly focus on energy detection and the use of expert characteristics and decision criteria. With the development of deep learning, the original sampled signal is used to learn the signal features and identify and modulate the signal. The accuracy under low signal-to-noise ratio is better than the traditional statistical machine learning model based on expert feature extraction. This paper studies the modulation recognition algorithms based on deep learning, feature fusion framework, and factors that affect the performance of the model. The main contributions are as follows:
 \par~\par
 1. This paper proposes a CAE-CNN modulation recognition algorithm framework and proposes a corresponding training algorithm. We visualized the signal characteristics using supervised methods and unsupervised methods, respectively, and found that the unsupervised convolutional self-encoder can reproduce the input signals. The low-dimensional representation of the obtained data has a certain class distinction; it is obtained through supervised CNN. The low dimension of the signal indicates that there is a strong degree of discrimination between the different classes of modulated signals, which is reduced to a two-dimensional flow pattern using the t-SNE algorithm, and the signals of the same class form a cluster independently. We fuse convolutional self-encoders and convolutional neural networks and propose a CAE-CNN algorithm framework and corresponding training algorithms. The simulation results show that the proposed algorithm has higher recognition accuracy (95\% or more) under high signal-to-noise ratio, and has stronger robustness; it has higher performance than traditional methods under low signal-to-noise ratio conditions. The recognition rate is still about 85\% when the SNR is -4dB. In terms of algorithm efficiency, the training time of our proposed algorithm is within an acceptable range, and the classification and recognition time of the algorithm is also low.
@@ -40,20 +47,10 @@ Wireless signal recognition in complex electromagnetic environments is an import
 3. We study the effect of network hyperparameters on modulation recognition performance from the network bottom and explain the simulation results from the perspective of under-fitting and over-fitting, as well as deviation and variance. The performance of CNN in modulation recognition does not seem to be limited by the depth of the network. The maximum value of performance can be achieved when the number of convolution layers is $3$. At this time, the depth of the convolutional layer is further increased, and the system performance may decrease. When the number of first-level convolutional cores is small, the performance of the network decreases almost as the number of second-level convolutional cores increases. With the increase of the number of convolutional nuclei at the first level, the number of second-level convolutional nuclei changes, and the accuracy of system classification changes only slightly, with only slight fluctuations. Overall, the larger network performance of the convolution kernel widths $W^{(1)}$ and $W^{(2)}$ is better, but the classification performance is increased when the convolution width is increased to $7$. It is relatively stable and only minor fluctuations occur.
 ~\par
 \englishkeywords{Modulation identification,\space{}deep Learning,\space{}feature fusion}
-=======
-The Abstract is a brief description of a thesis or dissertation without notes or comments. It represents concisely the research purpose, content, method, result and conclusion of the thesis or dissertation with emphasis on its innovative findings and perspectives. The Abstract Part consists of both the Chinese abstract and the English abstract. The Chinese abstract should have the length of approximately 1000 Chinese characters for a master thesis and 1500 for a Ph.D. dissertation. The English abstract should be consistent with the Chinese one in content. The keywords of a thesis or dissertation should be listed below the main body of the abstract, separated by commas and a space. The number of the keywords is typically 3 to 5.
-\\~\\
-The format of the Chinese Abstract is what follows: Song Ti, Small 4, justified, 2 characters indented in the first line, line spacing at a fixed value of 20 pounds, and paragraph spacing section at 0 pound.
-\\~\\
-The format of the English Abstract is what follows: Times New Roman, Small 4, justified, not indented in the first line, line spacing at a fixed value of 20 pounds, and paragraph spacing section at 0 pound with a blank line between paragraphs.
-~\\
-\englishkeywords{XXX,\space{}XXX,\space{}XXX,\space{}XXX,\space{}XXX} \\
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 
 \end{englishabstract}
 
 
-<<<<<<< HEAD
 
 \XDUpremainmatter
 
@@ -70,8 +67,6 @@ The format of the English Abstract is what follows: Times New Roman, Small 4, ju
 \item [$\gamma$] \hspace{12.5em} {弱分类器更新率}
 \end{symbollist}
 
-=======
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
 \begin{abbreviationlist}
 \item \makebox[8em][l]{缩略语}  \makebox[16em][l]{英文全称}  \makebox[16em][l]{中文对照}
 \item \makebox[4em][l]{SVM}    \makebox[20em][l]{Support Vector Machine}    \makebox[16em][l]{支持向量机}

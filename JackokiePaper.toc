@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \contentsline {chapter}{摘要}{I}{section*.1}
 \contentsline {chapter}{ABSTRACT}{III}{section*.3}
 \contentsline {chapter}{插图索引}{V}{section*.5}
@@ -85,5 +84,3 @@
 \contentsline {chapter}{参考文献}{65}{section*.50}
 \contentsline {chapter}{致谢}{69}{section*.52}
 \contentsline {chapter}{作者简介}{71}{section*.54}
-=======
->>>>>>> parent of 6c68b81... 2018年4月5日00:56:35
