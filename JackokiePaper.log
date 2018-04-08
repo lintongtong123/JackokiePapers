@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  7 APR 2018 17:36
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  8 APR 2018 01:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2476,71 +2476,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [10
 
 ]
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 71--72
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 72--73
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 73--74
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 74--75
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 75--76
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 76--77
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 77--78
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 78--79
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 79--80
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 80--81
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 81--82
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 83--84
-[][] [] [] 
- []
-
-
-Overfull \hbox (56.79721pt too wide) in paragraph at lines 84--85
-[][] [] [] 
- []
-
-
 Overfull \hbox (56.79721pt too wide) in paragraph at lines 85--86
 [][] [] [] 
  []
@@ -2587,6 +2522,81 @@ Overfull \hbox (56.79721pt too wide) in paragraph at lines 93--94
 
 
 Overfull \hbox (56.79721pt too wide) in paragraph at lines 94--95
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 95--96
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 96--97
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 97--98
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 98--99
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 99--100
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 100--101
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 101--102
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 102--103
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 103--104
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 104--105
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 105--106
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 106--107
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 107--108
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 108--109
+[][] [] [] 
+ []
+
+
+Overfull \hbox (56.79721pt too wide) in paragraph at lines 109--110
 [][] [] [] 
  []
 
@@ -2667,6 +2677,11 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
+
+Package natbib Warning: Citation `weaver1969automatic' on page 3 undefined on i
+nput line 100.
+
+
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
 
@@ -2679,17 +2694,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [3]
 File: figures/chapter_1/fig_1_0.png Graphic file (type QTm)
  <use  "figures/chapter_1/fig_1_0.png" >
-Missing character: There is no ％ in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-
-Overfull \hbox (0.20805pt too wide) in paragraph at lines 127--137
-[]\TU/SimSun(0)/m/n/12.045 对 于 现 有 调 制 识 别 的 发 展，| \TU/TimesNewRoman(0)/m/n/12.
-045 Kim \TU/SimSun(0)/m/n/12.045 和 \TU/TimesNewRoman(0)/m/n/12.045 Polydoros$[]
-$ \TU/SimSun(0)/m/n/12.045 使 用 平 均 似 然 比 检 验 来 识 别 \TU/TimesNewRoman(0)/m/n/12.
-045 BPSK
- []
-
-
 Underfull \vbox (badness 2435) has occurred while \output is active []
 
 
@@ -2702,11 +2706,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [4]
 File: figures/chapter_1/fig_1_1.png Graphic file (type QTm)
  <use  "figures/chapter_1/fig_1_1.png" >
-
-Package natbib Warning: Citation `汤卫东2010基于小波变换的数字通信信号调制识别研究' on page 5 undefin
-ed on input line 176.
-
-
 Underfull \vbox (badness 1337) has occurred while \output is active []
 
 
@@ -2780,7 +2779,7 @@ Overfull \hbox (15.93542pt too wide) in paragraph at lines 90--91
 
 File: figures/chapter_2/fig_2_4.png Graphic file (type QTm)
 <use  "figures/chapter_2/fig_2_4.png" >
-Underfull \vbox (badness 2556) has occurred while \output is active []
+Underfull \vbox (badness 2426) has occurred while \output is active []
 
 
 
@@ -2819,9 +2818,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 
 [15]
 
-LaTeX Warning: Reference `con_net' on page 16 undefined on input line 236.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
  We now make it that large for the rest of the document.
@@ -2830,9 +2826,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [16]
 File: figures/chapter_2/fig_2_5.png Graphic file (type QTm)
  <use  "figures/chapter_2/fig_2_5.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -2841,7 +2834,7 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 
 [17]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 322.
+put line 323.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2850,6 +2843,9 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [18]
+Underfull \vbox (badness 2460) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -2929,28 +2925,19 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 File: figures/chapter_3/fig_3_4.png Graphic file (type QTm)
  <use  "figures/chapter_3/fig_3_4.png" >
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figures/chapter_3/fig_3_5.png Graphic file (type QTm)
-<use  "figures/chapter_3/fig_3_5.png" >
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [27]
+File: figures/chapter_3/fig_3_5.png Graphic file (type QTm)
+ <use  "figures/chapter_3/fig_3_5.png" >
 File: figures/chapter_3/fig_3_6.png Graphic file (type QTm)
- <use  "figures/chapter_3/fig_3_6.png" >
+
+<use  "figures/chapter_3/fig_3_6.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -2965,7 +2952,7 @@ File: figures/chapter_3/fig_3_7.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1275) has occurred while \output is active []
 
 
 
@@ -2987,7 +2974,7 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [30]
-Underfull \hbox (badness 1168) in paragraph at lines 302--306
+Underfull \hbox (badness 1168) in paragraph at lines 303--307
 [] []\TU/SimSun(0)/m/n/12.045 构 建 \TU/TimesNewRoman(0)/m/n/12.045 CAE \TU/SimSu
 n(0)/m/n/12.045 框 架 及 损 失 函 数 $\OML/cmm/m/it/12.045 J[]\OT1/cmr/m/n/12.045 (\OM
 L/cmm/m/it/12.045 X; Y\OT1/cmr/m/n/12.045 ; \OML/cmm/m/it/12.045 ^^R[]\OT1/cmr/
@@ -2996,7 +2983,7 @@ m/n/12.045 )$\TU/TimesNewRoman(0)/m/n/12.045 , CAE \TU/SimSun(0)/m/n/12.045 框 
  []
 
 
-Underfull \vbox (badness 4144) has occurred while \output is active []
+Underfull \vbox (badness 1199) has occurred while \output is active []
 
 
 
@@ -3015,6 +3002,9 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [32]
 File: figures/chapter_3/fig_3_9.png Graphic file (type QTm)
  <use  "figures/chapter_3/fig_3_9.png" >
+Underfull \vbox (badness 1742) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3029,6 +3019,10 @@ File: figures/chapter_3/fig_3_10.png Graphic file (type QTm)
 <use  "figures/chapter_3/fig_3_10.png" >
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 2600) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3081,10 +3075,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 ]
 第四章
 
-Package natbib Warning: Citation `于政委2017基于多特征融合的调制模式识别研究' on page 39 undefined
- on input line 6.
-
-
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
  We now make it that large for the rest of the document.
@@ -3098,10 +3088,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-
-Package natbib Warning: Citation `基于高阶累积量和循环谱的信号调制方式混合识别算法' on page 41 undefine
-d on input line 92.
-
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3138,12 +3124,8 @@ File: figures/chapter_4/fig_4_2.png Graphic file (type QTm)
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Package natbib Warning: Citation `王维智2015基于特征提取和特征选择的级联深度学习模型研究' on page 45 und
-efined on input line 310.
-
-
 LaTeX Warning: Reference `nielsen2015neural' on page 45 undefined on input line
- 314.
+ 312.
 
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
@@ -3191,7 +3173,7 @@ File: figures/chapter_4/fig_4_6.png Graphic file (type QTm)
 File: figures/chapter_4/fig_4_7.png Graphic file (type QTm)
 
 <use  "figures/chapter_4/fig_4_7.png" >
-Overfull \hbox (12.04498pt too wide) in paragraph at lines 412--416
+Overfull \hbox (12.04498pt too wide) in paragraph at lines 410--414
  [][][][] 
  []
 
@@ -3445,13 +3427,13 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [66]
-Underfull \hbox (badness 5592) in paragraph at lines 298--301
+Underfull \hbox (badness 5592) in paragraph at lines 289--292
 []\TU/TimesNewRoman(0)/m/n/10.53937 RUDER S. An overview of gradient descent op
 timization algorithms[J]. arXiv preprint
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 310--313
+Underfull \hbox (badness 3668) in paragraph at lines 301--304
 []\TU/TimesNewRoman(0)/m/n/10.53937 KINGMA D P, BA J. Adam: A method for stocha
 stic optimization[J]. arXiv preprint
  []
@@ -3467,6 +3449,13 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [67]
+Invalid UTF-8 byte or sequence at line 349 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 349 replaced by U+FFFD.
+Missing character: There is no � in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+Missing character: There is no � in font Times New Roman/OT:script=latn;languag
+e=DFLT;mapping=tex-text;!
+
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3550,10 +3539,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 37.
  ) 
 Here is how much of TeX's memory you used:
- 70562 strings out of 493005
- 1514968 string characters out of 6134597
- 1190260 words of memory out of 5000000
- 73707 multiletter control sequences out of 15000+600000
+ 70524 strings out of 493005
+ 1512846 string characters out of 6134597
+ 1189257 words of memory out of 5000000
+ 73669 multiletter control sequences out of 15000+600000
  14863 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  63i,14n,89p,10443b,921s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -292,7 +292,7 @@ def t_sne(samples, labels, cate2mod):
     plt.yticks([])
     mods = ['AM-SSB', 'BPSK', 'CPFSK', 'GFSK', 'PAM4', 'QAM64', 'QPSK']
 
-    plt.legend(holder, mods)
+    plt.legend(holder, mods, fontsize=12)
     plt.savefig(low_dim_fig)
 
 

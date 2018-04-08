@@ -63,7 +63,7 @@ def freq_plot(samples, mods):
 
         plt.xticks([])
         plt.yticks([])
-        plt.title(mods[i])
+        plt.title(mods[i], fontsize=12)
     plt.tight_layout()
     plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_3.png", dpi=120)
     return
@@ -79,8 +79,8 @@ def time_plot(samples, mods):
     for i in range(num):
 
         plt.subplot(3, 3, i+1)
-        p1, = plt.plot(samples[i][0], 'blue')
-        p2, = plt.plot(samples[i][1], 'green')
+        p1, = plt.plot(samples[i][0], 'blue', linestyle='-')
+        p2, = plt.plot(samples[i][1], 'green', linestyle='-.')
         plt.hlines(0, 0, 128)
 
         axes = plt.gca()
@@ -90,8 +90,8 @@ def time_plot(samples, mods):
         plt.xticks([])
         plt.yticks([])
         # plt.yticks([-0.02, 0.02])
-        plt.legend([p1, p2], ['Real', 'Complex'], loc='upper right', fontsize=6)
-        plt.title(mods[i])
+        plt.legend([p1, p2], ['Real', 'Complex'], loc='upper right', fontsize=12)
+        plt.title(mods[i], fontsize=12)
     plt.tight_layout()
     plt.savefig("E:/JackokiePapers/figures/chapter_3/fig_3_2.png", dpi=120)
     plt.clf()

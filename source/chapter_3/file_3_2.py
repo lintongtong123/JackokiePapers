@@ -44,8 +44,8 @@ def plot_samples(samples, mods):
     for i in range(num):
 
         plt.subplot(4, 3, i+1)
-        p1, = plt.plot(samples[i][0], 'b')
-        p2, = plt.plot(samples[i][1], 'r')
+        p1, = plt.plot(samples[i][0], 'b', linestyle='--')
+        p2, = plt.plot(samples[i][1], 'r', linestyle='-.')
         plt.hlines(0, 0, 128)
 
         axes = plt.gca()

@@ -13,7 +13,71 @@
     <favorites_list name="source" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="file_2_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_2/file_2_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_2_2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_2/file_2_2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_3_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_3/file_3_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_3_4.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/result/file_3_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-458">
+              <caret line="265" column="21" selection-start-line="265" selection-start-column="21" selection-end-line="265" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_3_5.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_3/file_3_5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_3_4.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_3/file_3_4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="file_3_3.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter_3/file_3_3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -28,7 +92,7 @@
       <find>blu</find>
       <find>plot</find>
       <find>accus_comp_1</find>
-      <find>Predicted Label</find>
+      <find />
       <find>Predicted</find>
       <find>lea</find>
       <find>interpolation</find>
@@ -45,8 +109,12 @@
       <find>Xgboost</find>
       <find>fig_4_7.png</find>
       <find>color</find>
-      <find>(8, 6)</find>
+      <find />
       <find>show</find>
+      <find>fig</find>
+      <find>16</find>
+      <find>fig_3_7</find>
+      <find>fig_3_</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -60,8 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/chapeter_3/file_3_1.py" />
-        <option value="$PROJECT_DIR$/file_3_2.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/chapter_3/file_3_6.py" />
         <option value="$PROJECT_DIR$/chapter_4/file_4_2.py" />
@@ -80,7 +146,6 @@
         <option value="$PROJECT_DIR$/chapter_5/file5_2.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_1.py" />
         <option value="$USER_HOME$/program/anaconda3/lib/python3.6/random.py" />
-        <option value="$PROJECT_DIR$/chapter_3/file_3_2.py" />
         <option value="$USER_HOME$/program/anaconda3/lib/python3.6/site-packages/matplotlib/pyplot.py" />
         <option value="$PROJECT_DIR$/Liu/data_show.py" />
         <option value="$PROJECT_DIR$/Liu/imdb.py" />
@@ -99,9 +164,7 @@
         <option value="$PROJECT_DIR$/chapter_5/file_5_10.py" />
         <option value="$PROJECT_DIR$/chapter_3/file_3_4.py" />
         <option value="$PROJECT_DIR$/chapter_3/file_3_7.py" />
-        <option value="$PROJECT_DIR$/chapter_3/file_3_3.py" />
         <option value="$PROJECT_DIR$/chapter_3/file_3_9.py" />
-        <option value="$PROJECT_DIR$/chapter_3/file_3_1.py" />
         <option value="$PROJECT_DIR$/chapter_3/file_3_13.py" />
         <option value="$PROJECT_DIR$/chapter_3/file_3_14.py" />
         <option value="$PROJECT_DIR$/chapter_4/file_4_13.py" />
@@ -110,6 +173,12 @@
         <option value="$PROJECT_DIR$/chapter_5/file_5_8.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_7.py" />
         <option value="$PROJECT_DIR$/chapter_5/file_5_9.py" />
+        <option value="$PROJECT_DIR$/chapter_2/file_2_1.py" />
+        <option value="$PROJECT_DIR$/chapter_2/file_2_2.py" />
+        <option value="$PROJECT_DIR$/chapter_3/file_3_2.py" />
+        <option value="$PROJECT_DIR$/chapter_3/file_3_3.py" />
+        <option value="$PROJECT_DIR$/chapter_3/file_3_1.py" />
+        <option value="$PROJECT_DIR$/result/file_3_4.py" />
       </list>
     </option>
   </component>
@@ -134,7 +203,12 @@
             <path>
               <item name="source" type="b2602c69:ProjectViewProjectNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter_5" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="source" type="b2602c69:ProjectViewProjectNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,8 +258,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.file_5_9">
-    <configuration name="file_3_14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.file_3_1">
+    <configuration name="file_2_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_2/file_2_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="file_2_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="source" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_2/file_2_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="file_3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,13 +307,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_3/file_3_14.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_3/file_3_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="file_5_6" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="file_3_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="source" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,47 +321,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/file_5_6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="file_5_7" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="source" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/file_5_7.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="file_5_8" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="source" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/file_5_8.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_3/file_3_3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,19 +350,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.file_3_14" />
-      <item itemvalue="Python.file_5_7" />
-      <item itemvalue="Python.file_5_8" />
-      <item itemvalue="Python.file_5_6" />
       <item itemvalue="Python.file_5_9" />
+      <item itemvalue="Python.file_2_1" />
+      <item itemvalue="Python.file_2_2" />
+      <item itemvalue="Python.file_3_1" />
+      <item itemvalue="Python.file_3_3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_3_1" />
+        <item itemvalue="Python.file_3_3" />
+        <item itemvalue="Python.file_2_2" />
+        <item itemvalue="Python.file_2_1" />
         <item itemvalue="Python.file_5_9" />
-        <item itemvalue="Python.file_5_7" />
-        <item itemvalue="Python.file_5_8" />
-        <item itemvalue="Python.file_5_6" />
-        <item itemvalue="Python.file_3_14" />
       </list>
     </recent_temporary>
   </component>
@@ -306,14 +380,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18361954" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32784638" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23731138" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23731138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32784638" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -324,7 +400,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -354,7 +429,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/chapter_3/file_3_3.py</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -375,12 +450,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/chapter_5/file_5_6.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_5/file_5_7.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_5/file_5_8.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_5/file_5_9.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_4.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_8.py" />
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_10.py" />
     <entry file="file://$PROJECT_DIR$/chapter_3/file_3_7.py" />
     <entry file="file://$PROJECT_DIR$/readme" />
@@ -395,11 +464,7 @@
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_9.py" />
     <entry file="file://$PROJECT_DIR$/readme" />
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_10.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_1.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_4.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_3.py" />
     <entry file="file://$PROJECT_DIR$/chapter_3/file_3_9.py" />
-    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_2.py" />
     <entry file="file://$PROJECT_DIR$/chapter_4/file_4_15.py" />
     <entry file="file://$PROJECT_DIR$/chapter_3/file_3_8.py" />
     <entry file="file://$PROJECT_DIR$/chapter_3/file_3_7.py" />
@@ -505,16 +570,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/WorkPrograms/Anaconda/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="3151" column="19" lean-forward="true" selection-start-line="3151" selection-start-column="19" selection-end-line="3151" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_3.py" />
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_8.py" />
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_7.py" />
     <entry file="file://$PROJECT_DIR$/chapter_5/file_5_9.py" />
+    <entry file="file://$PROJECT_DIR$/chapter_2/file_2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkPrograms/Anaconda/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1567" column="31" selection-start-line="1567" selection-start-column="12" selection-end-line="1567" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_2/file_2_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/WorkPrograms/Anaconda/Lib/site-packages/matplotlib/lines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="1149" column="26" selection-start-line="1149" selection-start-column="26" selection-end-line="1149" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="34" column="30" lean-forward="true" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="60" column="33" lean-forward="true" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_6.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_3/file_3_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="143" column="25" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/file_3_4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="265" column="21" selection-start-line="265" selection-start-column="21" selection-end-line="265" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

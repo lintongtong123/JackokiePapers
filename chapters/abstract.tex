@@ -46,7 +46,7 @@ Wireless signal recognition in complex electromagnetic environments is an import
 \par~\par
 3. We study the effect of network hyperparameters on modulation recognition performance from the network bottom and explain the simulation results from the perspective of under-fitting and over-fitting, as well as deviation and variance. The performance of CNN in modulation recognition does not seem to be limited by the depth of the network. The maximum value of performance can be achieved when the number of convolution layers is $3$. At this time, the depth of the convolutional layer is further increased, and the system performance may decrease. When the number of first-level convolutional cores is small, the performance of the network decreases almost as the number of second-level convolutional cores increases. With the increase of the number of convolutional nuclei at the first level, the number of second-level convolutional nuclei changes, and the accuracy of system classification changes only slightly, with only slight fluctuations. Overall, the larger network performance of the convolution kernel widths $W^{(1)}$ and $W^{(2)}$ is better, but the classification performance is increased when the convolution width is increased to $7$. It is relatively stable and only minor fluctuations occur.
 ~\par
-\englishkeywords{Modulation identification,\space{}deep Learning,\space{}feature fusion}
+\englishkeywords{Modulation identification,\space{}deep Learning,\space{}network hyper-parameter,\space{}feature fusion}
 
 \end{englishabstract}
 
@@ -55,42 +55,57 @@ Wireless signal recognition in complex electromagnetic environments is an import
 \XDUpremainmatter
 
 \begin{symbollist}
-\item [符号] \hspace{12em} {符号名称}
-\item [$\in$]\hspace{12.5em} {属于}
-\item [$w$] \hspace{12.5em} {权重}
-\item [$x$] \hspace{12.5em} {样本}
-\item [$y$] \hspace{12.5em} {标签}
-\item [$M$] \hspace{12.5em} {特征维数}
-\item [$N$] \hspace{12.5em} {样本数量}
-\item [$\eta$] \hspace{12.5em} {学习率}
-\item [$\mathcal{F}^{-1}$] \hspace{12.5em} {逆傅里叶变换}
-\item [$\gamma$] \hspace{12.5em} {弱分类器更新率}
+	
+	\item ~符号 \hspace{12em} 符号名称
+	\item $\in$\hspace{12.5em} 属于
+	\item $w$ \hspace{12.5em} 权重
+	\item $x$ \hspace{12.5em} 样本
+	\item $y$ \hspace{12.5em} 标签
+	\item $N$ \hspace{12.5em} 样本数量
+	\item $\eta$ \hspace{12.5em} 学习率
+	\item $*$ \hspace{12.5em} 卷积
+	\item $b$ \hspace{12.5em} 神经网络的偏置
+	\item $\lambda$ \hspace{12.5em} 权重衰减系数
+	\item $\Delta$ \hspace{12.5em} 求导
+	\item $\min$ \hspace{12.5em} 求最小
+	\item $\max$ \hspace{12.5em} 求最大
+	\item $\alpha$ \hspace{12.5em} 学习速率衰减因子
+	\item $\theta$ \hspace{12.5em} 网络参数
+	\item $J(\cdot)$ \hspace{12.5em} 损失函数
+	\item $I$ \hspace{12.5em} 指示函数
+	\item $E$ \hspace{12.5em} 期望
+	\item $bias$ \hspace{12.5em} 偏差
+	\item $\delta^2$ \hspace{12.5em} 方差
+	\item $O$ \hspace{12.5em} 复杂度
+	\item $T$ \hspace{12.5em} 学习器
+
 \end{symbollist}
 
 \begin{abbreviationlist}
-\item \makebox[8em][l]{缩略语}  \makebox[16em][l]{英文全称}  \makebox[16em][l]{中文对照}
-\item \makebox[4em][l]{SVM}    \makebox[20em][l]{Support Vector Machine}    \makebox[16em][l]{支持向量机}
-\item \makebox[4em][l]{EM}    \makebox[20em][l]{expectation–maximization}    \makebox[16em][l]{最大期望}
-\item \makebox[4em][l]{WTS}   \makebox[20em][l]{Weighted Tensor Subspace}    \makebox[16em][l]{加权张量子空间}
-\item \makebox[4em][l]{PCA}    \makebox[20em][l]{Principal Component Analysis}    \makebox[16em][l]{主成分分析}
-\item \makebox[4em][l]{IPCA}    \makebox[20em][l]{Incremental PCA}    \makebox[16em][l]{增量主成分分析}
-\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
-\item \makebox[4em][l]{2D-LDA}    \makebox[20em][l]{2D Fisher Linear Discriminant Analysis}  \makebox[16em][l]{二维Fisher线性判别分析}
-\item \makebox[4em][l]{AVT}    \makebox[20em][l]{Attentional Visual Tracking}    \makebox[16em][l]{注意视觉跟踪}
-\item \makebox[4em][l]{RF}    \makebox[20em][l]{Random Forest}    \makebox[16em][l]{随机森林}
-\item \makebox[4em][l]{FFT}    \makebox[20em][l]{Fast Fourier Transformation}    \makebox[16em][l]{快速傅里叶变换}
-\item \makebox[4em][l]{MOSSE}   \makebox[20em][l]{Minimum Output Sum of Squared Error filter}    \makebox[10em][l]{最小平方误差滤波器}
-\item \makebox[4em][l]{CFT}    \makebox[20em][l]{Correlation Filter Tracker}    \makebox[16em][l]{相关滤波跟踪器}
-\item \makebox[4em][l]{DFT}    \makebox[20em][l]{Discrete Fourier Transform}    \makebox[16em][l]{离散傅里叶变换}
-\item \makebox[4em][l]{KCF}    \makebox[20em][l]{Kernelized Correlation Filter}    \makebox[16em][l]{核相关滤波器}
-\item \makebox[4em][l]{CLE}    \makebox[20em][l]{Center Location Error}    \makebox[16em][l]{中心位置误差}
-\item \makebox[4em][l]{OP}    \makebox[20em][l]{Overlap Precision}    \makebox[16em][l]{重叠精度}
-\item \makebox[4em][l]{DP}    \makebox[20em][l]{Distance Precision}    \makebox[16em][l]{距离精度}
-\item \makebox[4em][l]{ASMM}    \makebox[20em][l]{Atkinson–Shiffrin Memory Model}    \makebox[16em][l]{AtkinsonShiffrin 内存模型}
-\item \makebox[4em][l]{MUSTer}    \makebox[20em][l]{MUlti-Store Tracker}    \makebox[16em][l]{多贮存跟踪器}
-\item \makebox[4em][l]{KNN}    \makebox[20em][l]{K-Nearest Neighbor}    \makebox[16em][l]{K-最近邻}
-\item \makebox[4em][l]{HOG}    \makebox[20em][l]{Histogram of Oriented Gradient}    \makebox[16em][l]{方向梯度直方图}
-\item \makebox[4em][l]{ALM}    \makebox[20em][l]{Augmented Lagrange Method}    \makebox[16em][l]{增强拉格朗日方法}
-\item \makebox[4em][l]{ADMM}    \makebox[20em][l]{Alternating Direction Method of Multipliers}    \makebox[16em][l]{交替方向乘子算法}
+\item \makebox[4em][l]{DL}  \makebox[20em][l]{Deep Learning}    \makebox[16em][l]{深度学习}
+\item \makebox[4em][l]{ML}  \makebox[20em][l]{Machine Learning}    \makebox[16em][l]{机器学习}
+\item \makebox[4em][l]{DBN}  \makebox[20em][l]{Deep Belief Network}    \makebox[16em][l]{深度置信网络}
+\item \makebox[4em][l]{CNN}  \makebox[20em][l]{Convolutional Neural Network}    \makebox[16em][l]{卷积神经网络}
+\item \makebox[4em][l]{GAN}  \makebox[20em][l]{Generative Adversarial Networks}    \makebox[16em][l]{生成对抗网络}
+\item \makebox[4em][l]{t-SNE}  \makebox[20em][l]{t-Distributed Stochastic Neighbor Embedding}    \makebox[16em][l]{t-分布随机邻接嵌入}
+\item \makebox[4em][l]{BN}  \makebox[20em][l]{Batch Normalization}    \makebox[16em][l]{批归一化}
+\item \makebox[4em][l]{DSA}  \makebox[20em][l]{Dynamic Spectrum Access}    \makebox[16em][l]{动态频谱接入}
+\item \makebox[4em][l]{NN}  \makebox[20em][l]{Neural Networks}    \makebox[16em][l]{神经网络}
+\item \makebox[4em][l]{LR}  \makebox[20em][l]{Logistic Regression}    \makebox[16em][l]{逻辑回归}
+\item \makebox[4em][l]{SVM}  \makebox[20em][l]{Support Vector Machine}    \makebox[16em][l]{支持向量机}
+\item \makebox[4em][l]{AE}  \makebox[20em][l]{autoencoder}    \makebox[16em][l]{自动编码器}
+\item \makebox[4em][l]{MSE}  \makebox[20em][l]{Mean Squared Error}    \makebox[16em][l]{均方误差}
+\item \makebox[4em][l]{CAE}  \makebox[20em][l]{Convolutional Auto-Encode}    \makebox[16em][l]{卷积自编码器}
+\item \makebox[4em][l]{SGD}  \makebox[20em][l]{Stochastic Gradient Descent}    \makebox[16em][l]{统计梯度下降}
+\item \makebox[4em][l]{Adam}  \makebox[20em][l]{Adaptive Moment Estimation}    \makebox[16em][l]{自适应矩估计}
+\item \makebox[4em][l]{PCA}  \makebox[20em][l]{Principal components analysis}    \makebox[16em][l]{主成分分析}
+\item \makebox[4em][l]{SAE}  \makebox[20em][l]{Sparse Autoencoder}    \makebox[16em][l]{稀疏自编码器}
+\item \makebox[4em][l]{DTree}  \makebox[20em][l]{Decision Tree}    \makebox[16em][l]{决策树}
+\item \makebox[4em][l]{RF}  \makebox[20em][l]{Random Forest}    \makebox[16em][l]{随机森林}
+\item \makebox[4em][l]{KNN}  \makebox[20em][l]{K-Nearest Neighbor}    \makebox[16em][l]{K-近邻}
+\item \makebox[4em][l]{SR}  \makebox[20em][l]{Softmax Regression}    \makebox[16em][l]{Softmax回归}
+\item \makebox[4em][l]{IF}  \makebox[20em][l]{Indicator Function}    \makebox[16em][l]{指示函数}
+\item \makebox[4em][l]{EL}  \makebox[20em][l]{Ensemble Learning}    \makebox[16em][l]{集成学习} 
+\item \makebox[4em][l]{CART}  \makebox[20em][l]{Classification and Regression Tree}    \makebox[16em][l]{CART树}
 \end{abbreviationlist}
 

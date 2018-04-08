@@ -10,7 +10,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 # matplotlib.rc('font', size=30)
-fig = plt.figure()
+fig = plt.figure(figsize=(8,6), dpi=160)
 ax = fig.add_subplot(111)
 ax.spines['top'].set_color('none')
 ax.spines['right'].set_color('none')
@@ -24,11 +24,13 @@ x = np.arange(-5, 10, 0.1)
 y = (x>0)*x
 
 plt.xlim([-5, 12])
+plt.yticks([2, 4, 6, 8, 10], fontsize=16)
+plt.xticks(fontsize=16)
 fig.add_axes()
 plt.plot(x, y, 'r')
-plt.xlabel('$z$', fontsize=12)
-plt.ylabel("$f(z)$", rotation='horizontal',fontsize=12)
-
+plt.xlabel('$z$', fontsize=16)
+plt.ylabel("$f(z)$", rotation='horizontal',fontsize=16)
+plt.tight_layout()
 plt.show()
 
 # fig.savefig('/home/scl/Documents/JackokiePapers/figures/chapter_2/fig_2_2.png')

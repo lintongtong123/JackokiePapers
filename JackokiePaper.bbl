@@ -24,12 +24,6 @@
 \providecommand{\bibdate}[1]{#1}
 \providecommand{\biburl}[1]{\newline\url{#1}}
 
-\bibitem{昌信2006通信原理}
-\bibauthor{樊昌信，曹丽娜}\@.
-  \bibbooktitle{通信原理}\bibmark{[M]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
-  }\bibpublisher{国防工业出版社}\@, \bibyear{2006}\@.
-
 \bibitem{nandi1995automatic}
 \bibauthor{NANDI A\@, AZZOUZ E~E}\@. \bibtitle{Automatic analogue modulation
   recognition}\bibmark{[J]}\@. \bibjournal{Signal processing}\@,
@@ -101,12 +95,6 @@
   of artistic style}\bibmark{[J]}\@. \bibjournal{arXiv preprint
   arXiv:1508.06576}\@, \bibyear{2015}\@.
 
-\bibitem{weaver1969automatic}
-\bibauthor{WEAVER C\@, COLE C\@, KRUMLAND R, et~al}\@. \bibtitle{THE AUTOMATIC
-  CLASSIFICATION OF MODULATION TYPES BY PATTERN RECOGNITION.}\bibmark{[R]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibinstitution{STANFORD UNIV
-  CALIF STANFORD ELECTRONICS LABS}\@, \bibyear{1969}\@.
-
 \bibitem{kim1988digital}
 \bibauthor{KIM K\@, POLYDOROS A}\@. \bibtitle{Digital modulation
   classification: the BPSK versus QPSK case}\bibmark{[C]}
@@ -123,22 +111,19 @@
   IEEE}\@. \bibyear{1991}\thinspace{}\textnormal{:
   }\bibpages{841\thinspace{}\textnormal{--}\thinspace{}845}\@.
 
-\bibitem{380199}
+\bibitem{huan1995likelihood}
 \bibauthor{HUAN C-Y\@, POLYDOROS A}\@. \bibtitle{Likelihood methods for MPSK
-  modulation classification}\bibmark{[J/OL]}\@. \bibjournal{IEEE Transactions
-  on Communications}\@, \bibyear{1995}\@,
-  \bibvolume{43}\bibnumber{(2/3/4)}\thinspace{}\textnormal{:
+  modulation classification}\bibmark{[J]}\@. \bibjournal{IEEE Transactions on
+  Communications}\@, \bibyear{1995}\@,
+  \bibvolume{43}\bibnumber{(234)}\thinspace{}\textnormal{:
   }\bibpages{1493\thinspace{}\textnormal{--}\thinspace{}1504}\@.
-  \url{http://dx.doi.org/10.1109/26.380199}\@.
 
-\bibitem{644992}
+\bibitem{Schreyogg2002Modulation}
 \bibauthor{SCHREYOGG C\@, REICHERT J}\@. \bibtitle{Modulation classification of
   QAM schemes using the DFT of phase histogram combined with modulus
-  information}\bibmark{[C/OL]} //\thinspace{}\bibbooktitle{MILCOM 97 MILCOM 97
-  Proceedings\thinspace{}\textnormal{: }Vol~3}\@.
-  \bibyear{1997}\thinspace{}\textnormal{:
+  information}\bibmark{[C]} //\thinspace{}\bibbooktitle{MILCOM 97
+  Proceedings}\@. \bibyear{2002}\thinspace{}\textnormal{:
   }\bibpages{1372\thinspace{}\textnormal{--}\thinspace{}1376 vol.3}\@.
-  \url{http://dx.doi.org/10.1109/MILCOM.1997.644992}\@.
 
 \bibitem{wei2000maximum}
 \bibauthor{WEI W\@, MENDEL J~M}\@. \bibtitle{Maximum-likelihood classification
@@ -177,6 +162,12 @@
   2001\thinspace{}\textnormal{: }Vol~2}\@.
   \bibyear{2001}\thinspace{}\textnormal{:
   }\bibpages{390\thinspace{}\textnormal{--}\thinspace{}393}\@.
+
+\bibitem{汤卫东2010基于小波变换的数字通信信号调制识别研究}
+\bibauthor{汤卫东}\@.
+  \bibtitle{基于小波变换的数字通信信号调制识别研究}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibschool{万方数据资源系统}\@, \bibyear{2010}\@.
 
 \bibitem{杨发权2015无线通信信号调制识别关键技术与理论研究}
 \bibauthor{杨发权}\@.
@@ -355,8 +346,8 @@
   }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}8}\@.
 
 \bibitem{杨杰2014通信信号调制识别}
-\bibauthor{杨杰}\@. \bibbooktitle{通信信号调制识别:
-  原理与算法}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+\bibauthor{[等 �~�}\@. \bibbooktitle{通信信号调制识别}\bibmark{[M]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
   }\bibpublisher{人民邮电出版社}\@, \bibyear{2014}\@.
 
 \bibitem{张利2017基于高阶累积量的调制识别算法的研究}
@@ -394,6 +385,12 @@
   \bibvolume{32}\bibnumber{(4)}\thinspace{}\textnormal{:
   }\bibpages{71\thinspace{}\textnormal{--}\thinspace{}74}\@.
 
+\bibitem{王维智2015基于特征提取和特征选择的级联深度学习模型研究}
+\bibauthor{王维智}\@.
+  \bibtitle{基于特征提取和特征选择的级联深度学习模型研究}\bibmark{[D]}\@.
+  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  }\bibschool{哈尔滨工业大学}\@, \bibyear{2015}\@.
+
 \bibitem{simonyan2014two}
 \bibauthor{SIMONYAN K\@, ZISSERMAN A}\@. \bibtitle{Two-stream convolutional
   networks for action recognition in videos}\bibmark{[C]}
@@ -403,8 +400,10 @@
 
 \bibitem{feichtenhofer2016convolutional}
 \bibauthor{FEICHTENHOFER C\@, PINZ A\@, ZISSERMAN A}\@. \bibtitle{Convolutional
-  two-stream network fusion for video action recognition}\bibmark{[J]}\@,
-  \bibyear{2016}\@.
+  Two-Stream Network Fusion for Video Action Recognition}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Computer Vision and Pattern Recognition}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{1933\thinspace{}\textnormal{--}\thinspace{}1941}\@.
 
 \bibitem{周志华2016机器学习}
 \bibauthor{周志华}\@. \bibbooktitle{机器学习}\bibmark{[M]}\@.
@@ -437,9 +436,11 @@
   \bibyear{2002}\@, \bibvolume{2}\bibnumber{(3)}\thinspace{}\textnormal{:
   }\bibpages{18\thinspace{}\textnormal{--}\thinspace{}22}\@.
 
-\bibitem{breiman2017classification}
-\bibauthor{BREIMAN L}\@. \bibbooktitle{Classification and regression
-  trees}\bibmark{[M]}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
-  }\bibpublisher{Routledge}\@, \bibyear{2017}\@.
+\bibitem{Breiman2015Classification}
+\bibauthor{BREIMAN L\@, FRIEDMAN J~H\@, OLSHEN R, et~al}\@.
+  \bibtitle{Classification and Regression Trees}\bibmark{[J]}\@.
+  \bibjournal{Encyclopedia of Ecology}\@, \bibyear{2015}\@,
+  \bibvolume{40}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{582\thinspace{}\textnormal{--}\thinspace{}588}\@.
 
 \end{thebibliography}

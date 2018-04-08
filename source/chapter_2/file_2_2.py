@@ -11,7 +11,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 # matplotlib.rc('font', size=30)
-fig = plt.figure()
+fig = plt.figure(figsize=(8,6), dpi=120)
 ax = fig.add_subplot(111)
 ax.spines['top'].set_color('none')
 ax.spines['right'].set_color('none')
@@ -26,10 +26,12 @@ y = 1/ (1 + np.exp(-x))
 
 plt.axhline(1, color='k', linestyle='--')
 plt.xlim([-20, 20])
+plt.yticks([2, 4, 6, 8, 10], fontsize=16)
+plt.xticks(fontsize=16)
 fig.add_axes()
 plt.plot(x, y, 'r')
-plt.xlabel('$z$', fontsize=12)
-plt.ylabel("$f(z)$", rotation='horizontal',fontsize=12)
+plt.xlabel('$z$', fontsize=16)
+plt.ylabel("$f(z)$       ", rotation='horizontal', fontsize=16)
 
 plt.show()
 
