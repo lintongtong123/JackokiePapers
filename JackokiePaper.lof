@@ -32,22 +32,22 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SF分类混淆矩阵}}}{50}{subfigure.6.2}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {DNN分类混淆矩阵}}}{50}{subfigure.6.3}
 \addvspace {10.0pt}
-\contentsline {figure}{\numberline {5.1}{\ignorespaces 本章所用CNN网络框架\relax }}{54}{figure.caption.42}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces 不同卷积核宽度下，卷积层数目对分类准确率的影响\relax }}{57}{figure.caption.43}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {3D展示}}}{57}{subfigure.2.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {热力图展示}}}{57}{subfigure.2.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces 分类准确率随卷积层数目和卷积核宽度的变化\relax }}{57}{figure.caption.44}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces 分类准确率随卷积核数目的变化情况\relax }}{59}{figure.caption.45}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces 第一卷积层中卷积核数目对分类准确率的影响\relax }}{60}{figure.caption.46}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces 第二卷积层中卷积核数目对分类准确率的影响\relax }}{60}{figure.caption.47}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces 不同$H^{(1)} \times H^{(2)}$条件下卷积核宽度对分类性能的影响\relax }}{62}{figure.caption.48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$H^{(1)} = 1, H^{(2)} = 1$}}}{62}{subfigure.7.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$H^{(1)} = 1, H^{(2)} = 2$}}}{62}{subfigure.7.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$H^{(1)} = 2, H^{(2)} = 1$}}}{62}{subfigure.7.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$H^{(1)} = 2, H^{(2} = 2$}}}{62}{subfigure.7.4}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces 不同卷积核高度$H^{(1)} \times H^{(2)}$下，卷积核宽度对分类准确率的影响\relax }}{63}{figure.caption.49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$H^{(1)} = 1, H^{(1)} = 1$}}}{63}{subfigure.8.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$H^{(1)} = 1, H^{(1)} = 2$}}}{63}{subfigure.8.2}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$H^{(1)} = 2, H^{(1)} = 1$}}}{63}{subfigure.8.3}
-\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$H^{(1)} = 2, H^{(1)} = 2$}}}{63}{subfigure.8.4}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 本章所用CNN网络框架\relax }}{52}{figure.caption.42}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 不同卷积核宽度下，卷积层数目对分类准确率的影响\relax }}{55}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {3D展示}}}{55}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {热力图展示}}}{55}{subfigure.2.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces 分类准确率随卷积层数目和卷积核宽度的变化\relax }}{55}{figure.caption.44}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces 分类准确率随卷积核数目的变化情况\relax }}{57}{figure.caption.45}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces 第一卷积层中卷积核数目对分类准确率的影响\relax }}{58}{figure.caption.46}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces 第二卷积层中卷积核数目对分类准确率的影响\relax }}{58}{figure.caption.47}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces 不同$H^{(1)} \times H^{(2)}$条件下卷积核宽度对分类性能的影响\relax }}{60}{figure.caption.48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$H^{(1)} = 1, H^{(2)} = 1$}}}{60}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$H^{(1)} = 1, H^{(2)} = 2$}}}{60}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$H^{(1)} = 2, H^{(2)} = 1$}}}{60}{subfigure.7.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$H^{(1)} = 2, H^{(2} = 2$}}}{60}{subfigure.7.4}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces 不同卷积核高度$H^{(1)} \times H^{(2)}$下，卷积核宽度对分类准确率的影响\relax }}{61}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$H^{(1)} = 1, H^{(1)} = 1$}}}{61}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$H^{(1)} = 1, H^{(1)} = 2$}}}{61}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$H^{(1)} = 2, H^{(1)} = 1$}}}{61}{subfigure.8.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {$H^{(1)} = 2, H^{(1)} = 2$}}}{61}{subfigure.8.4}
 \addvspace {10.0pt}

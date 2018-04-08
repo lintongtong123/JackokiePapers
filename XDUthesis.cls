@@ -95,7 +95,7 @@
 \AtEndOfPackage{\makeatletter\@addtoreset{equation}{chapter}\makeatother}
 \AtEndOfPackage{\makeatletter \renewcommand{\figurename}{图} \renewcommand{\tablename}{表}
  \def\@caption#1[#2]#3{%
-   \\
+   \par
    \addcontentsline{\csname ext@#1\endcsname}{#1}%
                    {\protect\numberline{\csname #1name\endcsname\hskip0.5em\csname the#1\endcsname}%
                    {\ignorespaces #2}}%
@@ -105,7 +105,7 @@
    \@setminipage
    \fi
    \normalsize
-   \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces #3}\\
+   \@makecaption{\csname fnum@#1\endcsname}{\ignorespaces #3}\par
    \endgroup}
  \renewcommand*\l@figure{\@dottedtocline{1}{0em}{4em}}
  \let\l@table\l@figure \makeatother}
@@ -312,10 +312,10 @@
 %%    figure and table
 
 %% figure name
-\ctexset { figurename={\XDU@font@zihao {5}\XDU@label@figure@cap } }
+\CTEXoptions[figurename={\zihao{5}\XDU@label@figure@cap}]
 
 %% table name
-\ctexset { tablename={\XDU@font@zihao {5}\XDU@label@table@cap } }
+\CTEXoptions[tablename={\zihao{5}\XDU@label@table@cap}]
 \newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}} %转行
 
 \renewcommand{\theequation}{\arabic{chapter}-\arabic{equation}}
@@ -520,13 +520,13 @@
     \renewcommand{\captionfont}{\XDU@font@st\XDU@font@zihao{5}}
 
 %% list of figures
-\ctexset { listfigurename={\XDU@label@listoffigures } }
+\CTEXoptions[listfigurename={\XDU@label@listoffigures}]
 \DeclareRobustCommand{\XDU@listoffigures}
   {\XDU@toc@add{\XDU@toc@listoffigures}%
     \listoffigures}
 
 %% list of tables
-\ctexset { listtablename={\XDU@label@listoftables } }
+\CTEXoptions[listtablename={\XDU@label@listoftables}]
 \DeclareRobustCommand{\XDU@listoftables}
   {\XDU@toc@add{\XDU@toc@listoftables}%
     \listoftables}
@@ -563,9 +563,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%    referrence
-\RequirePackage{url}
 \renewcommand{\UrlFont}{\XDU@font@zihao{5}}
-\ctexset { bibname={\XDU@label@ref@title } }
+\CTEXoptions[bibname={\XDU@label@ref@title}]
 \bibliographystyle{gbt7714-2005}
 
 \renewenvironment{thebibliography}[1]
@@ -582,9 +581,7 @@
    \sloppy\clubpenalty4000\@clubpenalty\clubpenalty%
    \widowpenalty4000\sfcode`\.\@m}
   {\def\@noitemerr{\@latex@warning{Empty `thebibliography' environment}}%
-   \endlist
-   \cleardoublepage
-   }
+   \endlist}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%    thanks
@@ -636,8 +633,7 @@
    \XDU@make@titleenglish%
    \XDU@make@statementandcopyright%
    \frontmatter\pagenumbering{Roman}%
-   \setlength{\baselineskip}{20pt}
-   }
+   \setlength{\baselineskip}{20pt}}
 
 %% premain matter
 \DeclareRobustCommand{\XDUpremainmatter}

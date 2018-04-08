@@ -58,7 +58,7 @@
 \contentsline {subsection}{\numberline {4.2.2}高阶累积量}{41}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}特征融合理论}{42}{section.4.3}
 \contentsline {section}{\numberline {4.4}传统特征与深度特征融合框架}{43}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}特征归一化}{43}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}特征归一化}{44}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}基于Softmax回归的融合框架}{44}{subsection.4.4.2}
 \contentsline {subsection}{\numberline {4.4.3}基于深度学习的融合框架}{45}{subsection.4.4.3}
 \contentsline {subsection}{\numberline {4.4.4}基于集成树的融合框架}{46}{subsection.4.4.4}
@@ -66,19 +66,19 @@
 \contentsline {subsection}{\numberline {4.5.1}分类性能比较}{48}{subsection.4.5.1}
 \contentsline {subsection}{\numberline {4.5.2}分类混淆矩阵}{49}{subsection.4.5.2}
 \contentsline {section}{\numberline {4.6}本章小结}{50}{section.4.6}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度框架研究}{53}{chapter.5}
-\contentsline {section}{\numberline {5.1}引言}{53}{section.5.1}
-\contentsline {section}{\numberline {5.2}系统模型}{53}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}模型的偏差与方差}{54}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}过拟合与欠拟合}{55}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}网络超参数对调制识别的影响}{56}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}网络层数对调制识别的影响}{56}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}卷积核数目对调制识别的影响}{58}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}卷积核大小对调制识别的影响}{61}{subsection.5.3.3}
-\contentsline {section}{\numberline {5.4}本章小结}{64}{section.5.4}
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{65}{chapter.6}
-\contentsline {section}{\numberline {6.1}研究结论}{65}{section.6.1}
-\contentsline {section}{\numberline {6.2}未来展望}{66}{section.6.2}
-\contentsline {chapter}{参考文献}{67}{section*.50}
-\contentsline {chapter}{致谢}{73}{section*.52}
-\contentsline {chapter}{作者简介}{75}{section*.54}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}调制识别的深度框架研究}{51}{chapter.5}
+\contentsline {section}{\numberline {5.1}引言}{51}{section.5.1}
+\contentsline {section}{\numberline {5.2}系统模型}{51}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}模型的偏差与方差}{52}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}过拟合与欠拟合}{53}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}网络超参数对调制识别的影响}{54}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}网络层数对调制识别的影响}{54}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}卷积核数目对调制识别的影响}{56}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}卷积核大小对调制识别的影响}{59}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}本章小结}{62}{section.5.4}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{63}{chapter.6}
+\contentsline {section}{\numberline {6.1}研究结论}{63}{section.6.1}
+\contentsline {section}{\numberline {6.2}未来展望}{64}{section.6.2}
+\contentsline {chapter}{参考文献}{65}{section*.50}
+\contentsline {chapter}{致谢}{70}{section*.52}
+\contentsline {chapter}{作者简介}{73}{section*.54}
