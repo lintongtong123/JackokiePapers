@@ -61,7 +61,7 @@ r(t) = e^{j*n_{Lo}(t)} \int_{\tau=0}^{\tau_{0}} s(n_{Clk}(t-\tau))h(\tau) + n_{A
 以监督学习为例，假设有训练样本集$(x(^i), y(^i))$，
 那么神经网络算法能够提供一种复杂且非线性的假设模型$h_{W,b}(x)$ ，它具有参数$W, b$，
 可以以此参数来拟合训练数据。图\ref{fig_2_1}即是“神经元”的图示：\par
-\begin{figure}[htbp]
+\begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.9]{figures/chapter_2/fig_2_1.png}\\
 	\caption{神经元示意图}\label{fig_2_1}
@@ -80,7 +80,7 @@ r(t) = e^{j*n_{Lo}(t)} \int_{\tau=0}^{\tau_{0}} s(n_{Clk}(t-\tau))h(\tau) + n_{A
 \end{equation}
 可以看出，ReLU激活函数在输入值小于零时输出为0，在大于0时为一条经过原点的直线，其相较于Sigmoid激活函数而言，具有如下优点：单侧抑制，具备较宽的兴奋边界，有利于梯度的传播并对网络引入稀疏性，缓和了梯度弥散问题，加快了网络的训练速度。\par
 图\ref{sec:fig_2_2}和图\ref{sec:fig_2_3}分别是ReLU及Sigmoid的函数图像：
-\begin{figure}[htbp]
+\begin{figure}[!h]
 	\centering
 	\begin{minipage}[t]{0.48\textwidth}
 		\centering
@@ -96,7 +96,7 @@ r(t) = e^{j*n_{Lo}(t)} \int_{\tau=0}^{\tau_{0}} s(n_{Clk}(t-\tau))h(\tau) + n_{A
 
 \subsection{前馈神经网络}
 前馈神经网络，是通过联结多个单一的“神经元”，使得一个“神经元”的输出作为另一个“神经元”输入的网络系统。图\ref{sec:fig_2_4}展示了一个简单的神经网络示意图。\par
-\begin{figure}
+\begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.7]{figures/chapter_2/fig_2_4}\label{sec:fig_2_4}
 	\caption{前馈神经网络}\label{sec:fig_2_4}

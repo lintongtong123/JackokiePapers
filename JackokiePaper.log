@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  9 APR 2018 00:45
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/W32TeX) (preloaded format=xelatex 2018.2.8)  9 APR 2018 02:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1521,11 +1521,11 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: xetex.def on input line 147.
 )
-Package hyperref Info: Option `CJKbookmarks' set `true' on input line 138.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 138.
+Package hyperref Info: Option `CJKbookmarks' set `true' on input line 127.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 127.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 138.
-Package hyperref Info: Option `plainpages' set `false' on input line 138.
+Package hyperref Info: Option `colorlinks' set `true' on input line 127.
+Package hyperref Info: Option `plainpages' set `false' on input line 127.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -1571,7 +1571,7 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"Times New
 . Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 166.
+LaTeX Info: Redefining \rmfamily on input line 155.
 
 *************************************************
 * ctex warning: "deprecated-command"
@@ -1616,37 +1616,17 @@ Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@dima=\skip113
 \bigstrutjot=\dimen199
 )
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/booktabs/booktabs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen256
-\lightrulewidth=\dimen257
-\cmidrulewidth=\dimen258
-\belowrulesep=\dimen259
-\belowbottomsep=\dimen260
-\aboverulesep=\dimen261
-\abovetopsep=\dimen262
-\cmidrulesep=\dimen263
-\cmidrulekern=\dimen264
-\defaultaddspace=\dimen265
-\@cmidla=\count183
-\@cmidlb=\count184
-\@aboverulesep=\dimen266
-\@belowrulesep=\dimen267
-\@thisruleclass=\count185
-\@lastruleclass=\count186
-\@thisrulewidth=\dimen268
-)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count187
+\c@KVtest=\count183
 \sf@farskip=\skip114
-\sf@captopadj=\dimen269
+\sf@captopadj=\dimen256
 \sf@capskip=\skip115
 \sf@nearskip=\skip116
-\c@subfigure=\count188
-\c@subfigure@save=\count189
-\c@subtable=\count190
-\c@subtable@save=\count191
+\c@subfigure=\count184
+\c@subfigure@save=\count185
+\c@subtable=\count186
+\c@subtable@save=\count187
 \sf@top=\skip117
 \sf@bottom=\skip118
 )
@@ -1656,8 +1636,8 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
 x
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen270
-\pgfutil@tempdimb=\dimen271
+\pgfutil@tempdima=\dimen257
+\pgfutil@tempdimb=\dimen258
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
 sts.tex))
@@ -1682,20 +1662,20 @@ Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
 ode.tex
 \pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen272
-\pgf@y=\dimen273
-\pgf@xa=\dimen274
-\pgf@ya=\dimen275
-\pgf@xb=\dimen276
-\pgf@yb=\dimen277
-\pgf@xc=\dimen278
-\pgf@yc=\dimen279
+\pgf@x=\dimen259
+\pgf@y=\dimen260
+\pgf@xa=\dimen261
+\pgf@ya=\dimen262
+\pgf@xb=\dimen263
+\pgf@yb=\dimen264
+\pgf@xc=\dimen265
+\pgf@yc=\dimen266
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count192
-\c@pgf@countb=\count193
-\c@pgf@countc=\count194
-\c@pgf@countd=\count195
+\c@pgf@counta=\count188
+\c@pgf@countb=\count189
+\c@pgf@countc=\count190
+\c@pgf@countd=\count191
 \t@pgf@toka=\toks26
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
@@ -1717,13 +1697,13 @@ File: pgfsys-dvipdfmx.def 2014/07/09  (rcs-revision 1.14)
 df.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 )
-\pgfsys@objnum=\count196
+\pgfsys@objnum=\count192
 )))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
 code.tex
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count197
-\pgfsyssoftpath@bigbuffer@items=\count198
+\pgfsyssoftpath@smallbuffer@items=\count193
+\pgfsyssoftpath@bigbuffer@items=\count194
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
 code.tex
@@ -1751,8 +1731,8 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen280
-\pgfmath@count=\count199
+\pgfmath@dimen=\dimen267
+\pgfmath@count=\count195
 \pgfmath@box=\box59
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
@@ -1777,37 +1757,37 @@ code.tex)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
 erarithmetics.code.tex)))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count266
+\c@pgfmathroundto@lastzeros=\count196
 ))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
 de.tex
 File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen281
-\pgf@picmaxx=\dimen282
-\pgf@picminy=\dimen283
-\pgf@picmaxy=\dimen284
-\pgf@pathminx=\dimen285
-\pgf@pathmaxx=\dimen286
-\pgf@pathminy=\dimen287
-\pgf@pathmaxy=\dimen288
-\pgf@xx=\dimen289
-\pgf@xy=\dimen290
-\pgf@yx=\dimen291
-\pgf@yy=\dimen292
-\pgf@zx=\dimen293
-\pgf@zy=\dimen294
+\pgf@picminx=\dimen268
+\pgf@picmaxx=\dimen269
+\pgf@picminy=\dimen270
+\pgf@picmaxy=\dimen271
+\pgf@pathminx=\dimen272
+\pgf@pathmaxx=\dimen273
+\pgf@pathminy=\dimen274
+\pgf@pathmaxy=\dimen275
+\pgf@xx=\dimen276
+\pgf@xy=\dimen277
+\pgf@yx=\dimen278
+\pgf@yy=\dimen279
+\pgf@zx=\dimen280
+\pgf@zy=\dimen281
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
 ruct.code.tex
 File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen295
-\pgf@path@lasty=\dimen296
+\pgf@path@lastx=\dimen282
+\pgf@path@lasty=\dimen283
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
 .code.tex
 File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen297
-\pgf@shorten@start@additional=\dimen298
+\pgf@shorten@end@additional=\dimen284
+\pgf@shorten@start@additional=\dimen285
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
 de.tex
@@ -1815,19 +1795,19 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box60
 \pgf@hbox=\box61
 \pgf@layerbox@main=\box62
-\pgf@picture@serial@count=\count267
+\pgf@picture@serial@count=\count197
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
 ate.code.tex
 File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen299
+\pgflinewidth=\dimen286
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
 ations.code.tex
 File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen300
-\pgf@pt@y=\dimen301
-\pgf@pt@temp=\dimen302
+\pgf@pt@x=\dimen287
+\pgf@pt@y=\dimen288
+\pgf@pt@temp=\dimen289
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
 e.tex
@@ -1844,13 +1824,13 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
 de.tex
 File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen303
+\pgfarrowsep=\dimen290
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
 e.tex
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen304
-\pgf@sys@shading@range@num=\count268
+\pgf@max=\dimen291
+\pgf@sys@shading@range@num=\count198
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
 e.tex
@@ -1885,8 +1865,8 @@ File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen305
-\pgf@nodesepend=\dimen306
+\pgf@nodesepstart=\dimen292
+\pgf@nodesepend=\dimen293
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
 -1-18.sty
@@ -1901,8 +1881,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
 Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen307
-\pgffor@skip=\dimen308
+\pgffor@iter=\dimen294
+\pgffor@skip=\dimen295
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 ))
@@ -1913,32 +1893,32 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
 dlers.code.tex
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count269
-\pgfplotmarksize=\dimen309
+\pgf@plot@mark@count=\count199
+\pgfplotmarksize=\dimen296
 )
-\tikz@lastx=\dimen310
-\tikz@lasty=\dimen311
-\tikz@lastxsaved=\dimen312
-\tikz@lastysaved=\dimen313
-\tikzleveldistance=\dimen314
-\tikzsiblingdistance=\dimen315
+\tikz@lastx=\dimen297
+\tikz@lasty=\dimen298
+\tikz@lastxsaved=\dimen299
+\tikz@lastysaved=\dimen300
+\tikzleveldistance=\dimen301
+\tikzsiblingdistance=\dimen302
 \tikz@figbox=\box65
 \tikz@figbox@bg=\box66
 \tikz@tempbox=\box67
 \tikz@tempbox@bg=\box68
-\tikztreelevel=\count270
-\tikznumberofchildren=\count271
-\tikznumberofcurrentchild=\count272
-\tikz@fig@count=\count273
+\tikztreelevel=\count266
+\tikznumberofchildren=\count267
+\tikznumberofcurrentchild=\count268
+\tikz@fig@count=\count269
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
 e.tex
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count274
-\pgfmatrixcurrentcolumn=\count275
-\pgf@matrix@numberofcolumns=\count276
+\pgfmatrixcurrentrow=\count270
+\pgfmatrixcurrentcolumn=\count271
+\pgf@matrix@numberofcolumns=\count272
 )
-\tikz@expandcount=\count277
+\tikz@expandcount=\count273
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibrarytopaths.code.tex
@@ -1965,52 +1945,64 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks36
-\ex@=\dimen316
+\ex@=\dimen303
 ))
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen317
+\pmbraise@=\dimen304
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count278
+\inf@bad=\count274
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count279
-\leftroot@=\count280
+\uproot@=\count275
+\leftroot@=\count276
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count281
-\DOTSCASE@=\count282
+\classnum@=\count277
+\DOTSCASE@=\count278
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box69
 \strutbox@=\box70
-\big@size=\dimen318
+\big@size=\dimen305
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count283
-\c@MaxMatrixCols=\count284
+\macc@depth=\count279
+\c@MaxMatrixCols=\count280
 \dotsspace@=\muskip18
-\c@parentequation=\count285
-\dspbrk@lvl=\count286
+\c@parentequation=\count281
+\dspbrk@lvl=\count282
 \tag@help=\toks37
-\row@=\count287
-\column@=\count288
-\maxfields@=\count289
+\row@=\count283
+\column@=\count284
+\maxfields@=\count285
 \andhelp@=\toks38
-\eqnshift@=\dimen319
-\alignsep@=\dimen320
-\tagshift@=\dimen321
-\tagwidth@=\dimen322
-\totwidth@=\dimen323
-\lineht@=\dimen324
+\eqnshift@=\dimen306
+\alignsep@=\dimen307
+\tagshift@=\dimen308
+\tagwidth@=\dimen309
+\totwidth@=\dimen310
+\lineht@=\dimen311
 \@envbody=\toks39
 \multlinegap=\skip120
 \multlinetaggap=\skip121
 \mathdisplay@stack=\toks40
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
+)
+(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
+\thm@preskip=\skip122
+\thm@postskip=\skip123
+\thm@headsep=\skip124
+\dth@everypar=\toks46
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/algorithms/algorithm.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
@@ -2019,161 +2011,26 @@ nment
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count290
-\float@exts=\toks41
+\c@float@type=\count286
+\float@exts=\toks47
 \float@box=\box71
-\@float@everytoks=\toks42
+\@float@everytoks=\toks48
 \@floatcapt=\box72
 )
-\@float@every@algorithm=\toks43
-\c@algorithm=\count291
+\@float@every@algorithm=\toks49
+\c@algorithm=\count287
 )
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/algorithms/algorithmic.sty
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
-\c@ALC@unique=\count292
-\c@ALC@line=\count293
-\c@ALC@rem=\count294
-\c@ALC@depth=\count295
-\ALC@tlm=\skip122
-\algorithmicindent=\skip123
+\c@ALC@unique=\count288
+\c@ALC@line=\count289
+\c@ALC@rem=\count290
+\c@ALC@depth=\count291
+\ALC@tlm=\skip125
+\algorithmicindent=\skip126
 )
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-Package: tocbibind 2010/10/13 v1.5k extra ToC listings
-Package tocbibind Info: The document has chapter divisions on input line 50.
-
-
-Package tocbibind Note: Using chapter style headings, unless overridden.
-
-) (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/base/glossaries.sty
-Package: glossaries 2017/01/19 v4.29 (NLCT)
-
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
-
-(d:/WorkPrograms/TexLive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(d:/WorkPrograms/TexLive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks44
-\XKV@tempa@toks=\toks45
-)
-\XKV@depth=\count296
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
-Package: mfirstuc 2016/07/31 v2.04 (NLCT)
-
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count297
-)
-\@glsmfirst=\toks46
-\@glsmrest=\toks47
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/xfor/xfor.sty
-Package: xfor 2009/02/05 v1.05 (NLCT)
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/datatool/datatool-base.sty
-Package: datatool-base 2016/07/28 v2.27 (NLCT)
-
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/substr/substr.sty
-Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count298
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/datatool/datatool-fp.sty
-Package: datatool-fp 2016/07/28 v2.27 (NLCT)
-)
-\@dtl@toks=\toks48
-\@dtl@tmpcount=\count299
-\dtl@tmplength=\skip124
-\dtl@sortresult=\count300
-\@dtl@numgrpsepcount=\count301
-\@dtl@datatype=\count302
-\dtl@codeA=\count303
-\dtl@codeB=\count304
-\@dtl@foreach@level=\count305
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/base/glossaries-compat
-ible-307.sty
-Package: glossaries-compatible-307 2017/01/19 v4.29 (NLCT)
-)
-\gls@level=\count306
-\@gls@tmpb=\toks49
-\gls@tmplen=\skip125
-\glskeylisttok=\toks50
-\glslabeltok=\toks51
-\glsshorttok=\toks52
-\glslongtok=\toks53
-
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
-av.sty
-Package: glossary-hypernav 2017/01/19 v4.29 (NLCT)
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
-ty
-Package: glossary-list 2017/01/19 v4.29 (NLCT)
-\glslistdottedwidth=\skip126
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
-ty
-Package: glossary-long 2017/01/19 v4.29 (NLCT)
- (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip127
-\LTright=\skip128
-\LTpre=\skip129
-\LTpost=\skip130
-\LTchunksize=\count307
-\LTcapwidth=\dimen325
-\LT@head=\box73
-\LT@firsthead=\box74
-\LT@foot=\box75
-\LT@lastfoot=\box76
-\LT@cols=\count308
-\LT@rows=\count309
-\c@LT@tables=\count310
-\c@LT@chunks=\count311
-\LT@p@ftn=\toks54
-)
-\glsdescwidth=\skip131
-\glspagelistwidth=\skip132
-)
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/styles/glossary-super.
-sty
-Package: glossary-super 2017/01/19 v4.29 (NLCT)
- (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/supertabular/supertabular.sty
-Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count312
-\ST@wd=\dimen326
-\ST@rightskip=\skip133
-\ST@leftskip=\skip134
-\ST@parfillskip=\skip135
-\ST@pageleft=\dimen327
-\ST@headht=\dimen328
-\ST@tailht=\dimen329
-\ST@pagesofar=\dimen330
-\ST@pboxht=\dimen331
-\ST@lineht=\dimen332
-\ST@stretchht=\dimen333
-\ST@prevht=\dimen334
-\ST@toadd=\dimen335
-\ST@dimen=\dimen336
-\ST@pbox=\box77
-))
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
-ty
-Package: glossary-tree 2017/01/19 v4.29 (NLCT)
-\glstreeindent=\skip136
-))
-\glswrite=\write4
-\glo@acronym@file=\write5
-\openout5 = `JackokiePaper.acn'.
-
-Package glossaries Info: Writing glossary file JackokiePaper.acn on input line 
-27.
- (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
+(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux
 
 LaTeX Warning: Label `sec:fig_2_4' multiply defined.
@@ -2280,14 +2137,8 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-(d:/WorkPrograms/TexLive/texmf-dist/tex/latex/caption/ltcaption.sty
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-)
-Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box78
+\AtBeginShipoutBox=\box73
 Package hyperref Info: Link coloring ON on input line 30.
 
 (d:/WorkPrograms/TexLive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -2296,15 +2147,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (d:/WorkPrograms/TexLive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count313
+\c@section@level=\count292
 )
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
 
 (./JackokiePaper.out) (./JackokiePaper.out)
-\@outlinefile=\write6
-\openout6 = `JackokiePaper.out'.
+\@outlinefile=\write4
+\openout4 = `JackokiePaper.out'.
 
 
 ABD: EveryShipout initializing macros
@@ -2315,8 +2166,8 @@ ABD: EveryShipout initializing macros
 * 
 * Try to use `\setCJKfamilyfont{song}[...]{...}' to define it.
 *************************************************
-\linelength=\skip137
-\g__fontspec_family_SimHei_int=\count314
+\linelength=\skip127
+\g__fontspec_family_SimHei_int=\count293
 .................................................
 . fontspec info: "no-font-shape"
 . 
@@ -2351,8 +2202,6 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 )
 [1
-
-\openout4 = `JackokiePaper.xdy'.
 
 ] [2
 
@@ -2454,8 +2303,8 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 
 
 ])
-\tf@lof=\write7
-\openout7 = `JackokiePaper.lof'.
+\tf@lof=\write5
+\openout5 = `JackokiePaper.lof'.
 
 
 
@@ -2465,8 +2314,8 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [6] (./JackokiePaper.lot)
-\tf@lot=\write8
-\openout8 = `JackokiePaper.lot'.
+\tf@lot=\write6
+\openout6 = `JackokiePaper.lot'.
 
 
 
@@ -2665,8 +2514,8 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [14])
-\tf@toc=\write9
-\openout9 = `JackokiePaper.toc'.
+\tf@toc=\write7
+\openout7 = `JackokiePaper.toc'.
 
 
 
@@ -2719,7 +2568,7 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [3]
 File: figures/chapter_1/fig_1_0.png Graphic file (type QTm)
  <use  "figures/chapter_1/fig_1_0.png" >
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 7081) has occurred while \output is active []
 
 
 
@@ -2776,6 +2625,9 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 ]
 File: figures/chapter_2/fig_2_1.png Graphic file (type QTm)
  <use  "figures/chapter_2/fig_2_1.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -2906,7 +2758,7 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [23]
 File: ./figures/chapter_3/fig_3_1.png Graphic file (type QTm)
  <use  "./figures/chapter_3/fig_3_1.png" >
-Underfull \vbox (badness 6428) has occurred while \output is active []
+Underfull \vbox (badness 1308) has occurred while \output is active []
 
 
 
@@ -3146,13 +2998,6 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-Overfull \hbox (7.89795pt too wide) in paragraph at lines 356--359
-[]\TU/SimSun(0)/m/n/12.045 对 于 调 制 分 类 问 题，|  本 文 使 用 \TU/TimesNewRoman(0)/m/n/
-12.045 CART \TU/SimSun(0)/m/n/12.045 树  |（\TU/TimesNewRoman(0)/m/n/12.045 Class
-ification and Regression Tree\TU/SimSun(0)/m/n/12.045 ，| \TU/TimesNewRoman(0)/m
-/n/12.045 CART\TU/SimSun(0)/m/n/12.045 ）|$[]$
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3209,6 +3054,9 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 第五章
 File: figures/chapter_5/fig_5_0.png Graphic file (type QTm)
 <use  "figures/chapter_5/fig_5_0.png" >
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (10.5pt): 
  Make it at least 24.57175pt.
@@ -3522,19 +3370,14 @@ Package Fancyhdr Warning: \headheight is too small (10.5pt):
 [74
 
 ])
-
-Package glossaries Warning: No \printglossary or \printglossaries found. 
-(Remove \makeglossaries if you don't want any glossaries.) 
-This document will not have a glossary.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
-(./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 43.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 43.
+ (./JackokiePaper.aux (./chapters/abstract.aux) (./chapters/chapter1.aux)
 (./chapters/chapter2.aux) (./chapters/chapter3.aux) (./chapters/chapter4.aux)
 (./chapters/chapter5.aux) (./chapters/chapter6.aux) (./chapters/thanks.aux)
 (./chapters/resume.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 43.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 43.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -3543,15 +3386,15 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 43.
  ) 
 Here is how much of TeX's memory you used:
- 43938 strings out of 493005
- 856425 string characters out of 6134597
- 941335 words of memory out of 5000000
- 47085 multiletter control sequences out of 15000+600000
+ 40669 strings out of 493005
+ 803281 string characters out of 6134597
+ 830185 words of memory out of 5000000
+ 43892 multiletter control sequences out of 15000+600000
  14863 words of font info for 111 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,14n,89p,10443b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,14n,78p,10422b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on JackokiePaper.pdf (98 pages).

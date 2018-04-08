@@ -57,22 +57,11 @@
 %% natbib
 \ifXDU@Option@ref@sort
   \ifXDU@Option@ref@compress
-    \RequirePackage[numbers,sort&compress,super,square]{natbib}
+    \RequirePackage[numbers,sort&compress]{natbib}
   \else
-    \RequirePackage[numbers,sort,super,square]{natbib}
+    \RequirePackage[numbers,sort]{natbib}
   \fi
 \fi
-\newcommand*{\citens}[2][]{%
-  \begingroup
-  \let\NAT@mbox=\mbox
-  \let\@cite\NAT@citenum
-  \let\NAT@space\NAT@spacechar
-  \let\NAT@super@kern\relax
-  \renewcommand\NAT@open{[}%
-  \renewcommand\NAT@close{]}%
-  \cite[#1]{#2}%
-  \endgroup
-}
 
 
 %% hyperref

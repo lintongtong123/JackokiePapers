@@ -1,13 +1,14 @@
-%%%%%%%%%%%%%%%%%%
-%% 解决了插图索引目录的章之间的间隔问题
-%%%%%%%%%%%%%%%%%%
-%\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}
-%\addtocontents{lof}{\protect\noaddvspace}
+%%%%%%%%%%%%%%%%%
+% 解决了插图索引目录的章之间的间隔问题
+%%%%%%%%%%%%%%%%%
+\newcommand*{\noaddvspace}{\renewcommand*{\addvspace}[1]{}}  
+\addtocontents{lof}{\protect\noaddvspace}  
+\addtocontents{lot}{\protect\noaddvspace}  
 
 \documentclass[refcompress,eversion,noinfo]{XDUthesis}
+
 % 正文大约需要60页
 \usepackage{multirow}
-\usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage{diagbox}
 \usepackage[subrefformat=parens,labelformat=parens]{subfig}
@@ -16,29 +17,27 @@
 \usepackage{color}
 \usepackage{verbatim}
 \usetikzlibrary{positioning} % L ATEX and plain TEX
-\usepackage{amsmath}
-%\usepackage{ccmap} 
+\usepackage{amsmath,amsthm}
 \usepackage[chapter]{algorithm}
 \usepackage{algorithmic}
-\usepackage[numbers,sort&compress]{natbib}
 \floatname{algorithm}{算法}
-\usepackage[chapter, nottoc]{tocbibind}
-\usepackage[nomain,acronym,xindy,toc,nopostdot]{glossaries}
-\makeglossaries
-\graphicspath{{figures/}}
-\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
-\begin{document}
-\XDUfrontmatter
-\include{chapters/abstract}
-\XDUmainmatter
-\include{chapters/chapter1}
-\include{chapters/chapter2}
-\include{chapters/chapter3}
-\include{chapters/chapter4}
-\include{chapters/chapter5}
-\include{chapters/chapter6}
+\usepackage{slashbox}
 
-\XDUbackmatter{\bibliography{bib/tex}}
-\include{chapters/thanks}
-\include{chapters/resume}
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+	\XDUfrontmatter
+	\include{chapters/abstract}
+	\XDUmainmatter
+	\include{chapters/chapter1}
+	\include{chapters/chapter2}
+	\include{chapters/chapter3}
+	\include{chapters/chapter4}
+	\include{chapters/chapter5}
+	\include{chapters/chapter6}
+	\XDUbackmatter{\bibliography{bib/tex}}
+	\include{chapters/thanks}
+	\include{chapters/resume}
 \end{document}

@@ -1,9 +1,7 @@
 \contentsline {chapter}{摘要}{I}{section*.1}
 \contentsline {chapter}{ABSTRACT}{III}{section*.3}
 \contentsline {chapter}{插图索引}{V}{section*.5}
-\contentsline {chapter}{插图索引}{V}{chapter*.6}
 \contentsline {chapter}{表格索引}{VII}{section*.7}
-\contentsline {chapter}{表格索引}{VII}{chapter*.8}
 \contentsline {chapter}{符号对照表}{IX}{section*.9}
 \contentsline {chapter}{缩略语对照表}{XI}{section*.11}
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}

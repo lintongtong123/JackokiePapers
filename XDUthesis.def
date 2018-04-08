@@ -10,19 +10,14 @@
 \def\XDU@label@cover@studentNo{学\quad{}号\hspace*{0.9em}}
 \def\XDU@label@cover@classification{分\hspace*{0.5em}类\hspace*{0.5em}号\hspace*{0.9em}}
 \def\XDU@label@cover@confidential{密\quad{}级\hspace*{0.9em}}
-\def\XDU@label@cover@author{作者姓名}
-\def\XDU@label@cover@major{一级学科}
-\def\XDU@label@cover@submajor{二级学科}
-\def\XDU@label@cover@degree{学位类别}
-\def\XDU@label@cover@advisor{指导教师姓名、职称}
+\def\XDU@label@cover@author{作者姓名：}
+\def\XDU@label@cover@major{一级学科：}
+\def\XDU@label@cover@submajor{二级学科：}
+\def\XDU@label@cover@degree{学位类别：}
+\def\XDU@label@cover@advisor{指导教师姓名、职称：}
 \def\XDU@elabel@cover@advisor{Supervisor:~}
-\def\XDU@label@cover@school{学\hspace*{2.05em}院}
-\def\XDU@label@cover@submit@date{提交日期}
-
-\def\XDU@label@cover@schoolAdvisor{学校导师姓名、职称}
-\def\XDU@label@cover@industrialAdvisor{企业导师姓名、职称}
-\def\XDU@label@cover@field{领{\quad\quad}域}
-\def\XDU@elabel@cover@thesis@ProMasterTitle{Title of the Thesis for Professional Master's Degree of XIDIAN UNIVERSITY}
+\def\XDU@label@cover@school{学\hspace*{2.05em}院：}
+\def\XDU@label@cover@submit@date{提交日期：}
 
 % 声明和版权
 \def\XDU@label@stat@statement{西安电子科技大学\\ 学位论文独创性（或创新性）声明}
@@ -36,7 +31,7 @@
 成果。尽我所知，除了文中特别加以标注和致谢中所罗列的内容以外，论文
 中不包含其他人已经发表或撰写过的研究成果；也不包含为获得西安电子科
 技大学或其它教育机构的学位或证书而使用过的材料。与我一同工作的同事
-对本研究所做的任何贡献均已在论文中作了明确的说明并表示了谢意。\\
+对本研究所做的任何贡献均已在论文中作了明确的说明并表示了谢意。\par
 学位论文若有不实之处，本人承担一切法律责任。}
 
 \def\XDU@value@stat@copyright{本人完全了解西安电子科技大学有关保留
@@ -44,7 +39,7 @@
 属于西安电子科技大学。学校有权保留送交论文的复印件，允许查阅、借阅
 论文；学校可以公布论文的全部或部分内容，允许采用影印、缩印或其它复
 制手段保存论文。同时本人保证，结合学位论文研究成果完成的论文、发明
-专利等成果，署名单位为西安电子科技大学。\\
+专利等成果，署名单位为西安电子科技大学。\par
 保密的学位论文在\rule[-2pt]{1cm}{0.5pt}年解密后适用本授权书。}
 
 % chapter
