@@ -31,7 +31,7 @@
   }\bibpages{211\thinspace{}\textnormal{--}\thinspace{}222}\@.
 
 \bibitem{程汉文2009基于累计量的干扰信号调制识别算法}
-\bibauthor{程汉文\@, 朱雷\@, 吴乐南, et~al}\@.
+\bibauthor{程汉文\@, 朱雷\@, 吴乐南等}\@.
   \bibtitle{基于累计量的干扰信号调制识别算法}\bibmark{[J]}\@.
   \bibjournal{电子与信息学报}\@, \bibyear{2009}\@,
   \bibvolume{31}\bibnumber{(7)}\thinspace{}\textnormal{:
@@ -166,13 +166,13 @@
 \bibitem{汤卫东2010基于小波变换的数字通信信号调制识别研究}
 \bibauthor{汤卫东}\@.
   \bibtitle{基于小波变换的数字通信信号调制识别研究}\bibmark{[D]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
-  }\bibschool{万方数据资源系统}\@, \bibyear{2010}\@.
+  \bibaddress{西安}\thinspace{}\textnormal{:
+  }\bibschool{西安电子科技大学}\@, \bibyear{2010}\@.
 
 \bibitem{杨发权2015无线通信信号调制识别关键技术与理论研究}
 \bibauthor{杨发权}\@.
   \bibtitle{无线通信信号调制识别关键技术与理论研究}\bibmark{[D]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  \bibaddress{西安}\thinspace{}\textnormal{:
   }\bibschool{西安电子科技大学}\@, \bibyear{2015}\@.
 
 \bibitem{reichert1992automatic}
@@ -241,11 +241,8 @@
 \bibitem{8319926}
 \bibauthor{TANG B\@, TU Y\@, ZHANG S, et~al}\@. \bibtitle{Digital Signal
   Modulation Classification with Data Aug-mentation Using Generative
-  Adversarial Nets in Cogni-tive Radio Networks}\bibmark{[J/OL]}\@.
-  \bibjournal{IEEE Access}\@, \bibyear{2018}\@,
-  \bibvolume{PP}\bibnumber{(99)}\thinspace{}\textnormal{:
-  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}1}\@.
-  \url{http://dx.doi.org/10.1109/ACCESS.2018.2815741}\@.
+  Adversarial Nets in Cogni-tive Radio Networks}\bibmark{[J]}\@.
+  \bibjournal{IEEE Access}\@, \bibyear{2018}\@.
 
 \bibitem{rosenblatt1958perceptron}
 \bibauthor{ROSENBLATT F}\@. \bibtitle{The perceptron: a probabilistic model for
@@ -291,10 +288,11 @@
   \bibyear{2016}\@.
 
 \bibitem{bottou2010large}
-\bibauthor{BOTTOU L}\@. \bibtitle{Large-scale machine learning with stochastic
-  gradient descent}\bibmark{[G]} //\thinspace{}\bibbooktitle{Proceedings of
-  COMPSTAT'2010}\@. \bibaddress{[S.l.]}\thinspace{}\textnormal{:
-  }\bibpublisher{Springer}\@, \bibyear{2010}\thinspace{}\textnormal{:
+\bibauthor{BOTTOU L}\@. \bibtitle{Large-Scale Machine Learning with Stochastic
+  Gradient Descent}\bibmark{[C]} //\thinspace{}\bibeditor{LECHEVALLIER Y\@,
+  SAPORTA G}\@. \bibbooktitle{Proceedings of COMPSTAT'2010}\@.
+  \bibaddress{Heidelberg}\thinspace{}\textnormal{:
+  }\bibpublisher{Physica-Verlag HD}\@, \bibyear{2010}\thinspace{}\textnormal{:
   }\bibpages{177\thinspace{}\textnormal{--}\thinspace{}186}\@.
 
 \bibitem{kingma2014adam}
@@ -346,8 +344,9 @@
   }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}8}\@.
 
 \bibitem{杨杰2014通信信号调制识别}
-\bibauthor{[等 �~�}\@. \bibbooktitle{通信信号调制识别}\bibmark{[M]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+\bibauthor{杨杰等}\@.
+  \bibbooktitle{通信信号调制识别}\bibmark{[M]}\@.
+  \bibaddress{北京}\thinspace{}\textnormal{:
   }\bibpublisher{人民邮电出版社}\@, \bibyear{2014}\@.
 
 \bibitem{张利2017基于高阶累积量的调制识别算法的研究}
@@ -388,7 +387,7 @@
 \bibitem{王维智2015基于特征提取和特征选择的级联深度学习模型研究}
 \bibauthor{王维智}\@.
   \bibtitle{基于特征提取和特征选择的级联深度学习模型研究}\bibmark{[D]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{:
+  \bibaddress{哈尔滨}\thinspace{}\textnormal{:
   }\bibschool{哈尔滨工业大学}\@, \bibyear{2015}\@.
 
 \bibitem{simonyan2014two}
@@ -405,10 +404,16 @@
   \bibyear{2016}\thinspace{}\textnormal{:
   }\bibpages{1933\thinspace{}\textnormal{--}\thinspace{}1941}\@.
 
+\bibitem{nielsen2015neural}
+\bibauthor{NIELSEN M~A}\@. \bibbooktitle{Neural networks and deep
+  learning}\bibmark{[M]}\@. \bibaddress{San Francisco,
+  California}\thinspace{}\textnormal{: }\bibpublisher{Determination Press}\@,
+  \bibyear{2015}\@.
+
 \bibitem{周志华2016机器学习}
 \bibauthor{周志华}\@. \bibbooktitle{机器学习}\bibmark{[M]}\@.
-  \bibaddress{[S.l.]}\thinspace{}\textnormal{: }\bibpublisher{Qing hua da xue
-  chu ban she}\@, \bibyear{2016}\@.
+  \bibaddress{南京}\thinspace{}\textnormal{:
+  }\bibpublisher{清华大学出版社}\@, \bibyear{2016}\@.
 
 \bibitem{breiman1996bagging}
 \bibauthor{BREIMAN L}\@. \bibtitle{Bagging predictors}\bibmark{[J]}\@.
@@ -442,5 +447,24 @@
   \bibjournal{Encyclopedia of Ecology}\@, \bibyear{2015}\@,
   \bibvolume{40}\bibnumber{(3)}\thinspace{}\textnormal{:
   }\bibpages{582\thinspace{}\textnormal{--}\thinspace{}588}\@.
+
+\bibitem{schmidhuber2015deep}
+\bibauthor{SCHMIDHUBER J}\@. \bibtitle{Deep learning in neural networks: An
+  overview}\bibmark{[J]}\@. \bibjournal{Neural networks}\@, \bibyear{2015}\@,
+  \bibvolume{61}\thinspace{}\textnormal{:
+  }\bibpages{85\thinspace{}\textnormal{--}\thinspace{}117}\@.
+
+\bibitem{lecun1998gradient}
+\bibauthor{LECUN Y\@, BOTTOU L\@, BENGIO Y, et~al}\@. \bibtitle{Gradient-based
+  learning applied to document recognition}\bibmark{[J]}\@.
+  \bibjournal{Proceedings of the IEEE}\@, \bibyear{1998}\@,
+  \bibvolume{86}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{2278\thinspace{}\textnormal{--}\thinspace{}2324}\@.
+
+\bibitem{goodfellow2016deep}
+\bibauthor{GOODFELLOW I\@, BENGIO Y\@, COURVILLE A, et~al}\@.
+  \bibbooktitle{Deep learning\thinspace{}\textnormal{: }Vol~1}\bibmark{[M]}\@.
+  \bibaddress{Cambridge}\thinspace{}\textnormal{: }\bibpublisher{MIT press
+  Cambridge}\@, \bibyear{2016}\@.
 
 \end{thebibliography}

@@ -320,13 +320,13 @@ Ruder对常用的一阶和二阶、自适应与固定速率等学习算法进行
 算法\ref{alg:sgd}展示了SGD算法的迭代更新的方法。
 
 \begin{algorithm}[ht]
-	\caption{\gls{SGD}（\glssymbol{SGD}）在第$k$个训练迭代的更新}
+	\caption{SGD在第$k$个训练迭代的更新}
 	\label{alg:sgd}
 	\begin{algorithmic}
 		\REQUIRE 学习速率 $\epsilon_k$
 		\REQUIRE 初始参数$\theta$
-		\WHILE{停止\gls{criterion}未满足}
-		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，其中$x^{(i)}$对应目标为$y^{(i)}$
+		\WHILE{停止准则未满足}
+		\STATE 从训练集中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，其中$x^{(i)}$对应目标为$y^{(i)}$
 		\STATE 计算梯度估计： $\hat{g} \leftarrow + 
 		\frac{1}{m} \nabla_{\theta} \sum_i L(f(x^{(i)};\theta),y^{(i)})$
 		\STATE 应用更新：$\theta \leftarrow theta - \epsilon \hat{g}$
@@ -335,14 +335,14 @@ Ruder对常用的一阶和二阶、自适应与固定速率等学习算法进行
 \end{algorithm}
 
 学习速率在SGD算法中是一个至关重要的参数。
-之前，我们介绍的\,\glssymbol{SGD}\,使用固定的学习速率。
+之前，我们介绍的SGD,使用固定的学习速率。
 在实际应用中，有时随着学习的深入需要降低学习速率，
 因此我们将第$k$步迭代的学习速率记作$\epsilon_k$。
 
-这是因为\,\glssymbol{SGD}\,中梯度估计引入的噪声源（$m$个训练样本的随机采样）并不会在\gls{minimum}处消失。
-相比之下，当我们使用\gls{batch}\gls{GD}到达\gls{minimum}时，整个\gls{cost_function}的真实梯度会变得很小，
-之后为$\mathbf{0}$，因此\gls{batch}\gls{GD}可以使用固定的学习速率。
-保证\,\glssymbol{SGD}\,收敛的一个充分条件是
+这是因为SGD中梯度估计引入的噪声源（$m$个训练样本的随机采样）并不会在极小点处消失。
+相比之下，当我们使用批量梯度下降到达极小点时，整个损失函数的真实梯度会变得很小，
+之后为$\mathbf{0}$，因此批量梯度下降可以使用固定的学习速率。
+保证SGD,收敛的一个充分条件是：
 \begin{equation}
 \label{eq:8.12}
 	\begin{aligned}
@@ -377,15 +377,15 @@ Adam的整体流程如算法\ref{alg:adam}所示。
 		\REQUIRE 用于数值稳定的小常数 $\delta$  （建议默认为： $10^{-8}$）
 		\REQUIRE 初始参数 $\theta$
 		\STATE 初始化一阶和二阶矩变量 $s = 0 $, $r = 0$
-		\STATE 初始化\gls{time_step} $t=0$ 
-		\WHILE{没有达到停止\gls{criterion}}
-		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，对应目标为$y^{(i)}$。
+		\STATE 初始化时间步 $t=0$ 
+		\WHILE{没有达到停止准则}
+		\STATE 从训练集中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，对应目标为$y^{(i)}$。
 		\STATE 计算梯度：$g \leftarrow \frac{1}{m} \nabla_{\theta} \sum_i L(f(x^{(i)};\theta),y^{(i)})$ 
 		\STATE $t \leftarrow t + 1$
 		\STATE 更新有偏一阶矩估计： $s \leftarrow \rho_1 s + (1-\rho_1) g$
 		\STATE 更新有偏二阶矩估计：$r \leftarrow \rho_2 r + (1-\rho_2)  g \odot g$
-		\STATE 修正一阶矩的\gls{bias_sta}：$\hat{s} \leftarrow \frac{s}{1-\rho_1^t}$
-		\STATE 修正二阶矩的\gls{bias_sta}：$\hat{r} \leftarrow \frac{r}{1-\rho_2^t}$
+		\STATE 修正一阶矩的偏差：$\hat{s} \leftarrow \frac{s}{1-\rho_1^t}$
+		\STATE 修正二阶矩的偏差：$\hat{r} \leftarrow \frac{r}{1-\rho_2^t}$
 		\STATE 计算更新：$\Delta \theta = - \epsilon \frac{\hat{s}}{\sqrt{\hat{r}} + \delta}$ \ \  （逐元素应用操作）
 		\STATE 应用更新：$\theta \leftarrow \theta + \Delta \theta$
 		\ENDWHILE
@@ -410,8 +410,8 @@ RMSProp算法的标准形式如\ref{alg:rms_prop}所示。
 		\REQUIRE  初始参数$\theta$
 		\REQUIRE 小常数$\delta$，通常设为$10^{-6}$（用于被小数除时的数值稳定）
 		\STATE 初始化累积变量 $r = 0$
-		\WHILE{没有达到停止\gls{criterion}}
-		\STATE 从\gls{training_set}中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，对应目标为$y^{(i)}$。
+		\WHILE{没有达到停止准则}
+		\STATE 从训练集中采包含$m$个样本$\{ x^{(1)},\dots, x^{(m)}\}$ 的小批量，对应目标为$y^{(i)}$。
 		\STATE 计算梯度：$g \leftarrow  
 		\frac{1}{m} \nabla_{\theta} \sum_i L(f(x^{(i)};\theta),y^{(i)})$ 
 		\STATE 累积平方梯度：$r \leftarrow \rho
